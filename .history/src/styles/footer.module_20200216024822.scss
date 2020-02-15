@@ -1,0 +1,28 @@
+.list{
+    list-style-type: none;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.link{
+    text-decoration: none;
+    color: black
+}
+
+.link:hover{
+    border-bottom: black solid;
+    transition: border-bottom ease-in 1s;
+}
+
+.container{
+    float: left;
+}
+
+.container-right{
+    float: right;
+}
+
+.footer-container{
+    margin: 0 auto;
+    max-width: 750px;
+}

@@ -1,0 +1,32 @@
+.link {
+    color: #999999;
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+    float: left;
+    display: block;
+    padding: 1rem;
+}
+
+.nav{
+    float: right;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.logo-area{
+    float: left;
+}
+
+.header{
+    padding: 1rem 0 5rem;
+}
+
+.title{
+    text-decoration: none;
+    color: black
+}
