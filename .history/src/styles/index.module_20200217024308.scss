@@ -1,0 +1,38 @@
+.top-container{
+    position: relative;
+}
+
+.image{
+    width: 80%;
+}
+
+.container{
+    position: absolute;
+    right: 0;
+    top: 6rem;
+}
+
+.container-text{
+    width: 18rem;
+    padding: 1rem;
+    background-color: #F9D93F;
+}
+
+
+.social-container{
+    position: relative;
+    float: right;
+    width: 6rem;
+    padding: .2rem;
+    margin-top: .5rem;
+    background-color: #00A2FF;
+    display: flex;
+}
+
+.social-image{
+    width: 25px;
+    height: 25px;
+    line-height: 1rem;
+    margin: 0 auto;
+    vertical-align: bottom;
+}
