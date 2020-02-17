@@ -14,6 +14,7 @@ module.exports = {
     },
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
-    "gatsby-transformer-ffmpeg"
+    "gatsby-transformer-ffmpeg",
+    "gatsby-plugin-ffmpeg"
   ]
 }

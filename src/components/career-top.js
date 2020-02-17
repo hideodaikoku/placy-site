@@ -1,14 +1,11 @@
-import React from "react"
-import Layout from "../components/layout"
-
-import consultingStyles from "../styles/consulting.module.scss";
+import React from "React"
 import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
 
-const ConsultingPage = () => {
+const CareerTopSection = () => {
     const data = useStaticQuery(graphql`
     query{
-        file(relativePath: {eq: "consulting.jpg"}){
+        file(relativePath: {eq: "career_main.png"}){
             childImageSharp{
                 fluid(maxWidth: 1024){
                     ...GatsbyImageSharpFluid_tracedSVG
@@ -18,11 +15,10 @@ const ConsultingPage = () => {
     }
     `)
     return(
-        <Layout>
+        <div>
             <Img fluid={data.file.childImageSharp.fluid}/>
-            <h2 className={consultingStyles.heading}>COMING SOON</h2>
-        </Layout>
+        </div>
     )
 }
 
-export default ConsultingPage
+export default CareerTopSection;

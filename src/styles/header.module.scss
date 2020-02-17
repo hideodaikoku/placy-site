@@ -19,10 +19,18 @@
 
 .logo-area{
     float: left;
+    position: relative;
 }
 
 .header{
-    padding: 1rem 0 5rem;
+    padding: 1rem 0 .5rem;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 600px;
+    z-index: 1;
+    background-color: #F6F6F6;
 }
 
 .title{
@@ -32,4 +40,10 @@
 
 .active-nav-item{
     color: #333333;
+}
+
+.top-img{
+    width: 5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
 }

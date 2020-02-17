@@ -1,24 +1,16 @@
 import React from "react"
 import Layout from "../components/layout"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+
+import AboutTopSection from "../components/about-top";
+import MissionSection from "../components/mission";
+import ProfileSection from "../components/profile";
 
 const AboutPage = () => {
-
-    const data = useStaticQuery(graphql`
-        query{
-            about: file(relativePath: {eq: "about_main.jpg"}){
-                childImageSharp{
-                    fluid(maxWidth: 1024){
-                        ...GatsbyImageSharpFluid_tracedSVG
-                    }
-                }
-            }
-        }
-    `)
     return(
         <Layout>
-            <Img fluid={data.about.file.childImageSharp.fluid}/>
+            <AboutTopSection/>
+            <MissionSection/>
+            <ProfileSection/>
         </Layout>
     )
 }

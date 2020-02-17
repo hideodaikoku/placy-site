@@ -1,13 +1,26 @@
 import React from "react";
 import { Link } from "gatsby";
 import headerStyles from "../styles/header.module.scss";
+import Img from "gatsby-image"
+import { useStaticQuery, graphql } from "gatsby"
 
 const Header = () => {
+    const data = useStaticQuery(graphql`
+    query{
+        file(relativePath: {eq: "placy-logo.png"}){
+            childImageSharp{
+                fluid(maxWidth: 1024){
+                    ...GatsbyImageSharpFluid_tracedSVG
+                }
+            }
+        }
+    }
+    `)
     return(
         <div className={headerStyles.header}>
             <div className={headerStyles.logoArea}>
                 <Link className={headerStyles.title} to="/">
-                    <h1>Placy</h1>
+                    <Img fluid={data.file.childImageSharp.fluid} className={headerStyles.topImg}/>
                 </Link>
             </div>
             <nav className={headerStyles.nav}>

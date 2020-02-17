@@ -6,6 +6,9 @@ import { useStaticQuery, graphql } from "gatsby";
 import Layout from "../components/layout"
 import IntroSection from "../components/intro";
 import AppSection from "../components/app";
+import PlaylistSection from "../components/playlist";
+import PartnersSection from "../components/partners";
+import NewsSection from "../components/news";
 
 import indexStyles from "../styles/index.module.scss"
 const IndexPage = () => {
@@ -41,7 +44,6 @@ const IndexPage = () => {
             }
         }
     `)
-    console.log(data)
     return(
         <Layout>
             <div className={indexStyles.topContainer}>
@@ -72,6 +74,9 @@ const IndexPage = () => {
             </div>
             <IntroSection/>
             <AppSection/>
+            <PlaylistSection/>
+            <PartnersSection/>
+            <NewsSection/>
         </Layout>
     )
 }

@@ -1,9 +1,26 @@
 import React from "react";
 import { Link } from "gatsby";
 import footerStyles from "../styles/footer.module.scss";
+import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
+
 const Footer = () => {
+    const data = useStaticQuery(graphql`
+    query{
+        file(relativePath: {eq: "placy-logo.png"}){
+            childImageSharp{
+                fluid(maxWidth: 1024){
+                    ...GatsbyImageSharpFluid_tracedSVG
+                }
+            }
+        }
+    }
+    `)
     return(
         <footer className={footerStyles.footerContainer}>
+            <div className={footerStyles.container}>
+                <Img fluid={data.file.childImageSharp.fluid} className={footerStyles.image}/>
+            </div>
             <div className={footerStyles.container}>
                 <ul>
                     <Link to="/about" className={footerStyles.link}>
