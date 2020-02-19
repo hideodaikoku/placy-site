@@ -14,7 +14,7 @@ const Head = ()=> {
     }
     `)
     return(
-        <Helmet title={data.site.siteMetadata.title} author={datasite.siteMetadata.author}/>
+        <Helmet title={data.site.siteMetadata.title} author={data.site.siteMetadata.author}/>
     )
 }
 
