@@ -1,4 +1,4 @@
-import React from "React"
+import React from "react"
 import memberStyle from "../styles/member.module.scss";
 import Img from "gatsby-image";
 
