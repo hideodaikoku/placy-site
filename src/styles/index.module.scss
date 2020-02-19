@@ -36,3 +36,11 @@
     margin: 0 auto;
     vertical-align: bottom;
 }
+
+$breakpoint-tablet: 600px;
+@media (max-width: $breakpoint-tablet) {
+  .container-text{
+    width: 10rem;
+    padding: .5rem;
+  }
+}

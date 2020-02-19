@@ -6,6 +6,7 @@ import indexStyles from "../styles/index.module.scss";
 import Img from "gatsby-image";
 import { useStaticQuery, graphql } from "gatsby";
 import Layout from "../components/layout"
+import Head from "../components/head";
 
 const ContactPage = () => {
     const data = useStaticQuery(graphql`
@@ -35,6 +36,7 @@ const ContactPage = () => {
     `)
     return(
         <Layout>
+            <Head/>
             <h2 className={contentStyle.heading}>Contact Us</h2>
             <p className={contentStyle.textLeft}>Email us at soma [at] placy [dot] city</p>
             <div className={contentStyle.socialContent}>

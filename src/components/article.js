@@ -5,7 +5,6 @@ import JSONData from "../data/news.json"
 import articleStyle from "../styles/article.module.scss";
 
 const Article = (props) => {
-    console.log(props)
     return(
         <div className={articleStyle.container}>
             <div className={articleStyle.imageContainer}>

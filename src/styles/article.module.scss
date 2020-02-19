@@ -42,6 +42,8 @@
 .button{
     position: absolute;
     bottom: .5rem;
+    width: 100px;
+    text-align: center;
     right: .5rem;
     text-decoration: none;
     font-size: .9rem;
@@ -53,4 +55,48 @@
 
 .button:hover{
     background-color: rgba(0, 162, 255, 0.797);
+}
+
+
+$breakpoint-tablet: 600px;
+@media (max-width: $breakpoint-tablet) {
+
+    .container{
+        height: 15rem;
+    }
+
+    .content{
+
+        min-height: 120px;
+        padding: .4rem;
+    }
+
+    .image-container{
+        height: 80px;
+    }
+    .image{
+        padding: .4rem;
+    }
+
+    .heading{
+        max-height: 80px;
+        font-size: .7rem;
+        text-overflow: ellipsis;
+        padding: .05rem 0 0;
+        margin-bottom: .2rem;
+    }
+
+    .text{
+        font-size: .6rem;
+        margin-bottom: .2rem;
+    }
+    
+    .button{
+        bottom: .1rem;
+        right: 50%;
+        transform: translateX(50%);
+        width: 7rem;
+        text-align: center;
+    }
+    
 }

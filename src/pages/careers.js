@@ -5,6 +5,7 @@ import CareerTopSection from "../components/career-top";
 import WorkSection from "../components/work";
 import PositionsSection from  "../components/positions";
 import MemberSection from "../components/members";
+import Head from "../components/head";
 
 const CareersPage = () => {
     return(

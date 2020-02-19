@@ -94,3 +94,13 @@ ul{
     background-color: #00A2FF;
     display: flex;
 }
+
+
+$breakpoint-tablet: 600px;
+@media (max-width: $breakpoint-tablet) {
+    .position{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+}

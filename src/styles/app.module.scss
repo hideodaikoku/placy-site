@@ -44,3 +44,15 @@
     text-align: left;
     line-height: 1rem;
 }
+
+video{
+    width: 100%;
+}
+
+$breakpoint-tablet: 600px;
+@media (max-width: $breakpoint-tablet) {
+    .image{
+        height: 100%;
+        margin-right: 5%;
+    }
+}

@@ -30,3 +30,15 @@
     width: 5rem;
     margin-right: 2rem;
 }
+
+
+$breakpoint-tablet: 600px;
+@media (max-width: $breakpoint-tablet) {
+    .footer-container{
+        max-width: 320px;
+    }
+    .image{
+        width: 3.5rem;
+        margin-right: 1.5rem;
+    }
+}

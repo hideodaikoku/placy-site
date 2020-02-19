@@ -16,3 +16,11 @@
     background-color: rgb(216, 216, 216);
     padding: 1rem;
 }
+
+$breakpoint-tablet: 600px;
+@media (max-width: $breakpoint-tablet) {
+  .content{
+      width: 320px;
+      margin: 7rem auto 1rem;
+  }
+}

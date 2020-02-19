@@ -47,3 +47,15 @@
     margin-top: 1rem;
     margin-left: 1rem;
 }
+
+
+$breakpoint-tablet: 600px;
+@media (max-width: $breakpoint-tablet) {
+  .header{
+      width: 320px;
+      padding: 1rem 0 .1rem;
+  }
+  .list-item {
+    padding: .8rem;
+  }
+}

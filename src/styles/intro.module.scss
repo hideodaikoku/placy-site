@@ -12,3 +12,13 @@
     font-size: .9rem;
     text-align: center;
 }
+
+
+$breakpoint-tablet: 600px;
+@media (max-width: $breakpoint-tablet) {
+    .intro-container{
+        margin-top: 12rem;
+        margin-bottom: 3rem;
+    }
+    
+}

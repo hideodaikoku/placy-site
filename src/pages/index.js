@@ -9,6 +9,7 @@ import AppSection from "../components/app";
 import PlaylistSection from "../components/playlist";
 import PartnersSection from "../components/partners";
 import NewsSection from "../components/news";
+import Head from "../components/head";
 
 import indexStyles from "../styles/index.module.scss"
 const IndexPage = () => {
@@ -46,6 +47,7 @@ const IndexPage = () => {
     `)
     return(
         <Layout>
+            <Head/>
             <div className={indexStyles.topContainer}>
                 <Img fluid={data.about.childImageSharp.fluid} className={indexStyles.image}/>
                 <div className={indexStyles.container}>

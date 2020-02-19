@@ -33,3 +33,11 @@
         padding: 0;
     }
 }
+
+
+$breakpoint-tablet: 600px;
+@media (max-width: $breakpoint-tablet) {
+    .container{
+        width: 100%;
+    }
+}
