@@ -10,6 +10,7 @@ import Head from "../components/head";
 const CareersPage = () => {
     return(
         <Layout>
+            <Head/>
             <CareerTopSection/>
             <WorkSection/>
             <PositionsSection/>
