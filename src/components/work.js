@@ -1,4 +1,4 @@
-import React from "React"
+import React from "react"
 import contentStyle from "../styles/content.module.scss"; 
 
 const WorkSection = () => {
