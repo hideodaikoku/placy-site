@@ -16,17 +16,17 @@
     },
     "marina" : {
         "name": "marina",
-        "position":"app Engineer",
+        "position":"App Engineer",
         "text": "東京電機大学工学部在籍、主に通信工学を勉強している。Placyでは、iOSアプリ開発を担当している。"
     },
     "minerva" : {
-        "name": "marina",
-        "position":"app Engineer",
+        "name": "Minerva",
+        "position":"App Engineer",
         "text": "早稲田大学理工学部1年。数学・物理学・ラーメン・サッカー観戦等が好きです。"
     },
     "miki" : {
-        "name": "marina",
-        "position":"app Engineer",
+        "name": "Miki",
+        "position":"App Engineer",
         "text": "明治大学総合数理学部FMS在籍。Placyではモバイルアプリ開発を担当。コーヒーが好きで普段はバリスタとしても働いている。"
     },
     "stephen" : {

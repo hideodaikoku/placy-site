@@ -83,7 +83,7 @@ const MemberSection = () => {
             />
             <Member
              image={data.hideo.childImageSharp}
-             id={"kazu"}
+             id={"hideo"}
             />
             <Member
              image={data.marina.childImageSharp}
