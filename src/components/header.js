@@ -45,17 +45,17 @@ const Header = () => {
                         <Link 
                             className={headerStyles.link}
                             activeClassName={headerStyles.activeNavItem}
-                            to="/consulting">
-                                consulting
+                            to="/projects">
+                                projects
                         </Link>
                     </li>
                     <li className={headerStyles.listItem}>
-                        <Link
+                        <a
                             className={headerStyles.link}
                             activeClassName={headerStyles.activeNavItem}
-                            to="/contact">
+                            href="#">
                                 contact
-                        </Link>
+                        </a>
                     </li>
                 </ul>
             </nav>

@@ -1,5 +1,6 @@
 import React from "react"
-import contentStyle from "../styles/content.module.scss"; 
+import memberPageStyle from "../styles/memberpage.module.scss";
+
 import Member from "./member";
 
 import { useStaticQuery, graphql } from "gatsby"
@@ -69,42 +70,52 @@ const MemberSection = () => {
     console.log(data)
 
     return(
-        <div className={contentStyle.container}>
-            <span className={contentStyle.square}></span>
-            <h2 className={contentStyle.heading}>MEMBERS</h2>
-            <hr className={contentStyle.rule}/>
-            <Member
-             image={data.soma.childImageSharp}
-             id={"soma"}
-            />
-            <Member
-             image={data.kazu.childImageSharp}
-             id={"kazu"}
-            />
-            <Member
-             image={data.hideo.childImageSharp}
-             id={"hideo"}
-            />
-            <Member
-             image={data.marina.childImageSharp}
-             id={"marina"}
-            />
-            <Member
-             image={data.minerva.childImageSharp}
-             id={"minerva"}
-            />
-            <Member
-             image={data.miki.childImageSharp}
-             id={"miki"}
-            />
-            <Member
-             image={data.stephen.childImageSharp}
-             id={"stephen"}
-            />
-            <Member
-             image={data.todd.childImageSharp}
-             id={"todd"}
-            />
+        <div className={memberPageStyle.container}>
+            <div className={memberPageStyle.row}>
+                <div className={memberPageStyle.left}>
+                </div>
+                <div className={memberPageStyle.rightContent}>
+                    <h1 className={memberPageStyle.title}>
+                        メンバー紹介
+                    </h1>
+                </div>
+            </div>
+            <div className={memberPageStyle.memberContainer}>
+                <Member
+                image={data.soma.childImageSharp}
+                id={"soma"}
+                />
+                <Member
+                image={data.kazu.childImageSharp}
+                id={"kazu"}
+                />
+                <Member
+                image={data.hideo.childImageSharp}
+                id={"hideo"}
+                />
+                <Member
+                image={data.marina.childImageSharp}
+                id={"marina"}
+                />
+                <Member
+                image={data.minerva.childImageSharp}
+                id={"minerva"}
+                />
+                <Member
+                image={data.miki.childImageSharp}
+                id={"miki"}
+                />
+                <Member
+                image={data.stephen.childImageSharp}
+                id={"stephen"}
+                />
+                <Member
+                image={data.todd.childImageSharp}
+                id={"todd"}
+                />
+            </div>
+            <div className={memberPageStyle.right}>
+            </div>
         </div>
     )
 }

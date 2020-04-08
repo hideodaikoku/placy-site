@@ -5,9 +5,7 @@ import contentStyle from "../styles/content.module.scss";
 const ProfileSection = () => {
     return(
         <div className={contentStyle.container}>
-            <span className={contentStyle.square}></span>
             <h2 className={contentStyle.heading}>COMPANY PROFILE</h2>
-            <hr className={contentStyle.rule}/>
             <div className={contentStyle.content}>
                 <table>
                     <tr>

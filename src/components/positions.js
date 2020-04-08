@@ -1,47 +1,93 @@
 import React from "react"
-import contentStyle from "../styles/content.module.scss"; 
+import positionStyle from "../styles/positions.module.scss"; 
+import positionData from "../data/positions.json";
 
 const PositionsSection = () => {
 
     return(
-        <div className={contentStyle.container}>
-            <span className={contentStyle.square}></span>
-            <h2 className={contentStyle.heading}>POSITIONS</h2>
-            <hr className={contentStyle.rule}/>
-            <div className={contentStyle.positionsContainer}>
-                <div className={contentStyle.position}>
-                    <h3 className={contentStyle.title}>バックエンドエンジニア</h3>
-                    <p className={contentStyle.textLeft}>
-                    Placyの空間データベースの構築、及び外部API化のお手伝いを行ってくれる方を募集しています<br/>
-                    <br/>
-                    ▼応募要件<br/>
-                    バックエンドの設計・実装についての実務レベルの経験・スキル(学生インターンも可)<br/>
-                    <br/>
-                    ▼開発環境<br/>
-                    <ul>
-                        <li>Microsoft Azure</li>
-                        <li>Python</li>
-                        <li>PostgreSQL</li>
-                    </ul>
-                    </p>
+        <div className={positionStyle.container}>
+            <div>
+                <div className={positionStyle.left}>
                 </div>
-                <div className={contentStyle.position}>
-                    <h3 className={contentStyle.title}>iOSアプリエンジニア</h3>
-                    <p className={contentStyle.textLeft}>
-                    Placyの地図アプリを一緒に開発してくれる方を募集しております。<br/>
-                    <br/>
-                    ▼応募要件<br/>
-                    iOSアプリの設計・実装についての実務レベルの経験・スキル(学生インターンも可) <br/>
-                    <br/>
-                    ▼開発環境<br/>
-                    <ul>
-                        <li>Ruby</li>
-                        <li>Rails</li>
-                        <li>Rspec</li>
-                        <li>Swift</li>
-                    </ul>
-                    </p>
+
+                <div className={positionStyle.rightContent}>
+                    <h1 className={positionStyle.sectionTitle}>
+                        採用情報
+                    </h1>
                 </div>
+            </div>
+
+            <div className={positionStyle.positionsContainer}>
+                {   
+                    positionData.map( (position) =>(
+                        <div className={positionStyle.row}>
+                        <div key={position.id} className={positionStyle.position}>
+                            <h3 className={positionStyle.title}>{position.title}</h3>
+
+                            <div className={positionStyle.para}>
+                                <p className={positionStyle.desc}>{position.description}</p>
+                                {position.description_sub?
+                                <ul>
+                                    <li className={positionStyle.desc_sub}>{position.description_sub}</li>
+                                </ul>
+                                :null}
+                            </div>
+                            
+                            <div className={positionStyle.para}>
+                                <div className={positionStyle.box}>
+                                    歓迎スキル
+                                </div>
+                                <ul>
+                                {
+                                position.skills.map((skill,id)=>(
+                                    <div key={id}>
+                                    <li>{skill.text}</li>
+                                    <>
+                                        {
+                                            skill.sub?
+                                            <p>{skill.sub}</p>
+                                            :null
+                                        }
+                                    </>
+                                    </div>
+                                    )
+                                )
+                                }
+                                </ul>
+                            </div>
+
+                            <div className={positionStyle.para}>
+                                <div className={positionStyle.box}>
+                                    雇用形態
+                                </div>
+                                <p>
+                                    {position.type}
+                                </p>   
+                            </div>
+
+                            <div className={positionStyle.para}>
+                                <div className={positionStyle.box}>
+                                    選考フロー
+                                </div>
+                                <div className={positionStyle.flowContainer}>
+                                    {
+                                        position.flow.map((flowContent,id)=> (
+                                            <div key={id}>
+                                                <p>{flowContent.title}</p>
+                                                <p>{flowContent.text}</p>
+                                            </div>
+                                        )
+                                        )
+                                    }
+                                </div>   
+                            </div>
+                            </div>
+                            <div className={positionStyle.right}>
+                            </div>
+                        </div>
+                    )
+                    )
+                }
             </div>
         </div>
     )

@@ -1,34 +1,30 @@
 import React from "react"
-
-import Img from "gatsby-image"
-import { useStaticQuery, graphql } from "gatsby"
-
 import contentStyle from "../styles/content.module.scss"; 
 
 const MissionSection = () => {
-    const data = useStaticQuery(graphql`
-    query{
-        file(relativePath: {eq: "placy-convert.png"}){
-            childImageSharp{
-                fluid(maxWidth: 1024){
-                    ...GatsbyImageSharpFluid_tracedSVG
-                }
-            }
-        }
-    }
-    `)
+
     return(
         <div className={contentStyle.container}>
-            <span className={contentStyle.square}></span>
-            <h2 className={contentStyle.heading}>MISSION AND VISION</h2>
-            <hr className={contentStyle.rule}/>
-            <div className={contentStyle.imageContainer}>
-                <Img fluid={data.file.childImageSharp.fluid}/>
-            </div>
             <p className={contentStyle.text}>
-                Placyは個人と法人を対象にした、2つのサービスを提供しています。
-                <br/>
-                両者のサービスは独立して存在するのではなく、互いに強化しあいます。
+            漠然と感じる都市のつまらなさ。
+            どこに行っても既視感のある風景で、金太郎飴的な経験が提供される。
+            小難しいことを言うようですが、私達はこの原因が、
+            都市の空間レイヤーと意味レイヤーの乖離にあると考えています。
+            どんなに素敵な空間が都市に存在しようとも、
+            そこに蓄積された意味が情報として紐づいていないため、
+            エンドユーザーとしては、極度に単純化された
+            "レビュー"や"ランキング"で行き先を決めなければならない。
+            <br/>
+            そんなフラストレーションから私達は
+            音楽で場所を探せる地図サービスを開発しています。
+            ハックされ標準化してしまった指標ではなく、
+            自分の感覚を元に場所を探せる体験を提供します。
+            近い将来には、映画や本など検索ジャンルも増やし、
+            何でも自分を表すものを入力すると場所に変換されて出力される、
+            そんな未来を構築します。
+            <br/>
+            空間に意味を紐付け場所性(placy)を創る、
+            それが私達のミッションです。
             </p>
         </div>
     )
