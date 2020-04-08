@@ -7,7 +7,21 @@ import partnerStyle from "../styles/partners.module.scss";
 const PartnersSection = () => {
     const data = useStaticQuery(graphql`
     query{
-        file(relativePath: {eq: "logos.png"}){
+        microsoft: file(relativePath: {eq: "microsoft.jpg"}){
+            childImageSharp{
+                fluid(maxWidth: 1024){
+                    ...GatsbyImageSharpFluid_tracedSVG
+                }
+            }
+        }
+        wired: file(relativePath: {eq: "wired.jpg"}){
+            childImageSharp{
+                fluid(maxWidth: 1024){
+                    ...GatsbyImageSharpFluid_tracedSVG
+                }
+            }
+        }
+        yamanote: file(relativePath: {eq: "a_01788.jpg"}){
             childImageSharp{
                 fluid(maxWidth: 1024){
                     ...GatsbyImageSharpFluid_tracedSVG
@@ -29,7 +43,10 @@ const PartnersSection = () => {
                         className={partnerStyle.link}
                     >
                         Read more
-                    </a>    
+                    </a>
+                    <div className={partnerStyle.image}>
+                        <Img fluid={data.microsoft.childImageSharp.fluid}/>    
+                    </div>
                 </div>
                 <div className={partnerStyle.right}>
                 
@@ -43,7 +60,7 @@ const PartnersSection = () => {
                 <div className={partnerStyle.rightContent}> 
                     <h1 className={partnerStyle.title}>
                         "「情緒」と「論理」の共通言語をつくる：<br/>
-                        “音楽”から場所を探すアプリPlacyによる<br/>
+                        ' 音楽 ' から場所を探すアプリPlacyによる<br/>
                         「都市の均質化」への抵抗"<br/>
                     </h1>
                     <a 
@@ -52,7 +69,8 @@ const PartnersSection = () => {
                     >
                         Read more
                     </a>
-                    <div id={partnerStyle.wiredImage}>
+                    <div className={partnerStyle.wiredImage}>
+                        <Img fluid={data.wired.childImageSharp.fluid}/>
                     </div>
                 </div>    
             </div>
@@ -72,8 +90,7 @@ const PartnersSection = () => {
                     </p>
                     <div className={partnerStyle.yamanoteBottom}>
                         <div className={partnerStyle.computer}>
-                        </div>
-                        <div className={partnerStyle.computer}>
+                            <Img fluid={data.yamanote.childImageSharp.fluid}/>
                         </div>
                     </div>
                 </div>

@@ -20,6 +20,13 @@ const AppSection  = () => {
                 }
             }
         }
+        app: file(relativePath: {eq: "iphone.png"}){
+            childImageSharp{
+                fluid(maxWidth: 1024){
+                    ...GatsbyImageSharpFluid_tracedSVG
+                }
+            }
+        }
     }
     `)
     return(
@@ -44,6 +51,9 @@ const AppSection  = () => {
                 </div>
             </div>
             <div className={appStyles.right}>
+                <div className={appStyles.imgContainer}>
+                    <Img fluid={data.app.childImageSharp.fluid}/>
+                </div>
             </div>
         </div>
     )

@@ -24,16 +24,13 @@ const Footer = () => {
             <div className={footerStyles.container}>
                 <ul>
                     <Link to="/about" className={footerStyles.link}>
-                        <li className={footerStyles.list}><small>about</small></li>
+                        <li className={footerStyles.list}><small>About</small></li>
                     </Link>
                     <Link to="/careers" className={footerStyles.link}>
-                        <li className={footerStyles.list}><small>careers</small></li>
+                        <li className={footerStyles.list}><small>Careers</small></li>
                     </Link>
-                    <Link to="/consulting" className={footerStyles.link}>
-                        <li className={footerStyles.list}><small>consulting</small></li>
-                    </Link>
-                    <Link to="/contact" className={footerStyles.link}>
-                        <li className={footerStyles.list}><small>contact</small></li>
+                    <Link to="/projects" className={footerStyles.link}>
+                        <li className={footerStyles.list}><small>Projects</small></li>
                     </Link>
                 </ul>
             </div>

@@ -1,6 +1,12 @@
+.intro-container{
+    display: flex;
+    border-bottom: 1px solid black;
+}
 
 .text-content{
     margin: 8rem 5rem;
+    position: relative;
+    width: 58%
 }
 .title{
     font-family: Roc Grotesk;
@@ -15,10 +21,11 @@
 }
 .button-container{
     position: relative;
+    height: 3rem;
 }
 
 .button{
-    width: 7.6rem;
+    min-width: 7.6rem;
     min-height: 2rem;
     float: left;
     margin-right: 1rem;
@@ -31,4 +38,64 @@
 
 #android{
     width: 9rem;
+}
+
+.right{
+    width: 42%;
+    margin-left: auto;
+    background-color: #bf96bf;
+    border-left: 1px solid black;
+    position: relative;
+}
+
+.img-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 15rem;
+    transform: translate(-50%,-50%);
+    box-shadow: 1rem 1.5rem 2rem rgba(41, 41, 41, 0.858);
+}
+
+
+$breakpoint-large: 900px;
+@media (max-width:$breakpoint-large){
+    .img-container{
+        width: 10rem;
+    }
+}
+$breakpoint-large: 700px;
+@media (max-width:$breakpoint-large){
+    .img-container{
+        width: 8rem;
+    }
+}
+$breakpoint-tablet: 900px;
+@media (max-width: $breakpoint-tablet) {
+    .intro-container{
+        display: inline-block;
+        width: 100%;
+        overflow: hidden;
+    }
+    .text-content{
+        margin: 3rem;
+    }
+    .button-container{
+        position: relative;
+        height: 6rem;
+    }
+    .right{
+        border-left: none;
+        height: 30rem;
+        margin: 0;
+        width: 100%;
+        border-top: 1px solid black;
+    }
+    .button-container{
+        clear:both;
+        display: inline-block;
+    }
+    .img-container{
+        width: 15rem;
+    }
 }

@@ -9,6 +9,7 @@
     position: relative;
     margin-left: 5rem;
     margin-right: 5rem;
+    width: 58%
 }
 
 .title-text{
@@ -31,7 +32,7 @@
 }
 
 
-$breakpoint-tablet: 600px;
+$breakpoint-tablet: 900px;
 @media (max-width: $breakpoint-tablet) {
     .top-container{
         margin-left: 3rem;

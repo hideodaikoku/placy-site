@@ -22,8 +22,7 @@
 }
 
 .footer-container{
-    margin: 0 auto;
-    max-width: 600px;
+    margin: 0 5rem;
 }
 
 .image{
@@ -35,7 +34,7 @@
 $breakpoint-tablet: 600px;
 @media (max-width: $breakpoint-tablet) {
     .footer-container{
-        max-width: 320px;
+        margin: 0 3rem;
     }
     .image{
         width: 3.5rem;
