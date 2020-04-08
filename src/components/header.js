@@ -30,31 +30,40 @@ const Header = () => {
                             className={headerStyles.link} 
                             activeClassName={headerStyles.activeNavItem}
                             to="/about">
-                                about
+                                About
                         </Link>
+                        <span className={headerStyles.divider}>
+                            /
+                        </span>
                     </li>
                     <li className={headerStyles.listItem}>
                         <Link 
                             className={headerStyles.link}
                             activeClassName={headerStyles.activeNavItem} 
                             to="/careers">
-                                careers
+                                Careers
                         </Link>
+                        <span className={headerStyles.divider}>
+                            /
+                        </span>
                     </li>
                     <li className={headerStyles.listItem}>
                         <Link 
                             className={headerStyles.link}
                             activeClassName={headerStyles.activeNavItem}
                             to="/projects">
-                                projects
+                                Projects
                         </Link>
+                        <span className={headerStyles.divider}>
+                            /
+                        </span>
                     </li>
                     <li className={headerStyles.listItem}>
                         <a
                             className={headerStyles.link}
                             activeClassName={headerStyles.activeNavItem}
                             href="#">
-                                contact
+                                Contact
                         </a>
                     </li>
                 </ul>

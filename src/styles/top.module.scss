@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.top-container{
+    margin-top: 8rem;
+    padding-bottom: 8rem;
+    position: relative;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.title-text{
+    font-family: Roc Grotesk;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+.title-para{
+    font-family: Helvetica Neue, Helvetica, Arial,sans-serif; 
+    font-weight: 500;
+}
+
+.right{
+    border-left: 1px solid black;
+    position: relative;
+    margin-left: auto;
+    width: 42%
+}
+
+
+$breakpoint-tablet: 600px;
+@media (max-width: $breakpoint-tablet) {
+    .top-container{
+        margin-left: 3rem;
+        width: 100%;
+    }
+    .right{
+        display: none;
+    }
+}

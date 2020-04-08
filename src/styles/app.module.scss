@@ -1,58 +1,34 @@
-.app-container{
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    
-}
 
-.container{
-    display: flex;
+.text-content{
+    margin: 8rem 5rem;
 }
-
-.heading{
-    font-size: 1.2rem;
-    text-align: center;
+.title{
+    font-family: Roc Grotesk;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 6rem;
 }
-
-.text{
+.desc{
+    font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif; 
+    font-weight: 500;
     font-size: .9rem;
-    text-align: center;
+}
+.button-container{
+    position: relative;
 }
 
-.right-container{
-    float: right;
-    width: 50%;
-}
-
-.image{
-    width: 50%;
+.button{
+    width: 7.6rem;
+    min-height: 2rem;
     float: left;
-}
-.text-container{
-    padding: 1rem;
-    background-color: white;
-    float: right;
-    margin-top: .2rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
 }
 
-.header{
-    font-size: 1rem;
-    text-align: left;
+.button>img{
+    height: 100%;
 }
 
-.text{
-    font-size: .7rem;
-    text-align: left;
-    line-height: 1rem;
-}
-
-video{
-    width: 100%;
-}
-
-$breakpoint-tablet: 600px;
-@media (max-width: $breakpoint-tablet) {
-    .image{
-        height: 100%;
-        margin-right: 5%;
-    }
+#android{
+    width: 9rem;
 }
