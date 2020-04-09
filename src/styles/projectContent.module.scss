@@ -1,0 +1,47 @@
+.container{
+    .row{
+        padding-left: 5rem;
+        padding-right: 5rem;
+        display: flex;
+        border-bottom: 1px solid black;
+
+        .left-content{
+            width: 58%;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+            .title{
+                font-family: Roc Grotesk,"roc-grotesk", sans-serif;
+                font-size: 2rem;
+                font-weight: 500;
+                margin-right: 3rem;
+                margin-top: 3rem;
+            }
+            .desc{
+                padding-right: 5rem;
+            }
+        }
+        .right{
+            content: "";
+            width: 42%;
+            margin-left: auto;
+            position: relative;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            border-left: 1px solid black;
+        }
+    }
+
+    margin-bottom: -1rem;
+    
+}
+
+#tanaka-title{
+    font-size: .9rem;
+    margin-bottom: 0;
+}
+
+#tanaka{
+    margin-top: 0;
+    font-family: Roc Grotesk, "roc-grotesk", sans-serif;
+    font-weight: 500;
+}

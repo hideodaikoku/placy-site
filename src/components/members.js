@@ -1,6 +1,5 @@
 import React from "react"
 import memberPageStyle from "../styles/memberpage.module.scss";
-
 import Member from "./member";
 
 import { useStaticQuery, graphql } from "gatsby"
