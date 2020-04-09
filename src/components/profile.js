@@ -1,11 +1,11 @@
 import React from "react"
 
 import contentStyle from "../styles/content.module.scss"; 
+import explanationStyle from "../styles/explanation.module.scss"; 
 
 const ProfileSection = () => {
     return(
-        <div className={contentStyle.container}>
-            <h2 className={contentStyle.heading}>COMPANY PROFILE</h2>
+        <div className={explanationStyle.container}>
             <div className={contentStyle.content}>
                 <table>
                     <tr>

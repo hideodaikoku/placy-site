@@ -1,56 +1,78 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-
+import Img from "gatsby-image";
 import Mission from "./mission";
 import Explanation from "./explanation";
 import ProfileSection from "./profile";
 
-import aboutContentStlyes from "../styles/aboutContent.module.scss"
+import aboutContentStyles from "../styles/aboutContent.module.scss"
 
 const AboutContent = () => {
     const data = useStaticQuery(graphql`
     query{
-        file(relativePath: {eq: "about_main.jpg"}){
+        about: file(relativePath: {eq: "about_0407.jpg"}){
             childImageSharp{
                 fluid(maxWidth: 1024){
                     ...GatsbyImageSharpFluid_tracedSVG
                 }
             }
         }
+        mission: file(relativePath: {eq: "mission.png"}){
+            childImageSharp{
+                fluid(maxWidth: 1024){
+                    ...GatsbyImageSharpFluid_tracedSVG
+                }
+            }
+        }
+        explanation: file(relativePath: {eq: "explanation.jpg"}){
+            childImageSharp{
+                fluid(maxWidth: 1024){
+                    ...GatsbyImageSharpFluid_tracedSVG
+                }
+            }
+        }           
     }
     `)
     return(
-        <div className={aboutContentStlyes.container}>
-            <div className={aboutContentStlyes.section}>
-                <div className={aboutContentStlyes.left}>
-
+        <div className={aboutContentStyles.container}>
+            <div className={aboutContentStyles.section}>
+                <div className={aboutContentStyles.left}>
+                    <div className={aboutContentStyles.imgContainer}>
+                        <Img fluid={data.about.childImageSharp.fluid}/>
+                    </div>
                 </div>
-                <div className={aboutContentStlyes.rightContent}>
-                    <h1>
+                <div className={aboutContentStyles.rightContent}>
+                    <h1 className={aboutContentStyles.title}>
                         Connect space to <br/>
                         its meaning.
                     </h1>
                 </div>
             </div>
-            <div className={aboutContentStlyes.section}>
-                <div className={aboutContentStlyes.leftContent}>
+            <div className={aboutContentStyles.section} id={aboutContentStyles.miss}>
+                <div className={aboutContentStyles.leftContent}>
                     <Mission/>
                 </div>
-                <div className={aboutContentStlyes.right}>
+                <div className={aboutContentStyles.right}>
+                    <div className={aboutContentStyles.fixedImage}>
+                        <Img fluid={data.mission.childImageSharp.fluid}/>
+                    </div>
                 </div>
             </div>
-            <div className={aboutContentStlyes.section}>
-                <div className={aboutContentStlyes.left}>
+            <div className={aboutContentStyles.section}>
+                <div className={aboutContentStyles.left}>
+                <div className={aboutContentStyles.imgContainer}>
+                        <Img fluid={data.explanation.childImageSharp.fluid}/>
+                    </div>
                 </div>
-                <div className={aboutContentStlyes.rightContent}>
+                <div className={aboutContentStyles.rightContent}>
                     <Explanation/>
                 </div>
             </div>
-            <div className={aboutContentStlyes.section}>
-                <div className={aboutContentStlyes.leftContent}>
+            <div className={aboutContentStyles.section} id={aboutContentStyles.last}>
+                <div className={aboutContentStyles.leftContent}>
                     <ProfileSection/>
                 </div>
-                <div className={aboutContentStlyes.right}>
+                <div className={aboutContentStyles.right}>
                 </div>
             </div>
         </div>
