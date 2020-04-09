@@ -50,7 +50,7 @@ const ProjectContents =()=>{
             }
             jr: file(relativePath: {eq: "jr_cast.jpg"}){
                 childImageSharp{
-                    fluid(maxWidth: 1024){
+                    fluid(maxWidth: 600){
                         ...GatsbyImageSharpFluid_tracedSVG
                     }
                 }
@@ -120,11 +120,11 @@ const ProjectContents =()=>{
                 </div>
                 <div className={projectContentstyles.right}>
                     <div className={projectContentstyles.img}>
-                        <Img fluid={data.jr.childImageSharp.fluid}/>
+                        <Img fluid={data.jr.childImageSharp.fluid} imgStyle={{objectFit:"fit"}}/>
                     </div>
                 </div>
             </div>
-            <div className={projectContentstyles.row}>
+            <div className={projectContentstyles.kenta}>
                 <div className={projectContentstyles.leftContent}>
                 <div className={projectContentstyles.projectTop}>
                         <div className={projectContentstyles.cross}>
@@ -150,8 +150,8 @@ const ProjectContents =()=>{
                         (現在発注準備中です。少々お待ちくださいませ。)
                     </p>
                 </div>
-                <div className={projectContentstyles.right}>
-                    <div className={projectContentstyles.postcards}>
+                <div className={projectContentstyles.right} id={projectContentstyles.green}>
+                    <div className={projectContentstyles.img}>
                         <Img fluid={data.postcards.childImageSharp.fluid}/>
                     </div>
                 </div>

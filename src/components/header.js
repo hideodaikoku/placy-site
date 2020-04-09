@@ -62,7 +62,10 @@ const Header = () => {
                         <a
                             className={headerStyles.link}
                             activeClassName={headerStyles.activeNavItem}
-                            href="#">
+                            href="https://placy.typeform.com/to/lfzKCU"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
                                 Contact
                         </a>
                     </li>

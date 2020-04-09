@@ -18,19 +18,113 @@
             }
             .desc{
                 padding-right: 5rem;
+                font-size: .9rem;
+            }
+            .project-top{
+                display: flex;
+                vertical-align: bottom;
+                position:relative;
+                margin-top: 5rem;
+                height: 4rem;
+                .cross{
+                    width: 3rem;
+                    position: absolute;
+                    bottom:0;
+                }
+                .logo{
+                    width: 8rem;
+                    position: absolute;
+                    left: 3.4rem;
+                    bottom:0;
+                }
+                .byLine{
+                    position: absolute;
+                    left: 12rem;
+                    bottom:0;
+                    #tanaka{
+                        margin-bottom:0;
+                        padding:0;
+                    }
+                }
             }
         }
         .right{
-            content: "";
             width: 42%;
             margin-left: auto;
             position: relative;
-            padding-top: 5rem;
-            padding-bottom: 5rem;
             border-left: 1px solid black;
+            .img{
+                height: 100%;
+                margin-top: 50%;
+                transform: translateY(-25%);
+            }
         }
     }
 
+    .kenta{
+        display: flex;
+        background-color:#006935;
+        margin-left: 5rem;
+        .left-content{
+            width: 58%;
+            padding-top: 5rem;
+            background-color: #f3c91f;
+            padding-bottom: 5rem;
+
+            .title{
+                font-family: Roc Grotesk,"roc-grotesk", sans-serif;
+                font-size: 2rem;
+                font-weight: 500;
+                margin-right: 3rem;
+                margin-top: 3rem;
+            }
+            .desc{
+                padding-right: 5rem;
+                font-size: .9rem;
+            }
+            .project-top{
+                display: flex;
+                vertical-align: bottom;
+                position:relative;
+                margin-top: 5rem;
+                height: 4rem;
+                .cross{
+                    width: 3rem;
+                    position: absolute;
+                    bottom:0;
+                }
+                .logo{
+                    width: 8rem;
+                    position: absolute;
+                    left: 3.4rem;
+                    bottom:0;
+                }
+                .byLine{
+                    position: absolute;
+                    left: 12rem;
+                    bottom:0;
+                    #tanaka{
+                        margin-bottom:0;
+                        padding:0;
+                    }
+                }
+            }
+        }
+        .right{
+            width: 42%;
+            margin-left: auto;
+            position: relative;
+            margin-right: 5rem;
+            border-left: 1px solid black;
+            .img{
+                width: 80%;
+                margin: 0 auto;
+                height: 100%;
+                margin-top: 50%;
+                transform: translateY(-25%);
+            }
+        }
+    }
     margin-bottom: -1rem;
     
 }
