@@ -1,13 +1,29 @@
 import React from "react"
+import Img from "gatsby-image";
+import { useStaticQuery, graphql } from "gatsby"
+
 import positionStyle from "../styles/positions.module.scss"; 
 import positionData from "../data/positions.json";
 
 const PositionsSection = () => {
-
+    const data = useStaticQuery(graphql`
+    query{
+        position: file(relativePath: {eq: "3.jpg"}){
+            childImageSharp{
+                fluid(maxWidth: 1024){
+                    ...GatsbyImageSharpFluid_tracedSVG
+                }
+            }
+        }
+    }
+    `)
     return(
-        <div className={positionStyle.container}>
-            <div>
+        <div>
+            <div className={positionStyle.container}>
                 <div className={positionStyle.left}>
+                    <div className={positionStyle.imgContainer}>
+                        <Img fluid={data.position.childImageSharp.fluid}/>
+                    </div>
                 </div>
 
                 <div className={positionStyle.rightContent}>
@@ -34,9 +50,9 @@ const PositionsSection = () => {
                             </div>
                             
                             <div className={positionStyle.para}>
-                                <div className={positionStyle.box}>
+                                <span className={positionStyle.box}>
                                     歓迎スキル
-                                </div>
+                                </span>
                                 <ul>
                                 {
                                 position.skills.map((skill,id)=>(
@@ -57,22 +73,22 @@ const PositionsSection = () => {
                             </div>
 
                             <div className={positionStyle.para}>
-                                <div className={positionStyle.box}>
+                                <span className={positionStyle.box}>
                                     雇用形態
-                                </div>
-                                <p>
+                                </span>
+                                <p className={positionStyle.desc}>
                                     {position.type}
                                 </p>   
                             </div>
 
                             <div className={positionStyle.para}>
-                                <div className={positionStyle.box}>
+                                <span className={positionStyle.box}>
                                     選考フロー
-                                </div>
+                                </span>
                                 <div className={positionStyle.flowContainer}>
                                     {
                                         position.flow.map((flowContent,id)=> (
-                                            <div key={id}>
+                                            <div key={id} className={positionStyle.flow}>
                                                 <p>{flowContent.title}</p>
                                                 <p>{flowContent.text}</p>
                                             </div>
