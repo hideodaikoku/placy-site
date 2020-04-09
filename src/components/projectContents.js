@@ -120,7 +120,7 @@ const ProjectContents =()=>{
                 </div>
                 <div className={projectContentstyles.right}>
                     <div className={projectContentstyles.img}>
-                        <Img fluid={data.jr.childImageSharp.fluid} imgStyle={{objectFit:"fit"}}/>
+                        <Img fluid={data.jr.childImageSharp.fluid}/>
                     </div>
                 </div>
             </div>
