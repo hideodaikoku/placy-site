@@ -59,9 +59,7 @@ const PartnersSection = () => {
                 </div>
                 <div className={partnerStyle.rightContent}> 
                     <h1 className={partnerStyle.title}>
-                        "「情緒」と「論理」の共通言語をつくる：<br/>
-                        ' 音楽 ' から場所を探すアプリPlacyによる<br/>
-                        「都市の均質化」への抵抗"<br/>
+                        "「情緒」と「論理」の共通言語をつくる："音楽" から場所を探すアプリPlacyによる「都市の均質化」への抵抗　"
                     </h1>
                     <a 
                         href="https://wired.jp/2020/01/03/placy/" 
