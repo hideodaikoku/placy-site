@@ -136,3 +136,62 @@
     font-family: Roc Grotesk, "roc-grotesk", sans-serif;
     font-weight: 500;
 }
+
+$breakpoint-tablet: 900px;
+@media (max-width: $breakpoint-tablet) {
+    .container{
+        .row{
+        display: flex; 
+        flex-flow: column;
+        border-bottom:none;
+            .left-content{
+                width:100%;
+            }
+            .right{
+                width: 100%;
+                border-left: none;
+            }
+        }
+        .kenta{
+        margin-left:0;
+        display: flex; 
+        flex-flow: column;
+            .left-content{
+                width:100%;
+                margin: 0 auto;
+                padding-left: 5rem;
+            }
+            .right{
+                width: 100%;
+                border-left: none;
+                .img{
+                    margin-top: 25%;
+                    margin-left: 25%;
+                }
+            }
+        }
+    }
+    
+}
+
+$breakpoint-sp: 600px;
+@media (max-width: $breakpoint-sp) {
+    .container{
+        .kenta{  
+            .left-content{
+                width:100%;
+                margin: 0 auto;
+                padding-left: 5rem;
+            }
+            .right{
+                width: 80%;
+                border-left: none;
+                margin-top:0;
+                position: relative;
+                .img{
+                    margin-top: 25%;
+                }
+            }
+            }
+    }
+}
