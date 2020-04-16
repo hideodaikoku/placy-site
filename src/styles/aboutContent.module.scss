@@ -5,21 +5,16 @@
         display: flex;
         border-bottom: 1px solid black;
         .left{
-            content: "";
             width: 58%;
-            padding-top: 5rem;
-            padding-bottom: 5rem;
             .img-container{
-                width: 75%;
                 margin: 0 auto;
+                height: 100%;
             }
         }
         .right-content{
             width: 42%;
             margin-left: auto;
             position: relative;
-            padding-top: 5rem;
-            padding-bottom: 5rem;
             border-left: 1px solid black;
             .title{
                 font-family: Roc Grotesk, "roc-grotesk", sans-serif;
@@ -41,12 +36,8 @@
             position: relative;
             border-left: 1px solid black;
             .fixed-image{
-                display: absolute;
-                top: 50%;
-                transform: translateY(25%);
-                left: 0;
-                width: 20rem;
                 margin: 0 auto;
+                height: 100%;
             }
         }
     }

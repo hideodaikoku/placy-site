@@ -16,6 +16,10 @@
                 margin-left: 5rem;
                 margin-right: 3rem;
             }
+            p{
+                max-width: 70%;
+                padding-left: 5rem;
+            }
         }
         .right{
             width: 42%;
@@ -70,6 +74,7 @@ $breakpoint-tablet: 900px;
                 padding-right: 0;
                 p{
                     margin: 0 auto;
+                    padding-left: 0;
                 }
             }
             .right{
