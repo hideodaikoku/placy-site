@@ -131,6 +131,9 @@ $breakpoint-tablet: 900px;
         }
         .right-content{
             width: 100%;
+            .text{
+                line-height: 1.8;
+            }
             .wired-image{
                 margin-top: 3rem;
             }

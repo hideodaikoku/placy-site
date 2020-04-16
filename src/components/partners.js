@@ -59,7 +59,7 @@ const PartnersSection = () => {
                 </div>
                 <div className={partnerStyle.rightContent}> 
                     <h1 className={partnerStyle.title}>
-                        "「情緒」と「論理」の共通言語をつくる："音楽" から場所を探すアプリPlacyによる「都市の均質化」への抵抗　"
+                        "「情緒」と「論理」の共通言語をつくる："音楽" から場所を探すアプリPlacyによる「都市の均質化」への抵抗"
                     </h1>
                     <a 
                         href="https://wired.jp/2020/01/03/placy/" 
@@ -80,11 +80,11 @@ const PartnersSection = () => {
                         through music.
                     </h1>
                     <p className={partnerStyle.desc}>
-                        山手線の各駅には、それぞれ異なる歴史や風土があり、<br/>
-                        そこに流れる音楽やリズムも多種多様 です。<br/>
-                        Placy は各駅の特徴的な場所を選定し、そこに流れる音楽データを <br/>
-                        解析することで、街をより愉しむための地図を作成しています。<br/>
-                        都市のリズムに身を任せて、新しい街の一面を発見 してみませんか? <br/>
+                    Urban Rhythm Guideは、「音楽」で都市の魅力に出会うことを目的としたプロジェクトです。<br/>
+                    当プロジェクトでは、次の2点を作成いたしました。<br/>
+                    ①音楽で、あなたの感覚にあった山手線の駅を見つけることができるウェブサービス、<br/>
+                    ②各駅の音楽的な特徴を描写した30種類のパンフレット。
+                    <br/>リズムに身を任せて、新しい都市の一面を発見してみませんか?
                     </p>
                     <div className={partnerStyle.yamanoteBottom}>
                         <div className={partnerStyle.computer}>
