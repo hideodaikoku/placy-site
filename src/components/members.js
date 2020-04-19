@@ -10,56 +10,56 @@ const MemberSection = () => {
             soma: file(relativePath: {eq: "soma.png"}){
                 childImageSharp{
                     fluid(maxWidth: 1024, grayscale: true){
-                        ...GatsbyImageSharpFluid_tracedSVG
+                        ...GatsbyImageSharpFluid
                     }
                 }
             }
             kazu: file(relativePath: {eq: "kazu.png"}){
                 childImageSharp{
                     fluid(maxWidth: 1024, grayscale: true){
-                        ...GatsbyImageSharpFluid_tracedSVG
+                        ...GatsbyImageSharpFluid
                     }
                 }
             }
             hideo: file(relativePath: {eq: "index.png"}){
                 childImageSharp{
                     fluid(maxWidth: 1024, grayscale: true){
-                        ...GatsbyImageSharpFluid_tracedSVG
+                        ...GatsbyImageSharpFluid
                     }
                 }
             }
             marina: file(relativePath: {eq: "marina.png"}){
                 childImageSharp{
                     fluid(maxWidth: 1024, grayscale: true){
-                        ...GatsbyImageSharpFluid_tracedSVG
+                        ...GatsbyImageSharpFluid
                     }
                 }
             }
             minerva: file(relativePath: {eq: "minerva.png"}){
                 childImageSharp{
                     fluid(maxWidth: 1024, grayscale: true){
-                        ...GatsbyImageSharpFluid_tracedSVG
+                        ...GatsbyImageSharpFluid
                     }
                 }
             }
             miki: file(relativePath: {eq: "miki.png"}){
                 childImageSharp{
                     fluid(maxWidth: 1024, grayscale: true){
-                        ...GatsbyImageSharpFluid_tracedSVG
+                        ...GatsbyImageSharpFluid
                     }
                 }
             }
             todd: file(relativePath: {eq: "todd.png"}){
                 childImageSharp{
                     fluid(maxWidth: 1024, grayscale: true){
-                        ...GatsbyImageSharpFluid_tracedSVG
+                        ...GatsbyImageSharpFluid
                     }
                 }
             }
             stephen: file(relativePath: {eq: "stephen.png"}){
                 childImageSharp{
                     fluid(maxWidth: 1024, grayscale: true){
-                        ...GatsbyImageSharpFluid_tracedSVG
+                        ...GatsbyImageSharpFluid
                     }
                 }
             }

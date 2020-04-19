@@ -6,59 +6,66 @@ import { useStaticQuery,graphql } from "gatsby";
 const ProjectContents =()=>{
     const data = useStaticQuery(graphql`
         query{
+            pqr: file(relativePath: {eq: "Placy_PQR_Web.jpg"}){
+                childImageSharp{
+                    fluid(maxWidth: 1024){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
             kandosen: file(relativePath: {eq: "kandosen_logo.png"}){
                 childImageSharp{
                     fluid(maxWidth: 1024){
-                        ...GatsbyImageSharpFluid_tracedSVG
+                        ...GatsbyImageSharpFluid
                     }
                 }
             }
             tokyu: file(relativePath: {eq: "tokyu.png"}){
                 childImageSharp{
                     fluid(maxWidth: 1024){
-                        ...GatsbyImageSharpFluid_tracedSVG
+                        ...GatsbyImageSharpFluid
                     }
                 }
             }
             kenta: file(relativePath: {eq: "kenta.jpg"}){
                 childImageSharp{
                     fluid(maxWidth: 1024){
-                        ...GatsbyImageSharpFluid_tracedSVG
+                        ...GatsbyImageSharpFluid
                     }
                 }
             }
             cross: file(relativePath: {eq: "cross.png"}){
                 childImageSharp{
                     fluid(maxWidth: 1024){
-                        ...GatsbyImageSharpFluid_tracedSVG
+                        ...GatsbyImageSharpFluid
                     }
                 }
             }
             app: file(relativePath: {eq: "a_01788.jpg"}){
                 childImageSharp{
                     fluid(maxWidth: 1024){
-                        ...GatsbyImageSharpFluid_tracedSVG
+                        ...GatsbyImageSharpFluid
                     }
                 }
             }
             pamphlets: file(relativePath: {eq: "jr1.jpg"}){
                 childImageSharp{
                     fluid(maxWidth: 1024){
-                        ...GatsbyImageSharpFluid_tracedSVG
+                        ...GatsbyImageSharpFluid
                     }
                 }
             }
             jr: file(relativePath: {eq: "jr_cast.jpg"}){
                 childImageSharp{
                     fluid(maxWidth: 600){
-                        ...GatsbyImageSharpFluid_tracedSVG
+                        ...GatsbyImageSharpFluid
                     }
                 }
             }
             postcards: file(relativePath: {eq: "postcards.png"}){
                 childImageSharp{
                     fluid(maxWidth: 1024){
-                        ...GatsbyImageSharpFluid_tracedSVG
+                        ...GatsbyImageSharpFluid
                     }
                 }
             }

@@ -10,21 +10,21 @@ const PartnersSection = () => {
         microsoft: file(relativePath: {eq: "microsoft.jpg"}){
             childImageSharp{
                 fluid(maxWidth: 1024){
-                    ...GatsbyImageSharpFluid_tracedSVG
+                    ...GatsbyImageSharpFluid
                 }
             }
         }
         wired: file(relativePath: {eq: "wired.jpg"}){
             childImageSharp{
                 fluid(maxWidth: 1024){
-                    ...GatsbyImageSharpFluid_tracedSVG
+                    ...GatsbyImageSharpFluid
                 }
             }
         }
         yamanote: file(relativePath: {eq: "a_01788.jpg"}){
             childImageSharp{
                 fluid(maxWidth: 1024){
-                    ...GatsbyImageSharpFluid_tracedSVG
+                    ...GatsbyImageSharpFluid
                 }
             }
         }

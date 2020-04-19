@@ -11,7 +11,7 @@ const PositionsSection = () => {
         position: file(relativePath: {eq: "3.jpg"}){
             childImageSharp{
                 fluid(maxWidth: 1024){
-                    ...GatsbyImageSharpFluid_tracedSVG
+                    ...GatsbyImageSharpFluid
                 }
             }
         }

@@ -9,21 +9,21 @@ const AppSection  = () => {
         apple: file(relativePath: {eq: "btn_apple.png"}){
             childImageSharp{
                 fluid(maxWidth: 1024){
-                    ...GatsbyImageSharpFluid_tracedSVG
+                    ...GatsbyImageSharpFluid
                 }
             }
         }
         android: file(relativePath: {eq: "btn_googleplay.png"}){
             childImageSharp{
                 fluid(maxWidth: 1024){
-                    ...GatsbyImageSharpFluid_tracedSVG
+                    ...GatsbyImageSharpFluid
                 }
             }
         }
         app: file(relativePath: {eq: "iphone.png"}){
             childImageSharp{
                 fluid(maxWidth: 1024){
-                    ...GatsbyImageSharpFluid_tracedSVG
+                    ...GatsbyImageSharpFluid
                 }
             }
         }

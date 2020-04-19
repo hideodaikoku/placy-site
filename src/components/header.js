@@ -10,7 +10,7 @@ const Header = () => {
         file(relativePath: {eq: "placy-logo.png"}){
             childImageSharp{
                 fluid(maxWidth: 1024){
-                    ...GatsbyImageSharpFluid_tracedSVG
+                    ...GatsbyImageSharpFluid
                 }
             }
         }

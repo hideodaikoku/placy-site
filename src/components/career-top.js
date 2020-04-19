@@ -9,21 +9,21 @@ const CareerTopSection = () => {
         top: file(relativePath: {eq: "2.jpg"}){
             childImageSharp{
                 fluid(maxWidth: 1024){
-                    ...GatsbyImageSharpFluid_tracedSVG
+                    ...GatsbyImageSharpFluid
                 }
             }
         }
         mid: file(relativePath: {eq: "1.jpg"}){
             childImageSharp{
                 fluid(maxWidth: 1024){
-                    ...GatsbyImageSharpFluid_tracedSVG
+                    ...GatsbyImageSharpFluid
                 }
             }
         }
         bot: file(relativePath: {eq: "4.jpg"}){
             childImageSharp{
                 fluid(maxWidth: 1024){
-                    ...GatsbyImageSharpFluid_tracedSVG
+                    ...GatsbyImageSharpFluid
                 }
             }
         }
