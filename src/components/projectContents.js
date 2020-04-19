@@ -75,6 +75,23 @@ const ProjectContents =()=>{
     return(
         <div className={projectContentstyles.container}>
             <div className={projectContentstyles.row}>
+                <div className={projectContentstyles.leftContent} id={projectContentstyles.pqr}>
+                    <h1 className={projectContentstyles.title}>
+                        Post-Quarantine Urbanism<br/>
+                    </h1>
+                    <p className={projectContentstyles.descTop}>
+                    Cities are the central nodes of our modern economy; hubs of creativity and innovation. Our globalised system relies on us living collectively, but pandemics are inherently anti-city, as they could force the breakdown of collective cooperation. How will our cities evolve, to adapt to this new reality?
+                    <br/><br/>
+                    Cities across the world are establishing unique initiatives and projects to combat the effects of this situation; and by exploring each city's approach, perhaps we can gain a glimpse of our post quarantine world.
+                    </p>
+                </div>
+                <div className={projectContentstyles.right}>
+                    <div className={projectContentstyles.pqr}>
+                        <Img fluid={data.pqr.childImageSharp.fluid} alt={"post quarantine urbanism"}/>
+                    </div>
+                </div>
+            </div>
+            <div className={projectContentstyles.row}>
                 <div className={projectContentstyles.leftContent}>
                     <div className={projectContentstyles.projectTop}>
                         <div className={projectContentstyles.cross}>

@@ -4,7 +4,10 @@
         padding-right: 5rem;
         display: flex;
         border-bottom: 1px solid black;
-
+        #pqr{
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
         .left-content{
             width: 58%;
             margin-top: 5rem;
@@ -15,6 +18,12 @@
                 font-weight: 500;
                 margin-right: 3rem;
                 margin-top: 3rem;
+            }
+            .title{
+                margin-top: 1rem;
+            }
+            .descTop{
+                width: 80%;
             }
             .desc{
                 padding-right: 5rem;
@@ -55,6 +64,14 @@
             border-left: 1px solid black;
             .img{
                 height: 100%;
+            }
+            .pqr{
+                width: 100%;
+                background-position: bottom center;
+                background-repeat: repeat-y;
+                background-size: cover;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
             }
         }
     }
@@ -118,7 +135,7 @@
                 width: 80%;
                 margin: 0 auto;
                 margin-top: 50%;
-                transform: translateY(-25%);
+                transform: translateY(-50%);
             }
         }
     }
@@ -143,7 +160,8 @@ $breakpoint-tablet: 900px;
         .row{
         display: flex; 
         flex-flow: column;
-        border-bottom:none;
+        padding-bottom: 3rem;
+        border-bottom:black solid 1px;
             .left-content{
                 width:100%;
             }
@@ -166,7 +184,7 @@ $breakpoint-tablet: 900px;
                 border-left: none;
                 .img{
                     margin-top: 25%;
-                    margin-left: 25%;
+                    transform: translateY(0%);
                 }
             }
         }
@@ -184,12 +202,12 @@ $breakpoint-sp: 600px;
                 padding-left: 5rem;
             }
             .right{
-                width: 80%;
                 border-left: none;
                 margin-top:0;
                 position: relative;
                 .img{
-                    margin-top: 25%;
+                    width: 80%;
+                    margin: 6rem auto;
                 }
             }
             }
