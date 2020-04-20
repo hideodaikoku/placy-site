@@ -17,7 +17,8 @@
 .desc{
     font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif; 
     font-weight: 700;
-    font-size: .9rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
 }
 .button-container{
     position: relative;
@@ -78,7 +79,10 @@ $breakpoint-tablet: 900px;
         overflow: hidden;
     }
     .text-content{
-        margin: 3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        width: 100%;
+        margin-left: 0;
     }
     .button-container{
         position: relative;
