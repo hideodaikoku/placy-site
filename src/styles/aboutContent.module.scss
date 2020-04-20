@@ -6,7 +6,11 @@
             width: 58%;
             .img-container{
                 margin: 0 auto;
+                background-position: bottom center;
+                background-repeat: repeat-y;
+                background-size: cover;
                 height: 100%;
+                width: 100%;
             }
         }
         .right-content{

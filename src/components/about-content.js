@@ -4,7 +4,7 @@ import Img from "gatsby-image";
 import Mission from "./mission";
 import Explanation from "./explanation";
 import ProfileSection from "./profile";
-
+import gif from "../images/placy_web-min.gif";
 import aboutContentStyles from "../styles/aboutContent.module.scss"
 
 const AboutContent = () => {
@@ -37,7 +37,7 @@ const AboutContent = () => {
         <div className={aboutContentStyles.container}>
             <div className={aboutContentStyles.section}>
                 <div className={aboutContentStyles.left}>
-                        <Img fluid={data.about.childImageSharp.fluid} className={aboutContentStyles.imgContainer}/>
+                    <img src={gif} className={aboutContentStyles.imgContainer}/>
                 </div>
                 <div className={aboutContentStyles.rightContent}>
                     <h1 className={aboutContentStyles.title}>
