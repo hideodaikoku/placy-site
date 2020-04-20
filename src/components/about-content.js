@@ -53,16 +53,12 @@ const AboutContent = () => {
                     <Mission/>
                 </div>
                 <div className={aboutContentStyles.right}>
-                    <div className={aboutContentStyles.fixedImage}>
-                        <Img fluid={data.mission.childImageSharp.fluid}/>
-                    </div>
+                    <Img fluid={data.mission.childImageSharp.fluid} className={aboutContentStyles.fixedImage}/>
                 </div>
             </div>
             <div className={aboutContentStyles.section}>
                 <div className={aboutContentStyles.left}>
-                <div className={aboutContentStyles.imgContainer}>
-                        <Img fluid={data.explanation.childImageSharp.fluid}/>
-                    </div>
+                    <Img fluid={data.explanation.childImageSharp.fluid} className={aboutContentStyles.imgContainer}/>
                 </div>
                 <div className={aboutContentStyles.rightContent}>
                     <Explanation/>

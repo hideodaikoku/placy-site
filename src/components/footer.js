@@ -44,10 +44,10 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className={footerStyles.footerSection} style={{textTransform:"uppercase", flexWrap:"wrap"}}>
-                    <a href="https://drive.google.com/open?id=1AeV3GkQ8X1Luj8EUXnrGS8K4LkS2RVf4" target="_blank" rel="noopener noreferrer">
+                    <a href="./document/term_of_use.pdf" target="_blank" rel="noopener noreferrer">
                         <small className={footerStyles.list}>terms & conditions</small>
                     </a>          
-                    <a href="https://drive.google.com/open?id=1T1oEp3va5D4TQxzUz37upSnkCHS33VMq" target="_blank" rel="noopener noreferrer">
+                    <a href="./document/privacy_policy.pdf" target="_blank" rel="noopener noreferrer">
                         <small className={footerStyles.list}>privacy policy</small>
                     </a>
                     <small className={footerStyles.list} style={{marginLeft:"1rem"}}>&copy; placy 2020</small>
