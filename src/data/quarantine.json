@@ -1,0 +1,34 @@
+[
+    {   
+        "place": "China - Wuhan",
+        "author": "Shu Wei",
+        "img" : "china",
+        "medium": "https://medium.com/post-quarantine-urbanism/post-quarantine-urbanism-of-china-its-all-about-human-conditions-2e1bb3acdf52",
+        "date": "2020/04/17",
+        "title": "Post-Quarantine Urbanism of China: It’s All About Human Conditions"
+    },
+    {
+        "place": "Switzerland - Zurich",
+        "author": "Melanie Imefeld",
+        "img" : "zurich",
+        "medium": "https://medium.com/post-quarantine-urbanism/zurichs-post-pandemic-balcony-and-what-we-can-learn-about-it-from-this-health-crisis-889e4081bfa3",
+        "date": "2020/04/19",
+        "title": "The impact of the health crisis on urban design: The post-pandemic balcony"
+    },
+    {
+        "place": "Hong Kong",
+        "author": "Stephen Law",
+        "img": "hkg",
+        "medium": "https://medium.com/post-quarantine-urbanism/speculating-hong-kongs-urban-futures-in-a-post-covid-world-9f548f874d6e",
+        "date": "2020/04/20",
+        "title": "Early speculations on how COVID19 can shape Hong Kong’s Urban Future"
+    },
+    {
+        "place": "Athens - Greece",
+        "author": "Anastassis Parmaksizoglou",
+        "img": "athens",
+        "medium": "https://medium.com/post-quarantine-urbanism/greece-in-the-age-of-covid-19-an-unlikely-success-story-and-the-new-challenges-ahead-3c84820b692c",
+        "date": "2020/04/14",
+        "title": "Greece in the age of COVID-19: An unlikely success story and the new challenges ahead"
+    }
+]
