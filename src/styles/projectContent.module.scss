@@ -25,6 +25,10 @@
             .descTop{
                 width: 80%;
             }
+            .descTop:hover{
+                background-color: rgba(255, 255, 195, 0.16);
+                cursor: pointer;
+            }
             .desc{
                 padding-right: 5rem;
                 font-size: .9rem;

@@ -4,7 +4,7 @@ import headerStyles from "../styles/header.module.scss";
 import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
 
-const Header = () => {
+const Header = (props) => {
     const data = useStaticQuery(graphql`
     query{
         file(relativePath: {eq: "placy-logo.png"}){
@@ -17,7 +17,7 @@ const Header = () => {
     }
     `)
     return(
-        <div className={headerStyles.header}>
+        <div className={props.color==="white"?headerStyles.headerWhite:headerStyles.header}>
             <div className={headerStyles.logoArea}>
                 <Link className={headerStyles.title} to="/">
                     <Img fluid={data.file.childImageSharp.fluid} className={headerStyles.topImg}/>

@@ -16,3 +16,10 @@
     background-color: #c9caca;
     padding: 1rem;
 }
+
+.containerWhite{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
+}

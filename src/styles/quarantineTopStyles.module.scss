@@ -1,0 +1,35 @@
+.container{
+    width: 100%;
+    .img-container{
+        position: relative;
+        .pqr{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 30rem;
+        
+            // Adjust image positioning (if image covers area with defined height) and add font-family for polyfill
+            & > img {
+            object-fit: fill !important;
+            object-position: 50% 50% !important; 
+            }   
+        }
+    }
+    .text-container{
+        color:gray;
+        width: 70%;
+        max-width: 960px;
+        margin: 5rem;
+    }
+}
+
+@media (max-width: 600px){
+    .container{
+        .img-container{
+            .pqr{
+                height: 15rem;
+            }
+        }
+    }
+}

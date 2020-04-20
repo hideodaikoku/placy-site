@@ -6,8 +6,8 @@ import layoutStyles from "../styles/layout.module.scss"
 
 const Layout = (props) => {
     return(
-        <div className={layoutStyles.container}>
-            <Header/>
+        <div className={props.color==="white"?layoutStyles.containerWhite:layoutStyles.container}>
+            <Header color={props.color}/>
             <div className={layoutStyles.content}>
                 {props.children}
             </div>
