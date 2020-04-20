@@ -21,25 +21,37 @@ const Footer = () => {
             <div className={footerStyles.container}>
                 <Img fluid={data.file.childImageSharp.fluid} className={footerStyles.image}/>
             </div>
-            <div className={footerStyles.container}>
-                <ul>
-                    <Link to="/about" className={footerStyles.link}>
-                        <li className={footerStyles.list}><small>About</small></li>
-                    </Link>
-                    <Link to="/careers" className={footerStyles.link}>
-                        <li className={footerStyles.list}><small>Careers</small></li>
-                    </Link>
-                    <Link to="/projects" className={footerStyles.link}>
-                        <li className={footerStyles.list}><small>Projects</small></li>
-                    </Link>
-                </ul>
-            </div>
             <div className={footerStyles.containerRight}>
-                <ul>
-                    <li className={footerStyles.list}><small>terms & conditions</small></li> 
-                    <li className={footerStyles.list}><small>privacy policy</small></li>
-                    <li className={footerStyles.list}><small>&copy; placy 2020</small></li>
-                </ul>
+                <div className={footerStyles.footerSection}>
+                    <Link to="/about" className={footerStyles.link}>
+                        <small className={footerStyles.list}>About</small>
+                    </Link>
+                    <small>/</small>
+                    <Link to="/careers" className={footerStyles.link}>
+                    <small className={footerStyles.list}>Careers</small>
+                    </Link>
+                    <small>/</small>
+                    <Link to="/projects" className={footerStyles.link}>
+                    <small className={footerStyles.list}>Projects</small>
+                    </Link>
+                    <small>/</small>
+                    <a
+                    href="https://placy.typeform.com/to/lfzKCU"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                        <small className={footerStyles.list}>Contact</small>
+                    </a>
+                </div>
+                <div className={footerStyles.footerSection} style={{textTransform:"uppercase", flexWrap:"wrap"}}>
+                    <a href="https://drive.google.com/open?id=1AeV3GkQ8X1Luj8EUXnrGS8K4LkS2RVf4" target="_blank" rel="noopener noreferrer">
+                        <small className={footerStyles.list}>terms & conditions</small>
+                    </a>          
+                    <a href="https://drive.google.com/open?id=1T1oEp3va5D4TQxzUz37upSnkCHS33VMq" target="_blank" rel="noopener noreferrer">
+                        <small className={footerStyles.list}>privacy policy</small>
+                    </a>
+                    <small className={footerStyles.list} style={{marginLeft:"1rem"}}>&copy; placy 2020</small>
+                </div>
             </div>
         </footer>
     )

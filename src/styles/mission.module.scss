@@ -9,7 +9,6 @@
 $breakpoint-tablet: 900px;
 @media (max-width: $breakpoint-tablet) {
     .container{
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin: 2rem;
     }
 }

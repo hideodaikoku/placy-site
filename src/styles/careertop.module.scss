@@ -1,7 +1,5 @@
 .container{
     .section{
-        padding-left: 5rem;
-        padding-right: 5rem;
         display: flex;
         border-bottom: 1px solid black;
         .left-content{
@@ -12,7 +10,7 @@
             .title{
                 font-family: Roc Grotesk, "roc-grotesk", sans-serif;
                 font-size: 2rem;
-                font-weight: 500;
+                font-weight: 600;
                 margin-left: 5rem;
                 margin-right: 3rem;
             }
@@ -138,6 +136,11 @@ $breakpoint-sp: 600px;
 @media (max-width: $breakpoint-sp) {
     .container{
         .section{
+            .left-content{
+                .title{
+                    margin-left: 3rem;
+                }
+            }
             .right{
                 height: 20rem;
             }

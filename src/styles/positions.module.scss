@@ -1,6 +1,4 @@
 .container{
-    padding-left: 5rem;
-    padding-right: 5rem;
     display: flex;
     border-bottom: 1px solid black;
     .left{
@@ -33,16 +31,14 @@
 .positions-container{
     .row{
         display: flex;
-        padding-left: 5rem;
-        padding-right: 5rem;
         border-bottom: 1px solid black;
 
         .position{
             width: 58%;
             padding-bottom: 5rem;
             padding-top: 5rem;
-            padding-right: 7rem;
-
+            padding-right: 5rem;
+            padding-left: 5rem;
             .title{
                 text-decoration: underline;
             }
@@ -54,7 +50,7 @@
                 margin-top: 2rem;
             }
             .box{
-                border: 2.5px solid black;
+                border: 1px solid black;
                 padding: .4rem .2rem;
                 line-height: 2rem;
             }
@@ -128,6 +124,7 @@ $breakpoint-tablet: 900px;
             .position{
                 width: 100%;
                 margin: 0 auto;
+                padding-left: 0;
                 padding-right: 0;
             }
             .right{

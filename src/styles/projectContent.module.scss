@@ -1,37 +1,29 @@
 .container{
     .row{
-        padding-left: 5rem;
-        padding-right: 5rem;
         display: flex;
         border-bottom: 1px solid black;
-        #pqr{
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-        }
         .left-content{
             width: 58%;
+            padding-left: 3rem;
             margin-top: 5rem;
             margin-bottom: 5rem;
             .title{
                 font-family: Roc Grotesk,"roc-grotesk", sans-serif;
                 font-size: 2rem;
-                font-weight: 500;
+                font-weight: 600;
                 margin-right: 3rem;
                 margin-top: 3rem;
-            }
-            .title{
-                margin-top: 1rem;
             }
             .descTop{
                 width: 80%;
             }
-            .descTop:hover{
-                background-color: rgba(255, 255, 195, 0.16);
-                cursor: pointer;
-            }
             .desc{
                 padding-right: 5rem;
                 font-size: .9rem;
+            }
+            .descTop:hover{
+                color: #C59AC4;
+                cursor: pointer;
             }
             .project-top{
                 display: flex;
@@ -68,14 +60,36 @@
             border-left: 1px solid black;
             .img{
                 height: 100%;
+                &> img{
+                    background-position: bottom center;
+                    background-repeat: repeat-y;
+                    background-size: cover;
+                }
+            }
+            .img-top{
+                height: 50%;
+                &> img{
+                    background-position: bottom center;
+                    background-repeat: repeat-y;
+                    background-size: cover;
+                }
+            }
+            .img-bottom{
+                height: 50%;
+                &> img{
+                    background-position: bottom center;
+                    background-repeat: repeat-y;
+                    background-size: cover;
+                }
             }
             .pqr{
                 width: 100%;
-                background-position: bottom center;
-                background-repeat: repeat-y;
-                background-size: cover;
-                margin-top: 1rem;
-                margin-bottom: 1rem;
+                height: 100%;
+                &> img{
+                    background-position: bottom center;
+                    background-repeat: repeat-y;
+                    background-size: cover;
+                }
             }
         }
     }
@@ -83,17 +97,17 @@
     .kenta{
         display: flex;
         background-color:#006935;
-        margin-left: 5rem;
         .left-content{
             width: 58%;
             padding-top: 5rem;
+            padding-left: 3rem;
             background-color: #f3c91f;
             padding-bottom: 5rem;
 
             .title{
                 font-family: Roc Grotesk,"roc-grotesk", sans-serif;
                 font-size: 2rem;
-                font-weight: 500;
+                font-weight: 600;
                 margin-right: 3rem;
                 margin-top: 3rem;
             }
@@ -133,7 +147,6 @@
             width: 42%;
             margin-left: auto;
             position: relative;
-            margin-right: 5rem;
             border-left: 1px solid black;
             .img{
                 width: 80%;
@@ -164,7 +177,7 @@ $breakpoint-tablet: 900px;
         .row{
         display: flex; 
         flex-flow: column;
-        padding-bottom: 3rem;
+        padding-bottom: 5rem;
         border-bottom:black solid 1px;
             .left-content{
                 width:100%;
@@ -175,21 +188,16 @@ $breakpoint-tablet: 900px;
             }
         }
         .kenta{
-        margin-left:0;
+        padding-left:0;
         display: flex; 
         flex-flow: column;
             .left-content{
                 width:100%;
                 margin: 0 auto;
-                padding-left: 5rem;
             }
             .right{
                 width: 100%;
                 border-left: none;
-                .img{
-                    margin-top: 25%;
-                    transform: translateY(0%);
-                }
             }
         }
     }
@@ -203,7 +211,6 @@ $breakpoint-sp: 600px;
             .left-content{
                 width:100%;
                 margin: 0 auto;
-                padding-left: 5rem;
             }
             .right{
                 border-left: none;
@@ -211,7 +218,6 @@ $breakpoint-sp: 600px;
                 position: relative;
                 .img{
                     width: 80%;
-                    margin: 6rem auto;
                 }
             }
             }

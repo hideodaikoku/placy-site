@@ -1,7 +1,5 @@
 .container{
     .row{
-        padding-left: 5rem;
-        padding-right: 5rem;
         display: flex;
         border-bottom: 1px solid black;
         .left{
@@ -26,6 +24,7 @@
 
         .left-content{
             width: 58%;
+            padding-bottom: 3rem;
             .img-container{
                 height: 100%;
                 vertical-align: middle;
@@ -47,9 +46,7 @@
             border-left: 1px solid black;
         }
     }
-
     margin-bottom: -1rem;
-    
 }
 
 $breakpoint-tablet: 900px;

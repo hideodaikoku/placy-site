@@ -43,7 +43,7 @@ const AboutContent = () => {
                 </div>
                 <div className={aboutContentStyles.rightContent}>
                     <h1 className={aboutContentStyles.title}>
-                        Connect space to <br/>
+                        Connect space to
                         its meaning.
                     </h1>
                 </div>

@@ -1,7 +1,5 @@
 .container{
     .section{
-        padding-left: 5rem;
-        padding-right: 5rem;
         display: flex;
         border-bottom: 1px solid black;
         .left{
@@ -16,13 +14,15 @@
             margin-left: auto;
             position: relative;
             border-left: 1px solid black;
+            padding-right: 3rem;
             .title{
                 font-family: Roc Grotesk, "roc-grotesk", sans-serif;
                 font-size: 2rem;
-                font-weight: 500;
+                font-weight: 600;
                 margin-left: 5rem;
                 margin-right: 3rem;
-                margin-top: 5rem;
+                margin-top: 30%;
+                max-width: 18rem;
             }
         }
         .left-content{
@@ -50,8 +50,6 @@ $breakpoint-tablet: 900px;
 @media (max-width: $breakpoint-tablet) {
     .container{
         .section{
-            padding-left: 3rem;
-            padding-right: 3rem;
             display: flex; 
             flex-flow: column;
             border-bottom: 1px solid black;
@@ -59,13 +57,11 @@ $breakpoint-tablet: 900px;
                 width: 100%;
                 order: 4;
                 height: 25rem;
-                padding-top: 2rem;
-                padding-bottom: 2rem;
+                margin-bottom: 3rem;
                 .img-container{
                     top: 0;
                     transform: translateY(0);
-                    height: 20rem;
-                    margin: 2rem auto;
+                    margin: 1rem auto;
                 }
             }
             .right-content{
@@ -73,7 +69,7 @@ $breakpoint-tablet: 900px;
                 margin-right: 0;
                 width: 100%;
                 order: 3;
-                padding-top: 2rem;
+                padding-top: 10rem;
                 padding-bottom: 2rem;
                 .title{
                     margin-top: 0;

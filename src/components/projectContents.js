@@ -8,7 +8,7 @@ const ProjectContents =()=>{
         query{
             pqr: file(relativePath: {eq: "Placy_PQR_Web.jpg"}){
                 childImageSharp{
-                    fluid(maxWidth: 1024){
+                    fluid(maxWidth: 1600){
                         ...GatsbyImageSharpFluid
                     }
                 }
@@ -43,28 +43,28 @@ const ProjectContents =()=>{
             }
             app: file(relativePath: {eq: "a_01788.jpg"}){
                 childImageSharp{
-                    fluid(maxWidth: 1024){
+                    fluid(maxWidth: 1600){
                         ...GatsbyImageSharpFluid
                     }
                 }
             }
             pamphlets: file(relativePath: {eq: "jr1.jpg"}){
                 childImageSharp{
-                    fluid(maxWidth: 1024){
+                    fluid(maxWidth: 1600){
                         ...GatsbyImageSharpFluid
                     }
                 }
             }
-            jr: file(relativePath: {eq: "jr_cast.jpg"}){
+            jr: file(relativePath: {eq: "shibuya_cast.jpg"}){
                 childImageSharp{
-                    fluid(maxWidth: 600){
+                    fluid(maxWidth: 1600){
                         ...GatsbyImageSharpFluid
                     }
                 }
             }
             postcards: file(relativePath: {eq: "postcards.png"}){
                 childImageSharp{
-                    fluid(maxWidth: 1024){
+                    fluid(maxWidth: 1600){
                         ...GatsbyImageSharpFluid
                     }
                 }
@@ -75,7 +75,7 @@ const ProjectContents =()=>{
     return(
         <div className={projectContentstyles.container}>
             <div className={projectContentstyles.row}>
-                <div className={projectContentstyles.leftContent} id={projectContentstyles.pqr}>
+                <div className={projectContentstyles.leftContent}>
                     <h1 className={projectContentstyles.title}>
                         Post-Quarantine Urbanism<br/>
                     </h1>
@@ -86,9 +86,9 @@ const ProjectContents =()=>{
                     </p>
                 </div>
                 <div className={projectContentstyles.right}>
-                    <div className={projectContentstyles.pqr}>
-                        <Img fluid={data.pqr.childImageSharp.fluid} alt={"post quarantine urbanism"}/>
-                    </div>
+                    <a href="https://www.placy.city/post-quarantine-urbanism/" target="_blank" rel="noopener noreferrer">
+                        <Img fluid={data.pqr.childImageSharp.fluid} alt={"post quarantine urbanism"} className={projectContentstyles.pqr}/>
+                    </a>
                 </div>
             </div>
             <div className={projectContentstyles.row}>
@@ -114,12 +114,10 @@ const ProjectContents =()=>{
                     </p>
                 </div>
                 <div className={projectContentstyles.right}>
-                    <div className={projectContentstyles.imgTop}>
-                        <Img fluid={data.app.childImageSharp.fluid}/>
-                    </div>
-                    <div className={projectContentstyles.imgBottom}>
-                        <Img fluid={data.pamphlets.childImageSharp.fluid}/>
-                    </div>
+                    <a href="https://prtimes.jp/main/html/rd/p/000000005.000047935.html" target="_blank" rel="noopener noreferrer">
+                        <Img fluid={data.app.childImageSharp.fluid} className={projectContentstyles.imgTop}/>          
+                        <Img fluid={data.pamphlets.childImageSharp.fluid} className={projectContentstyles.imgBottom}/>
+                    </a>
                 </div>
             </div>
             <div className={projectContentstyles.row}>
@@ -143,9 +141,7 @@ const ProjectContents =()=>{
                     </p>
                 </div>
                 <div className={projectContentstyles.right}>
-                    <div className={projectContentstyles.img}>
-                        <Img fluid={data.jr.childImageSharp.fluid}/>
-                    </div>
+                    <Img fluid={data.jr.childImageSharp.fluid} className={projectContentstyles.img}/>
                 </div>
             </div>
             <div className={projectContentstyles.kenta}>
