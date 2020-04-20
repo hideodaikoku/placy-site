@@ -24,11 +24,19 @@
         "title": "Early speculations on how COVID19 can shape Hong Kong’s Urban Future"
     },
     {
-        "place": "Athens - Greece",
+        "place": "Greece - Athens",
         "author": "Anastassis Parmaksizoglou",
         "img": "athens",
         "medium": "https://medium.com/post-quarantine-urbanism/greece-in-the-age-of-covid-19-an-unlikely-success-story-and-the-new-challenges-ahead-3c84820b692c",
         "date": "2020/04/14",
         "title": "Greece in the age of COVID-19: An unlikely success story and the new challenges ahead"
+    },
+    {
+        "place": "England - London",
+        "author": "Alfie Long",
+        "img": "london",
+        "medium": "https://medium.com/post-quarantine-urbanism/london-parks-space-and-pandemic-94e41bc4e78?source=collection_home---2------0-----------------------",
+        "date": "2020/04/20",
+        "title": "London Parks, Space, and Pandemic"
     }
 ]

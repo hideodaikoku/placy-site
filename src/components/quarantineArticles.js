@@ -35,6 +35,14 @@ const QuarantineArticles = () => {
                     }
                 }
             }
+
+            london: file(relativePath: {eq: "london.jpg"}){
+                childImageSharp{
+                    fluid(maxWidth: 400){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
         }
         
     `)
