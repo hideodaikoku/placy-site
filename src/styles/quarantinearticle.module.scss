@@ -41,13 +41,13 @@
                     right: 0;
                     height: 100%;
                     width: 100%;
-                    opacity: 0%;
+                    opacity: 0;
                     transition: .5s ease;
-                    background-color: #f3c91f;
+                    background-color: #f3c91f79;
                 }
             }
             .image-container:hover .overlay {
-                opacity: 50%;
+                opacity: 1;
                 cursor: pointer;
             }
         }
