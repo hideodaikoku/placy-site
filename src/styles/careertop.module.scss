@@ -5,7 +5,6 @@
         .left-content{
             width: 58%;
             padding-top: 6rem;
-            padding-bottom: 4rem;
             padding-right: 5rem;
             .title{
                 font-family: Roc Grotesk, "roc-grotesk", sans-serif;
@@ -22,22 +21,14 @@
         .right{
             width: 42%;
             margin-left: auto;
-            position: relative;
             border-left: 1px solid black;
             .fixed-image{
-                display: absolute;
-                left: 0;
-                height: 100%;
-                vertical-align: middle;
                 margin: 0 auto;
             }
         }
         .left{
-            content: "";
             width: 58%;
             .img-container{
-                height: 100%;
-                vertical-align: middle;
                 margin: 0 auto;
             }
         }
@@ -67,7 +58,6 @@ $breakpoint-tablet: 900px;
             .left-content{
                 width: 100%;
                 padding-top: 2rem;
-                padding-bottom: 1rem;
                 order: 1;
                 padding-right: 0;
                 p{
@@ -76,26 +66,29 @@ $breakpoint-tablet: 900px;
                 }
             }
             .right{
-                height: 26rem;
+                width: 100%;
                 .fixed-image{
                     padding: 0;
-                    width: 80%;
+                    width: 100%;
                     margin: 0 auto;
+                    & > img{
+                        object-fit: contain;
+                    }
                 }
             }
             .left{
                 width: 100%;
                 order: 3;
-                height: 15rem;
-                padding-top: 2rem;
-                padding-bottom: 2rem;
-                .img-container{
-                    top: 0;
-                    transform: translateY(0);
-                    width: 80%;
-                    vertical-align: middle;
-                    margin: 2rem auto;
+                .imgContainer{
+                    margin: 0 auto;
+                    & > img{
+                        object-fit: contain !important;
+                        object-position: 50% 50% !important; 
+                    }
                 }
+            }
+            #empty{
+                display: none;
             }
             .right-content{
                 border-left: none;
@@ -116,9 +109,6 @@ $breakpoint-tablet: 900px;
                 border-left: none;
                 order: 2;
                 .fixed-image{
-                    top: 5rem;
-                    transform: translateY(0);
-                    width: 80%;
                     margin: 1rem auto;
                 }
             }

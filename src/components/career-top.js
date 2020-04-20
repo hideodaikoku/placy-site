@@ -40,18 +40,14 @@ const CareerTopSection = () => {
                     </h1>
                 </div>
                 <div className={careertTopStyles.right}>
-                    <div className={careertTopStyles.fixedImage}>
-                        <Img fluid={data.top.childImageSharp.fluid}></Img>
-                    </div>
+                    <Img fluid={data.top.childImageSharp.fluid} className={careertTopStyles.fixedImage}></Img>
                 </div>
             </div>
             <div className={careertTopStyles.section}>
                 <div className={careertTopStyles.left}>
-                    <div className={careertTopStyles.imgContainer}>
-                        <Img fluid={data.mid.childImageSharp.fluid}></Img>
-                    </div>
+                    <Img fluid={data.mid.childImageSharp.fluid} className={careertTopStyles.imgContainer}></Img>
                 </div>
-                <div className={careertTopStyles.rightContent}>
+                <div className={careertTopStyles.rightContent} id ={careertTopStyles.empty}>
                 </div>
             </div>
             <div className={careertTopStyles.section}>
@@ -66,9 +62,7 @@ const CareerTopSection = () => {
                     </p>
                 </div>
                 <div className={careertTopStyles.right}>
-                    <div className={careertTopStyles.fixedImage}>
-                        <Img fluid={data.bot.childImageSharp.fluid}></Img>
-                    </div>
+                    <Img fluid={data.bot.childImageSharp.fluid} className={careertTopStyles.fixedImage}></Img>
                 </div>                
             </div>
         </div>
