@@ -14,7 +14,7 @@ const QuarantineArticles = () => {
                     }
                 }
             }
-            zurich: file(relativePath: {eq: "zurich.jpg"}){
+            zurich: file(relativePath: {eq: "zurich.png"}){
                 childImageSharp{
                     fluid(maxWidth: 400){
                         ...GatsbyImageSharpFluid
