@@ -57,3 +57,16 @@ $breakpoint-tablet: 600px;
         margin-bottom: 1rem;
     }
 }
+
+
+
+$breakpoint-sp: 400px;
+@media (max-width: $breakpoint-sp) {
+    .footer-container{
+        margin:0;
+    }
+    .container-right{
+        clear: both;
+    }
+    
+}

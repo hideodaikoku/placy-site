@@ -128,6 +128,9 @@ $breakpoint-tablet: 900px;
         border-bottom: none;
         .left-content{
             width: 100%;
+            margin:0;
+            padding-left: 3rem;
+            padding-right: 3rem;  
         }
         .right{
             display:none;
@@ -139,12 +142,15 @@ $breakpoint-tablet: 900px;
             display: none;
         }
         .right-content{
-            width: 100%;
+            width: 100%;    
+            border-left: none;
+            margin:0;
+             
             .text{
                 line-height: 1.8;
             }
             .wired-image{
-                margin-top: 3rem;
+                margin: 3rem auto;
             }
         }
     }
@@ -154,6 +160,9 @@ $breakpoint-tablet: 900px;
         border-bottom: none;
         .left-content{
             width: 100%;
+            margin: 0;
+            padding-left: 3rem;
+            padding-right: 3rem;
         }
         .right{
             display:none;
