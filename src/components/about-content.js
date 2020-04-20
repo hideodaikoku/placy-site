@@ -37,9 +37,7 @@ const AboutContent = () => {
         <div className={aboutContentStyles.container}>
             <div className={aboutContentStyles.section}>
                 <div className={aboutContentStyles.left}>
-                    <div className={aboutContentStyles.imgContainer}>
-                        <Img fluid={data.about.childImageSharp.fluid}/>
-                    </div>
+                        <Img fluid={data.about.childImageSharp.fluid} className={aboutContentStyles.imgContainer}/>
                 </div>
                 <div className={aboutContentStyles.rightContent}>
                     <h1 className={aboutContentStyles.title}>
