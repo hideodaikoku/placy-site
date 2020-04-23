@@ -43,6 +43,20 @@ const QuarantineArticles = () => {
                     }
                 }
             }
+            russia: file(relativePath: {eq: "russia.png"}){
+                childImageSharp{
+                    fluid(maxWidth: 400){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            australia: file(relativePath: {eq: "australia.jpg"}){
+                childImageSharp{
+                    fluid(maxWidth: 400){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
         }
         
     `)

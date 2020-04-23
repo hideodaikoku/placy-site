@@ -38,5 +38,21 @@
         "medium": "https://medium.com/post-quarantine-urbanism/london-parks-space-and-pandemic-94e41bc4e78?source=collection_home---2------0-----------------------",
         "date": "2020/04/20",
         "title": "London Parks, Space, and Pandemic"
+    },
+    {
+        "place": "Russia - Moscow",
+        "author": "Yevgeniya Yusova",
+        "img": "russia",
+        "medium": "https://medium.com/post-quarantine-urbanism/quarantine-in-moscow-everyone-is-isolated-everything-is-delivered-cad0013397bb",
+        "date": "2020/04/23",
+        "title": "Quarantine in Moscow: in Delivery We Trust"
+    },
+    {
+        "place": "Australia - Melbourne",
+        "author": "George Reed",
+        "img": "australia",
+        "medium": "https://medium.com/post-quarantine-urbanism/london-parks-space-and-pandemic-94e41bc4e78?source=collection_home---2------0-----------------------",
+        "date": "2020/04/24",
+        "title": "Post Pandemic Urbanism Australia: The Merge Scenario"
     }
 ]
