@@ -52,6 +52,17 @@
     }
 }
 
+
+@media (max-width: 1200px){
+    .container{
+        .article-container{
+            .article{
+                max-width: 50%;
+            }
+        }
+    }
+}
+
 @media (max-width: 800px){
     .container{
         .article-container{
@@ -63,3 +74,4 @@
         }
     }
 }
+
