@@ -1,122 +1,125 @@
-.header{
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    z-index: 1;
-    background-color: #f3c91f;
-    border-bottom: 1px solid black;
+@mixin header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 1;
+  border-bottom: 1px solid black;
 }
 
-.header-white{
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    z-index: 1;
-    background-color: white;
-    border-bottom: 1px solid black;
+.header {
+  @include header();
+  background-color: #f3c91f;
 }
 
-.title{
-    text-decoration: none;
-    color: black
+.header-white {
+  @include header();
+  background-color: white;
+}
+
+.header-placelist {
+  @include header();
+  background-color: #f4f4f2;
+}
+
+.title {
+  text-decoration: none;
+  color: black;
 }
 
 .link {
-    color: black;
-    text-decoration: none;
-    font-family: Helvetica Neue, Helvetica, Arial,sans-serif; 
-    text-align: justify;
-    font-weight: 700;
-    font-size: .9rem;
+  color: black;
+  text-decoration: none;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-align: justify;
+  font-weight: 700;
+  font-size: 0.9rem;
 }
 
 .list-item {
-    margin: 0 1rem;
+  margin: 0 1rem;
 }
 
-.divider{
-    margin-left: 2rem;
-    font-style: oblique;
+.divider {
+  margin-left: 2rem;
+  font-style: oblique;
 }
 
-.nav{
-    float: right;
-    padding: 3rem 5rem;
+.nav {
+  float: right;
+  padding: 3rem 5rem;
 }
 
-.nav-list{
-    list-style-type: none;
-    display: flex;
-    margin: 0;
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
 }
 
-.active-nav-item{
-    line-height: 1em;
-    position: relative;
+.active-nav-item {
+  line-height: 1em;
+  position: relative;
 }
 
 .active-nav-item::after {
-    border-bottom: 1.5px solid black;
-    content: "";
-    position: absolute;
+  border-bottom: 1.5px solid black;
+  content: "";
+  position: absolute;
 
-    margin-top: calc(0.125em / 2 * -1);
-    left: -.25rem;
-    right: -.25rem;
-    top: 50%;
+  margin-top: calc(0.125em / 2 * -1);
+  left: -0.25rem;
+  right: -0.25rem;
+  top: 50%;
 }
 
-.top-img{
-    width: 7rem;
+.top-img {
+  width: 7rem;
 }
 
-.logo-area{
-    float: left;
-    position: relative;
-    padding: 3rem 5rem;
-    height: 134.1px;
-    height: 5rem;
+.logo-area {
+  float: left;
+  position: relative;
+  padding: 3rem 5rem;
+  height: 134.1px;
+  height: 5rem;
 }
 $breakpoint-large: 985px;
-@media (max-width: $breakpoint-large){
-    .nav{
-        padding: 1rem 5rem;
-        margin: 0 auto;
-        border-left: none;
-        float: none;
-        display: inline-block;
-        width: 100vw;
-    }
-    .logo-area{
-        padding: 1rem 5rem;
-        float: none;
-        display: inline-block;
-        width: 100vw;
-    }
+@media (max-width: $breakpoint-large) {
+  .nav {
+    padding: 1rem 5rem;
+    margin: 0 auto;
+    border-left: none;
+    float: none;
+    display: inline-block;
+    width: 100vw;
+  }
+  .logo-area {
+    padding: 1rem 5rem;
+    float: none;
+    display: inline-block;
+    width: 100vw;
+  }
 }
 $breakpoint-tablet: 600px;
 @media (max-width: $breakpoint-tablet) {
-  .header{
-      padding: 1rem 0 .1rem;
-      overflow: hidden;
+  .header {
+    padding: 1rem 0 0.1rem;
+    overflow: hidden;
   }
   .list-item {
-    margin: 0 .5rem;
+    margin: 0 0.5rem;
   }
-  .divider{
+  .divider {
     margin-left: 1rem;
   }
-  .nav{
+  .nav {
     padding: 1rem 3rem;
     float: none;
     display: inline-block;
     width: 100vw;
   }
-  .logo-area{
+  .logo-area {
     padding: 1rem 3rem;
     height: 4rem;
     float: none;
