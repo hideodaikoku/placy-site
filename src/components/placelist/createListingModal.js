@@ -12,6 +12,10 @@ const CreateListingModal = ({ open, closeModal }) => {
   // something to do with virtual DOM lifecycle stuff
   // this is also a hacky way of doing things which ignores the virtual DOM cycle
   // and probably has render time implications so if there's a better way please change
+  const isSSR = typeof window === "undefined";
+  if (isSSR) {
+    return <div></div>;
+  }
   if (open) {
     document.body.style.top = `-${window.scrollY}px`;
     document.body.style.position = "fixed";
