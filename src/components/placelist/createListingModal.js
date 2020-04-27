@@ -26,10 +26,15 @@ const CreateListingModal = ({ open, closeModal }) => {
     window.scrollTo(0, parseInt(scrollY || "0") * -1);
   }
 
-  console.log("open: ", open);
   return (
-    <div className={containerClass}>
-      <div className={style.modalWindow}>
+    <div className={containerClass} onClick={closeModal}>
+      <div
+        className={style.modalWindow}
+        onClick={(e) => {
+          e.preventDefault();
+          e.stopPropagation();
+        }}
+      >
         <div>
           <button onClick={closeModal}>x</button>
         </div>
