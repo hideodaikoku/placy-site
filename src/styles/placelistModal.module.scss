@@ -1,0 +1,58 @@
+:global(body.placelist-modal) {
+  position: fixed;
+}
+
+.hide-container {
+  display: none;
+}
+
+.show-container {
+  display: flex;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(70, 70, 70, 0.6);
+  z-index: 1;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-window {
+  position: relative;
+  height: 70vh;
+  width: 70vw;
+  background-color: #f0f;
+
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.contents {
+}

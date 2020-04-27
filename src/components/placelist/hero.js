@@ -2,8 +2,10 @@ import React from "react";
 import heroStyles from "../../styles/placelistHero.module.scss";
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
+import { connect } from "react-redux";
+import { openModal } from "./redux/actions";
 
-const Hero = () => {
+const Hero = ({ openModal }) => {
   const data = useStaticQuery(graphql`
     query {
       illust: file(relativePath: { eq: "4.jpg" }) {
@@ -44,11 +46,13 @@ const Hero = () => {
         </p>
         <p>それでは、作成してみましょう。</p>
       </div>
-      <button className={heroStyles.toModal}>
+      <button className={heroStyles.toModal} onClick={openModal}>
         <span className={heroStyles.buttonText}>Create PlaceList</span>
       </button>
     </div>
   );
 };
 
-export default Hero;
+const mapDispatchToProps = { openModal };
+
+export default connect(null, mapDispatchToProps)(Hero);
