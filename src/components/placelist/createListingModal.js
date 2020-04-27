@@ -4,7 +4,7 @@ import style from "../../styles/placelistModal.module.scss";
 import { closeModal } from "./redux/actions";
 
 const CreateListingModal = ({ open, closeModal }) => {
-  const containerClass = open ? style.showContainer : style.hideContainer;
+  const containerClass = !!open ? style.showContainer : style.hideContainer;
 
   // sp4ghet:
   // https://css-tricks.com/prevent-page-scrolling-when-a-modal-is-open/
@@ -14,7 +14,7 @@ const CreateListingModal = ({ open, closeModal }) => {
   // and probably has render time implications so if there's a better way please change
   const isSSR = typeof window === "undefined";
   if (isSSR) {
-    return <div></div>;
+    return <div className={containerClass}></div>;
   }
   if (open) {
     document.body.style.top = `-${window.scrollY}px`;
