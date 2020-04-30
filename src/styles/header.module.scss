@@ -45,7 +45,9 @@
 
 .nav{
     float: right;
+    width: 42%;
     padding: 3rem 5rem;
+    border-left: 1px solid black;
 }
 
 .nav-list{
@@ -77,14 +79,15 @@
 .logo-area{
     float: left;
     position: relative;
-    padding: 3rem 5rem;
-    height: 134.1px;
-    height: 5rem;
+    width: 58%;
+    padding-left: 3rem;
+    padding-top: 3rem;
 }
+
 $breakpoint-large: 985px;
 @media (max-width: $breakpoint-large){
     .nav{
-        padding: 1rem 5rem;
+        padding: 1rem 3rem;
         margin: 0 auto;
         border-left: none;
         float: none;
@@ -92,7 +95,7 @@ $breakpoint-large: 985px;
         width: 100vw;
     }
     .logo-area{
-        padding: 1rem 5rem;
+        padding: 1rem 3rem;
         float: none;
         display: inline-block;
         width: 100vw;
@@ -111,13 +114,13 @@ $breakpoint-tablet: 600px;
     margin-left: 1rem;
   }
   .nav{
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     float: none;
     display: inline-block;
     width: 100vw;
   }
   .logo-area{
-    padding: 1rem 3rem;
+    padding: 1rem 2.5rem;
     height: 4rem;
     float: none;
     display: inline-block;
