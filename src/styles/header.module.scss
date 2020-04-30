@@ -18,6 +18,10 @@
     z-index: 1;
     background-color: white;
     border-bottom: 1px solid black;
+
+    .nav{
+        border: none;
+    }
 }
 
 .title{
@@ -80,7 +84,7 @@
     float: left;
     position: relative;
     width: 58%;
-    padding-left: 3rem;
+    padding-left: 5rem;
     padding-top: 3rem;
 }
 

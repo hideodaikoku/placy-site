@@ -21,7 +21,29 @@
         color:gray;
         width: 70%;
         max-width: 960px;
-        margin: 5rem;
+        margin: 5rem auto;
+    }
+
+    .diagram{
+        width: 70vw;
+        max-width: 960px;
+        margin: 5rem auto;
+        .box{
+            background-color:rgb(196, 196, 196);
+            text-align: center;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            border-radius: .5rem;
+            color: rgb(68, 67, 67);
+        }
+    }
+
+    .arrow{
+        margin: 1rem auto;
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+        color: rgb(68, 67, 67);
     }
 }
 
