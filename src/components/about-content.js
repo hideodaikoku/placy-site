@@ -37,7 +37,7 @@ const AboutContent = () => {
         <div className={aboutContentStyles.container}>
             <div className={aboutContentStyles.section}>
                 <div className={aboutContentStyles.left}>
-                    <img src={gif} className={aboutContentStyles.imgContainer}/>
+                    <img src={gif} alt="Placy GIF" className={aboutContentStyles.imgContainer}/>
                 </div>
                 <div className={aboutContentStyles.rightContent}>
                     <h1 className={aboutContentStyles.title}>

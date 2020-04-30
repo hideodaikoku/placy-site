@@ -24,6 +24,7 @@
             border-left: 1px solid black;
             .fixed-image{
                 margin: 0 auto;
+                height: 100%;
             }
         }
         .left{
@@ -50,8 +51,8 @@ $breakpoint-tablet: 900px;
 @media (max-width: $breakpoint-tablet) {
     .container{
         .section{
-            padding-left: 3rem;
-            padding-right: 3rem;
+            // padding-left: 3rem;
+            // padding-right: 3rem;
             display: flex; 
             flex-flow: column;
             border-bottom: 1px solid black;
@@ -60,9 +61,13 @@ $breakpoint-tablet: 900px;
                 padding-top: 2rem;
                 order: 1;
                 padding-right: 0;
-                p{
-                    margin: 0 auto;
-                    padding-left: 0;
+                .text{
+                    padding-left: 2rem;
+                }
+                .title{
+                    margin-top: 3rem;
+                    margin-bottom: 3rem;
+                    padding: 0;
                 }
             }
             .right{
@@ -70,7 +75,6 @@ $breakpoint-tablet: 900px;
                 .fixed-image{
                     padding: 0;
                     width: 100%;
-                    margin: 0 auto;
                     & > img{
                         object-fit: contain;
                     }
@@ -94,7 +98,6 @@ $breakpoint-tablet: 900px;
                 border-left: none;
                 margin-right: 0;
                 width: 100%;
-                height: 15rem;
                 order: 4;
                 padding-top: 2rem;
                 padding-bottom: 2rem;
@@ -108,9 +111,6 @@ $breakpoint-tablet: 900px;
                 width: 100%;
                 border-left: none;
                 order: 2;
-                .fixed-image{
-                    margin: 1rem auto;
-                }
             }
         }
         #last{
@@ -128,11 +128,9 @@ $breakpoint-sp: 600px;
         .section{
             .left-content{
                 .title{
-                    margin-left: 3rem;
+                    margin-left: 0rem;
+                    padding-left: 2rem;
                 }
-            }
-            .right{
-                height: 20rem;
             }
             .left{
                 padding-top: 0;

@@ -1,23 +1,9 @@
 .container{
-    margin: 5rem;
+
+    padding-left: 2rem;
     .text{
         text-align: left;
         font-size: .9rem;
     }
 }
 
-$breakpoint-tablet: 900px;
-@media (max-width: $breakpoint-tablet) {
-    .container{
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-    }
-}
-
-
-$breakpoint-phone: 600px;
-@media (max-width: $breakpoint-phone) {
-    .container{
-        margin: 2rem;
-    }
-}

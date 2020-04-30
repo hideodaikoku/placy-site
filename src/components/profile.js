@@ -8,6 +8,7 @@ const ProfileSection = () => {
         <div className={explanationStyle.container}>
             <div className={contentStyle.content}>
                 <table>
+                    <tbody>
                     <tr>
                         <td className={contentStyle.left}>会社名</td>
                         <td className={contentStyle.right}>株式会社Placy</td>
@@ -36,7 +37,7 @@ const ProfileSection = () => {
                         <td className={contentStyle.left}>取引銀行</td>
                         <td className={contentStyle.right}>三井住友銀行、みずほ銀行、西武信金、きらぼし銀行</td>
                     </tr>
-
+                    </tbody>
                 </table>
             </div>
         </div>

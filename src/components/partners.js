@@ -82,10 +82,13 @@ const PartnersSection = () => {
                     <p className={partnerStyle.desc}>
                     Urban Rhythm Guideは、「音楽」で都市の魅力に出会うことを目的としたプロジェクトです。<br/>
                     当プロジェクトでは、次の2点を作成いたしました。<br/>
-                    ①音楽で、あなたの感覚にあった山手線の駅を見つけることができるウェブサービス、<br/>
-                    ②各駅の音楽的な特徴を描写した30種類のパンフレット。
+                    ① 音楽で、あなたの感覚にあった山手線の駅を見つけることができるウェブサービス、<br/>
+                    ② 各駅の音楽的な特徴を描写した30種類のパンフレット。
                     <br/>リズムに身を任せて、新しい都市の一面を発見してみませんか?
                     </p>
+                    <a href="https://prtimes.jp/main/html/rd/p/000000005.000047935.html" target="_blank" rel="noopener noreferrer">
+                        Read More
+                    </a>
                     <div className={partnerStyle.yamanoteBottom}>
                         <div className={partnerStyle.computer}>
                             <Img fluid={data.yamanote.childImageSharp.fluid}/>

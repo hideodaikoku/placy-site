@@ -4,7 +4,7 @@
         border-bottom: 1px solid black;
         .left-content{
             width: 58%;
-            padding-left: 3rem;
+            padding-left: 5rem;
             margin-top: 5rem;
             margin-bottom: 5rem;
             .title{
@@ -20,10 +20,6 @@
             .desc{
                 padding-right: 5rem;
                 font-size: .9rem;
-            }
-            .descTop:hover{
-                color: #C59AC4;
-                cursor: pointer;
             }
             .project-top{
                 display: flex;
@@ -100,7 +96,7 @@
         .left-content{
             width: 58%;
             padding-top: 5rem;
-            padding-left: 3rem;
+            padding-left: 5rem;
             background-color: #f3c91f;
             padding-bottom: 5rem;
 
@@ -181,6 +177,7 @@ $breakpoint-tablet: 900px;
         border-bottom:black solid 1px;
             .left-content{
                 width:100%;
+                padding-left: 2rem;
             }
             .right{
                 width: 100%;
