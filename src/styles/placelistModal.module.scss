@@ -2,6 +2,39 @@
   position: fixed;
 }
 
+$button-size: 30px;
+.modal-close-button {
+  position: absolute;
+  right: 0;
+  margin-right: 2%;
+  margin-top: 2%;
+  background-color: black;
+  width: $button-size;
+  height: $button-size;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.modal-close-button::before,
+.modal-close-button::after {
+  position: absolute;
+  left: $button-size * 0.45;
+  top: $button-size * 0.25;
+  width: 2px;
+  height: $button-size * 0.5;
+
+  content: " ";
+  background-color: white;
+}
+
+.modal-close-button:before {
+  transform: rotateZ(-45deg);
+}
+
+.modal-close-button:after {
+  transform: rotateZ(45deg);
+}
+
 .hide-container {
   display: none;
 }
@@ -22,9 +55,9 @@
 
 .modal-window {
   position: relative;
-  height: 70vh;
-  width: 70vw;
-  background-color: #f0f;
+  height: 80vh;
+  width: 60vw;
+  background-color: #e9ccff;
 
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
@@ -55,4 +88,59 @@
 }
 
 .contents {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-title {
+  margin-top: 15vh;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: Futura, "Futura", sans-serif;
+}
+
+.arrow-box {
+  width: 20%;
+  max-width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.arrow-box .bar {
+  display: block;
+  background-color: black;
+  height: 2px;
+  width: 100%;
+}
+
+$head-size: 10px;
+.arrow-box .head {
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: $head-size solid transparent;
+  border-bottom: $head-size solid transparent;
+  border-left: $head-size solid black;
+}
+
+.pageIndicator {
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 4vh;
+}
+
+$breakpoint-sp: 400px;
+@media (max-width: $breakpoint-sp) {
+  .modal-window {
+    width: 80vw;
+    height: 70vh;
+  }
 }

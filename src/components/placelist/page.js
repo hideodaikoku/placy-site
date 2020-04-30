@@ -3,7 +3,7 @@ import { Provider } from "react-redux";
 import store from "./redux/store";
 import Hero from "./hero";
 import Listings from "./listings";
-import Modal from "./createListingModal";
+import Modal from "./modal";
 import style from "../../styles/placelist.module.scss";
 
 export const Page = () => {

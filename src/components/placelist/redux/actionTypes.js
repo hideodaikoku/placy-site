@@ -1,8 +1,10 @@
 export const OPEN_MODAL = "OPEN_MODAL";
 export const CLOSE_MODAL = "CLOSE_MODAL";
+export const SET_PAGE = "SET_PAGE";
 export const ADD_USERNAME = "ADD_USERNAME";
 export const ADD_STORENAME = "ADD_STORENAME";
 export const ADD_SPOTIFY_LINK = "ADD_SPOTIFY_LINK";
 export const ADD_ACTION_TYPE = "ADD_ACTION_TYPE";
 export const ADD_ACTION_LINK = "ADD_ACTION_LINK";
 export const ADD_STORE_IMAGE = "ADD_STORE_IMAGE";
+export const SUBMIT_LISTING = "SUBMIT_LISTING";

@@ -1,0 +1,40 @@
+.card {
+  width: 80%;
+  height: 40%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-title {
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 1rem;
+}
+
+.section-description {
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+$error-color: #e50012;
+// error font 游ゴシックMedium
+
+.input-field {
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
+  font-weight: 400;
+  font-size: 0.7rem;
+  width: 80%;
+}
+
+.file-selector {
+}
+
+.dropdown {
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}

@@ -18,6 +18,11 @@ const Hero = ({ openModal }) => {
     }
   `);
 
+  const isSSR = typeof window === "undefined";
+  if (isSSR) {
+    return <div></div>;
+  }
+
   return (
     <div className={heroStyles.container}>
       <h1 className={heroStyles.title}>Place List</h1>
@@ -46,7 +51,10 @@ const Hero = ({ openModal }) => {
         </p>
         <p>それでは、作成してみましょう。</p>
       </div>
-      <button className={heroStyles.toModal} onClick={openModal}>
+      <button
+        className={heroStyles.toModal}
+        onClick={() => openModal(window.scrollY)}
+      >
         <span className={heroStyles.buttonText}>Create PlaceList</span>
       </button>
     </div>

@@ -7,11 +7,13 @@ import {
   ADD_ACTION_TYPE,
   ADD_ACTION_LINK,
   CLOSE_MODAL,
+  SUBMIT_LISTING,
+  SET_PAGE,
 } from "./actionTypes";
 
-export const openModal = () => ({
+export const openModal = (scrollY) => ({
   type: OPEN_MODAL,
-  payload: {},
+  payload: { scrollY },
 });
 
 export const closeModal = () => ({
@@ -40,13 +42,23 @@ export const addSpotifyLink = (spotifyUrl) => ({
   },
 });
 
-export const addStoreImage = (file, image) => ({
-  type: ADD_STORE_IMAGE,
-  payload: {
-    filename: file,
-    image,
-  },
-});
+export const addStoreImage = (fileList) => {
+  let filename = "";
+  const file = fileList[0];
+  if (!file) {
+    console.log("no file");
+  } else {
+    filename = file.name;
+  }
+
+  return {
+    type: ADD_STORE_IMAGE,
+    payload: {
+      filename,
+      image: file,
+    },
+  };
+};
 
 export const addActionType = (actionType) => ({
   type: ADD_ACTION_TYPE,
@@ -60,4 +72,16 @@ export const addActionLink = (actionUrl) => ({
   payload: {
     actionUrl,
   },
+});
+
+export const setPage = (toPage) => ({
+  type: SET_PAGE,
+  payload: {
+    nextPage: toPage,
+  },
+});
+
+export const submitListing = () => ({
+  type: SUBMIT_LISTING,
+  payload: {},
 });
