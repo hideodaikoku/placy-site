@@ -9,8 +9,8 @@ import style from "../../styles/placelist.module.scss";
 export const Page = () => {
   return (
     <Provider store={store}>
-      <Modal></Modal>
       <Hero />
+      <Modal></Modal>
       <hr className={style.spacingBar} />
       <Listings />
     </Provider>

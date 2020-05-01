@@ -26,6 +26,7 @@ const Modal = ({
   if (isSSR) {
     return <div className={containerClass}></div>;
   }
+
   if (open) {
     document.body.style.top = `-${scrollY}px`;
     document.body.style.position = "fixed";
@@ -44,10 +45,28 @@ const Modal = ({
           closeModal();
         }
       }}
+      onKeyDown={(e) => {
+        if (e.keyCode === 27 /* escape */) {
+          closeModal();
+        }
+      }}
+      role="dialog"
+      ariaLabel="close modal"
     >
       <div className={style.modalWindow}>
-        <div className={style.contents}>
-          <div className={style.modalCloseButton} onClick={closeModal}></div>
+        <button
+          className={style.modalCloseButton}
+          onClick={closeModal}
+        ></button>
+        <div
+          className={style.contents}
+          onKeyDown={(e) => {
+            const enter = 13;
+            if (e.keyCode === enter) {
+              setPage(page + 1);
+            }
+          }}
+        >
           <h2 className={style.modalTitle}>
             Create <br /> Place List
           </h2>

@@ -38,3 +38,14 @@ $error-color: #e50012;
   font-weight: 400;
   font-size: 1rem;
 }
+
+$breakpoint-sp: 450px;
+@media (max-width: $breakpoint-sp) {
+  .section-title {
+    font-size: 0.8rem;
+  }
+
+  .section-description {
+    font-size: 0.7rem;
+  }
+}
