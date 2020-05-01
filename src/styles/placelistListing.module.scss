@@ -43,9 +43,11 @@ $widget-height: 8vh;
   height: 100%;
 }
 
-a.no-decorate {
+a:visited,
+a {
   text-decoration: none;
   cursor: pointer;
+  color: inherit;
 }
 
 .storeName {
@@ -81,7 +83,24 @@ $spacing: 10px;
 }
 
 .online {
-  background-color: #a4bddd;
+  background-color: #92cafc;
+}
+
+.crowdfunding,
+.donation {
+  background-color: #fff080;
+}
+
+.advance {
+  background-color: #87f496;
+}
+
+.other {
+  background-color: #e9ccff;
+}
+
+.none {
+  display: none;
 }
 
 $breakpoint-sp: 400px;

@@ -1,10 +1,18 @@
 import React, { useRef } from "react";
 import { connect } from "react-redux";
 import style from "../../styles/placelistModal.module.scss";
-import { closeModal, setPage } from "./redux/actions";
+import { closeModal, setPage, submitListing } from "./redux/actions";
 import ModalCard from "./modalcard";
 
-const Modal = ({ open, closeModal, page, setPage, scrollY }) => {
+const Modal = ({
+  open,
+  closeModal,
+  page,
+  setPage,
+  scrollY,
+  submitListing,
+  sendingListing,
+}) => {
   const containerClass = !!open ? style.showContainer : style.hideContainer;
 
   const modalContainer = useRef(null);
@@ -44,17 +52,28 @@ const Modal = ({ open, closeModal, page, setPage, scrollY }) => {
             Create <br /> Place List
           </h2>
           <ModalCard />
-          <div
-            className={style.arrowBox}
-            onClick={() => {
-              setPage(page + 1);
-            }}
-          >
-            <span className={style.bar}></span>
-            <span className={style.head}></span>
-          </div>
+          {page === 7 ? (
+            <button
+              className={style.submit}
+              onClick={submitListing}
+              disabled={sendingListing}
+            >
+              {sendingListing ? "Sending..." : "Submit"}
+            </button>
+          ) : (
+            <button
+              className={style.arrowBox}
+              onClick={() => {
+                setPage(page + 1);
+              }}
+            >
+              <span className={style.bar}></span>
+              <span className={style.head}></span>
+            </button>
+          )}
+
           <div className={style.pageIndicator}>
-            <span>{page}</span> / <span>6</span>
+            <span>{page}</span> / <span>7</span>
           </div>
         </div>
       </div>
@@ -68,8 +87,9 @@ const mapStateToProps = (state, ownProps) => {
     open: state.modal.open,
     page: state.modal.page,
     scrollY: state.modal.scrollY,
+    sendingListing: state.newListing.sendingListing,
   };
 };
-const mapDispatchToProps = { closeModal, setPage };
+const mapDispatchToProps = { closeModal, setPage, submitListing };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Modal);

@@ -1,0 +1,6 @@
+[[redirects]]
+    from = "/api"
+    to = "http://placelistapi.ap-northeast-1.elasticbeanstalk.com/api"
+    status = 200
+    force = true
+    

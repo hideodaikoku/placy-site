@@ -7,9 +7,22 @@ import {
   ADD_ACTION_TYPE,
   ADD_ACTION_LINK,
   CLOSE_MODAL,
-  SUBMIT_LISTING,
+  BEGIN_SUBMIT_LISTING,
+  OK_SUBMIT_LISTING,
+  ERR_SUBMIT_LISTING,
   SET_PAGE,
+  ADD_STORE_MAPS_URL,
+  BEGIN_SEND_STORE_IMAGE,
+  OK_SEND_STORE_IMAGE,
+  ERR_SEND_STORE_IMAGE,
+  BEGIN_GET_LISTINGS,
+  OK_GET_LISTINGS,
+  ERR_GET_LISTINGS,
 } from "./actionTypes";
+import FormData from "form-data";
+
+const apiUrl =
+  process.env.NODE_ENV === "development" ? "http://localhost:8080/api" : "/api";
 
 export const openModal = (scrollY) => ({
   type: OPEN_MODAL,
@@ -42,21 +55,63 @@ export const addSpotifyLink = (spotifyUrl) => ({
   },
 });
 
-export const addStoreImage = (fileList) => {
-  let filename = "";
-  const file = fileList[0];
-  if (!file) {
-    console.log("no file");
-  } else {
-    filename = file.name;
-  }
+export const addStoreMapsUrl = (mapsUrl) => ({
+  type: ADD_STORE_MAPS_URL,
+  payload: {
+    mapsUrl,
+  },
+});
 
-  return {
-    type: ADD_STORE_IMAGE,
-    payload: {
-      filename,
-      image: file,
-    },
+export const addStoreImage = (fileList) => {
+  return (dispatch, _, axios) => {
+    let filename = "";
+    const file = fileList[0];
+    if (!file) {
+      return;
+    }
+    filename = file.name;
+    dispatch({
+      type: ADD_STORE_IMAGE,
+      payload: {
+        filename,
+        image: file,
+      },
+    });
+
+    let data = new FormData();
+    data.append("storeImage", file, file.filename);
+
+    dispatch({
+      type: BEGIN_SEND_STORE_IMAGE,
+      payload: {},
+    });
+
+    axios
+      .post(`${apiUrl}/listing/image`, data, {
+        headers: {
+          accept: "application/json",
+          "Accept-Language": "en-US,en;q=0.8",
+          "Content-Type": `multipart/form-data; boundary=${data._boundary}`,
+        },
+      })
+      .then((res) => {
+        console.log(res.data);
+
+        dispatch({
+          type: OK_SEND_STORE_IMAGE,
+          payload: {
+            imageUrl: res.data.cdnUrl,
+          },
+        });
+      })
+      .catch((err) => {
+        dispatch({
+          type: ERR_SEND_STORE_IMAGE,
+          payload: {
+            err,
+          },
+        });
+      });
   };
 };
 
@@ -81,7 +136,71 @@ export const setPage = (toPage) => ({
   },
 });
 
-export const submitListing = () => ({
-  type: SUBMIT_LISTING,
-  payload: {},
-});
+export const submitListing = () => {
+  return (dispatch, getState, axios) => {
+    // check valid state
+
+    // begin request
+    dispatch({
+      type: BEGIN_SUBMIT_LISTING,
+      payload: {},
+    });
+
+    const state = getState().newListing;
+
+    const requestParams = {
+      storeName: state.storeName,
+      spotifyPlaylist: state.spotifyUrl,
+      actionType: state.actionType,
+      actionUrl: state.actionUrl,
+      storeMapsUrl: state.storeMapsUrl,
+      userName: state.username,
+      storeImageUrl: state.storeImageUrl,
+      // descriptionText: "",
+    };
+    // process request
+    axios
+      .post(`${apiUrl}/listing`, requestParams)
+      .then((res) => {
+        console.log(res.data);
+        dispatch({
+          type: OK_SUBMIT_LISTING,
+          payload: {},
+        });
+        dispatch({
+          type: CLOSE_MODAL,
+          payload: {},
+        });
+      })
+      .catch((err) => {
+        dispatch({
+          type: ERR_SUBMIT_LISTING,
+          payload: { err },
+        });
+      });
+  };
+};
+
+export const getListings = () => {
+  return (dispatch, _, axios) => {
+    dispatch({
+      type: BEGIN_GET_LISTINGS,
+      payload: {},
+    });
+
+    axios
+      .get(`${apiUrl}/listings`)
+      .then((res) => {
+        console.log(res.data);
+        dispatch({
+          type: OK_GET_LISTINGS,
+          payload: {
+            listings: res.data,
+          },
+        });
+      })
+      .catch((err) => {
+        dispatch({ type: ERR_GET_LISTINGS, payload: { err } });
+      });
+  };
+};

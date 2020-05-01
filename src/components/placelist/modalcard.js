@@ -9,15 +9,27 @@ import {
   addSpotifyLink,
   addActionType,
   addActionLink,
+  addStoreMapsUrl,
 } from "./redux/actions";
 
 const ModalCard = ({
+  // state
   page,
   username,
+  storeImageName,
+  storeMapsUrl,
+  storeName,
+  actionType,
+  actionUrl,
+  spotifyUrl,
+  // actions
   addUsername,
   addStoreName,
   addStoreImage,
   addSpotifyLink,
+  addActionType,
+  addActionLink,
+  addStoreMapsUrl,
 }) => {
   const addUserModal = (
     <div>
@@ -30,6 +42,8 @@ const ModalCard = ({
         type="input"
         key="username"
         placeholder="@sp4ghet"
+        // https://github.com/redux-form/redux-form/issues/735#issuecomment-196368772
+        value={username || ""}
         onChange={(e) => addUsername(e.target.value)}
       />
     </div>
@@ -45,6 +59,7 @@ const ModalCard = ({
         key="storeName"
         className={style.inputField}
         type="input"
+        value={storeName || ""}
         placeholder="The Miracle of Science Bar & Grill"
         onChange={(e) => addStoreName(e.target.value)}
       />
@@ -62,6 +77,8 @@ const ModalCard = ({
         className={style.inputField}
         type="input"
         key="spotifyUrl"
+        placeholder="https://open.spotify.com/playlist/6b8ngrtdesYwGay2faDzWd"
+        value={spotifyUrl || ""}
         onChange={(e) => addSpotifyLink(e.target.value)}
       />
     </div>
@@ -76,12 +93,11 @@ const ModalCard = ({
       <select
         className={style.dropdown}
         form="newListing"
-        autoFocus
-        defaultValue="default"
         key="actionType"
-        onChange={(e) => addActionType(e.target.value)}
+        onBlur={(e) => addActionType(e.target.value)}
+        defaultValue={actionType || "default"}
       >
-        <option disabled="disabled" value="default">
+        <option disabled value="default">
           取り組みの種類
         </option>
         <option value="takeout">Takeout</option>
@@ -103,6 +119,8 @@ const ModalCard = ({
         className={style.inputField}
         type="input"
         key="actionUrl"
+        placeholder="http://www.miracleofscience.us/index.php"
+        value={actionUrl || ""}
         onChange={(e) => addActionLink(e.target.value)}
       />
     </div>
@@ -124,6 +142,21 @@ const ModalCard = ({
     </div>
   );
 
+  const addStoreMapsModal = (
+    <div>
+      <p className={style.sectionTitle}>お店のGoogle Maps リンク</p>
+      <p className={style.sectionDescription}>
+        お店のGoogle Mapsリンクを貼ってください。
+      </p>
+      <input
+        className={style.inputField}
+        placeholder="https://g.page/miracleofscience?share"
+        value={storeMapsUrl || ""}
+        onChange={(e) => addStoreMapsUrl(e.target.value)}
+      ></input>
+    </div>
+  );
+
   let body = <div></div>;
   switch (page) {
     case 1:
@@ -141,11 +174,14 @@ const ModalCard = ({
     case 5:
       body = addActionLinkModal;
       break;
-    default:
-      body = <div></div>;
-      break;
     case 6:
       body = addSpotifyModal;
+      break;
+    case 7:
+      body = addStoreMapsModal;
+      break;
+    default:
+      body = <div></div>;
       break;
   }
 
@@ -155,6 +191,12 @@ const ModalCard = ({
 const mapStateToProps = (state) => ({
   page: state.modal.page,
   username: state.newListing.username,
+  storeName: state.newListing.storeName,
+  actionType: state.newListing.actionType,
+  actionUrl: state.newListing.actionUrl,
+  spotifyUrl: state.newListing.spotifyUrl,
+  storeImageName: state.newListing.storeImageName,
+  storeMapsUrl: state.newListing.storeMapsUrl,
 });
 
 const mapDispatchToProps = {
@@ -162,6 +204,9 @@ const mapDispatchToProps = {
   addStoreName,
   addSpotifyLink,
   addStoreImage,
+  addActionType,
+  addActionLink,
+  addStoreMapsUrl,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(ModalCard);

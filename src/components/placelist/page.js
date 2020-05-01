@@ -12,7 +12,7 @@ export const Page = () => {
       <Modal></Modal>
       <Hero />
       <hr className={style.spacingBar} />
-      <Listings></Listings>
+      <Listings />
     </Provider>
   );
 };

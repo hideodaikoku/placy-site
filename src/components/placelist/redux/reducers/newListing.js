@@ -5,17 +5,29 @@ import {
   ADD_ACTION_LINK,
   ADD_ACTION_TYPE,
   ADD_STORE_IMAGE,
-  SUBMIT_LISTING,
+  BEGIN_SUBMIT_LISTING,
+  OK_SUBMIT_LISTING,
+  ERR_SUBMIT_LISTING,
+  BEGIN_SEND_STORE_IMAGE,
+  OK_SEND_STORE_IMAGE,
+  ERR_SEND_STORE_IMAGE,
+  ADD_STORE_MAPS_URL,
 } from "../actionTypes";
 
 const initialState = {
-  username: "",
-  storeName: "",
+  username: null,
+  storeName: null,
   storeImage: null,
-  storeImageName: "",
-  spotifyUrl: "",
-  actionType: "",
-  actionUrl: "",
+  storeImageName: null,
+  storeMapsUrl: null,
+  spotifyUrl: null,
+  actionType: null,
+  actionUrl: null,
+  storeImageUrl: null,
+  sendingImage: false,
+  errSendingImage: null,
+  sendingListing: false,
+  errSendingForm: null,
 };
 
 export default (state = initialState, action) => {
@@ -30,14 +42,39 @@ export default (state = initialState, action) => {
       return {
         ...state,
         storeImage: action.payload.image,
-        storeImageName: action.payload.fileName,
+        storeImageName: action.payload.filename,
       };
+    case ADD_STORE_MAPS_URL:
+      return { ...state, storeMapsUrl: action.payload.mapsUrl };
     case ADD_ACTION_TYPE:
       return { ...state, actionType: action.payload.actionType };
     case ADD_ACTION_LINK:
       return { ...state, actionUrl: action.payload.actionUrl };
-    case SUBMIT_LISTING:
-      return { ...state };
+    case BEGIN_SEND_STORE_IMAGE:
+      return { ...state, sendingImage: true };
+    case OK_SEND_STORE_IMAGE:
+      return {
+        ...state,
+        storeImageUrl: action.payload.imageUrl,
+        sendingImage: false,
+      };
+    case ERR_SEND_STORE_IMAGE:
+      return {
+        ...state,
+        sendingImage: false,
+        errSendingImage: action.payload.err,
+      };
+    case BEGIN_SUBMIT_LISTING:
+      return { ...state, sendingListing: true };
+    case OK_SUBMIT_LISTING:
+      return { ...initialState, sendingListing: false };
+    case ERR_SUBMIT_LISTING:
+      return {
+        ...state,
+        sendingListing: false,
+        errSendingForm: action.payload.err,
+      };
+    default:
+      return state;
   }
-  return state;
 };

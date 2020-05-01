@@ -2,6 +2,12 @@
   position: fixed;
 }
 
+button {
+  border-width: 0;
+  background: none;
+  padding: 0;
+}
+
 $button-size: 30px;
 .modal-close-button {
   position: absolute;
@@ -102,6 +108,19 @@ $button-size: 30px;
   font-family: Futura, "Futura", sans-serif;
 }
 
+.submit {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  width: 10vw;
+  cursor: pointer;
+}
+
+.submit:disabled {
+  background-color: #aaa;
+  color: #eee;
+}
+
 .arrow-box {
   width: 20%;
   max-width: 150px;
@@ -109,7 +128,7 @@ $button-size: 30px;
   display: flex;
   align-items: center;
   position: absolute;
-  bottom: 0;
+  bottom: 8vh;
   cursor: pointer;
 }
 
@@ -137,10 +156,14 @@ $head-size: 10px;
   margin-bottom: 4vh;
 }
 
-$breakpoint-sp: 400px;
+$breakpoint-sp: 450px;
 @media (max-width: $breakpoint-sp) {
   .modal-window {
     width: 80vw;
     height: 70vh;
+  }
+
+  .modal-title {
+    margin-top: 8vh;
   }
 }
