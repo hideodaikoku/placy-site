@@ -20,7 +20,7 @@ const Hero = ({ openModal }) => {
 
   const isSSR = typeof window === "undefined";
   if (isSSR) {
-    return <div></div>;
+    return <div className={heroStyles.container}></div>;
   }
 
   return (
