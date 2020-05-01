@@ -26,6 +26,20 @@ const QuarantineTop = () => {
             <br/><br/>
             Cities across the world are establishing unique initiatives and projects to combat the effects of this situation; and by exploring each city's approach, perhaps we can gain a glimpse of our post quarantine world.
             </p>
+
+            <div className={quarantineTopStyles.diagram}>
+                <div className={quarantineTopStyles.box}>
+                    1st Stage: Collated articles from each country | Description of how things are now
+                </div>
+                <div className={quarantineTopStyles.arrow}>&#8595;</div>
+                <div className={quarantineTopStyles.box}>
+                    2nd Stage: Online Conference | Aspirations for how things should be
+                </div>
+                <div className={quarantineTopStyles.arrow}>&#8595;</div>
+                <div className={quarantineTopStyles.box}>
+                    3rd Stage: Proposing an actionable plan to municipal governments
+                </div>
+            </div>
         </div>
     )
 }

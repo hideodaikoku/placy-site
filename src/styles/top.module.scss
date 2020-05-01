@@ -1,46 +1,44 @@
 .container{
     display: flex;
     border-bottom: 1px solid black;
+    .top-container{
+        margin-top: 8rem;
+        padding-bottom: 8rem;
+        position: relative;
+        padding-left: 5rem;
+        width: 58%;
+        .title-text{
+            font-family: Roc Grotesk, "roc-grotesk", sans-serif;
+            font-weight: 600;
+            font-size: 2rem;
+            margin-bottom: 5rem;
+        }
+        
+        .title-para{
+            font-family: Helvetica Neue, Helvetica, Arial,sans-serif; 
+            font-weight: 700;
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
+    }
+    .right{
+        border-left: 1px solid black;
+        position: relative;
+        margin-left: auto;
+        width: 42%
+    }
 }
-
-.top-container{
-    margin-top: 8rem;
-    padding-bottom: 8rem;
-    position: relative;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    width: 58%
-}
-
-.title-text{
-    font-family: Roc Grotesk, "roc-grotesk", sans-serif;
-    font-weight: 600;
-    font-size: 2rem;
-    margin-bottom: 5rem;
-}
-
-.title-para{
-    font-family: Helvetica Neue, Helvetica, Arial,sans-serif; 
-    font-weight: 700;
-    font-size: 1.5rem;
-    line-height: 2rem;
-}
-
-.right{
-    border-left: 1px solid black;
-    position: relative;
-    margin-left: auto;
-    width: 42%
-}
-
 
 $breakpoint-tablet: 900px;
 @media (max-width: $breakpoint-tablet) {
-    .top-container{
-        margin-left: 3rem;
-        width: 100%;
-    }
-    .right{
-        display: none;
+    .container{
+        .top-container{
+            padding-left: 2rem;
+            padding-right: 2rem;
+            width: 100%;
+        }
+        .right{
+            display: none;
+        }
     }
 }

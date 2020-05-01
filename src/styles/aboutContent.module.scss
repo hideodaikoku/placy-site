@@ -18,12 +18,14 @@
             margin-left: auto;
             position: relative;
             border-left: 1px solid black;
+            padding-left: 3rem;
             padding-right: 3rem;
+            padding-top: 5rem;
             .title{
                 font-family: Roc Grotesk, "roc-grotesk", sans-serif;
                 font-size: 2rem;
                 font-weight: 600;
-                margin-left: 5rem;
+                margin-left: 3rem;
                 margin-right: 3rem;
                 margin-top: 30%;
                 max-width: 18rem;
@@ -31,8 +33,7 @@
         }
         .left-content{
             width: 58%;
-            padding-top: 8rem;
-            padding-bottom: 8rem;
+            padding-right: 3rem;
         }
         .right{
             width: 42%;
@@ -61,11 +62,10 @@ $breakpoint-tablet: 900px;
                 width: 100%;
                 order: 4;
                 height: 25rem;
-                margin-bottom: 3rem;
                 .img-container{
                     top: 0;
                     transform: translateY(0);
-                    margin: 1rem auto;
+                    margin: 0 auto;
                 }
             }
             .right-content{
@@ -73,17 +73,17 @@ $breakpoint-tablet: 900px;
                 margin-right: 0;
                 width: 100%;
                 order: 3;
-                padding-top: 10rem;
                 padding-bottom: 2rem;
                 .title{
                     margin-top: 0;
-                    margin-left: 3rem;
+                    margin-left: 2rem;
                 }
             }
             .left-content{
                 width: 100%;
                 padding: 0;
                 order: 1;
+                padding-right: 2rem;
             }
             .right{
                 width: 100%;

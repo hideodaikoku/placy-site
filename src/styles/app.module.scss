@@ -1,61 +1,58 @@
 .intro-container{
     display: flex;
     border-bottom: 1px solid black;
-}
+    .text-content{
+        margin: 8rem 0;
+        position: relative;
+        width: 58%;
+        padding-left: 5rem;
+        .title{
+            font-family: Roc Grotesk, "roc-grotesk", sans-serif;
+            font-weight: 600;
+            font-size: 2rem;
+            margin-bottom: 6rem;
+        }
 
-.text-content{
-    margin: 8rem 5rem;
-    position: relative;
-    width: 58%
-}
-.title{
-    font-family: Roc Grotesk, "roc-grotesk", sans-serif;
-    font-weight: 600;
-    font-size: 2rem;
-    margin-bottom: 6rem;
-}
-.desc{
-    font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif; 
-    font-weight: 700;
-    font-size: 1.2rem;
-    line-height: 2rem;
-}
-.button-container{
-    position: relative;
-    height: 3rem;
-}
-
-.button{
-    min-width: 7.6rem;
-    min-height: 2rem;
-    float: left;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-}
-
-.button>img{
-    height: 100%;
+        .desc{
+            font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif; 
+            font-weight: 700;
+            font-size: 1.2rem;
+            line-height: 2rem;
+        }
+        .button-container{
+            position: relative;
+            height: 3rem;
+            .button{
+                min-width: 7.6rem;
+                min-height: 2rem;
+                float: left;
+                margin-right: 1rem;
+                margin-bottom: 1rem;
+            }
+            .button>img{
+                height: 100%;
+            }
+        }
+    }
+    .right{
+        width: 42%;
+        margin-left: auto;
+        background-color: #bf96bf;
+        border-left: 1px solid black;
+        position: relative;
+        .img-container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 15rem;
+            transform: translate(-50%,-50%);
+            box-shadow: 1rem 1.5rem 2rem rgba(41, 41, 41, 0.858);
+        }
+    }
 }
 
 #android{
     width: 9rem;
-}
-
-.right{
-    width: 42%;
-    margin-left: auto;
-    background-color: #bf96bf;
-    border-left: 1px solid black;
-    position: relative;
-}
-
-.img-container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 15rem;
-    transform: translate(-50%,-50%);
-    box-shadow: 1rem 1.5rem 2rem rgba(41, 41, 41, 0.858);
 }
 
 
@@ -77,29 +74,28 @@ $breakpoint-tablet: 900px;
         display: inline-block;
         width: 100%;
         overflow: hidden;
+        .text-content{
+            padding-left: 2rem;
+            padding-right: 2rem;
+            width: 100%;
+            margin-left: 0;
+            .button-container{
+                clear:both;
+                display: inline-block;
+            }
+            
+        }
+        .right{
+            border-left: none;
+            height: 30rem;
+            margin: 0;
+            width: 100%;
+            border-top: 1px solid black;      
+            .img-container{
+                width: 15rem;
+            }
+        }
     }
-    .text-content{
-        padding-left: 3rem;
-        padding-right: 3rem;
-        width: 100%;
-        margin-left: 0;
-    }
-    .button-container{
-        position: relative;
-        height: 6rem;
-    }
-    .right{
-        border-left: none;
-        height: 30rem;
-        margin: 0;
-        width: 100%;
-        border-top: 1px solid black;
-    }
-    .button-container{
-        clear:both;
-        display: inline-block;
-    }
-    .img-container{
-        width: 15rem;
-    }
+    
+    
 }

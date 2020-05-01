@@ -12,8 +12,7 @@
         width: 58%;
         padding-top: 8rem;
         padding-bottom: 8rem;
-        margin-left: 5rem;
-        margin-right: 5rem;
+        padding-left: 5rem;
         .title{
             color: white;
             font-size: 1.2rem;
@@ -46,8 +45,7 @@
         width: 58%;
         padding-top: 8rem;
         padding-bottom: 8rem;
-        margin-left: 5rem;
-        margin-right: 5rem;
+        padding-left: 5rem;
     }
     .right-content{
         background-color: #f4f1ec;
@@ -91,8 +89,7 @@
         width: 58%;
         padding-top: 8rem;
         padding-bottom: 8rem;
-        margin-left: 5rem;
-        margin-right: 5rem;
+        padding-left: 5rem;
         .title{
             color: white;
             font-size: 2rem;
@@ -131,8 +128,8 @@ $breakpoint-tablet: 900px;
         .left-content{
             width: 100%;
             margin:0;
-            padding-left: 3rem;
-            padding-right: 3rem;  
+            padding-left: 2rem;
+            padding-right: 2rem;  
         }
         .right{
             display:none;
@@ -145,14 +142,20 @@ $breakpoint-tablet: 900px;
         }
         .right-content{
             width: 100%;    
+            margin-left:0;
+            padding-left: 2rem;
+            padding-right: 2rem;
             border-left: none;
-            margin:0;
-             
-            .text{
+            .title{
                 line-height: 1.8;
+                margin: 0;
+                margin-bottom: 1.45rem;
+            }
+            .link{
+                margin: 0;
             }
             .wired-image{
-                margin: 3rem auto;
+                margin: 3rem 0;
             }
         }
     }
@@ -163,8 +166,11 @@ $breakpoint-tablet: 900px;
         .left-content{
             width: 100%;
             margin: 0;
-            padding-left: 3rem;
-            padding-right: 3rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            .computer{
+                width: 15rem;
+            }
         }
         .right{
             display:none;
