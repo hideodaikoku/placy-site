@@ -191,7 +191,6 @@ export const getListings = () => {
     axios
       .get(`${apiUrl}/listings`)
       .then((res) => {
-        console.log(res.data);
         dispatch({
           type: OK_GET_LISTINGS,
           payload: {

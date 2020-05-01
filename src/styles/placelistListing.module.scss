@@ -32,6 +32,7 @@ $widget-height: 8vh;
   padding-bottom: 80px; // to avoid re-rendering on load due to resize
   overflow: hidden;
   max-width: 100%;
+  border: solid 4px black;
 }
 .embed-container iframe,
 .embed-container object,
@@ -56,7 +57,7 @@ a {
 
   font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .username {
   margin: 0;
@@ -69,17 +70,20 @@ a {
 
 $spacing: 10px;
 .action-type {
-  width: 35%;
-  text-align: center;
   margin-top: $spacing;
-  display: inline-grid;
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+  padding: 0 10px 0 10px;
   font-family: Helvetica, "Helvetica", Helvetica Neue, "Helvetica Neue",
     sans-serif;
   font-weight: 400;
 }
 .action-type a {
   font-size: 0.8333rem;
-  line-height: 120%;
+  height: fit-content;
+  line-height: 100%;
+  letter-spacing: 0.1em;
 }
 
 .online {
@@ -103,7 +107,27 @@ $spacing: 10px;
   display: none;
 }
 
-$breakpoint-sp: 400px;
+$breakpoint-tablet: 800px;
+@media (max-width: $breakpoint-tablet) {
+  $card-width: 35vw;
+  .card {
+    width: $card-width;
+    margin: 0 0 50px 0;
+  }
+
+  .storeImageButton {
+    @include storeImage($card-width);
+  }
+
+  .storeName {
+    font-size: 1.25rem;
+  }
+  .username {
+    font-size: 0.833rem;
+  }
+}
+
+$breakpoint-sp: 450px;
 @media (max-width: $breakpoint-sp) {
   $card-width: 80vw;
   .card {

@@ -28,12 +28,13 @@ const ListingCard = (props) => {
       actionTypeStyle = style.advance;
       break;
     case "online":
-      actionTypeString = "online ticket";
+      actionTypeString = "online store";
       actionTypeStyle = style.online;
       break;
     case "other":
       actionTypeString = "other";
       actionTypeStyle = style.other;
+      break;
     default:
       break;
   }
@@ -48,6 +49,7 @@ const ListingCard = (props) => {
 
       <div className={style.embedContainer}>
         <iframe
+          title={spotifyPlaylist}
           src={`https://open.spotify.com/embed/playlist/${spotifyPlaylist}`}
           frameBorder="0"
           allowtransparency="true"

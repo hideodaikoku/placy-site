@@ -13,7 +13,6 @@ class Listings extends React.Component {
   }
 
   componentDidMount() {
-    console.log(this.getListings);
     this.getListings();
   }
 
