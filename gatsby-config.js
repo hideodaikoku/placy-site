@@ -1,6 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: "Placy | Find Your Rhythm",
+    title: "Placy",
+    titleTemplate: "%s | Find Your Rhythm",
+    description:"We are Placy,a company creating alternative place search engine.",
+    url: "https://placy.city", // No trailing slash allowed!
+    image: "/images/placy.jpg", // Path to your image you placed in the 'static' folder
+    twitterUsername: "@placy_city",
     author: "Hideo Daikoku"
   },
   plugins: [
