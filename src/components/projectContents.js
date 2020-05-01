@@ -75,7 +75,7 @@ const ProjectContents =()=>{
     return(
         <div className={projectContentstyles.container}>
             <div className={projectContentstyles.row}>
-                <div className={projectContentstyles.leftContent}>
+                <div className={projectContentstyles.pqrContent}>
                     <h1 className={projectContentstyles.title}>
                         Post-Quarantine Urbanism<br/>
                     </h1>

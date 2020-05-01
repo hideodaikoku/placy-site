@@ -20,14 +20,11 @@
             border-left: 1px solid black;
             padding-left: 3rem;
             padding-right: 3rem;
-            padding-top: 5rem;
+            padding-top: 3rem;
             .title{
                 font-family: Roc Grotesk, "roc-grotesk", sans-serif;
                 font-size: 2rem;
                 font-weight: 600;
-                margin-left: 3rem;
-                margin-right: 3rem;
-                margin-top: 30%;
                 max-width: 18rem;
             }
         }
@@ -73,7 +70,7 @@ $breakpoint-tablet: 900px;
                 margin-right: 0;
                 width: 100%;
                 order: 3;
-                padding-bottom: 2rem;
+                padding: 2rem 0;
                 .title{
                     margin-top: 0;
                     margin-left: 2rem;

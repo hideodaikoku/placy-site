@@ -49,6 +49,26 @@
                 }
             }
         }
+        .pqr-content{
+            width: 58%;
+            padding-left: 5rem;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+            .title{
+                font-family: Roc Grotesk,"roc-grotesk", sans-serif;
+                font-size: 2rem;
+                font-weight: 600;
+                margin-right: 3rem;
+                margin-top: 3rem;
+            }
+            .descTop{
+                width: 80%;
+            }
+            .desc{
+                padding-right: 5rem;
+                font-size: .9rem;
+            }
+        }
         .right{
             width: 42%;
             margin-left: auto;
@@ -177,11 +197,22 @@ $breakpoint-tablet: 900px;
             .left-content{
                 width:100%;
                 padding-left: 2rem;
+                
             }
             .right{
                 width: 100%;
                 border-left: none;
             }
+            .pqr-content{
+                width:100%;
+                padding-left: 2rem;
+                margin-top: 5rem;
+                margin-bottom: 3rem;
+                .title{
+                    margin-top: 0;
+                }
+            }
+            
         }
         .kenta{
         display: flex; 
