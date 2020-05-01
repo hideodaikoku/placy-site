@@ -27,6 +27,10 @@ const ListingCard = (props) => {
       actionTypeString = "advance ticket";
       actionTypeStyle = style.advance;
       break;
+    case "online":
+      actionTypeString = "online ticket";
+      actionTypeStyle = style.online;
+      break;
     case "other":
       actionTypeString = "other";
       actionTypeStyle = style.other;

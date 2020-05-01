@@ -100,11 +100,10 @@ const ModalCard = ({
         <option disabled value="default">
           取り組みの種類
         </option>
-        <option value="takeout">Takeout</option>
-        <option value="donation">Donation</option>
         <option value="advance">Advance Ticket</option>
         <option value="crowdfunding">Crowdfunding</option>
         <option value="online">Online Ticket</option>
+        <option value="other">Other (e.g. takeout, donation)</option>
       </select>
     </div>
   );
