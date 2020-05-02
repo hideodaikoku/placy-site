@@ -18,6 +18,9 @@ import {
   BEGIN_GET_LISTINGS,
   OK_GET_LISTINGS,
   ERR_GET_LISTINGS,
+  BEGIN_GET_LISTING,
+  OK_GET_LISTING,
+  ERR_GET_LISTING,
 } from "./actionTypes";
 import FormData from "form-data";
 
@@ -162,9 +165,11 @@ export const setPage = (toPage) => {
         if (!!listing.spotifyUrl && listing.err === null) break;
         dispatch({
           type: ADD_SPOTIFY_LINK,
-          payload: { spotifyUrl: state.spotifyUrl || "" },
+          payload: { spotifyUrl: listing.spotifyUrl || "" },
         });
         return;
+      default:
+        break;
     }
 
     dispatch({
@@ -240,6 +245,43 @@ export const getListings = () => {
       })
       .catch((err) => {
         dispatch({ type: ERR_GET_LISTINGS, payload: { err } });
+      });
+  };
+};
+
+export const getListing = (listingId) => {
+  return (dispatch, getState, axios) => {
+    const listings = getState().listings;
+    let listing = listings.listings.find((x) => x.uuid === listingId);
+    if (!!listing) {
+      dispatch({
+        type: OK_GET_LISTING,
+        payload: {
+          listing: listing,
+        },
+      });
+      return;
+    }
+
+    dispatch({ type: BEGIN_GET_LISTING, payload: {} });
+
+    axios
+      .get(`${apiUrl}/listing/${listingId}`)
+      .then((res) => {
+        dispatch({
+          type: OK_GET_LISTING,
+          payload: {
+            listing: res.data,
+          },
+        });
+      })
+      .catch((err) => {
+        dispatch({
+          type: ERR_GET_LISTING,
+          payload: {
+            err: err,
+          },
+        });
       });
   };
 };

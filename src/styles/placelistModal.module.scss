@@ -18,6 +18,9 @@ $button-size: 30px;
   height: $button-size;
   cursor: pointer;
 }
+.modal-close-button img {
+  margin-bottom: 0;
+}
 
 .hide-container {
   display: none;

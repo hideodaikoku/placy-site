@@ -1,0 +1,152 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.back-arrow {
+  margin-left: 3rem;
+  margin-top: 3rem;
+  width: 10%;
+  max-width: 50px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.back-arrow::after {
+  display: block;
+  background-color: black;
+  height: 2px;
+  width: 100%;
+  content: " ";
+}
+
+$head-size: 10px;
+.back-arrow::before {
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: $head-size solid transparent;
+  border-bottom: $head-size solid transparent;
+  border-right: $head-size solid black;
+  content: " ";
+}
+
+.title {
+  font-family: Helvetica Neue, "Helvetica Neue", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 5vh;
+}
+
+.main-content {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.store-image {
+  width: 50vh;
+  height: 50vh;
+  margin: 30px 30px 30px 30px;
+  object-fit: cover;
+}
+
+.embed-container {
+  position: relative;
+  flex-shrink: 10000;
+  min-height: 300px;
+  height: 50vh;
+  padding-bottom: 300px; // to avoid re-rendering on load due to resize
+  overflow: hidden;
+  width: 50vh;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a:visited,
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+$spacing: 10px;
+.action-type {
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+  padding: 0 10px 0 10px;
+  font-family: Helvetica Neue, "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+.action-type a {
+  font-size: 0.8333rem;
+  height: fit-content;
+  line-height: 100%;
+  letter-spacing: 0.1em;
+}
+
+.share-text {
+  font-family: Helvetica Neue, "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.share-icons {
+  min-width: 300px;
+  width: 15vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.share-icons img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.invisible {
+  position: fixed;
+  // we can't use diplay:none
+  // visibility: hidden
+  // width:0;height:0;
+  // because the browser will not let us copy text if the element is "invisible"
+  top: 105vh;
+}
+
+$breakpoint-tablet: 800px;
+@media (max-width: $breakpoint-tablet) {
+  .main-content {
+    flex-direction: column;
+    margin-bottom: 30px;
+    // margin-top: 30px;
+  }
+
+  .store-image {
+    width: 70vw;
+    height: 70vw;
+  }
+
+  .embed-container {
+    width: 70vw;
+  }
+  .back-arrow {
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+}

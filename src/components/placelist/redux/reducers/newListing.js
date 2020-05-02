@@ -38,7 +38,10 @@ export default (state = initialState, action) => {
       if (!action.payload.username) {
         return { ...state, username: "", err: "名前は空ではいけません" };
       }
-      return { ...state, username: action.payload.username, err: null };
+      if (action.payload.username[0] === "@") {
+        return { ...state, username: "", err: "名前は@で始まってはいけません" };
+      }
+      return { ...state, username: action.payload.username.trim(), err: null };
     case ADD_STORENAME:
       if (!action.payload.storeName) {
         return { ...state, storeName: "", err: "お店の名前は空ではいけません" };

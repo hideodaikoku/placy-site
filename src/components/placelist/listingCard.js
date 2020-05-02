@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "@reach/router";
 import style from "../../styles/placelistListing.module.scss";
 
 const ListingCard = (props) => {
@@ -39,13 +40,13 @@ const ListingCard = (props) => {
       break;
   }
 
-  const storeUrl = `/${uuid}`;
+  const storeUrl = `${uuid}`;
 
   return (
     <div className={style.card}>
-      <a className={style.storeImageButton} href={storeUrl}>
+      <Link className={style.storeImageButton} to={storeUrl}>
         <img className={style.storeImage} alt={storeName} src={storeImageUrl} />
-      </a>
+      </Link>
 
       <div className={style.embedContainer}>
         <iframe
@@ -58,14 +59,14 @@ const ListingCard = (props) => {
       </div>
 
       <h3 className={style.storeName}>
-        <a className={style.noDecorate} href={storeUrl}>
+        <Link className={style.noDecorate} to={storeUrl}>
           {storeName}
-        </a>
+        </Link>
       </h3>
       <h4 className={style.username}>
-        <a className={style.noDecorate} href={storeUrl}>
-          {username}
-        </a>
+        <Link className={style.noDecorate} to={storeUrl}>
+          @{username}
+        </Link>
       </h4>
       <div className={`${style.actionType} ${actionTypeStyle}`}>
         <a className={style.noDecorate} href={actionUrl}>

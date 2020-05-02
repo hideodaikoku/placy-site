@@ -21,7 +21,6 @@
 }
 
 $error-color: #e50012;
-// error font 游ゴシックMedium
 
 .input-field {
   font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
@@ -63,7 +62,7 @@ $error-color: #e50012;
   font-weight: 400;
   font-size: 0.8rem;
   height: 1.8rem;
-  border: solid 2px black;
+  border: solid 1px black;
   border-radius: 0;
   display: inline-block;
 }
