@@ -6,7 +6,8 @@
 }
 
 .title {
-  margin: 50px 0 50px 0;
+  margin-top: 50px;
+  margin-bottom: 0;
   width: 80%;
   font-family: Futura, "futura", sans-serif;
   font-weight: bold;
@@ -15,8 +16,10 @@
 
 .image {
   min-width: 200px;
-  width: 30%;
+  width: 38vh;
   min-height: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .explanation {
@@ -27,12 +30,12 @@
 }
 
 .explanation p {
-  line-height: 1.8;
+  line-height: 2;
 }
 
 $button-height: 5vh;
 .to-modal {
-  min-width: 170px;
+  min-width: 200px;
   width: 15vw;
   background-color: #000;
   color: #fff;
@@ -46,6 +49,7 @@ $button-height: 5vh;
 .button-text {
   font-family: Helvetica Neue, "Helvetica Neue", sans-serif;
   font-weight: 500;
+  letter-spacing: 0.05rem;
 }
 
 $breakpoint-tablet: 900px;
@@ -58,7 +62,10 @@ $breakpoint-sp: 400px;
     font-size: 2.75rem;
   }
 
+  .explanation {
+    font-size: 0.72rem;
+  }
   .explanation p {
-    line-height: 1.45;
+    line-height: 2;
   }
 }
