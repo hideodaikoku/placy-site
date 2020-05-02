@@ -6,6 +6,6 @@
     
 [[redirects]]
     from = "/placelist/*"
-    to = "/placelist"
+    to = "/placelist/"
     status = 200
     force = true
