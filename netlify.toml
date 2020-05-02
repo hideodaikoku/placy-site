@@ -4,3 +4,8 @@
     status = 200
     force = true
     
+[[redirects]]
+    from = "/placelist/*"
+    to = "/placelist"
+    status = 200
+    force = true
