@@ -34,8 +34,8 @@ const CareerTopSection = () => {
             <div className={careertTopStyles.section}>
                 <div className={careertTopStyles.leftContent}>
                     <h1 className={careertTopStyles.title}>
-                    We identify underlying value<br/>
-                    of the space by uncovering<br/>
+                    We identify the underlying value<br/>
+                    of spaces by uncovering<br/>
                     unseen spatial parameters.
                     </h1>
                 </div>

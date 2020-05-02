@@ -52,14 +52,14 @@
 }
 
 .divider {
-  margin-left: 2rem;
+  margin-left: 1rem;
   font-style: oblique;
 }
 
 .nav {
   float: right;
   width: 42%;
-  padding: 3rem 5rem;
+  padding: 3rem 3rem;
   border-left: 1px solid black;
 }
 
@@ -67,6 +67,7 @@
   list-style-type: none;
   display: flex;
   margin: 0;
+  width: 100%;
 }
 
 .active-nav-item {
@@ -97,11 +98,10 @@
   padding-top: 3rem;
 }
 
-$breakpoint-large: 985px;
-
+$breakpoint-large: 1200px;
 @media (max-width: $breakpoint-large) {
   .nav {
-    padding: 1rem 3rem;
+    padding: 1rem 1rem;
     margin: 0 auto;
     border-left: none;
     float: none;
@@ -109,7 +109,7 @@ $breakpoint-large: 985px;
     width: 100vw;
   }
   .logo-area {
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     float: none;
     display: inline-block;
     width: 100vw;
