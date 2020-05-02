@@ -7,6 +7,7 @@ import cardStyle from "../../styles/placelistListing.module.scss";
 import twitter from "../../images/twitter.svg";
 import facebook from "../../images/facebook.svg";
 import shareLink from "../../images/shareLink.svg";
+import SEO from "../seo";
 
 class ListingPage extends React.Component {
   componentWillMount() {
@@ -68,11 +69,19 @@ class ListingPage extends React.Component {
     }
 
     return (
-      <SEO>
-        <Link to="/placelist" className={style.backArrow}></Link>
+      <div>
+        {" "}
+        <SEO
+          title={`${storeName}のプレイ(ス)リスト`}
+          description={`@${username}さんが作った${storeName}のプレイ(ス)リストを聴きましょう。`}
+        />
+        <Link to="/placelist" className={style.backButton}>
+          <span className={style.backArrow}></span>
+          <span>All Placelists</span>
+        </Link>
         <div className={style.container}>
           <h1 className={style.title}>
-            {storeName} @{username}
+            {storeName} | @{username}
           </h1>
           <div className={`${style.actionType} ${actionTypeStyle}`}>
             <a className={style.noDecorate} href={actionUrl} target="_blank">
@@ -122,7 +131,7 @@ class ListingPage extends React.Component {
             </a>
           </div>
         </div>
-      </SEO>
+      </div>
     );
   }
 }

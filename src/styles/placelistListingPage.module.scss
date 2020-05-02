@@ -6,12 +6,21 @@
   text-align: center;
 }
 
-.back-arrow {
+.back-button {
+  display: flex;
+  flex-direction: row;
   margin-left: 3rem;
   margin-top: 3rem;
-  width: 10%;
-  max-width: 50px;
-  height: 60px;
+  font-family: Helvetica Neue, "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+}
+
+.back-arrow {
+  width: 5%;
+  max-width: 30px;
+  margin-right: 0.5rem;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -25,7 +34,7 @@
   content: " ";
 }
 
-$head-size: 10px;
+$head-size: 0.4rem;
 .back-arrow::before {
   display: block;
   width: 0;
@@ -40,21 +49,41 @@ $head-size: 10px;
   font-family: Helvetica Neue, "Helvetica Neue", sans-serif;
   font-size: 2rem;
   font-weight: 500;
+  letter-spacing: 0.1rem;
   margin-top: 5vh;
 }
 
+$spacing: 10px;
+.action-type {
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+  padding: 0 10px 0 10px;
+  font-family: Helvetica Neue, "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+.action-type a {
+  font-size: 0.8333rem;
+  height: fit-content;
+  line-height: 100%;
+  letter-spacing: 0.1rem;
+}
+
+$vertical-space: 6vh;
 .main-content {
   width: 80vw;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  margin-top: $vertical-space;
+  margin-bottom: $vertical-space;
 }
 
 .store-image {
   width: 50vh;
   height: 50vh;
-  margin: 30px 30px 30px 30px;
+  margin: 0 30px 0 30px;
   object-fit: cover;
 }
 
@@ -84,26 +113,12 @@ a {
   color: inherit;
 }
 
-$spacing: 10px;
-.action-type {
-  display: inline-block;
-  width: fit-content;
-  height: fit-content;
-  padding: 0 10px 0 10px;
-  font-family: Helvetica Neue, "Helvetica Neue", sans-serif;
-  font-weight: 400;
-}
-.action-type a {
-  font-size: 0.8333rem;
-  height: fit-content;
-  line-height: 100%;
-  letter-spacing: 0.1em;
-}
-
 .share-text {
   font-family: Helvetica Neue, "Helvetica Neue", sans-serif;
   font-weight: 400;
   font-size: 1rem;
+  margin-bottom: 5px;
+  letter-spacing: 0.05rem;
 }
 
 .share-icons {
@@ -136,7 +151,9 @@ $breakpoint-tablet: 800px;
     margin-bottom: 30px;
     // margin-top: 30px;
   }
-
+  .title {
+    font-size: 1.6rem;
+  }
   .store-image {
     width: 70vw;
     height: 70vw;
@@ -145,7 +162,7 @@ $breakpoint-tablet: 800px;
   .embed-container {
     width: 70vw;
   }
-  .back-arrow {
+  .back-button {
     margin-left: 2rem;
     margin-top: 2rem;
   }

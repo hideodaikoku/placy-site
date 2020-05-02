@@ -41,12 +41,20 @@ export default (state = initialState, action) => {
       if (action.payload.username[0] === "@") {
         return { ...state, username: "", err: "名前は@で始まってはいけません" };
       }
-      return { ...state, username: action.payload.username.trim(), err: null };
+      return {
+        ...state,
+        username: action.payload.username.replace(/\s/g, ""),
+        err: null,
+      };
     case ADD_STORENAME:
       if (!action.payload.storeName) {
         return { ...state, storeName: "", err: "お店の名前は空ではいけません" };
       }
-      return { ...state, storeName: action.payload.storeName, err: null };
+      return {
+        ...state,
+        storeName: action.payload.storeName.replace(/\s/g, " "),
+        err: null,
+      };
     case ADD_SPOTIFY_LINK:
       const pattern = /.*open.spotify.com\/playlist\/([a-z,A-Z,0-9]+).*/;
       const spotifyPlaylistMatch = action.payload.spotifyUrl.match(pattern);
