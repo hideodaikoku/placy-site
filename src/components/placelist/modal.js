@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import style from "../../styles/placelistModal.module.scss";
 import { closeModal, setPage, submitListing } from "./redux/actions";
 import ModalCard from "./modalcard";
+import closeButton from "../../images/close.svg";
 
 const Modal = ({
   open,
@@ -53,10 +54,9 @@ const Modal = ({
       role="dialog"
     >
       <div className={style.modalWindow}>
-        <button
-          className={style.modalCloseButton}
-          onClick={closeModal}
-        ></button>
+        <button className={style.modalCloseButton} onClick={closeModal}>
+          <img src={closeButton} />
+        </button>
         <div
           className={style.contents}
           onKeyDown={(e) => {

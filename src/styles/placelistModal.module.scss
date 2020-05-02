@@ -14,32 +14,9 @@ $button-size: 30px;
   right: 0;
   margin-right: 2%;
   margin-top: 2%;
-  background-color: black;
   width: $button-size;
   height: $button-size;
-  border-radius: 100%;
-  text-align: center;
   cursor: pointer;
-}
-
-.modal-close-button::before,
-.modal-close-button::after {
-  position: absolute;
-  left: $button-size * 0.45;
-  top: $button-size * 0.25;
-  width: 2px;
-  height: $button-size * 0.5;
-
-  content: " ";
-  background-color: white;
-}
-
-.modal-close-button:before {
-  transform: rotateZ(-45deg);
-}
-
-.modal-close-button:after {
-  transform: rotateZ(45deg);
 }
 
 .hide-container {
@@ -117,6 +94,8 @@ $button-size: 30px;
   border-radius: 15px;
   width: 10vw;
   cursor: pointer;
+  font-family: Helvetica Neue, "Helvetica Neue", sans-serif;
+  font-weight: 500;
 }
 
 .submit:disabled {

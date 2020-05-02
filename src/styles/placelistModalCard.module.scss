@@ -43,12 +43,33 @@ $error-color: #e50012;
 
 .file-selector {
   width: 80%;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Helvetica Neue, "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+
+.image-name {
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
 }
 
 .dropdown {
   font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  height: 1.8rem;
+  border: solid 2px black;
+  border-radius: 0;
+  display: inline-block;
+}
+
+.default-select {
+  color: #aaa;
 }
 
 $breakpoint-sp: 450px;

@@ -32,12 +32,14 @@ class ModalCard extends React.Component {
       // state
       page,
       username,
-      // storeImageName,
+      storeImageName,
       storeMapsUrl,
       storeName,
       actionType,
       actionUrl,
       spotifyUrl,
+      uploadingImage,
+      storeImage,
       err,
       // actions
       addUsername,
@@ -141,8 +143,8 @@ class ModalCard extends React.Component {
             onChange={(e) => addActionType(e.target.value)}
             defaultValue={actionType || "default"}
           >
-            <option disabled value="default">
-              取り組みの種類
+            <option disabled value="default" className={style.defaultSelect}>
+              取り組みの種類を選択
             </option>
             <option value="advance">Advance Ticket</option>
             <option value="crowdfunding">Crowdfunding</option>
@@ -190,14 +192,21 @@ class ModalCard extends React.Component {
           <input
             ref={ref}
             required
-            className={style.fileSelector}
+            className={style.invisible}
             type="file"
             key="storeImage"
+            name="storeImage"
+            id="storeImage"
             accept=".png,.jpg,.jpeg,.png,image/*"
             onChange={(e) => addStoreImage(e.target.files)}
           />
-          <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
-            {err}
+          <label htmlFor="storeImage" className={style.fileSelector}>
+            画像を選択
+          </label>
+
+          <p className={`${!!err ? style.invalid : style.invisible}`}>{err}</p>
+          <p className={storeImageName ? style.imageName : style.invisible}>
+            {uploadingImage ? "アップロード中..." : storeImageName}
           </p>
         </div>
       );
@@ -215,7 +224,7 @@ class ModalCard extends React.Component {
             required
             type="url"
             className={style.inputField}
-            placeholder="https://g.page/miracleofscience?share"
+            placeholder="https://goo.gl/maps/EUeJhQK5gcsJGarK7"
             value={storeMapsUrl || ""}
             onChange={(e) => {
               addStoreMapsUrl(e.target.value);
@@ -274,6 +283,8 @@ const mapStateToProps = (state) => ({
   actionUrl: state.newListing.actionUrl,
   spotifyUrl: state.newListing.spotifyUrl,
   storeImageName: state.newListing.storeImageName,
+  storeImage: state.newListing.storeImage,
+  uploadingImage: state.newListing.sendingImage,
   storeMapsUrl: state.newListing.storeMapsUrl,
   open: state.modal.open,
   err: state.newListing.err,
