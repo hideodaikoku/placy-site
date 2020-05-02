@@ -82,7 +82,7 @@ class ModalCard extends React.Component {
         <div>
           <p className={style.sectionTitle}>お店の名前</p>
           <p className={style.sectionDescription}>
-            てきとうなもんごんをかんがえていないのでてきとうなもじれつをならべます
+            おなたの思い入れのあるお店はどこですか。
           </p>
           <input
             ref={ref}
@@ -187,7 +187,7 @@ class ModalCard extends React.Component {
         <div>
           <p className={style.sectionTitle}>お店のイメージ画</p>
           <p className={style.sectionDescription}>
-            とくべつなもんごんはないのでてきとうなもじれつを羅列します，画像をアップロードしてください。
+            お店の写真をアップロードしてください。
           </p>
           <input
             ref={ref}

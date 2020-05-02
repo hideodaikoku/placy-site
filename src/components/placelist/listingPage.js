@@ -21,7 +21,15 @@ class ListingPage extends React.Component {
       return <div>{err.message}</div>;
     }
     if (fetching || !listing) {
-      return <div> loading... </div>;
+      return (
+        <div>
+          <SEO
+            title={`プレイ(ス)リスト`}
+            description={`プレイ(ス)リストを聴きましょう。`}
+          />
+          loading...
+        </div>
+      );
     }
 
     const {
