@@ -95,8 +95,6 @@ export const addStoreImage = (fileList) => {
         },
       })
       .then((res) => {
-        console.log(res.data);
-
         dispatch({
           type: OK_SEND_STORE_IMAGE,
           payload: {
@@ -129,12 +127,54 @@ export const addActionLink = (actionUrl) => ({
   },
 });
 
-export const setPage = (toPage) => ({
-  type: SET_PAGE,
-  payload: {
-    nextPage: toPage,
-  },
-});
+export const setPage = (toPage) => {
+  return (dispatch, getState) => {
+    const state = getState();
+    const listing = state.newListing;
+    switch (state.modal.page) {
+      // username
+      case 1:
+        if (!!listing.username) break;
+        dispatch({
+          type: ADD_USERNAME,
+          payload: {
+            username: "",
+          },
+        });
+        return;
+      case 2:
+        if (!!listing.storeName) break;
+        dispatch({ type: ADD_STORENAME, payload: { storeName: "" } });
+        return;
+      case 3:
+        if (!!listing.storeImageName) break;
+        dispatch({ type: ADD_STORE_IMAGE, payload: {} });
+        return;
+      case 4:
+        if (!!listing.actionType) break;
+        dispatch({ type: ADD_ACTION_TYPE, payload: { actionType: "default" } });
+        return;
+      case 5:
+        if (!!listing.actionUrl || listing.actionType === "none") break;
+        dispatch({ type: ADD_ACTION_LINK, payload: { actionUrl: "" } });
+        return;
+      case 6:
+        if (!!listing.spotifyUrl && listing.err === null) break;
+        dispatch({
+          type: ADD_SPOTIFY_LINK,
+          payload: { spotifyUrl: state.spotifyUrl || "" },
+        });
+        return;
+    }
+
+    dispatch({
+      type: SET_PAGE,
+      payload: {
+        nextPage: toPage,
+      },
+    });
+  };
+};
 
 export const submitListing = () => {
   return (dispatch, getState, axios) => {

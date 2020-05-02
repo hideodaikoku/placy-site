@@ -30,7 +30,19 @@ $error-color: #e50012;
   width: 80%;
 }
 
+.invalid {
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
+  font-weight: 400;
+  font-size: 0.7rem;
+  color: $error-color;
+}
+
+.invisible {
+  display: none;
+}
+
 .file-selector {
+  width: 80%;
 }
 
 .dropdown {

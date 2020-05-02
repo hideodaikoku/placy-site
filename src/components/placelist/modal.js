@@ -51,7 +51,6 @@ const Modal = ({
         }
       }}
       role="dialog"
-      ariaLabel="close modal"
     >
       <div className={style.modalWindow}>
         <button

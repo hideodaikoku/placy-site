@@ -12,6 +12,7 @@ import {
   OK_SEND_STORE_IMAGE,
   ERR_SEND_STORE_IMAGE,
   ADD_STORE_MAPS_URL,
+  SET_PAGE,
 } from "../actionTypes";
 
 const initialState = {
@@ -28,28 +29,72 @@ const initialState = {
   errSendingImage: null,
   sendingListing: false,
   errSendingForm: null,
+  err: null,
 };
 
 export default (state = initialState, action) => {
   switch (action.type) {
     case ADD_USERNAME:
-      return { ...state, username: action.payload.username };
+      if (!action.payload.username) {
+        return { ...state, username: "", err: "名前は空ではいけません" };
+      }
+      return { ...state, username: action.payload.username, err: null };
     case ADD_STORENAME:
-      return { ...state, storeName: action.payload.storeName };
+      if (!action.payload.storeName) {
+        return { ...state, storeName: "", err: "お店の名前は空ではいけません" };
+      }
+      return { ...state, storeName: action.payload.storeName, err: null };
     case ADD_SPOTIFY_LINK:
-      return { ...state, spotifyUrl: action.payload.spotifyUrl };
+      const pattern = /.*open.spotify.com\/playlist\/([a-z,A-Z,0-9]+).*/;
+      const spotifyPlaylistMatch = action.payload.spotifyUrl.match(pattern);
+      if (!spotifyPlaylistMatch) {
+        return {
+          ...state,
+          err: "入力されたプレイリストのURLが正しいか確認してください",
+          spotifyUrl: action.payload.spotifyUrl,
+        };
+      }
+      return { ...state, spotifyUrl: action.payload.spotifyUrl, err: null };
     case ADD_STORE_IMAGE:
+      if (!action.payload.filename) {
+        return { ...state, err: "お店の画像をアップロードしてください" };
+      }
       return {
         ...state,
         storeImage: action.payload.image,
         storeImageName: action.payload.filename,
+        err: null,
       };
     case ADD_STORE_MAPS_URL:
+      if (!action.payload.mapsUrl) {
+        return {
+          ...state,
+          err: "空でないURLを入力してください",
+          storeMapsUrl: "",
+        };
+      }
       return { ...state, storeMapsUrl: action.payload.mapsUrl };
     case ADD_ACTION_TYPE:
-      return { ...state, actionType: action.payload.actionType };
+      if (
+        action.payload.actionType === "default" ||
+        !action.payload.actionType
+      ) {
+        return {
+          ...state,
+          err:
+            "取り組みの種類を選んでください (無ければ none と選択してください)",
+        };
+      }
+      return { ...state, actionType: action.payload.actionType, err: null };
     case ADD_ACTION_LINK:
-      return { ...state, actionUrl: action.payload.actionUrl };
+      if (state.actionType !== "none" && !action.payload.actionUrl) {
+        return {
+          ...state,
+          err: "取り組みがある場合は取り組みのわかるリンクを紹介してください",
+          actionUrl: "",
+        };
+      }
+      return { ...state, actionUrl: action.payload.actionUrl, err: null };
     case BEGIN_SEND_STORE_IMAGE:
       return { ...state, sendingImage: true };
     case OK_SEND_STORE_IMAGE:
@@ -63,6 +108,7 @@ export default (state = initialState, action) => {
         ...state,
         sendingImage: false,
         errSendingImage: action.payload.err,
+        err: "画像のアップロードに失敗しました",
       };
     case BEGIN_SUBMIT_LISTING:
       return { ...state, sendingListing: true };
@@ -73,6 +119,7 @@ export default (state = initialState, action) => {
         ...state,
         sendingListing: false,
         errSendingForm: action.payload.err,
+        err: "投稿に失敗しました",
       };
     default:
       return state;

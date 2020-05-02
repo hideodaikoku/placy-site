@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import { connect } from "react-redux";
 import style from "../../styles/placelistModalCard.module.scss";
 
@@ -22,7 +22,8 @@ class ModalCard extends React.Component {
 
   componentDidUpdate(prevProps) {
     if (!!this.inputElement.current) {
-      this.inputElement.current.focus();
+      const inputField = this.inputElement.current;
+      inputField.focus();
     }
   }
 
@@ -31,12 +32,13 @@ class ModalCard extends React.Component {
       // state
       page,
       username,
-      storeImageName,
+      // storeImageName,
       storeMapsUrl,
       storeName,
       actionType,
       actionUrl,
       spotifyUrl,
+      err,
       // actions
       addUsername,
       addStoreName,
@@ -56,6 +58,7 @@ class ModalCard extends React.Component {
           </p>
           <input
             ref={ref}
+            required
             className={style.inputField}
             type="input"
             key="username"
@@ -64,6 +67,10 @@ class ModalCard extends React.Component {
             value={username || ""}
             onChange={(e) => addUsername(e.target.value)}
           />
+
+          <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
+            {err}
+          </p>
         </div>
       );
     });
@@ -77,6 +84,7 @@ class ModalCard extends React.Component {
           </p>
           <input
             ref={ref}
+            required
             key="storeName"
             className={style.inputField}
             type="input"
@@ -84,6 +92,10 @@ class ModalCard extends React.Component {
             placeholder="The Miracle of Science Bar & Grill"
             onChange={(e) => addStoreName(e.target.value)}
           />
+
+          <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
+            {err}
+          </p>
         </div>
       );
     });
@@ -98,13 +110,17 @@ class ModalCard extends React.Component {
           </p>
           <input
             ref={ref}
+            required
             className={style.inputField}
-            type="input"
+            type="url"
             key="spotifyUrl"
             placeholder="https://open.spotify.com/playlist/6b8ngrtdesYwGay2faDzWd"
             value={spotifyUrl || ""}
             onChange={(e) => addSpotifyLink(e.target.value)}
           />
+          <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
+            {err}
+          </p>
         </div>
       );
     });
@@ -118,10 +134,11 @@ class ModalCard extends React.Component {
           </p>
           <select
             ref={ref}
+            required
             className={style.dropdown}
             form="newListing"
             key="actionType"
-            onBlur={(e) => addActionType(e.target.value)}
+            onChange={(e) => addActionType(e.target.value)}
             defaultValue={actionType || "default"}
           >
             <option disabled value="default">
@@ -131,7 +148,11 @@ class ModalCard extends React.Component {
             <option value="crowdfunding">Crowdfunding</option>
             <option value="online">Online Ticket</option>
             <option value="other">Other (e.g. takeout, donation)</option>
+            <option value="none">None</option>
           </select>
+          <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
+            {err}
+          </p>
         </div>
       );
     });
@@ -146,12 +167,15 @@ class ModalCard extends React.Component {
           <input
             ref={ref}
             className={style.inputField}
-            type="input"
+            type="url"
             key="actionUrl"
             placeholder="http://www.miracleofscience.us/index.php"
             value={actionUrl || ""}
             onChange={(e) => addActionLink(e.target.value)}
           />
+          <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
+            {err}
+          </p>
         </div>
       );
     });
@@ -165,12 +189,16 @@ class ModalCard extends React.Component {
           </p>
           <input
             ref={ref}
+            required
             className={style.fileSelector}
             type="file"
             key="storeImage"
             accept=".png,.jpg,.jpeg,.png,image/*"
             onChange={(e) => addStoreImage(e.target.files)}
           />
+          <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
+            {err}
+          </p>
         </div>
       );
     });
@@ -184,11 +212,18 @@ class ModalCard extends React.Component {
           </p>
           <input
             ref={ref}
+            required
+            type="url"
             className={style.inputField}
             placeholder="https://g.page/miracleofscience?share"
             value={storeMapsUrl || ""}
-            onChange={(e) => addStoreMapsUrl(e.target.value)}
+            onChange={(e) => {
+              addStoreMapsUrl(e.target.value);
+            }}
           ></input>
+          <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
+            {err}
+          </p>
         </div>
       );
     });
@@ -241,6 +276,7 @@ const mapStateToProps = (state) => ({
   storeImageName: state.newListing.storeImageName,
   storeMapsUrl: state.newListing.storeMapsUrl,
   open: state.modal.open,
+  err: state.newListing.err,
 });
 
 const mapDispatchToProps = {
