@@ -1,3 +1,4 @@
+import he from "he";
 import {
   BEGIN_GET_LISTINGS,
   OK_GET_LISTINGS,
@@ -16,12 +17,13 @@ const initialState = {
 };
 
 const reshapeApiListing = (listing) => {
+  const decodeOpts = { isAttributeValue: true };
   return {
     uuid: listing.uuid,
-    storeName: listing.storeName,
+    storeName: he.unescape(listing.storeName, decodeOpts),
     storeImageUrl: listing.storeImageUrl,
     storeMapsUrl: listing.storeMapsUrl,
-    username: listing.userName,
+    username: he.unescape(listing.userName),
     actionType: listing.actionType,
     actionUrl: listing.actionUrl,
     spotifyPlaylist: listing.spotifyPlaylist,
