@@ -2,11 +2,13 @@ module.exports = {
   siteMetadata: {
     title: "Placy",
     titleTemplate: "%s | Find Your Rhythm",
-    description:"We are Placy, a company creating alternative place search engine.",
+    description:
+      "We are Placy, a company creating alternative place search engine.",
     url: "https://placy.city", // No trailing slash allowed!
     image: "/images/placy.jpg", // Path to your image you placed in the 'static' folder
+    placelistImage: "/images/placelist.jpg",
     twitterUsername: "@placy_city",
-    author: "Hideo Daikoku"
+    author: "Hideo Daikoku",
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -15,8 +17,8 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: `${__dirname}/src/images`
-      }
+        path: `${__dirname}/src/images`,
+      },
     },
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
@@ -26,5 +28,5 @@ module.exports = {
         trackingId: "UA-133311679-1",
       },
     },
-  ]
-}
+  ],
+};
