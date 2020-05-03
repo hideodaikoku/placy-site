@@ -11,6 +11,7 @@ export const Page = () => {
       <SEO
         title="Placelist"
         description="Placy プレイ(ス)リストへようこそ。こちらは、思い入れのある場所のプレイリストを作成して皆と共有するページです。"
+        image="/images/placelist.jpg"
       />
       <Hero />
       <Modal></Modal>
