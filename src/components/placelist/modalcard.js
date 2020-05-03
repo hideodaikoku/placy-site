@@ -64,7 +64,7 @@ class ModalCard extends React.Component {
             className={style.inputField}
             type="input"
             key="username"
-            placeholder="@sp4ghet"
+            placeholder="sp4ghet"
             // https://github.com/redux-form/redux-form/issues/735#issuecomment-196368772
             value={username || ""}
             onChange={(e) => addUsername(e.target.value)}
@@ -148,7 +148,7 @@ class ModalCard extends React.Component {
             </option>
             <option value="advance">Advance Ticket</option>
             <option value="crowdfunding">Crowdfunding</option>
-            <option value="online">Online Ticket</option>
+            <option value="online">Online Store</option>
             <option value="other">Other (e.g. takeout, donation)</option>
             <option value="none">None</option>
           </select>
