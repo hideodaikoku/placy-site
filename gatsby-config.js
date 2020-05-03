@@ -6,7 +6,6 @@ module.exports = {
       "We are Placy, a company creating alternative place search engine.",
     url: "https://placy.city", // No trailing slash allowed!
     image: "/images/placy.jpg", // Path to your image you placed in the 'static' folder
-    placelistImage: "/images/placelist.jpg",
     twitterUsername: "@placy_city",
     author: "Hideo Daikoku",
   },

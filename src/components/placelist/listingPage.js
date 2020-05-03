@@ -15,16 +15,6 @@ class ListingPage extends React.Component {
   }
 
   render() {
-    const { site } = useStaticQuery(graphql`
-      query dynamicPlacelist {
-        site {
-          siteMetadata {
-            placelistImage
-          }
-        }
-      }
-    `);
-    const spinningRecord = site.siteMetadata.placelistImage;
     const { listingId, listing, fetching, err } = this.props;
     const copyText = createRef(null);
     if (err) {
@@ -84,7 +74,7 @@ class ListingPage extends React.Component {
         <SEO
           title={`${storeName}のプレイ(ス)リスト`}
           description={`@${username}さんが作った${storeName}のプレイ(ス)リストを聴きましょう。`}
-          image={spinningRecord}
+          image="/image/placelist.jpg"
         />
         <Link to="/placelist" className={style.backButton}>
           <span className={style.backArrow}></span>

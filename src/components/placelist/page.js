@@ -4,26 +4,14 @@ import Listings from "./listings";
 import Modal from "./modal";
 import style from "../../styles/placelist.module.scss";
 import SEO from "../seo";
-import { useStaticQuery, graphql } from "gatsby";
 
 export const Page = () => {
-  const { site } = useStaticQuery(graphql`
-    query staticPlacelist {
-      site {
-        siteMetadata {
-          placelistImage
-        }
-      }
-    }
-  `);
-  const spinningRecord = site.siteMetadata.placelistImage;
-
   return (
     <div>
       <SEO
         title="Placelist"
         description="Placy プレイ(ス)リストへようこそ。こちらは、思い入れのある場所のプレイリストを作成して皆と共有するページです。"
-        image={spinningRecord}
+        image="/images/placelist.jpg"
       />
       <Hero />
       <Modal></Modal>
