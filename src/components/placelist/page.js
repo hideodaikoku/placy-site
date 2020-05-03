@@ -8,7 +8,7 @@ import { useStaticQuery, graphql } from "gatsby";
 
 export const Page = () => {
   const { site } = useStaticQuery(graphql`
-    query SEO {
+    query staticPlacelist {
       site {
         siteMetadata {
           placelistImage

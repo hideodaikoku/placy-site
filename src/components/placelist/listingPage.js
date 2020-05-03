@@ -16,7 +16,7 @@ class ListingPage extends React.Component {
 
   render() {
     const { site } = useStaticQuery(graphql`
-      query SEO {
+      query dynamicPlacelist {
         site {
           siteMetadata {
             placelistImage
