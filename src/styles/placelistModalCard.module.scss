@@ -1,0 +1,85 @@
+.card {
+  width: 80%;
+  height: 40%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-title {
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 1rem;
+}
+
+.section-description {
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+$error-color: #e50012;
+
+.input-field {
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
+  font-weight: 400;
+  font-size: 0.7rem;
+  width: 80%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.invalid {
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
+  font-weight: 400;
+  font-size: 0.7rem;
+  color: $error-color;
+}
+
+.invisible {
+  display: none;
+}
+
+.file-selector {
+  width: 80%;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Helvetica Neue, "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+
+.image-name {
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.dropdown {
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  height: 1.8rem;
+  border: solid 1px black;
+  border-radius: 0;
+  display: inline-block;
+}
+
+.default-select {
+  color: #aaa;
+}
+
+$breakpoint-sp: 450px;
+@media (max-width: $breakpoint-sp) {
+  .section-title {
+    font-size: 0.8rem;
+  }
+
+  .section-description {
+    font-size: 0.7rem;
+  }
+}

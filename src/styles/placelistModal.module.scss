@@ -1,0 +1,158 @@
+:global(body.placelist-modal) {
+  position: fixed;
+}
+
+button {
+  border-width: 0;
+  background: none;
+  padding: 0;
+}
+
+$button-size: 30px;
+.modal-close-button {
+  position: absolute;
+  right: 0;
+  margin-right: 2%;
+  margin-top: 2%;
+  width: $button-size;
+  height: $button-size;
+  cursor: pointer;
+}
+.modal-close-button img {
+  margin-bottom: 0;
+}
+
+.hide-container {
+  display: none;
+}
+
+.show-container {
+  display: flex;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(70, 70, 70, 0.6);
+  z-index: 1;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-window {
+  position: relative;
+  height: 80vh;
+  width: 60vw;
+  overflow-y: scroll;
+  background-color: #e9ccff;
+
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.contents {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-title {
+  margin-top: 15vh;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: Futura, "Futura", sans-serif;
+}
+
+.submit {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  width: 10vw;
+  cursor: pointer;
+  font-family: Helvetica Neue, "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+
+.submit:disabled {
+  background-color: #aaa;
+  color: #eee;
+}
+
+.arrow-box {
+  width: 20%;
+  max-width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrow-box .bar {
+  display: block;
+  background-color: black;
+  height: 2px;
+  width: 100%;
+}
+
+$head-size: 10px;
+.arrow-box .head {
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: $head-size solid transparent;
+  border-bottom: $head-size solid transparent;
+  border-left: $head-size solid black;
+}
+
+.pageIndicator {
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
+  margin-bottom: 4vh;
+}
+
+$breakpoint-tablet: 800px;
+@media (max-width: $breakpoint-tablet) {
+  .modal-window {
+    width: 80vw;
+    height: 80vh;
+  }
+}
+
+$breakpoint-sp: 450px;
+@media (max-width: $breakpoint-sp) {
+  .modal-window {
+    width: 80vw;
+    height: 70vh;
+  }
+
+  .modal-title {
+    margin-top: 8vh;
+  }
+}

@@ -1,25 +1,32 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: #f3c91f;
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f3c91f;
 }
 
 .content {
-    margin-top: 7.5rem; 
-    margin-bottom: 1rem;
-    padding: 0rem;
-    flex-grow: 1;
+  margin-top: 7.5rem;
+  margin-bottom: 1rem;
+  padding: 0rem;
+  flex-grow: 1;
 }
 
-.footer-container{
-    background-color: #c9caca;
-    padding: 1rem;
+.footer-container {
+  background-color: #c9caca;
+  padding: 1rem;
 }
 
-.containerWhite{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: white;
+.container-white {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.container-placelist {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f4f4f2;
 }

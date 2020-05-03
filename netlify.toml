@@ -1,0 +1,11 @@
+[[redirects]]
+    from = "/api/*"
+    to = "http://placelistapi.ap-northeast-1.elasticbeanstalk.com/api/:splat"
+    status = 200
+    force = true
+    
+[[redirects]]
+    from = "/placelist/*"
+    to = "/placelist/"
+    status = 200
+    force = true

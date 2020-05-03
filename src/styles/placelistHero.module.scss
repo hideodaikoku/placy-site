@@ -1,0 +1,71 @@
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin-top: 50px;
+  margin-bottom: 0;
+  width: 80%;
+  font-family: Futura, "futura", sans-serif;
+  font-weight: bold;
+  font-size: 4.5rem;
+}
+
+.image {
+  min-width: 200px;
+  width: 38vh;
+  min-height: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.explanation {
+  width: 80%;
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.explanation p {
+  line-height: 2;
+}
+
+$button-height: 5vh;
+.to-modal {
+  min-width: 200px;
+  width: 15vw;
+  background-color: #000;
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  height: $button-height;
+  border-radius: calc(#{$button-height} * 0.5);
+  cursor: pointer;
+}
+
+.button-text {
+  font-family: Helvetica Neue, "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+}
+
+$breakpoint-tablet: 900px;
+@media (max-width: $breakpoint-tablet) {
+}
+
+$breakpoint-sp: 450px;
+@media (max-width: $breakpoint-sp) {
+  .title {
+    font-size: 2.75rem;
+  }
+
+  .explanation {
+    font-size: 0.72rem;
+  }
+  .explanation p {
+    line-height: 2;
+  }
+}

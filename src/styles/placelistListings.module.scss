@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.listings {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
