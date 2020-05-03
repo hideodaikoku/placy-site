@@ -1,23 +1,10 @@
 import React from "react";
 import heroStyles from "../../styles/placelistHero.module.scss";
-import { useStaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
 import { connect } from "react-redux";
 import { openModal } from "./redux/actions";
+import spinningRecord from "../../images/placelist.gif";
 
 const Hero = ({ openModal }) => {
-  const data = useStaticQuery(graphql`
-    query {
-      illust: file(relativePath: { eq: "4.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth: 1024) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `);
-
   const isSSR = typeof window === "undefined";
   if (isSSR) {
     return <div className={heroStyles.container}></div>;
@@ -26,10 +13,7 @@ const Hero = ({ openModal }) => {
   return (
     <div className={heroStyles.container}>
       <h1 className={heroStyles.title}>Place List</h1>
-      <Img
-        fluid={data.illust.childImageSharp.fluid}
-        className={heroStyles.image}
-      />
+      <img src={spinningRecord} className={heroStyles.image} />
       <div className={heroStyles.explanation}>
         <p>
           Placy プレイ(ス)リストへようこそ。

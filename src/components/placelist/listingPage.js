@@ -21,15 +21,7 @@ class ListingPage extends React.Component {
       return <div>{err.message}</div>;
     }
     if (fetching || !listing) {
-      return (
-        <div>
-          <SEO
-            title={`プレイ(ス)リスト`}
-            description={`プレイ(ス)リストを聴きましょう。`}
-          />
-          loading...
-        </div>
-      );
+      return <div>loading...</div>;
     }
 
     const {
@@ -82,6 +74,7 @@ class ListingPage extends React.Component {
         <SEO
           title={`${storeName}のプレイ(ス)リスト`}
           description={`@${username}さんが作った${storeName}のプレイ(ス)リストを聴きましょう。`}
+          image="/image/placelist.jpg"
         />
         <Link to="/placelist" className={style.backButton}>
           <span className={style.backArrow}></span>
