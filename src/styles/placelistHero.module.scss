@@ -6,7 +6,7 @@
 }
 
 .title {
-  margin-top: 50px;
+  margin-top: 12vh;
   margin-bottom: 0;
   width: 80%;
   font-family: Futura, "futura", sans-serif;
@@ -14,12 +14,14 @@
   font-size: 4.5rem;
 }
 
+$aspect: calc(100% * 540 / 720);
+
 .image {
-  min-width: 200px;
-  width: 30vw;
-  min-height: 200px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  min-width: 250px;
+  width: 40vw;
+  height: $aspect;
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
 
 .explanation {
@@ -60,6 +62,12 @@ $breakpoint-sp: 450px;
 @media (max-width: $breakpoint-sp) {
   .title {
     font-size: 2.75rem;
+    margin-top: 8vh;
+  }
+
+  .image {
+    width: 80vw;
+    margin-bottom: 1.45rem;
   }
 
   .explanation {

@@ -29,11 +29,12 @@ $widget-height: 8vh;
 
 .embed-container {
   position: relative;
-  min-height: 80px;
+  min-height: 85px;
   padding-bottom: 80px; // to avoid re-rendering on load due to resize
   overflow: hidden;
   max-width: 100%;
   border: solid 4px black;
+  background-color: black;
 }
 .embed-container iframe,
 .embed-container object,
@@ -43,6 +44,7 @@ $widget-height: 8vh;
   left: 0;
   width: 100%;
   height: 100%;
+  margin: 0;
 }
 
 a:visited,
