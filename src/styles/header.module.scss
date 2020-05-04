@@ -8,24 +8,17 @@
   border-bottom: 1px solid black;
 }
 
-.header-white {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  z-index: 1;
-  background-color: white;
-  border-bottom: 1px solid black;
-
-  .nav {
-    border: none;
-  }
+.header {
+  @include header();
 }
 
 .header-white {
   @include header();
   background-color: white;
+
+  .nav {
+    border: none;
+  }
 }
 
 .header-placelist {
