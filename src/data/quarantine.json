@@ -54,5 +54,21 @@
         "medium": "https://medium.com/post-quarantine-urbanism/post-pandemic-urbanism-australia-the-merge-scenario-9b783e564e65",
         "date": "2020/04/24",
         "title": "Post Pandemic Urbanism Australia: The Merge Scenario"
+    },
+    {
+        "place": "Japan - Tokyo",
+        "author": "Soma Suzuki",
+        "img": "tokyo",
+        "medium": "https://medium.com/post-quarantine-urbanism/where-matters-52eba9406bed",
+        "date": "2020/05/02",
+        "title": "Where Matters."
+    },
+    {
+        "place": "Chile - Santiago",
+        "author": "Carolina Cornelio",
+        "img": "chile",
+        "medium": "https://medium.com/post-quarantine-urbanism/post-quarantine-in-a-segregated-metropolis-mobility-key-factor-to-unite-two-santiagos-today-and-a17d01b742ce",
+        "date": "2020/05/04",
+        "title": "Post-Quarantine in a segregated metropolis: Mobility, key factor to unite two Santiagos today and after the Covid-19 crisis"
     }
 ]

@@ -57,6 +57,20 @@ const QuarantineArticles = () => {
                     }
                 }
             }
+            tokyo: file(relativePath: {eq: "tokyo.png"}){
+                childImageSharp{
+                    fluid(maxWidth: 400){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            chile: file(relativePath: {eq: "chile.jpg"}){
+                childImageSharp{
+                    fluid(maxWidth: 400){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
         }
         
     `)
