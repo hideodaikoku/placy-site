@@ -26,18 +26,25 @@ const QuarantineTop = () => {
             <br/><br/>
             Cities across the world are establishing unique initiatives and projects to combat the effects of this situation; and by exploring each city's approach, perhaps we can gain a glimpse of our post quarantine world.
             </p>
-
+            <p className={quarantineTopStyles.textContainer}>
+                Our aim is to collate around 50 articles from contributors around the world, to capture their thoughts and state of mind during the covid19 pandemic, covering urban quarantine culture, its side effects and philosophical ramifications, while touching on the situation in each country. This way we can form a holistic snapshot of the mind-state of residents in various cities across the world.
+            </p>
+            <div className={quarantineTopStyles.buttonContainer}>
+                <a href="https://www.allthingsurban.net/career/613" target="_blank" rel="noopener noreferrer" className={quarantineTopStyles.button}>
+                    APPLY TO BE RESEARCH WRITER
+                </a>
+            </div>
             <div className={quarantineTopStyles.diagram}>
                 <div className={quarantineTopStyles.box}>
-                    1st Stage: Collated articles from each country | Description of how things are now
+                    <strong>1st Stage: Collated articles from each country</strong> <br/> Description of how things are now
                 </div>
                 <div className={quarantineTopStyles.arrow}>&#8595;</div>
                 <div className={quarantineTopStyles.box}>
-                    2nd Stage: Online Conference | Aspirations for how things should be
+                    <strong>2nd Stage: Online Conference</strong> <br/> Aspirations for how things should be
                 </div>
                 <div className={quarantineTopStyles.arrow}>&#8595;</div>
                 <div className={quarantineTopStyles.box}>
-                    3rd Stage: Proposing an actionable plan to municipal governments
+                    <strong>3rd Stage: Proposing an actionable plan to municipal governments</strong>
                 </div>
             </div>
         </div>
