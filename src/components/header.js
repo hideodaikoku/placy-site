@@ -74,7 +74,6 @@ const Header = (props) => {
           <li className={headerStyles.listItem}>
             <a
               className={headerStyles.link}
-              activeClassName={headerStyles.activeNavItem}
               href="https://placy.typeform.com/to/lfzKCU"
               target="_blank"
               rel="noopener noreferrer"
