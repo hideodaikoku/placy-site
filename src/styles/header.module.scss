@@ -103,7 +103,6 @@ $breakpoint-large: 1200px;
     margin: 0 auto;
     border-left: none;
     float: none;
-    display: inline-block;
     width: 100vw;
   }
   .logo-area {
@@ -120,17 +119,20 @@ $breakpoint-tablet: 600px;
     overflow: hidden;
   }
   .list-item {
-    margin: 0 0.5rem;
+    margin: 0;
   }
   .divider {
-    margin-left: 1rem;
+    margin-left: 0;
   }
 
   .nav {
     padding: 1rem 2rem;
     float: none;
-    display: inline-block;
+    display: flex;
     width: 100vw;
+  }
+  .nav-list{
+    justify-content: space-between;
   }
   .logo-area {
     padding: 1rem 2.5rem;

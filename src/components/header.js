@@ -49,8 +49,8 @@ const Header = (props) => {
             >
               About
             </Link>
-            <span className={headerStyles.divider}>/</span>
           </li>
+          <span className={headerStyles.divider}>/</span>
           <li className={headerStyles.listItem}>
             <Link
               className={headerStyles.link}
@@ -59,8 +59,8 @@ const Header = (props) => {
             >
               Careers
             </Link>
-            <span className={headerStyles.divider}>/</span>
           </li>
+          <span className={headerStyles.divider}>/</span>
           <li className={headerStyles.listItem}>
             <Link
               className={headerStyles.link}
@@ -69,8 +69,8 @@ const Header = (props) => {
             >
               Projects
             </Link>
-            <span className={headerStyles.divider}>/</span>
           </li>
+          <span className={headerStyles.divider}>/</span>
           <li className={headerStyles.listItem}>
             <a
               className={headerStyles.link}
@@ -81,8 +81,8 @@ const Header = (props) => {
             >
               Contact
             </a>
-            <span className={headerStyles.divider}>/</span>
           </li>
+          <span className={headerStyles.divider}>/</span>
           <li className={headerStyles.listItem}>
             <Link
               className={headerStyles.link}
