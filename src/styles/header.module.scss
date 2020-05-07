@@ -69,6 +69,10 @@
   position: relative;
 }
 
+#note{
+  font-size: 1.2rem;
+}
+
 .active-nav-item::after {
   border-bottom: 1.5px solid black;
   content: "";

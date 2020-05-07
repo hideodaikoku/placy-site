@@ -81,6 +81,18 @@ const Header = (props) => {
             >
               Contact
             </a>
+            <span className={headerStyles.divider}>/</span>
+          </li>
+          <li className={headerStyles.listItem}>
+            <Link
+              className={headerStyles.link}
+              id={headerStyles.note}
+              activeClassName={headerStyles.activeNavItem}
+              to="/placelist"
+            >
+              
+              &#9834;
+            </Link>
           </li>
         </ul>
       </nav>
