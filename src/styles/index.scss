@@ -240,6 +240,7 @@ html {
     text-rendering: optimizeLegibility;
     font-size: 2.25rem;
     line-height: 1.1;
+    animation: fadein ease-in 1s;
   }
   h2 {
     margin-left: 0;
@@ -391,6 +392,7 @@ html {
     margin-bottom: 1.45rem;
     font-weight: 700;
     line-height: 1.8rem;
+    animation: fadein 3s;
   }
   figure {
     margin-left: 0;
@@ -627,3 +629,8 @@ html {
       font-size: 100%;
     }
   }
+
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

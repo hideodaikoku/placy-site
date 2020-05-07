@@ -1,5 +1,7 @@
 import React from "react";
 import topStyles from "../styles/top.module.scss";
+const AOS = require("aos")
+AOS.init();
 
 const Top  = () => {
     return(
