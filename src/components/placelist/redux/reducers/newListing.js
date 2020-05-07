@@ -12,7 +12,6 @@ import {
   OK_SEND_STORE_IMAGE,
   ERR_SEND_STORE_IMAGE,
   ADD_STORE_MAPS_URL,
-  SET_PAGE,
 } from "../actionTypes";
 
 const initialState = {

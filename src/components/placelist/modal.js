@@ -38,6 +38,7 @@ const Modal = ({
   }
 
   return (
+    // eslint-disable-next-line
     <div
       ref={modalContainer}
       className={containerClass}
@@ -55,8 +56,9 @@ const Modal = ({
     >
       <div className={style.modalWindow}>
         <button className={style.modalCloseButton} onClick={closeModal}>
-          <img src={closeButton} />
+          <img src={closeButton} alt="close button" />
         </button>
+        {/* eslint-disable-next-line */}
         <div
           className={style.contents}
           onKeyDown={(e) => {
@@ -65,6 +67,7 @@ const Modal = ({
               setPage(page + 1);
             }
           }}
+          role="dialog"
         >
           <h2 className={style.modalTitle}>
             Create <br /> Place List

@@ -129,10 +129,15 @@ a {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-evenly;
-}
-.share-icons img {
-  height: 2rem;
-  width: 2rem;
+
+  button {
+    cursor: pointer;
+  }
+
+  img {
+    height: 2rem;
+    width: 2rem;
+  }
 }
 
 .invisible {

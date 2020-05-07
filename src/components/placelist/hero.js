@@ -14,7 +14,11 @@ const Hero = ({ openModal }) => {
   return (
     <div className={heroStyles.container}>
       <h1 className={heroStyles.title}>Place List</h1>
-      <img src={spinningRecord} className={heroStyles.image} />
+      <img
+        src={spinningRecord}
+        className={heroStyles.image}
+        alt="Placelist spinning record logo"
+      />
       <div className={heroStyles.explanation}>
         <p>
           Placy プレイ(ス)リストへようこそ。

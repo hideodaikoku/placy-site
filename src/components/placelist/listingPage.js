@@ -85,12 +85,21 @@ class ListingPage extends React.Component {
             {storeName} | @{username}
           </h1>
           <div className={`${style.actionType} ${actionTypeStyle}`}>
-            <a className={style.noDecorate} href={actionUrl} target="_blank">
+            <a
+              className={style.noDecorate}
+              href={actionUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {actionTypeString}
             </a>
           </div>
           <div className={style.mainContent}>
-            <img src={storeImageUrl} className={style.storeImage} />
+            <img
+              src={storeImageUrl}
+              className={style.storeImage}
+              alt={storeName}
+            />
             <div className={style.embedContainer}>
               <iframe
                 title={spotifyPlaylist}
@@ -113,23 +122,25 @@ class ListingPage extends React.Component {
             url=https://placy.city/placelist/${listingId}
             `.replace(/\s/g, "")}
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img src={twitter} alt="share twitter" />
             </a>
             <a
               href={`https://www.facebook.com/sharer/sharer.php?u=https://placy.city/placelist/${listingId}`}
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img src={facebook} alt="share facebook" />
             </a>
-            <a onClick={copyUrl}>
+            <button onClick={copyUrl}>
               <input
                 className={style.invisible}
                 ref={copyText}
                 type="textarea"
               />
               <img src={shareLink} alt="copy link" />
-            </a>
+            </button>
           </div>
         </div>
       </div>

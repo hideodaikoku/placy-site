@@ -150,7 +150,7 @@ const AddActionTypeModalRedux = connect(
         className={style.dropdown}
         form="newListing"
         key="actionType"
-        onChange={(e) => addActionType(e.target.value)}
+        onBlur={(e) => addActionType(e.target.value)}
         defaultValue={actionType || "default"}
       >
         <option disabled value="default" className={style.defaultSelect}>
@@ -222,7 +222,6 @@ const AddStoreImageModalRedux = connect(
   const {
     err,
     storeImageName,
-    storeImage,
     uploadingImage,
     addStoreImage,
     forwardedref,
