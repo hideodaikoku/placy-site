@@ -1,5 +1,6 @@
 import React from "react";
 import heroStyles from "../../styles/placelistHero.module.scss";
+import { Link } from "@reach/router";
 import { connect } from "react-redux";
 import { openModal } from "./redux/actions";
 import spinningRecord from "../../images/placelist.gif";
@@ -34,6 +35,15 @@ const Hero = ({ openModal }) => {
           より多くの人にそのお店を知ってもらえる
           <br />
           きっかけになれば幸いです。
+        </p>
+        <p>
+          プレイ(ス)リストは、店主様だけでなく、
+          <br />
+          そのお店を大切に思う皆様にも是非、作成して頂きたく
+          <Link to="/placelist/0c2ab1b9-8d86-11ea-84a0-0e8729767258">*</Link>
+          思っております。
+          <br />
+          そのお店での思い出や憧れを音楽にのせて伝えてみてください。
         </p>
         <p>それでは、作成してみましょう。</p>
       </div>

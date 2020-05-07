@@ -12,6 +12,290 @@ import {
   addStoreMapsUrl,
 } from "./redux/actions";
 
+const AddUserModalRedux = connect(
+  (s) => ({
+    err: s.newListing.err,
+    username: s.newListing.username,
+  }),
+  {
+    addUsername,
+  }
+)((props) => {
+  const { addUsername, err, username, forwardedref } = props;
+  return (
+    <div>
+      <p className={style.sectionTitle}>あなたのお名前</p>
+      <p className={style.sectionDescription}>
+        placelistの作成者として表示するお名前を教えて下さい。
+      </p>
+      <input
+        ref={forwardedref}
+        required
+        className={style.inputField}
+        type="input"
+        value={username || ""}
+        key="username"
+        placeholder="sp4ghet"
+        // https://github.com/redux-form/redux-form/issues/735#issuecomment-196368772
+        onChange={(e) => addUsername(e.target.value)}
+      />
+
+      <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
+        {err}
+      </p>
+    </div>
+  );
+});
+
+// https://github.com/reduxjs/react-redux/issues/914
+const AddUserModal = React.forwardRef((props, ref) => (
+  <AddUserModalRedux forwardedref={ref} props={props} />
+));
+
+const AddStoreModalRedux = connect(
+  (s) => ({
+    err: s.newListing.err,
+    storeName: s.newListing.storeName,
+  }),
+  {
+    addStoreName,
+  }
+)((props) => {
+  const { addStoreName, err, storeName, forwardedref } = props;
+  return (
+    <div>
+      <p className={style.sectionTitle}>お店の名前</p>
+      <p className={style.sectionDescription}>
+        おなたの思い入れのあるお店はどこですか。
+      </p>
+      <input
+        ref={forwardedref}
+        required
+        key="storeName"
+        className={style.inputField}
+        type="input"
+        value={storeName || ""}
+        placeholder="The Miracle of Science Bar & Grill"
+        onChange={(e) => addStoreName(e.target.value)}
+      />
+
+      <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
+        {err}
+      </p>
+    </div>
+  );
+});
+
+const AddStoreModal = React.forwardRef((props, ref) => (
+  <AddStoreModalRedux forwardedref={ref} props={props} />
+));
+
+const AddSpotifyModalRedux = connect(
+  (state) => ({
+    err: state.newListing.err,
+    spotifyUrl: state.newListing.spotifyUrl,
+  }),
+  {
+    addSpotifyLink,
+  }
+)((props) => {
+  const { err, addSpotifyLink, spotifyUrl, forwardedref } = props;
+  return (
+    <div>
+      <p className={style.sectionTitle}>Spotify Playlist リンク</p>
+      <p className={style.sectionDescription}>
+        そのお店の雰囲気を表すプレイリストを教えて下さい。
+        普段から聞いているものでも良いですし，ご自分で作成頂いたものだとさらに素敵です。
+      </p>
+      <input
+        ref={forwardedref}
+        required
+        className={style.inputField}
+        type="url"
+        key="spotifyUrl"
+        placeholder="https://open.spotify.com/playlist/6b8ngrtdesYwGay2faDzWd"
+        value={spotifyUrl || ""}
+        onChange={(e) => addSpotifyLink(e.target.value)}
+      />
+      <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
+        {err}
+      </p>
+    </div>
+  );
+});
+
+const AddSpotifyModal = React.forwardRef((props, ref) => (
+  <AddSpotifyModalRedux forwardedref={ref} props={props} />
+));
+
+const AddActionTypeModalRedux = connect(
+  (state) => ({
+    err: state.newListing.err,
+    actionType: state.newListing.actionType,
+  }),
+  {
+    addActionType,
+  }
+)((props) => {
+  const { err, addActionType, actionType, forwardedref } = props;
+  return (
+    <div>
+      <p className={style.sectionTitle}>お店の取り組み</p>
+      <p className={style.sectionDescription}>
+        前売り券やテイクアウトなど，お店が外出自粛要請に対する取り組みをされていれば教えて下さい。
+      </p>
+      <select
+        ref={forwardedref}
+        required
+        className={style.dropdown}
+        form="newListing"
+        key="actionType"
+        onChange={(e) => addActionType(e.target.value)}
+        defaultValue={actionType || "default"}
+      >
+        <option disabled value="default" className={style.defaultSelect}>
+          取り組みの種類を選択
+        </option>
+        <option value="advance">Advance Ticket</option>
+        <option value="crowdfunding">Crowdfunding</option>
+        <option value="online">Online Store</option>
+        <option value="other">Other (e.g. takeout, donation)</option>
+        <option value="none">None</option>
+      </select>
+      <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
+        {err}
+      </p>
+    </div>
+  );
+});
+
+const AddActionTypeModal = React.forwardRef((props, ref) => (
+  <AddActionTypeModalRedux forwardedref={ref} props={props} />
+));
+
+const AddActionLinkModalRedux = connect(
+  (state) => ({
+    actionUrl: state.newListing.actionUrl,
+    err: state.newListing.err,
+  }),
+  {
+    addActionLink,
+  }
+)((props) => {
+  const { err, addActionLink, actionUrl, forwardedref } = props;
+  return (
+    <div>
+      <p className={style.sectionTitle}>お店の取り組み リンク</p>
+      <p className={style.sectionDescription}>
+        お店の取り組みがわかるページリンクがあれば教えて下さい。
+      </p>
+      <input
+        ref={forwardedref}
+        className={style.inputField}
+        type="url"
+        key="actionUrl"
+        value={actionUrl || ""}
+        placeholder="http://www.miracleofscience.us/index.php"
+        onChange={(e) => addActionLink(e.target.value)}
+      />
+      <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
+        {err}
+      </p>
+    </div>
+  );
+});
+
+const AddActionLinkModal = React.forwardRef((props, ref) => (
+  <AddActionLinkModalRedux forwardedref={ref} props={props} />
+));
+
+//
+const AddStoreImageModalRedux = connect(
+  (state) => ({
+    err: state.newListing.err,
+    storeImageName: state.newListing.storeImageName,
+    storeImage: state.newListing.storeImage,
+    uploadingImage: state.newListing.sendingImage,
+  }),
+  { addStoreImage }
+)((props) => {
+  const {
+    err,
+    storeImageName,
+    storeImage,
+    uploadingImage,
+    addStoreImage,
+    forwardedref,
+  } = props;
+  return (
+    <div>
+      <p className={style.sectionTitle}>お店のイメージ画</p>
+      <p className={style.sectionDescription}>
+        お店の写真をアップロードしてください。
+      </p>
+      <input
+        ref={forwardedref}
+        required
+        className={style.invisible}
+        type="file"
+        key="storeImage"
+        name="storeImage"
+        id="storeImage"
+        accept=".png,.jpg,.jpeg,.png,image/*"
+        onChange={(e) => addStoreImage(e.target.files)}
+      />
+      <label htmlFor="storeImage" className={style.fileSelector}>
+        画像を選択
+      </label>
+
+      <p className={`${!!err ? style.invalid : style.invisible}`}>{err}</p>
+      <p className={storeImageName ? style.imageName : style.invisible}>
+        {uploadingImage ? "アップロード中..." : storeImageName}
+      </p>
+    </div>
+  );
+});
+
+const AddStoreImageModal = React.forwardRef((props, ref) => (
+  <AddStoreImageModalRedux forwardedref={ref} props={props} />
+));
+
+const AddStoreMapsModalRedux = connect(
+  (state) => ({
+    err: state.newListing.err,
+    storeMapsUrl: state.newListing.storeMapsUrl,
+  }),
+  { addStoreMapsUrl }
+)((props) => {
+  const { err, addStoreMapsUrl, storeMapsUrl, forwardedref } = props;
+  return (
+    <div>
+      <p className={style.sectionTitle}>お店のGoogle Maps リンク</p>
+      <p className={style.sectionDescription}>
+        お店のGoogle Mapsリンクを貼ってください。
+      </p>
+      <input
+        ref={forwardedref}
+        required
+        type="url"
+        className={style.inputField}
+        value={storeMapsUrl || ""}
+        placeholder="https://goo.gl/maps/EUeJhQK5gcsJGarK7"
+        onChange={(e) => {
+          addStoreMapsUrl(e.target.value);
+        }}
+      ></input>
+      <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
+        {err}
+      </p>
+    </div>
+  );
+});
+
+const AddStoreMapsModal = React.forwardRef((props, ref) => (
+  <AddStoreMapsModalRedux forwardedref={ref} props={props} />
+));
+
 class ModalCard extends React.Component {
   inputElement = React.createRef();
   componentDidMount() {
@@ -31,211 +315,7 @@ class ModalCard extends React.Component {
     const {
       // state
       page,
-      username,
-      storeImageName,
-      storeMapsUrl,
-      storeName,
-      actionType,
-      actionUrl,
-      spotifyUrl,
-      uploadingImage,
-      storeImage,
-      err,
-      // actions
-      addUsername,
-      addStoreName,
-      addStoreImage,
-      addSpotifyLink,
-      addActionType,
-      addActionLink,
-      addStoreMapsUrl,
     } = this.props;
-
-    const AddUserModal = React.forwardRef((props, ref) => {
-      return (
-        <div>
-          <p className={style.sectionTitle}>あなたのお名前</p>
-          <p className={style.sectionDescription}>
-            placelistの作成者として表示するお名前を教えて下さい。
-          </p>
-          <input
-            ref={ref}
-            required
-            className={style.inputField}
-            type="input"
-            key="username"
-            placeholder="sp4ghet"
-            // https://github.com/redux-form/redux-form/issues/735#issuecomment-196368772
-            value={username || ""}
-            onChange={(e) => addUsername(e.target.value)}
-          />
-
-          <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
-            {err}
-          </p>
-        </div>
-      );
-    });
-
-    const AddStoreModal = React.forwardRef((props, ref) => {
-      return (
-        <div>
-          <p className={style.sectionTitle}>お店の名前</p>
-          <p className={style.sectionDescription}>
-            おなたの思い入れのあるお店はどこですか。
-          </p>
-          <input
-            ref={ref}
-            required
-            key="storeName"
-            className={style.inputField}
-            type="input"
-            value={storeName || ""}
-            placeholder="The Miracle of Science Bar & Grill"
-            onChange={(e) => addStoreName(e.target.value)}
-          />
-
-          <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
-            {err}
-          </p>
-        </div>
-      );
-    });
-
-    const AddSpotifyModal = React.forwardRef((props, ref) => {
-      return (
-        <div>
-          <p className={style.sectionTitle}>Spotify Playlist リンク</p>
-          <p className={style.sectionDescription}>
-            そのお店の雰囲気を表すプレイリストを教えて下さい。
-            普段から聞いているものでも良いですし，ご自分で作成頂いたものだとさらに素敵です。
-          </p>
-          <input
-            ref={ref}
-            required
-            className={style.inputField}
-            type="url"
-            key="spotifyUrl"
-            placeholder="https://open.spotify.com/playlist/6b8ngrtdesYwGay2faDzWd"
-            value={spotifyUrl || ""}
-            onChange={(e) => addSpotifyLink(e.target.value)}
-          />
-          <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
-            {err}
-          </p>
-        </div>
-      );
-    });
-
-    const AddActionTypeModal = React.forwardRef((props, ref) => {
-      return (
-        <div>
-          <p className={style.sectionTitle}>お店の取り組み</p>
-          <p className={style.sectionDescription}>
-            前売り券やテイクアウトなど，お店が外出自粛要請に対する取り組みをされていれば教えて下さい。
-          </p>
-          <select
-            ref={ref}
-            required
-            className={style.dropdown}
-            form="newListing"
-            key="actionType"
-            onChange={(e) => addActionType(e.target.value)}
-            defaultValue={actionType || "default"}
-          >
-            <option disabled value="default" className={style.defaultSelect}>
-              取り組みの種類を選択
-            </option>
-            <option value="advance">Advance Ticket</option>
-            <option value="crowdfunding">Crowdfunding</option>
-            <option value="online">Online Store</option>
-            <option value="other">Other (e.g. takeout, donation)</option>
-            <option value="none">None</option>
-          </select>
-          <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
-            {err}
-          </p>
-        </div>
-      );
-    });
-
-    const AddActionLinkModal = React.forwardRef((props, ref) => {
-      return (
-        <div>
-          <p className={style.sectionTitle}>お店の取り組み リンク</p>
-          <p className={style.sectionDescription}>
-            お店の取り組みがわかるページリンクがあれば教えて下さい。
-          </p>
-          <input
-            ref={ref}
-            className={style.inputField}
-            type="url"
-            key="actionUrl"
-            placeholder="http://www.miracleofscience.us/index.php"
-            value={actionUrl || ""}
-            onChange={(e) => addActionLink(e.target.value)}
-          />
-          <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
-            {err}
-          </p>
-        </div>
-      );
-    });
-
-    const AddStoreImageModal = React.forwardRef((props, ref) => {
-      return (
-        <div>
-          <p className={style.sectionTitle}>お店のイメージ画</p>
-          <p className={style.sectionDescription}>
-            お店の写真をアップロードしてください。
-          </p>
-          <input
-            ref={ref}
-            required
-            className={style.invisible}
-            type="file"
-            key="storeImage"
-            name="storeImage"
-            id="storeImage"
-            accept=".png,.jpg,.jpeg,.png,image/*"
-            onChange={(e) => addStoreImage(e.target.files)}
-          />
-          <label htmlFor="storeImage" className={style.fileSelector}>
-            画像を選択
-          </label>
-
-          <p className={`${!!err ? style.invalid : style.invisible}`}>{err}</p>
-          <p className={storeImageName ? style.imageName : style.invisible}>
-            {uploadingImage ? "アップロード中..." : storeImageName}
-          </p>
-        </div>
-      );
-    });
-
-    const AddStoreMapsModal = React.forwardRef((props, ref) => {
-      return (
-        <div>
-          <p className={style.sectionTitle}>お店のGoogle Maps リンク</p>
-          <p className={style.sectionDescription}>
-            お店のGoogle Mapsリンクを貼ってください。
-          </p>
-          <input
-            ref={ref}
-            required
-            type="url"
-            className={style.inputField}
-            placeholder="https://goo.gl/maps/EUeJhQK5gcsJGarK7"
-            value={storeMapsUrl || ""}
-            onChange={(e) => {
-              addStoreMapsUrl(e.target.value);
-            }}
-          ></input>
-          <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
-            {err}
-          </p>
-        </div>
-      );
-    });
 
     let body = <div></div>;
     switch (page) {
@@ -277,27 +357,9 @@ class ModalCard extends React.Component {
 
 const mapStateToProps = (state) => ({
   page: state.modal.page,
-  username: state.newListing.username,
-  storeName: state.newListing.storeName,
-  actionType: state.newListing.actionType,
-  actionUrl: state.newListing.actionUrl,
-  spotifyUrl: state.newListing.spotifyUrl,
-  storeImageName: state.newListing.storeImageName,
-  storeImage: state.newListing.storeImage,
-  uploadingImage: state.newListing.sendingImage,
-  storeMapsUrl: state.newListing.storeMapsUrl,
   open: state.modal.open,
-  err: state.newListing.err,
 });
 
-const mapDispatchToProps = {
-  addUsername,
-  addStoreName,
-  addSpotifyLink,
-  addStoreImage,
-  addActionType,
-  addActionLink,
-  addStoreMapsUrl,
-};
+const mapDispatchToProps = {};
 
 export default connect(mapStateToProps, mapDispatchToProps)(ModalCard);

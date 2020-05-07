@@ -171,6 +171,9 @@ export const setPage = (toPage) => {
       default:
         break;
     }
+    if (state.modal.page >= 7) {
+      return;
+    }
 
     dispatch({
       type: SET_PAGE,
