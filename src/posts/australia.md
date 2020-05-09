@@ -1,3 +1,8 @@
+---
+path: "/post-quarantine-urbanism/melbourne"
+date: "2020/04/24"
+title: "Post Pandemic Urbanism Australia: The Merge Scenario"
+---
 
 Post Pandemic Urbanism Australia: The Merge Scenario
 ====================================================

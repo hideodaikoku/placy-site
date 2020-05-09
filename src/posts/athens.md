@@ -1,3 +1,8 @@
+---
+path: "/post-quarantine-urbanism/athens"
+date: "2020/04/14"
+title: "Greece in the age of COVID-19: An unlikely success story and the new challenges ahead"
+---
 
 Greece in the age of COVID-19: An unlikely success story and the new challenges ahead
 =====================================================================================

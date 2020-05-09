@@ -1,3 +1,9 @@
+---
+path: "/post-quarantine-urbanism/wuhan"
+date: "2020/04/17"
+title: "Post-Quarantine Urbanism of China: It’s All About Human Conditions"
+---
+
 Post-Quarantine Urbanism of China: It’s All About Human Conditions
 ==================================================================
 

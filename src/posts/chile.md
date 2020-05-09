@@ -1,6 +1,8 @@
-
-
-
+---
+path: "/post-quarantine-urbanism/santiago"
+date: "2020/05/04"
+title: "Post-Quarantine in a segregated metropolis: Mobility, key factor to unite two Santiagos today and after the Covid-19 crisis"
+---
 
 Post-Quarantine in a segregated metropolis: Mobility, key factor to unite two Santiagos today and after the Covid-19 crisis
 ===========================================================================================================================

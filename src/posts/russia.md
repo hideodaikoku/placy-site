@@ -1,3 +1,9 @@
+---
+path: "/post-quarantine-urbanism/moscow"
+date: "2020/04/23"
+title: "Quarantine in Moscow: in Delivery We Trust"
+---
+
 Quarantine in Moscow: in Delivery We Trust
 ==========================================
 

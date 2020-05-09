@@ -1,3 +1,9 @@
+---
+path: "/post-quarantine-urbanism/zurich"
+date: "2020/04/19"
+title: "Early speculations on how COVID19 can shape Hong Kong’s Urban Future"
+---
+
 **_Zurich’s post-pandemic balcony and what we can learn about it from this health crisis_**
 ===========================================================================================
 

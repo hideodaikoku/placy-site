@@ -1,3 +1,9 @@
+---
+path: "/post-quarantine-urbanism/hong-kong"
+date: "2020/04/20"
+title: "Speculating Hong Kong’s urban futures in a Post-COVID World"
+---
+
 **Speculating Hong Kong’s urban futures in a Post-COVID World**
 ===============================================================
 

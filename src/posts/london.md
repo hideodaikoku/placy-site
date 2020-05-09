@@ -1,3 +1,9 @@
+---
+path: "/post-quarantine-urbanism/london"
+date: "2020/04/20"
+title: "London Parks, Space, and Pandemic"
+---
+
 London Parks, Space, and Pandemic
 =================================
 
