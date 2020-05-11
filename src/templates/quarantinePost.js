@@ -14,13 +14,12 @@ export const query = graphql`
         }
     }
 `
-
 const BlogTemplate = (props) =>{
     return(
         <Layout color={"white"}>
             <Head title={props.data.markdownRemark.frontmatter.title}/>
             <div className={quarantineBlogStyle.container}>
-                <div dangerouslySetInnerHTML={{ __html : props.data.markdownRemark.html }}></div>
+                <div id="textContainer" dangerouslySetInnerHTML={{ __html : props.data.markdownRemark.html }}></div>
                 <a className={quarantineBlogStyle.mediumButton} href={props.data.markdownRemark.frontmatter.medium} target="_blank" rel="noopener noreferrer">
                     <span>
                         <img 
