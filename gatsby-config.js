@@ -12,11 +12,19 @@ module.exports = {
   plugins: [
     "gatsby-plugin-sass",
     "gatsby-plugin-react-helmet",
+    "dotenv",
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "markdown",
+        path: `${__dirname}/src/posts`,
       },
     },
     "gatsby-transformer-sharp",
@@ -27,5 +35,6 @@ module.exports = {
         trackingId: "UA-133311679-1",
       },
     },
+    "gatsby-transformer-remark"
   ],
 };

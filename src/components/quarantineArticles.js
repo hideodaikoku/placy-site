@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import quarantineArticleStyles from "../styles/quarantinearticle.module.scss";
 import quarantineData from "../data/quarantine.json";
 import { useStaticQuery, graphql } from "gatsby";
@@ -80,10 +81,10 @@ const QuarantineArticles = () => {
             {quarantineData.map( (quarantine,idx) =>(
                 <div key={idx} className={quarantineArticleStyles.article}>
                     <div className={quarantineArticleStyles.imageContainer}>
-                        <a href={quarantine.medium} target="_blank" rel="noopener noreferrer">
+                        <Link to={"/post-quarantine-urbanism/"+quarantine.slug}>
                         <Img fluid={data[quarantine.img].childImageSharp.fluid} className={quarantineArticleStyles.image}/>
                         <div className={quarantineArticleStyles.overlay}></div>
-                        </a>
+                        </Link>
                     </div>
                     <h1 className={quarantineArticleStyles.country}>{quarantine.place}</h1>
                     <small>{quarantine.date}</small>

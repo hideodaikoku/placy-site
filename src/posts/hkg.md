@@ -1,0 +1,65 @@
+---
+place: "Hong Kong"
+author: "Stephen Law"
+slug: "hong-kong"
+medium: "https://medium.com/post-quarantine-urbanism/speculating-hong-kongs-urban-futures-in-a-post-covid-world-9f548f874d6e"
+date: "2020/04/20"
+title: "Early speculations on how COVID19 can shape Hong Kong’s Urban Future"
+---
+
+**Speculating Hong Kong’s urban futures in a Post-COVID World**
+===============================================================
+
+[![Stephenlawdesign](https://miro.medium.com/fit/c/96/96/2*wRuJKeNzXmQgYTuGOR-aNg.jpeg)](https://medium.com/@stephenlawdesign?source=post_page-----9f548f874d6e----------------------)<br/>
+[Stephenlawdesign](https://medium.com/@stephenlawdesign?source=post_page-----9f548f874d6e----------------------)
+<img src="https://miro.medium.com/max/1400/1*wk60gOEfd5c9uvvRB-qrFw.jpeg" alt="provide an image tag"/>
+
+What does Hong Kong’s urban future hold in a Post COVID world?
+
+Historically, health issues have facilitated major changes in cities. For example, the Cholera outbreak in the 19th century had led to improvements in sanitation condition and the desire for a healthier environment motivated the city garden movement in the early 20th century (Howard 1902). Ones might ask what will happen to cities after the COVID19 health pandemic where many lives had been lost? How will this health crisis influence our daily lives in the short term and how will cities respond in the long term? This article will provide some early thoughts focusing on, Hong Kong, the hyper-dense city-region that faced a similar pandemic in 2003.
+
+<img src="https://miro.medium.com/max/1400/1*C4449UwpOOf4_9Ow6VGAzA.png" alt="provide an image tag"/>
+
+_Fig 1. Geographical distribution of coronavirus cases in Hong Kong and its hospital location. (Source: SCMP)_ [_https://multimedia.scmp.com/infographics/news/hong-kong/article/3050053/hong-kong-coronavirus-infected-cases/index.html_](https://multimedia.scmp.com/infographics/news/hong-kong/article/3050053/hong-kong-coronavirus-infected-cases/index.html)
+
+Hong Kong, a special administrative region of 8 million inhabitants in the South China Sea, has achieved relative success for keeping infections and deaths to a low level after the initial outbreaks from Wuhan in Mainland China and subsequent ones locally. As of April.11th, there were a total of 1004 cases and 4 deaths with less than 10 daily cases in the past week. The lower number of cases and deaths can be attributed to a combination of Government policies on social distancing (ie. restaurant tables needing to be 1.5 metres apart), contact tracing, rapid testing (ie. mandatory testing in airports now), quarantining, closure of schools/bars/restaurants, cancellation of mass gatherings, working-from-home, early implementation of travel restriction while not implementing a full lock-down (Cowling et al 2020). One key factor in its effective control is the behavioural change where social distancing, wearing of masks, and frequent sanitising (lifts and lobbies) had become a norm very early. A norm that can be traced back to the SARS pandemic in 2003 (SCMP 2020a). It is still too early to assess, as Hong Kong being one of the densest city in the world, has a high risk of experiencing a renewed local community outbreak when the city relaxes social distancing.
+
+During the pandemic period, people’s behaviour changed. Many of such changes might well remain permanent and affect how the city is shaped. Specifically, city-level movements such as work-trips, social gatherings and leisure-shopping have reduced, while local movements have somewhat increased proportionally. This is replaced by working from home (where possible), necessity-driven physical shopping, limited physical exercises and online shopping (which is envisaged to continue in the near future). The economic consequences in the short term are fast becoming obvious where news of shops/businesses closing are becoming commonplace and unemployment rates rising. In response, the Hong Kong SAR government had unveiled on April. 8th, a $177 billion HKD relief package to help businesses and people to cushion the impact of the pandemic in preventing SME from folding (SCMP 2020b).
+
+At the end of the day, the stimulus package is a short-term solution, the socio-economic consequences from the health pandemic will last much longer. Socially, the mental wellbeing had taken a severe toll in the past year both from the trauma of the social unrest and the pandemic. While politically, the handling of the health pandemic seemed to have worsened the distrust with the government where social unrests can occur again. Economically, Hong Kong being a city region that relies heavily on the service economy, trade and tourism sector, will be negatively affected in the long term. There will undoubtedly be many business closures, job losses, and social distresses. The city region is thus not only managing a public health crisis but a deeper societal and economic one. Help will be needed to support people’s mental wellbeing and economically for businesses to adapt (eg. online economy, local/home production, outdoor activities, robotics and health technology are potential growth sectors).
+
+<img src="https://miro.medium.com/max/1332/1*HhSDxvtfW9cKY3DJ0dkQfw.png" alt="provide an image tag"/>
+
+_Fig 2. Concrete Jungle, Hong Kong_
+
+From an urban planning/design perspective, I speculate several changes to occur in the dense city region. These changes will depend on what we learn epidemiologically on how the coronavirus spreads. In the short term, once the health concerns are subdued, there would be a gradual relaxation of social distancing. In the medium term, changes are expected to include an increase in spatial provision for public spaces, changes in layout of private spaces, reduction in the demand for large confined spaces (religious/concerts/conferences/festivals), greater restrictions for certain land uses (restaurants, hospitals, food markets, airports), an increase in the need for small local warehouse/storage spaces (increased online shopping) and an increase in the demand for smaller scale local/home economic activities (home urban farming/brewing). Technologically, there will be greater use of personal data (hopefully through privacy-preserving technology) for early prediction of future epidemics, contact tracing but also for health hazard planning. I also envisaged a greater integration between cities and technology. One example being the use of robotics in local warehouses and also in the unified assimilation between the virtual and the physical city.
+
+More specifically for Hong Kong, a city where high-rise living is the norm, is the issue of density and its implications on the society, both socially, economically and environmentally. There have yet to be conclusive evidence on the effect urban density have on COVID19 risks. Nevertheless, there are reasons to assume that density could indeed accelerate infection rates if left unchecked. Per se how should density be gradually reduced, adapted or perhaps retrofitted? Some adaptations have already taken shape in Hong Kong prior to COVID19 due to the SARS pandemic. One was the legislation that mandates separate sewage pipes for the upper and lower floors of high-rise buildings to reduce intra-building infections. Another was the establishment of air ventilation assessment (CUHK 2005) for new developments to respond to the city’s prevailing wind direction. Conversely, there are issues of density that have not been fully considered. One such issue is the health risks caused by the city’s extreme housing inequality and crowded living condition. Some of the poorest residents in the region have only 50sqft or 4.6sqm in a subdivided flat (200,000 people resides in 88,000 subdivided flats in 2015). Such risks can be mitigated by imposing a minimum living space requirements, restricting subdivided flats and to increase the supply of safer social housing stock. Lastly, there are also the environmental factors, where one of the unintended consequences of the pandemic is the global reduction of carbon emission. As density is inversely correlated with carbon emission, any changes in densification can also have unintended ramifications to the environments. Environmentally, I also envisioned the population to be more health conscious leading to an increase in outdoor activities and thus greater demand for urban parks, hiking trails, bicycle routes and campsites. In the context of Hong Kong, there is not only a need for greater provision of urban greenspaces but more importantly the connections between these open spaces. Hong Kong has a very rich natural asset but in contrast a very poor urban green infrastructure. The pandemic serves as a chance to rethink about the urban landscape for the city.
+
+All of the aforementioned factors are interrelated and need to be thought of holistically in the future. In the 21st century, people have returned to cities due to agglomeration leading to greater interactions and innovations (Glaeser 2011). This pandemic exposes some of its risks but nevertheless it also represents an opportunity for dense cities such as Hong Kong to adapt in a Post COVID world.
+
+* * *
+
+_Stephen is an urbanist at heart. He is currently a research fellow at the Alan Turing Institute and lecturer in University College London._
+
+_Acknowledgements to Leung Kam Shing for his insights on Hong Kong’s built environment and Soma Suzuki for curating this thought-provoking series about urbanism in a post-covid world._
+
+**_References_**
+
+_Cowling, B.J., Ali, S.T., Ng, T.W.Y., Tsang, T.K. (2020). Impact assessment of non-pharmaceutical interventions against coronavirus disease 2019 and influenza in Hong Kong: an observational study. The Lancet Public Health._
+
+_CUHK (2005). Feasibility Study for Establishment of Air Ventilation Assessment System._ [_https://www.pland.gov.hk/pland\_en/p\_study/comp\_s/avas/papers&reports/final\_report.pdf_](https://www.pland.gov.hk/pland_en/p_study/comp_s/avas/papers&reports/final_report.pdf)
+
+_Howard, E.. (1902). Garden Cities of Tomorrow. London: S. Sonnenschein & Co., Ltd. 1902._
+
+_Glaeser, Edward (2011), Triumph of the City: How Our Best Invention Makes Us Richer, Smarter, Greener, Healthier, and Happier, New York: Penguin Press, ISBN 978–1–59420–277–3_
+
+_New York Times (2020a). Density Is Normally Good for Us. That Will Be True After Coronavirus, Too._
+
+[_https://www.nytimes.com/2020/03/23/nyregion/coronavirus-nyc-crowds-density.html?action=click&module=RelatedLinks&pgtype=Article_](https://www.nytimes.com/2020/03/23/nyregion/coronavirus-nyc-crowds-density.html?action=click&module=RelatedLinks&pgtype=Article)
+
+_SCMP (2020a). coronavirus-post-poll-shows-hong-kong-residents-unhappy._ [_https://www.scmp.com/news/hong-kong/politics/article/3077761/coronavirus-post-poll-shows-hong-kong-residents-unhappy_](https://www.scmp.com/news/hong-kong/politics/article/3077761/coronavirus-post-poll-shows-hong-kong-residents-unhappy)
+
+_SCMP (2020b) Coronavirus: Carrie Lam unveils Hong Kong’s biggest Covid-19 relief package yet, worth HK$138 billion, to ensure 1.5 million workers still get paid._ [_https://www.scmp.com/news/hong-kong/politics/article/3078969/coronavirus-hong-kong-set-hk100-billion-covid-19-relief_](https://www.scmp.com/news/hong-kong/politics/article/3078969/coronavirus-hong-kong-set-hk100-billion-covid-19-relief)
+
+_SCMP (2020c) Average living space for Hong Kong’s poorest residents same as that of prisoners, survey reveals._ [_https://www.scmp.com/news/hong-kong/community/article/2117810/average-living-space-hong-kongs-poorest-residents-same_](https://www.scmp.com/news/hong-kong/community/article/2117810/average-living-space-hong-kongs-poorest-residents-same)
