@@ -79,5 +79,68 @@
         "medium": "https://medium.com/post-quarantine-urbanism/post-quarantine-in-a-segregated-metropolis-mobility-key-factor-to-unite-two-santiagos-today-and-a17d01b742ce",
         "date": "2020/05/04",
         "title": "Post-Quarantine in a segregated metropolis: Mobility, key factor to unite two Santiagos today and after the Covid-19 crisis"
+    },
+    {
+        "place": "Brazil - Rio",
+        "author": "Luis Claudio Arcos",
+        "img": "rio",
+        "slug" : "rio-de-janeiro",
+        "medium": "https://medium.com/post-quarantine-urbanism/notes-from-rio-towards-a-more-collaborative-city-6c94d563c6d9",
+        "date": "2020/05/04",
+        "title": "Notes from Rio: towards a more collaborative city."
+    },
+    {
+        "place": "Germany - Berlin",
+        "author": "Srna Tulić",
+        "img": "berlin",
+        "slug" : "santiago",
+        "medium": "https://medium.com/post-quarantine-urbanism/berlin-where-the-streets-belong-to-children-and-bikes-c2fc98c00523",
+        "date": "2020/05/06",
+        "title": "Berlin: Where the streets belong to children. And bikes."
+    },
+    {
+        "place": "Ukraine - Kyiv",
+        "author": "Olena Diadikova",
+        "img": "kyiv",
+        "slug" : "kyiv",
+        "medium": "https://medium.com/post-quarantine-urbanism/kyiv-it-is-time-to-be-different-7ae10639db59",
+        "date": "2020/05/09",
+        "title": "Kyiv: It is time to be different"
+    },
+    {
+        "place": "South Africa - Cape Town",
+        "author": "Simone Phoré",
+        "img": "capeTown",
+        "slug" : "cape-town",
+        "medium": "https://medium.com/post-quarantine-urbanism/covid-19-and-inequality-a-view-from-south-africa-e6bfeb72cc95",
+        "date": "2020/05/09",
+        "title": "COVID-19 and Inequality: A view from South Africa"
+    },
+    {
+        "place": "Italy - Venice",
+        "author": "Giacomo Martinis",
+        "img": "venice",
+        "slug" : "venice",
+        "medium": "https://medium.com/post-quarantine-urbanism/venice-vis-%C3%A0-vis-covid-19-cad2b8e71e0a",
+        "date": "2020/05/09",
+        "title": "Venice vis-à-vis Covid-19: a crucial opportunity to rethink tourism (?)"
+    },
+    {
+        "place": "Singapore",
+        "author": "Bryan Tan",
+        "img": "singapore",
+        "slug" : "singapore",
+        "medium": "https://medium.com/post-quarantine-urbanism/singapores-trusty-partner-the-void-deck-15fde8ce8ca1",
+        "date": "2020/05/10",
+        "title": "Singapore's Trusty Partner: The Void Deck"
+    },
+    {
+        "place": "Croatia - Zagreb",
+        "author": "Edita Vilic",
+        "img": "zagreb",
+        "slug" : "zagreb",
+        "medium": "https://medium.com/post-quarantine-urbanism/croatia-success-in-saving-lives-will-there-be-a-success-in-saving-the-economy-5264404befd0",
+        "date": "2020/05/10",
+        "title": "Croatia: success in saving lives, will there be a success in saving the economy?"
     }
 ]

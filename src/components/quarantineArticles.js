@@ -72,6 +72,55 @@ const QuarantineArticles = () => {
                     }
                 }
             }
+            rio: file(relativePath: {eq: "rio.jpg"}){
+                childImageSharp{
+                    fluid(maxWidth: 400){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            berlin: file(relativePath: {eq: "berlin.jpg"}){
+                childImageSharp{
+                    fluid(maxWidth: 400){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            kyiv: file(relativePath: {eq: "kyiv.jpg"}){
+                childImageSharp{
+                    fluid(maxWidth: 400){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            capeTown: file(relativePath: {eq: "cape-town.jpg"}){
+                childImageSharp{
+                    fluid(maxWidth: 400){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            venice: file(relativePath: {eq: "venice.jpg"}){
+                childImageSharp{
+                    fluid(maxWidth: 400){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            singapore: file(relativePath: {eq: "singapore.jpeg"}){
+                childImageSharp{
+                    fluid(maxWidth: 400){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            zagreb: file(relativePath: {eq: "croatia.jpeg"}){
+                childImageSharp{
+                    fluid(maxWidth: 400){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
         }
         
     `)
