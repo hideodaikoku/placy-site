@@ -9,6 +9,7 @@ export const query = graphql`
             frontmatter{
                 title
                 medium
+                ogp
             }
             html
         }
