@@ -6,6 +6,7 @@ medium: "https://medium.com/post-quarantine-urbanism/post-quarantine-urbanism-of
 ogp: "https://miro.medium.com/max/1074/1*YL1mp99BPXB-8Bj3RJWhNw.gif"
 date: "2020/04/17"
 title: "Post-Quarantine Urbanism of China: It’s All About Human Conditions"
+excerpt: "April 7 2020, one day before the official lockdown lift on Wuhan, China, people were counting down towards midnight as if there was another exclusive New Year’s Eve. The night was brightened up by a light show to pay tribute to the key workers with the headline ‘City of Heroes’..."
 ---
 
 Post-Quarantine Urbanism of China: It’s All About Human Conditions

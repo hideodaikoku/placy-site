@@ -7,6 +7,7 @@ medium: "https://medium.com/post-quarantine-urbanism/covid-19-and-inequality-a-v
 ogp: "https://miro.medium.com/max/1400/1*7y1K5oZ3ZBUK3_-jYnHX7A.jpeg"
 date: "2020/05/09"
 title: "COVID-19 and Inequality: A view from South Africa"
+excerpt: "South Africa entered its 35-day lockdown on the 27th of March 2020. The government has shown remarkable leadership acting quickly to limit travel, close ports of entry, provide educative resources, and to track and trace infected people."
 ---
 
 COVID-19 and Inequality: A view from South Africa

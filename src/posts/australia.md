@@ -6,6 +6,7 @@ medium: "https://medium.com/post-quarantine-urbanism/post-pandemic-urbanism-aust
 ogp: "https://miro.medium.com/max/1400/1*yssEGFAPwgWEPFBSe-HlyA.jpeg"
 date: "2020/04/24"
 title: "Post Pandemic Urbanism Australia: The Merge Scenario"
+excerpt: "The year 2025. A young woman returns home, transiting indifferently through the city. The urban immune system, matching personal health data with real-time biometric sensors indicates a potential infection."
 ---
 
 Post Pandemic Urbanism Australia: The Merge Scenario

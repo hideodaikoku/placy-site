@@ -122,16 +122,23 @@ const QuarantineArticles = () => {
                 }
             }
             excerpt: allMarkdownRemark{
-                edges{
-                  node{
-                    excerpt (pruneLength: 500)
+                nodes{
+                  frontmatter{
+                    excerpt
+                    author
                   }
                 }
-              }
+            }
         }
     `)
 
-    const excerpt = data.excerpt.edges[data.excerpt.edges.length-1].node.excerpt
+    const nodes = data.excerpt.nodes
+    var excerpt = ""
+    nodes.forEach(node => {
+        if(node.frontmatter.author==quarantineData.reverse()[0].author){
+            excerpt = node.frontmatter.excerpt
+        }
+    });
     return(
         <div className={quarantineArticleStyles.container}>
             <div className={quarantineArticleStyles.articleContainer}>
@@ -150,9 +157,8 @@ const QuarantineArticles = () => {
                                     <h3 className={quarantineArticleStyles.country}>{quarantine.title}</h3>
                                     <small>{quarantine.date}</small>
                                     <p className={quarantineArticleStyles.author}><i>{quarantine.author}</i></p>
-                                    <p className={quarantineArticleStyles.title}>{quarantine.place}{excerpt}</p>
-
-                                    <p className={quarantineArticleStyles.excerpt}></p>
+                                    <p className={quarantineArticleStyles.title}>{quarantine.place}</p>
+                                    <p className={quarantineArticleStyles.excerpt}>{excerpt}</p>
                                     <Link to={"/post-quarantine-urbanism/"+quarantine.slug} style={{textDecoration:"underline"}}>
                                         Read More
                                     </Link>

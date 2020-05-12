@@ -6,7 +6,9 @@ medium: "https://medium.com/post-quarantine-urbanism/quarantine-in-moscow-everyo
 ogp: "https://miro.medium.com/max/1400/0*EEPnHb0V7GjBm_3q"
 date: "2020/04/23"
 title: "Quarantine in Moscow: in Delivery We Trust"
+excerpt: "This brief report covers the situation in Moscow, Russia. The active measures against the pandemic were dated the 3rd week of March. To be precise with the current status, the report is dated the 14th of April."
 ---
+
 Quarantine in Moscow: in Delivery We Trust
 ==========================================
 

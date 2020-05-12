@@ -6,6 +6,7 @@ medium: "https://medium.com/post-quarantine-urbanism/post-quarantine-in-a-segreg
 ogp: "https://miro.medium.com/max/2912/1*AtJZfYO01weNUsa223jSiA.jpeg"
 date: "2020/05/04"
 title: "Post-Quarantine in a segregated metropolis: Mobility, key factor to unite two Santiagos today and after the Covid-19 crisis"
+excerpt: "The health crisis that is plaguing the world today and particularly the large metropolises, forces us to ask ourselves, what should be the next actions to be taken after the quarantine ends and the COVID 19 pandemic has been controlled?"
 ---
 
 Post-Quarantine in a segregated metropolis: Mobility, key factor to unite two Santiagos today and after the Covid-19 crisis

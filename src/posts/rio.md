@@ -7,6 +7,7 @@ medium: "https://medium.com/post-quarantine-urbanism/notes-from-rio-towards-a-mo
 ogp: "https://miro.medium.com/max/1400/0*LY2Jqi0nKNz1EKtv.jpeg"
 date: "2020/05/04"
 title: "Notes from Rio: towards a more collaborative city."
+excerpt: "This week, Brazil reached 7,025 deaths from covid-19 and 101,147 cases were confirmed, according to the Ministry of Health. São Paulo remains the state with the highest number of official cases. There are 31,772 cases, 2,627 deaths. Rio de Janeiro is next,"
 ---
 
 Notes from Rio: towards a more collaborative city.

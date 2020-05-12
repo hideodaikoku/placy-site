@@ -7,6 +7,7 @@ medium: "https://medium.com/post-quarantine-urbanism/venice-vis-%C3%A0-vis-covid
 ogp: "https://miro.medium.com/max/1400/1*wf1zZX__ES1JbK6N8I0tTw.jpeg"
 date: "2020/05/09"
 title: "Venice vis-à-vis Covid-19: a crucial opportunity to rethink tourism (?)"
+excerpt: "As the first European country severely hit by the pandemic, with the first two cases being confirmed on the 30th of January, Italy also was the first to declare the state of emergency and to raise restriction measures in the attempt to face the sanitary crisis."
 ---
 
 Venice vis-à-vis Covid-19: a crucial opportunity to rethink tourism (?)

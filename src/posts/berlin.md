@@ -7,6 +7,7 @@ medium: "https://medium.com/post-quarantine-urbanism/berlin-where-the-streets-be
 ogp: "https://miro.medium.com/max/1400/1*zQSq6trKEW29SqitjgiiEA.jpeg"
 date: "2020/05/06"
 title: "Berlin: Where the streets belong to children. And bikes."
+excerpt: "On the day I started writing this article, the city of Berlin has already loosened many of the measures that came into force on March 22nd due to the Covid-19 pandemics."
 ---
 
 

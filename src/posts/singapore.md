@@ -7,6 +7,7 @@ medium: "https://medium.com/post-quarantine-urbanism/singapores-trusty-partner-t
 date: "2020/05/10"
 ogp: "https://miro.medium.com/max/4320/1*oRogVzecHABg6YDKtuBRDA.jpeg"
 title: "Singapore's Trusty Partner: The Void Deck"
+excerpt: "Eyes turned to Singapore, not because of another meeting between Trump and Kim, but because of something else that has been grabbing the attention of all around the world. On that day, a 66-year-old Chinese national tested positive,"
 ---
 
 SINGAPORE’S TRUSTY PARTNER: THE VOID DECK

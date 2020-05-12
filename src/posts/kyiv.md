@@ -7,6 +7,7 @@ medium: "https://medium.com/post-quarantine-urbanism/kyiv-it-is-time-to-be-diffe
 ogp: "https://miro.medium.com/max/2000/1*oNqMW6tadiBu-x-9Ug5dbg.jpeg"
 date: "2020/05/09"
 title: "Kyiv: It is time to be different"
+excerpt: "The article is about the current state of Kyiv quarantine and a Ukrainian way of handling COVID-19ю The text is written during the 7th week of quarantine when measures are to be revised if coronavirus spread declines."
 ---
 
 <img class="s t u en ai" src="https://miro.medium.com/max/2000/1*oNqMW6tadiBu-x-9Ug5dbg.jpeg"/>

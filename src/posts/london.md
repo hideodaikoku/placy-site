@@ -6,7 +6,9 @@ medium: "https://medium.com/post-quarantine-urbanism/london-parks-space-and-pand
 ogp: "https://miro.medium.com/max/1400/1*uo7Ad4ujSHFf-WONhIcOpg.jpeg"
 date: "2020/04/20"
 title: "London Parks, Space, and Pandemic"
+excerpt: "iew towards central London from Hampstead. Post-quarantine urbanism is still a dream in London. There is an ongoing lockdown. The official advice from the UK government "
 ---
+
 London Parks, Space, and Pandemic
 =================================
 

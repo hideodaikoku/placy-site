@@ -6,6 +6,7 @@ medium: "https://medium.com/post-quarantine-urbanism/speculating-hong-kongs-urba
 ogp: "https://miro.medium.com/max/1400/1*wk60gOEfd5c9uvvRB-qrFw.jpeg"
 date: "2020/04/20"
 title: "Early speculations on how COVID19 can shape Hong Kong’s Urban Future"
+excerpt: "What does Hong Kong’s urban future hold in a Post COVID world? Historically, health issues have facilitated major changes in cities. For example, the Cholera outbreak in the 19th century had led to..."
 ---
 
 **Speculating Hong Kong’s urban futures in a Post-COVID World**

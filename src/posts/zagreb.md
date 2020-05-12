@@ -7,6 +7,7 @@ medium: "https://medium.com/post-quarantine-urbanism/croatia-success-in-saving-l
 ogp: "https://miro.medium.com/max/2800/1*G4iVSTnU3USeYhwbCpvB6g.jpeg"
 date: "2020/05/10"
 title: "Croatia: success in saving lives, will there be a success in saving the economy?"
+excerpt: "Croatia has not been affected by COVID -19 as harshly as it has happened in other countries of Europe and the World. On May 10th, 2176 cases of COVID-19 are confirmed, which makes 51 cases per 100 000 citizens. There are 87 deaths recorded ([URL 1](https://www.ecdc.europa.eu/en/cases-2019-ncov-eueea))."
 ---
 
 Croatia: success in saving lives, will there be a success in saving the economy?

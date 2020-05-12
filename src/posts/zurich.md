@@ -7,7 +7,9 @@ medium: "https://medium.com/post-quarantine-urbanism/zurichs-post-pandemic-balco
 ogp: "https://miro.medium.com/max/1400/1*nmTjEAfoSjjOvYo6cM6TyA.png"
 date: "2020/04/19"
 title: "The impact of the health crisis on urban design: The post-pandemic balcony"
+excerpt: "In the light of COVID-19, Switzerland has not been in the focus of the international media as much as its European neighbors Italy and France. Yet, it has one of the highest numbers of reported cases per inhabitant globally. "
 ---
+
 **_Zurich’s post-pandemic balcony and what we can learn about it from this health crisis_**
 ===========================================================================================
 

@@ -6,6 +6,7 @@ medium: "https://medium.com/post-quarantine-urbanism/greece-in-the-age-of-covid-
 ogp: "https://miro.medium.com/max/1400/1*jJZwI1y9gbpAxdAKPqZLHw.jpeg"
 date: "2020/04/14"
 title: "Greece in the age of COVID-19: An unlikely success story and the new challenges ahead"
+excerpt: "The COVID-19 pandemic first appeared in Greece on 26 February 2020. The greek government to battle the spread of the pandemic had announced a series of measures such as: a) On 27 February, the cancellation of all carnival events in the country b) On March 10 the suspension of .."
 ---
 
 Greece in the age of COVID-19: An unlikely success story and the new challenges ahead

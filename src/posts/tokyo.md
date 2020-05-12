@@ -6,6 +6,7 @@ medium: "https://miro.medium.com/max/1400/1*uVO4MgfbhBWh7YLca6DxSg.png"
 ogp: "https://miro.medium.com/max/1400/1*uVO4MgfbhBWh7YLca6DxSg.png"
 date: "2020/05/02"
 title: "Where Matters."
+excerpt: "I wake, eat and fall asleep, all in the same place. I expect exhaustion after spending so long indoors, but a local takeout meal restores my energy. I am repeating these days. Freelance friends are considering life in rural areas when the functioning world returns. Maybe being situated in Tokyo is not essential to my life afterall. The increase in telework will surely accelerate, as the daily barrage of social media commentary so kindly reminds us."
 ---
 Where Matters.
 ==============
