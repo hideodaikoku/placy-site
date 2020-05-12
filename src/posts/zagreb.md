@@ -4,6 +4,7 @@ author: "Edita Vilic"
 img: "zagreb"
 slug : "zagreb"
 medium: "https://medium.com/post-quarantine-urbanism/croatia-success-in-saving-lives-will-there-be-a-success-in-saving-the-economy-5264404befd0"
+ogp: "https://miro.medium.com/max/2800/1*G4iVSTnU3USeYhwbCpvB6g.jpeg"
 date: "2020/05/10"
 title: "Croatia: success in saving lives, will there be a success in saving the economy?"
 ---

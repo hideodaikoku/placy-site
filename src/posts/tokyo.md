@@ -3,6 +3,7 @@ place: "Japan - Tokyo"
 author: "Soma Suzuki"
 slug: "tokyo"
 medium: "https://miro.medium.com/max/1400/1*uVO4MgfbhBWh7YLca6DxSg.png"
+ogp: "https://miro.medium.com/max/1400/1*uVO4MgfbhBWh7YLca6DxSg.png"
 date: "2020/05/02"
 title: "Where Matters."
 ---

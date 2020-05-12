@@ -4,6 +4,7 @@ author: "Melanie Imefeld"
 img : "zurich"
 slug : "zurich"
 medium: "https://medium.com/post-quarantine-urbanism/zurichs-post-pandemic-balcony-and-what-we-can-learn-about-it-from-this-health-crisis-889e4081bfa3"
+ogp: "https://miro.medium.com/max/1400/1*nmTjEAfoSjjOvYo6cM6TyA.png"
 date: "2020/04/19"
 title: "The impact of the health crisis on urban design: The post-pandemic balcony"
 ---
