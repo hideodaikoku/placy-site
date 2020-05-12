@@ -10,9 +10,6 @@ title: "The impact of the health crisis on urban design: The post-pandemic balco
 **_Zurich’s post-pandemic balcony and what we can learn about it from this health crisis_**
 ===========================================================================================
 
-[![Melanie I.](https://miro.medium.com/fit/c/96/96/2*b0TtwxwB_LacHXKaWVHFug.jpeg)](https://medium.com/@indemfeld?source=post_page-----889e4081bfa3----------------------)<br/>
-[Melanie I.](https://medium.com/@indemfeld?source=post_page-----889e4081bfa3----------------------)
-
 **The current situation in Switzerland**
 
 In the light of COVID-19, Switzerland has not been in the focus of the international media as much as its European neighbors Italy and France. Yet, it has one of the highest numbers of reported cases per inhabitant globally. Hotbeds are the region bordering Italy as well as the city of Zurich. As of today, approximately 1’100 people have lost their lives to COVID-19. On March 16, the Federal Council declared the “extraordinary situation” based on the Swiss Epidemics Act of 2013. This allows the Federal Council to assume competencies that, in the Swiss structure of federalism, usually lie within the jurisdiction of the 26 States, or _Cantons_. The declaration of the “extraordinary situation“ includes closure of all non-essential businesses such as shops, restaurants, bars, and entertainment and leisure facilities. Even though public transport continues to run on a reduced schedule, the City of Zurich is asking its inhabitants to stay at home using their own campaign and hashtag _#bliibdehei_ (#stayathome). Gatherings in public spaces of more than five people are prohibited and public outdoor life as we know it has come to a halt.
@@ -56,3 +53,17 @@ No matter what the future will look like, the current pandemic is a reason to re
 * * *
 
 > Melanie is an IT consultant and an urban designer from Zurich, Switzerland. She is particularly interested in cartography & data visualization and believes that data analysis can help us to understand complex urban networks. Sometimes, she builds her [own maps](https://www.melanieimfeld.com/). She hopes that she can leave her balcony soon.
+
+
+
+* * *
+
+<div style="display: flex; margin-bottom: 2rem">
+    <div style="margin: 0 auto; text-align: center">
+        <img alt="Melanie I." src="https://miro.medium.com/fit/c/96/96/2*b0TtwxwB_LacHXKaWVHFug.jpeg"/>
+        <br/>
+        <a href="https://medium.com/@indemfeld?source=post_page-----889e4081bfa3----------------------">Melanie I.</a>
+    </div>
+</div>
+
+* * *

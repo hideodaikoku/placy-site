@@ -3,14 +3,12 @@ place: "Russia - Moscow"
 author: "Yevgeniya Yusova"
 slug: "moscow"
 medium: "https://medium.com/post-quarantine-urbanism/quarantine-in-moscow-everyone-is-isolated-everything-is-delivered-cad0013397bb"
+ogp: "https://miro.medium.com/max/1400/0*EEPnHb0V7GjBm_3q"
 date: "2020/04/23"
 title: "Quarantine in Moscow: in Delivery We Trust"
 ---
 Quarantine in Moscow: in Delivery We Trust
 ==========================================
-
-[![Yevgenyia Yusova](https://miro.medium.com/fit/c/96/96/0*19404gPQr2nOi5rE.)](https://medium.com/@yevgenyiayusova?source=post_page-----cad0013397bb----------------------)<br/>
-[Yevgenyia Yusova](https://medium.com/@yevgenyiayusova?source=post_page-----cad0013397bb----------------------)
 
 <img src="https://miro.medium.com/max/1400/0*FH0zsqYZheAoWcbC" alt="provide an image tag"/>
 
@@ -100,10 +98,10 @@ The rising capacity for protest that has been demonstrated since last summer and
 
 Moscow meets the suppression with the following tendencies:
 
-*   faltering economic activity in the centers of gravity
-*   lack of necessity to live in a vivid area or close to work
-*   massive outflow of Muscovites to the regions
-*   shared rental of the houses in the regions/on the outskirts of the city
+* faltering economic activity in the centers of gravity
+* lack of necessity to live in a vivid area or close to work
+* massive outflow of Muscovites to the regions
+* shared rental of the houses in the regions/on the outskirts of the city
 
 If these trends continue, the real estate market will tend to offer houses in the Moscow region and the demand for flats near the centers of attractions will decline, so will the prices. Consequently, the value of personal transport increases, as carsharing, which is widely used in Moscow (5 companies, > 27K cars), is not in service now. Individual travel is safer and less necessary when residing out of the city.
 
@@ -129,9 +127,20 @@ One of the features of the capital of Russia is the abundance of residential com
 
 The flourishing service sector, especially delivery (food, dry cleaners, beauty, cleaning) is the defining feature of Moscow. The delivery is now the main service that connects people: friends deliver home-cooked food to each other, flowers and gifts, colleagues send and receive official papers and sign them at the door to return to the courier. It seems like the boundaries home/office or private/public have become blurred, or maybe we have introduced more people to the inner circle by wearing pyjamas in front of the webcam. A Russian urban sociologist argues that Russian mentality [inclines to stay at home](https://ria.ru/20200415/1570064889.html?fbclid=IwAR2IdfkzTPaXTcLaYMAjNYTZPTCdMWVjS4tmbHT0SaXE1dRKXnv0HLsZn6E). People are more likely to choose private-to-public space in the kitchen or dining room rather than a pub, thus, commercial spaces in the city center will be more damaged in Moscow compared to other megacities. The so-called private-to-public spaces are quite autonomous and depend mostly on people and less on delivery.
 
-* * *
 
-> Yevgeniya has a background in urban research and transport analysis. Holds the MSc Degree in Smart Cities and Urban Analysis, UCL, works on Wi-Fi infrastructure projects and masters service design.
+* * *
+  
+<div style="display:flex; justify-content: space-evenly; margin-bottom: 2rem">
+    <div style="margin-right:1rem; width:18%">
+        <img  alt="Yevgenyia Yusova" src="https://miro.medium.com/fit/c/96/96/0*19404gPQr2nOi5rE."/><br/>
+        <br/>
+    </div>
+    <div style="width: 60%;">
+    <a href="https://medium.com/@yevgenyiayusova?source=post_page-----cad0013397bb----------------------">Yevgenyia Yusova</a>
+    <br/>
+    Yevgeniya has a background in urban research and transport analysis. Holds the MSc Degree in Smart Cities and Urban Analysis, UCL, works on Wi-Fi infrastructure projects and masters service design.
+    </div>
+</div>
 
 * * *
 

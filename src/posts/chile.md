@@ -3,6 +3,7 @@ place: "Chile - Santiago"
 author: "Carolina Cornelio"
 slug: "santiago"
 medium: "https://medium.com/post-quarantine-urbanism/post-quarantine-in-a-segregated-metropolis-mobility-key-factor-to-unite-two-santiagos-today-and-a17d01b742ce"
+ogp: "https://miro.medium.com/max/2912/1*AtJZfYO01weNUsa223jSiA.jpeg"
 date: "2020/05/04"
 title: "Post-Quarantine in a segregated metropolis: Mobility, key factor to unite two Santiagos today and after the Covid-19 crisis"
 ---
@@ -10,8 +11,6 @@ title: "Post-Quarantine in a segregated metropolis: Mobility, key factor to unit
 Post-Quarantine in a segregated metropolis: Mobility, key factor to unite two Santiagos today and after the Covid-19 crisis
 ===========================================================================================================================
 
-![Carolina Cornelio Guillermo](https://miro.medium.com/fit/c/96/96/0*FpxI3No91dELR9gs)<br/>
-[Carolina Cornelio Guillermo](https://medium.com/@jmcornelio?source=post_page-----a17d01b742ce----------------------)
 * * *
   
 
@@ -103,9 +102,21 @@ In these moments of crisis, it is perhaps the **mobility smart management**, tha
 
 * * *
 
-> **Carolina Cornelio**
-> 
-> Architect (Ricardo Palma University in Perú) , with a Master in Urban Development (Pontificia Universidad Católica in Chile). Peruvian living in Chile since 2014.
+<div style="display:flex; justify-content: space-evenly">
+    <div style="margin-right:1rem; width:18%">
+        <img  alt="Carolina Cornelio Guillermo" src="https://miro.medium.com/fit/c/96/96/0*FpxI3No91dELR9gs"/><br/>
+        <br/>
+    </div>
+    <div style="width: 60%;">
+    <a href="https://medium.com/@jmcornelio?source=post_page-----a17d01b742ce----------------------"> Carolina Cornelio Guillermo</a>
+    <br/>
+    Architect (Ricardo Palma University in Perú) , with a Master in Urban Development (Pontificia Universidad Católica in Chile). Peruvian living in Chile since 2014.
+    </div>
+</div>
+<br/>
+
+* * *
+
 > 
 > **References:**
 > 

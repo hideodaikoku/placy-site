@@ -13,6 +13,14 @@
         font-weight: 500;
     }
 
+    ul > li{
+        list-style-type: disc;
+        margin-left: 1rem;
+    }
+    ul{
+        margin-bottom: 1rem;
+    }
+
     .medium-button{
         text-decoration: none;
         width: 15rem;

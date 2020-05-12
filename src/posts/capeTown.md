@@ -4,6 +4,7 @@ author: "Simone Phoré"
 img: "capeTown"
 slug : "cape-town"
 medium: "https://medium.com/post-quarantine-urbanism/covid-19-and-inequality-a-view-from-south-africa-e6bfeb72cc95"
+ogp: "https://miro.medium.com/max/1400/1*7y1K5oZ3ZBUK3_-jYnHX7A.jpeg"
 date: "2020/05/09"
 title: "COVID-19 and Inequality: A view from South Africa"
 ---
@@ -66,17 +67,24 @@ Empty streets along Seapoint promenade (Source: Author’s Own, 2020)
 
 * * *
 
+<div style="display: flex; margin-bottom: 2rem">
+    <div style="margin: 0 auto; text-align: center">
+        <img alt="Simone Phoré" src="https://miro.medium.com/fit/c/96/96/2*0IqP1ORaDu6Nym7cmtT9gg.jpeg"/>
+        <br/>
+        <a href="https://medium.com/@simiphore?source=post_page-----e6bfeb72cc95----------------------">Simone Phoré</a>
+    </div>
+</div>
+
+* * *
+
 > ## References
 > 
-> Corona Times, 2020. Understanding the world through the Covid-19 pandemic. https://www.coronatimes.net. 
-> Accessed: 6 May 2020
+> Corona Times, 2020. Understanding the world through the Covid-19 pandemic. <br/>https://www.coronatimes.net. <br/>
+> [Accessed: 6 May 2020]
 > 
-> Global Research Programme on Inequality. 2020. Ministries on COVID-19 and Inequality: A Critical View from South Africa. https://gripinequality.org/2020/04/12-miniseries-on-covid-19-and-inequality-a-critical-view-from-south-africa/?fbclid=IwAR1PRGywvwuPHlgj7bcrVcmxzpIJUttF2c-IZL8gPN4vPSLjNHcntA4dN6A
-> Accessed: 29 April 2020
+> Global Research Programme on Inequality. 2020. Ministries on COVID-19 and Inequality: A Critical View from South Africa. <br/>https://gripinequality.org/2020/04/12-miniseries-on-covid-19-and-inequality-a-critical-view-from-south-africa/?fbclid=IwAR1PRGywvwuPHlgj7bcrVcmxzpIJUttF2c-IZL8gPN4vPSLjNHcntA4dN6A<br/>
+> [Accessed: 29 April 2020]
 > 
-> Harari, Y.N.2020. The world after coronavirus. https://www.ft.com/content/19d90308-6858-11ea-a3c9-1fe6fedcca75. Accessed: 7 May 2020
+> Harari, Y.N.2020. The world after coronavirus. <br/>https://www.ft.com/content/19d90308-6858-11ea-a3c9-1fe6fedcca75. <br/>[Accessed: 7 May 2020]
 > 
-> Mitlin, S. 2020. Dealing with COVID-19 in the towns and cities of the global South. https://www.iied.org/dealing-covid-19-towns-cities-global-south?fbclid=IwAR0B-8nhvuq13LwCUCmKwA1V0g1H2fDk3S3R\_4Tn9rMBb0gCsv4s35b2u7s Accessed: 4 May 2020
-
-[![Simone Phoré](https://miro.medium.com/fit/c/96/96/2*0IqP1ORaDu6Nym7cmtT9gg.jpeg)](https://medium.com/@simiphore?source=post_page-----e6bfeb72cc95----------------------)
-[Simone Phoré](https://medium.com/@simiphore?source=post_page-----e6bfeb72cc95----------------------)
+> Mitlin, S. 2020. Dealing with COVID-19 in the towns and cities of the global South.<br/> https://www.iied.org/dealing-covid-19-towns-cities-global-south?fbclid=IwAR0B-8nhvuq13LwCUCmKwA1V0g1H2fDk3S3R\_4Tn9rMBb0gCsv4s35b2u7s <br/>[Accessed: 4 May 2020]

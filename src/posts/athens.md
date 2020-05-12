@@ -3,6 +3,7 @@ place: "Greece - Athens"
 author: "Anastassis Parmaksizoglou"
 slug: "athens"
 medium: "https://medium.com/post-quarantine-urbanism/greece-in-the-age-of-covid-19-an-unlikely-success-story-and-the-new-challenges-ahead-3c84820b692c"
+ogp: "https://miro.medium.com/max/1400/1*jJZwI1y9gbpAxdAKPqZLHw.jpeg"
 date: "2020/04/14"
 title: "Greece in the age of COVID-19: An unlikely success story and the new challenges ahead"
 ---
@@ -10,8 +11,6 @@ title: "Greece in the age of COVID-19: An unlikely success story and the new cha
 Greece in the age of COVID-19: An unlikely success story and the new challenges ahead
 =====================================================================================
 
-[![Anastassis Parmaksizoglou](https://miro.medium.com/fit/c/96/96/2*UDMT5QORbn1M0QTT2OoumA.png)](https://medium.com/@parmatop?source=post_page-----3c84820b692c----------------------)<br/>
-[Anastassis Parmaksizoglou](https://medium.com/@parmatop?source=post_page-----3c84820b692c----------------------)
 
 <img src="https://miro.medium.com/max/1400/1*jJZwI1y9gbpAxdAKPqZLHw.jpeg" alt="provide an image tag"/>
 
@@ -101,6 +100,16 @@ It seems that infectious diseases pandemic become relevant again in urban planni
 
 * * *
 
-> Anastassis Parmaksizoglou holds an MEng in Rural and Surveying Engineering from National Techinical University of Athens and an MSc in Smart Cities and Urban Analytics from University College of London. He works in the construction industry in London since 2018.
+<div  style="display:flex; justify-content: space-evenly">
+    <div style="margin-right:1rem; width:18%">
+        <img alt="Anastassis Parmaksizoglou" src="https://miro.medium.com/fit/c/96/96/2*UDMT5QORbn1M0QTT2OoumA.png"/>
+    </div>
+    <div  style="width: 60%;">
+        <a href="https://medium.com/@parmatop?source=post_page-----3c84820b692c----------------------">Anastassis Parmaksizoglou </a>
+        <br/>
+        Anastassis Parmaksizoglou holds an MEng in Rural and Surveying Engineering from National Techinical University of Athens and an MSc in Smart Cities and Urban Analytics from University College of London. He works in the construction industry in London since 2018.
+    </div>
+</div>
+<br/>
 
 * * *

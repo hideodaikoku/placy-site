@@ -5,6 +5,7 @@ img: "singapore"
 slug : "singapore"
 medium: "https://medium.com/post-quarantine-urbanism/singapores-trusty-partner-the-void-deck-15fde8ce8ca1"
 date: "2020/05/10"
+ogp: "https://miro.medium.com/max/4320/1*oRogVzecHABg6YDKtuBRDA.jpeg"
 title: "Singapore's Trusty Partner: The Void Deck"
 ---
 
@@ -70,5 +71,14 @@ Void decks — From this day forward
 
 As of current, void decks have been an oasis in times of safety and have offered us support in times of crisis. Though many Singaporeans only see the void deck as nothing but a public space, the sheer number and styles of void decks in existence offers the nation a versatility that few or no other public space can rival. As new HDB blocks are constantly being developed, new void decks are being redesigned in an attempt to fit the needs of the future. Following the crisis, it would be wise for the architects and urban planners of Singapore to entertain the possibility of void decks being capable of providing better emergency shelter for longer periods of time, or even capable of providing more complex medical assistance. In essence, it would not be out of place to believe that void decks are here to stay for a long time to come, all while consistently playing an active role within Singapore.
 
-[![Bryan Tan](https://miro.medium.com/fit/c/96/96/2*1WoEICExk10xRUh5GR_gtw.jpeg)](https://medium.com/@bryantjaywai?source=post_page-----15fde8ce8ca1----------------------)
-[Bryan Tan](https://medium.com/@bryantjaywai?source=post_page-----15fde8ce8ca1----------------------)
+* * *
+
+<div style="display: flex; margin-bottom: 2rem">
+    <div style="margin: 0 auto; text-align: center">
+        <img alt="Bryan Tan" src="https://miro.medium.com/fit/c/96/96/2*1WoEICExk10xRUh5GR_gtw.jpeg"/>
+        <br/>
+        <a href="https://medium.com/@bryantjaywai?source=post_page-----15fde8ce8ca1----------------------">Bryan Tan</a>
+    </div>
+</div>
+
+* * *

@@ -2,15 +2,12 @@
 place: "Japan - Tokyo"
 author: "Soma Suzuki"
 slug: "tokyo"
-medium: "https://medium.com/post-quarantine-urbanism/where-matters-52eba9406bed"
+medium: "https://miro.medium.com/max/1400/1*uVO4MgfbhBWh7YLca6DxSg.png"
 date: "2020/05/02"
 title: "Where Matters."
 ---
 Where Matters.
 ==============
-
-[![Placy](https://miro.medium.com/fit/c/96/96/2*4furBW9To-ai78nPf0-57g.png)](https://medium.com/@placy_city?source=post_page-----52eba9406bed----------------------)<br/>
-[Placy](https://medium.com/@placy_city?source=post_page-----52eba9406bed----------------------)
 
 <img src="https://miro.medium.com/max/1400/1*uVO4MgfbhBWh7YLca6DxSg.png" alt="provide an image tag"/>
 
@@ -69,3 +66,17 @@ It is clear from these examples that a diverse range of triggers cause fluctuati
 The ‘ability’ to live anywhere does not equate to the ‘compulsion’ to do so; and this is an important distinction. Facilitating a culture of remote work does not necessarily entail a scattering of populations, but one certainty is that going forward, we will have more ‘options’ in where we live.
 
 It is important to note that as the range of possibilities in where to live increases, the differentiating ‘characteristics of places’ becomes increasingly important, as location declines in significance. Therefore, those places which were previously compelling due to distance may become overlooked, based on their lack of unique identities. While the current discussion of this pandemic’s long term effect focuses heavily on our liberation from predetermined space, what matters most is ‘why and where’ we choose to live at a given moment.
+
+
+
+* * *
+
+<div style="display: flex; margin-bottom: 2rem">
+    <div style="margin: 0 auto; text-align: center">
+        <img alt="Placy" src="https://miro.medium.com/fit/c/96/96/2*4furBW9To-ai78nPf0-57g.png"/>
+        <br/>
+        <a href="https://medium.com/@placy_city?source=post_page-----52eba9406bed----------------------">Placy</a>
+    </div>
+</div>
+
+* * *

@@ -4,6 +4,7 @@ author: "Luis Claudio Arcos"
 img: "rio"
 slug : "rio-de-janeiro"
 medium: "https://medium.com/post-quarantine-urbanism/notes-from-rio-towards-a-more-collaborative-city-6c94d563c6d9"
+ogp: "https://miro.medium.com/max/1400/0*LY2Jqi0nKNz1EKtv.jpeg"
 date: "2020/05/04"
 title: "Notes from Rio: towards a more collaborative city."
 ---
@@ -122,5 +123,14 @@ As Peter Drucker said, the best way to predict the future is to create it. So de
 
 The legacy of that moment can be a city that develops as a community that systematically promotes the complete well-being of all its residents and, proactively and sustainably, is able to transform itself into an increasingly better place for people to live, work, study and have fun.
 
-[![Luis Claudio Arcos](https://miro.medium.com/fit/c/96/96/2*1bqO9_Be9WV2sNPt_fjn7A.jpeg)](https://medium.com/@lcarcos?source=post_page-----6c94d563c6d9----------------------)
-[Luis Claudio Arcos](https://medium.com/@lcarcos?source=post_page-----6c94d563c6d9----------------------)
+* * *
+
+<div style="display: flex; margin-bottom: 2rem">
+    <div style="margin: 0 auto; text-align: center">
+        <img alt="Luis Claudio Arcos" src="https://miro.medium.com/fit/c/96/96/2*1bqO9_Be9WV2sNPt_fjn7A.jpeg"/>
+        <br/>
+        <a href="https://medium.com/@lcarcos?source=post_page-----6c94d563c6d9----------------------">Luis Claudio Arcos</a>
+    </div>
+</div>
+
+* * *

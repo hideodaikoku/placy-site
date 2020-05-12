@@ -3,6 +3,7 @@ place: "Hong Kong"
 author: "Stephen Law"
 slug: "hong-kong"
 medium: "https://medium.com/post-quarantine-urbanism/speculating-hong-kongs-urban-futures-in-a-post-covid-world-9f548f874d6e"
+ogp: "https://miro.medium.com/max/1400/1*wk60gOEfd5c9uvvRB-qrFw.jpeg"
 date: "2020/04/20"
 title: "Early speculations on how COVID19 can shape Hong Kong’s Urban Future"
 ---
@@ -10,8 +11,6 @@ title: "Early speculations on how COVID19 can shape Hong Kong’s Urban Future"
 **Speculating Hong Kong’s urban futures in a Post-COVID World**
 ===============================================================
 
-[![Stephenlawdesign](https://miro.medium.com/fit/c/96/96/2*wRuJKeNzXmQgYTuGOR-aNg.jpeg)](https://medium.com/@stephenlawdesign?source=post_page-----9f548f874d6e----------------------)<br/>
-[Stephenlawdesign](https://medium.com/@stephenlawdesign?source=post_page-----9f548f874d6e----------------------)
 <img src="https://miro.medium.com/max/1400/1*wk60gOEfd5c9uvvRB-qrFw.jpeg" alt="provide an image tag"/>
 
 What does Hong Kong’s urban future hold in a Post COVID world?
@@ -38,11 +37,24 @@ More specifically for Hong Kong, a city where high-rise living is the norm, is t
 
 All of the aforementioned factors are interrelated and need to be thought of holistically in the future. In the 21st century, people have returned to cities due to agglomeration leading to greater interactions and innovations (Glaeser 2011). This pandemic exposes some of its risks but nevertheless it also represents an opportunity for dense cities such as Hong Kong to adapt in a Post COVID world.
 
+
+* * *
+  
+<div style="display:flex; justify-content: space-evenly; margin-bottom: 2rem">
+    <div style="margin-right:1rem; width:18%">
+        <img  alt="stephenlawdesign" src="https://miro.medium.com/fit/c/96/96/2*wRuJKeNzXmQgYTuGOR-aNg.jpeg"/><br/>
+        <br/>
+    </div>
+    <div style="width: 60%;">
+            <a href="https://medium.com/@stephenlawdesign?source=post_page-----9f548f874d6e----------------------">Stephen Law</a>
+            <br/>
+            Stephen is an urbanist at heart. He is currently a research fellow at the Alan Turing Institute and lecturer in University College London.
+            Acknowledgements to Leung Kam Shing for his insights on Hong Kong’s built environment and Soma Suzuki for curating this thought-provoking series about urbanism in a post-covid world.
+    </div>
+</div>
+
 * * *
 
-_Stephen is an urbanist at heart. He is currently a research fellow at the Alan Turing Institute and lecturer in University College London._
-
-_Acknowledgements to Leung Kam Shing for his insights on Hong Kong’s built environment and Soma Suzuki for curating this thought-provoking series about urbanism in a post-covid world._
 
 **_References_**
 

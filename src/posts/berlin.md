@@ -2,8 +2,9 @@
 place: "Germany - Berlin"
 author: "Srna Tulić"
 img: "berlin"
-slug : "santiago"
+slug : "berlin"
 medium: "https://medium.com/post-quarantine-urbanism/berlin-where-the-streets-belong-to-children-and-bikes-c2fc98c00523"
+ogp: "https://miro.medium.com/max/1400/1*zQSq6trKEW29SqitjgiiEA.jpeg"
 date: "2020/05/06"
 title: "Berlin: Where the streets belong to children. And bikes."
 ---
@@ -74,5 +75,14 @@ In addition to the corona virus pandemic, Berlin was also experiencing a second 
 
 Although no one knows how long this “new normal” will last, the measures taken by some districts in Berlin prove that even without big investments we can quickly and in a smart way reinvent the public space and make it more safe and liveable for the final user — the citizen itself.
 
-[![Srna Tulić](https://miro.medium.com/fit/c/96/96/2*Tzf5ig41Ys0hguhlE6w69Q.jpeg)](https://medium.com/@srnatulic?source=post_page-----c2fc98c00523----------------------)
-[Srna Tulić](https://medium.com/@srnatulic?source=post_page-----c2fc98c00523----------------------)
+* * *
+
+<div style="display: flex; margin-bottom: 2rem">
+    <div style="margin: 0 auto; text-align: center">
+        <img alt="Srna Tulić" src="https://miro.medium.com/fit/c/96/96/2*Tzf5ig41Ys0hguhlE6w69Q.jpeg"/>
+        <br/>
+        <a href="https://medium.com/@srnatulic?source=post_page-----c2fc98c00523----------------------">Srna Tulić</a>
+    </div>
+</div>
+
+* * *

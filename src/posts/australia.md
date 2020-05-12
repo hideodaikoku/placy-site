@@ -3,15 +3,13 @@ place: "Australia - Melbourne"
 author: "George Reed"
 slug: "melbourne"
 medium: "https://medium.com/post-quarantine-urbanism/post-pandemic-urbanism-australia-the-merge-scenario-9b783e564e65"
+ogp: "https://miro.medium.com/max/1400/1*yssEGFAPwgWEPFBSe-HlyA.jpeg"
 date: "2020/04/24"
 title: "Post Pandemic Urbanism Australia: The Merge Scenario"
 ---
 
 Post Pandemic Urbanism Australia: The Merge Scenario
 ====================================================
-
-[![George Reed](https://miro.medium.com/fit/c/96/96/2*BJq6OcewVF193RmWgl2h6A.jpeg)](https://medium.com/@reedgeo100?source=post_page-----9b783e564e65----------------------)<br/>
-[George Reed](https://medium.com/@reedgeo100?source=post_page-----9b783e564e65----------------------)
 
 <img src="https://miro.medium.com/max/1400/1*yssEGFAPwgWEPFBSe-HlyA.jpeg" alt="provide an image tag"/>
 
@@ -60,3 +58,14 @@ Australia’s comparative [advantage](https://www.theguardian.com/environment/20
 Without succumbing to a state of naive techno-optimism, society at all levels must not neglect the reality that so clearly affronts us, but act to address the consequences of our collective failures. Urban areas must evolve to protect their human inhabitants while mitigating effects on the surrounding environment; the economic imperative for which is unprecedented as we meet the challenges of climate change.
 
 We have reached an ultimatum; retreat into isolation or embrace our interconnectedness. The innovators of the world beckon us forward while the momentum of the system upon which our society is built weighs heavy; but this economic downturn may create the levelling effect required to construct the future that many so desperately strive toward.
+
+* * *
+
+<div style="display: flex; margin-bottom: 2rem">
+    <div style="margin: 0 auto; text-align: center">
+        <img style="width:100%" alt="George Reed" src="https://miro.medium.com/fit/c/96/96/2*BJq6OcewVF193RmWgl2h6A.jpeg"><br/>
+        <a href="https://medium.com/@reedgeo100?source=post_page-----9b783e564e65----------------------">George Reed</a>
+    </div>
+</div>
+
+* * *

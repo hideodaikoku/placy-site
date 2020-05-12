@@ -4,6 +4,7 @@ author: "Olena Diadikova"
 img: "kyiv"
 slug : "kyiv"
 medium: "https://medium.com/post-quarantine-urbanism/kyiv-it-is-time-to-be-different-7ae10639db59"
+ogp: "https://miro.medium.com/max/2000/1*oNqMW6tadiBu-x-9Ug5dbg.jpeg"
 date: "2020/05/09"
 title: "Kyiv: It is time to be different"
 ---
@@ -90,7 +91,7 @@ Despite calls to #stayhome a lot of Kyiv citizens are unprivileged to follow thi
 
 **Environmental conditions**
 ============================
-<iframe width="560" height="315" src="https://www.youtube.com/embed/feFDXoLf044" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="560" src="https://www.youtube.com/embed/feFDXoLf044" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Bushfires in Ukraine, Chornobyl. April 2020.
 
@@ -128,5 +129,14 @@ Berezniaky neighbourhood (Credits: Anna Potanina)
 
 Kyiv is particularly beautiful in May when chestnut, lilac, apple and cherry trees are blossoming all-around. Public works department does seasonal planting of tulips in the centre of road junctions. But beauty makes sense only in case it is affordable for observation, perception and interaction. To enable this, Kyiv authorities must adopt the new paradigm of urban development and management.
 
-[![Olena Diadikova](https://miro.medium.com/fit/c/96/96/2*RLAdhTHUC7sTgMXVhBt1tw.jpeg)](https://medium.com/@diadikova?source=post_page-----7ae10639db59----------------------)
-[Olena Diadikova](https://medium.com/@diadikova?source=post_page-----7ae10639db59----------------------)
+* * *
+
+<div style="display: flex; margin-bottom: 2rem">
+    <div style="margin: 0 auto; text-align: center">
+        <img alt="Olena Diadikova" src="https://miro.medium.com/fit/c/96/96/2*RLAdhTHUC7sTgMXVhBt1tw.jpeg"/>
+        <br/>
+        <a href="https://medium.com/@diadikova?source=post_page-----7ae10639db59----------------------">Olena Diadikova</a>
+    </div>
+</div>
+
+* * *

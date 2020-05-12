@@ -80,5 +80,14 @@ For now, I think that Croatia has a very organized and controlled approach to th
 
 The Croatian government is aware that this scenario may happen again in the near future, possibly in the autumn.
 
-[![Edita Vilic](https://miro.medium.com/fit/c/96/96/2*0zdRanrBCFIYn_cGAFlSeg.jpeg)](https://medium.com/@edita.vilic.lol?source=post_page-----5264404befd0----------------------)
-[Edita Vilic](https://medium.com/@edita.vilic.lol?source=post_page-----5264404befd0----------------------)
+* * *
+
+<div style="display: flex; margin-bottom: 2rem">
+    <div style="margin: 0 auto; text-align: center">
+        <img alt="Edita Vilic" src="https://miro.medium.com/fit/c/96/96/2*0zdRanrBCFIYn_cGAFlSeg.jpeg"/>
+        <br/>
+        <a href="https://medium.com/@edita.vilic.lol?source=post_page-----5264404befd0----------------------">Edita Vilic</a>
+    </div>
+</div>
+
+* * *
