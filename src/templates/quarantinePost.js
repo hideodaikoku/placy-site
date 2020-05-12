@@ -18,7 +18,7 @@ export const query = graphql`
 const BlogTemplate = (props) =>{
     return(
         <Layout color={"white"}>
-            <SEO title={props.data.markdownRemark.frontmatter.title} image={props.data.markdownRemark.frontmatter.ogp}/>
+            <SEO title={props.data.markdownRemark.frontmatter.title} quarantine={true} image={props.data.markdownRemark.frontmatter.ogp}/>
             <div className={quarantineBlogStyle.container}>
                 <div id="textContainer" dangerouslySetInnerHTML={{ __html : props.data.markdownRemark.html }}></div>
                 <a className={quarantineBlogStyle.mediumButton} href={props.data.markdownRemark.frontmatter.medium} target="_blank" rel="noopener noreferrer">

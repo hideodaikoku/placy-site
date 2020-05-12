@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet"
 import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
 
-const SEO = ({ title, description, image, article }) => {
+const SEO = ({ title, description, image, article, quarantine }) => {
   const { pathname } = useLocation()
   const { site } = useStaticQuery(query)
 
@@ -22,6 +22,10 @@ const SEO = ({ title, description, image, article }) => {
     description: description || defaultDescription,
     image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`,
+  }
+
+  if(quarantine){
+   seo.image =  `${image}`
   }
 
   return (
