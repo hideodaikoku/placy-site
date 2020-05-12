@@ -131,14 +131,7 @@ const QuarantineArticles = () => {
             }
         }
     `)
-
-    const nodes = data.excerpt.nodes
-    var excerpt = ""
-    nodes.forEach(node => {
-        if(node.frontmatter.author==quarantineData.reverse()[0].author){
-            excerpt = node.frontmatter.excerpt
-        }
-    });
+    console.log()
     return(
         <div className={quarantineArticleStyles.container}>
             <div className={quarantineArticleStyles.articleContainer}>
@@ -158,7 +151,9 @@ const QuarantineArticles = () => {
                                     <small>{quarantine.date}</small>
                                     <p className={quarantineArticleStyles.author}><i>{quarantine.author}</i></p>
                                     <p className={quarantineArticleStyles.title}>{quarantine.place}</p>
-                                    <p className={quarantineArticleStyles.excerpt}>{excerpt}</p>
+                                    <p className={quarantineArticleStyles.excerpt}>
+                                        {data.excerpt.nodes.filter((node)=>node.frontmatter.author===quarantine.author)[0].frontmatter.excerpt}
+                                    </p>
                                     <Link to={"/post-quarantine-urbanism/"+quarantine.slug} style={{textDecoration:"underline"}}>
                                         Read More
                                     </Link>
