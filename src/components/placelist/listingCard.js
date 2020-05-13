@@ -65,11 +65,6 @@ const ListingCard = (props) => {
         <Link className={style.noDecorate} to={placelistUrl}>
           {storeName}
         </Link>
-        <img
-          className={isOfficial ? style.check : style.none}
-          src={checkSVG}
-          alt="Official Check"
-        />
       </h3>
       <div className={style.descriptions}>
         <div className={style.descriptionLeft}>
@@ -77,6 +72,12 @@ const ListingCard = (props) => {
             <Link className={style.noDecorate} to={placelistUrl}>
               @{username}
             </Link>
+
+            <img
+              className={isOfficial ? style.check : style.none}
+              src={checkSVG}
+              alt="Official Check"
+            />
           </h4>
           <div className={`${style.actionType} ${actionTypeStyle}`}>
             <a className={style.noDecorate} href={actionUrl}>
