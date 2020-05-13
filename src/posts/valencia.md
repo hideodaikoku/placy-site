@@ -5,6 +5,7 @@ img: "valencia"
 slug : "valencia"
 medium: "https://medium.com/post-quarantine-urbanism/de-densifying-spanish-cities-d3e216ee976a"
 date: "2020/05/10"
+ogp: "https://miro.medium.com/max/1400/1*VARiOkEJphC43AGkLojcSw.jpeg"
 excerpt: "Spanish culture has suffered greatly at the hands of the COVID 19 quarantine. Neighbours no longer greet each other with a kiss on each cheek. Their state sanctioned masks act as a physical..."
 title: "De-densifying Spanish cities"
 ---
