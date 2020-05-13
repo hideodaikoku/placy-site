@@ -31,7 +31,12 @@ const reshapeApiListing = (listing) => {
     isOfficial: listing.isOfficial,
     officialLogo: listing.officialLogo,
     officialPartner: listing.officialPartner,
-    descriptionText: he.unescape(listing.descriptionText),
+    officialDescription: !!listing.officialDescription
+      ? he.unescape(listing.officialDescription)
+      : null,
+    descriptionText: !!listing.descriptionText
+      ? he.unescape(listing.descriptionText)
+      : null,
   };
 };
 

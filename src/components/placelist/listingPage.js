@@ -35,6 +35,7 @@ class ListingPage extends React.Component {
       isOfficial,
       officialPartner,
       officialLogo,
+      officialDescription,
       descriptionText,
     } = listing;
 
@@ -135,26 +136,7 @@ class ListingPage extends React.Component {
           </div>
 
           {isOfficial ? (
-            <p className={style.artistDescription}>
-              {`1978年東京生まれ。DJ/トラックメイカー/プロデューサー/ターンテーブリスト。
-16歳のころにDJのキャリアをスタートさせる。1990年代後半に般若とRumiとともにヒップホップ・グループ、
-般若で活動。グループ解散後、1999年にみずから設立したレーベル〈DIS-DEFENSE DISC〉よりミックステープ
-『KAIKOO WITH SCRATCH 1999』をリリース。その後同レーベルからミックステープを数枚発表、自主レーベルながら総計30000本以上のセールスとなる。
-2003年、MSCのデビュー・アルバム『Matador』に収められた「Matador Office」の制作を機にトラックメイカーとしての活動を開始。2005年、DJ BAKUと東京のインディペンデント・ミュージック・シーンをドキュメントした映画『KAIKOO/邂逅』のDVDが完成。2006年にはアルバム『SPINHEDDZ』(2008年にはSlipknotのDJ StarscreamやMarsVoltaのOmar率いるN2O RecordsよりUS盤もリリース)を、2008年にはダンス・ミュージックに本格的に挑戦したセカンド・アルバム 『DHARMA DANCE』を〈POPGROUP〉より発表、収録曲「AKBAH ATTACK」はBMX RIDER内野洋平によるPUMA CMやカンヌ国際映画祭出展作品にも使用されるなど話題となる。翌年、日本を代表する12人のラッパーをフィーチャーした『THE 12JAPS』をリリース。同年、DJ BAKUが発起人となり〈POPGROUP〉が主催する都市型音楽フェス〈KAIKOO POPWAVE FESTIVAL'10〉を東京晴海客船ターミナル特設ステージで開催。2日間で1万人以上が集まり、2005年からはじまった同イベントで過去最大規模となる。近年は、いとうせいこうや七尾旅人とのコラボレーション、渋谷慶一朗ややくしまるえつこ(相対性理論)の楽曲のリミックス、KYONO(ex.THE MAD CAPSULE MARKETS)とのユニットの結成、アニソン DJ、ブローステップやダブステップを取り入れたDJプレイなど、ジャンルを越境した活動をますます積極的に行っている。また、韓国、台湾、フランス、ロシア、オーストラリア、ニュージーランドなどにも招聘され、海外のDJやラッパー、バンドらとも交流し国際的な活動も展開している。
-2012年 音源を担当したTURNTABLE RIDERがLONDON INTERNATIONAL AWARD「フィルム部門」で海外賞を受賞。
-2013年 6月、5年ぶりとなるオリジナル・アルバム『JapOneEra』を発表。
-2014年 未発表曲リリースのため自身のBandcampをスタート。　
-そして2015年 OUTLOOK FESTIVAL JAPAN 2015 SOUND CLASHでは見事優勝！
-新境地へ向かうため自ら新LABEL、その名も〈KAIKOO〉をスタート。
-2015年 NEW ALBUM「NEO TOKYO RAVE STYLE」をRELEASE。
-2018年KAIKOO Co., Ltd.を設立。
-
-
-DJ BAKU OFFICIAL WEBSITE        http://djbakutokyo.com
-DJ BAKU OFFICIAL FACEBOOK   http://www.facebook.com/djbaku.tokyo
-DJ BAKU OFFICIAL BANDCAMP  http://djbaku.bandcamp.com/releases    
-KAIKOO OFFICIAL WEBSITE         http://www.kaikoo.asia`}
-            </p>
+            <p className={style.artistDescription}>{officialDescription}</p>
           ) : (
             ""
           )}
