@@ -2,7 +2,7 @@ import React from 'react';
 import SEO from "../components/seo"
 import Layout from '../components/layout';
 import { graphql } from "gatsby";
-import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
+import { Disqus } from 'gatsby-plugin-disqus'
 import quarantineBlogStyle from "../styles/quarantineblog.module.scss"
 export const query = graphql`
     query($slug: String!){
