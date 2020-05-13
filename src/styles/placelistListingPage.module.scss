@@ -47,7 +47,7 @@ $head-size: 0.4rem;
 
 .title {
   font-family: Helvetica Neue, "Helvetica Neue", sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 500;
   letter-spacing: 0.1rem;
   margin-top: 5vh;
@@ -116,6 +116,7 @@ $vertical-space: 6vh;
   font-size: 1.3rem;
   font-family: Helvetica Neue, "Helvetica Neue", sans-serif;
   font-weight: 500;
+  letter-spacing: 0.1rem;
 }
 
 .check {
@@ -126,20 +127,22 @@ $vertical-space: 6vh;
 
 .description {
   width: 58%;
-  font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
-  font-weight: 600;
+  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック",
+    "Yu Gothic", sans-serif;
   font-size: 1rem;
-  text-align: left;
+  font-weight: 500;
+  text-align: justify;
   white-space: pre-wrap;
 }
 
 .artist-description {
   width: 58%;
-  font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
-  font-weight: 600;
+  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック",
+    "Yu Gothic", sans-serif;
   font-size: 1rem;
+  font-weight: 500;
   white-space: pre-wrap;
-  text-align: left;
+  text-align: justify;
 }
 
 a:visited,
@@ -152,14 +155,15 @@ a {
 .share-text {
   font-family: Helvetica Neue, "Helvetica Neue", sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin-bottom: 5px;
   letter-spacing: 0.05rem;
+  color: #666;
 }
 
 .share-icons {
-  min-width: 300px;
-  width: 15vw;
+  min-width: 250px;
+  width: 10vw;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -171,8 +175,8 @@ a {
   }
 
   img {
-    height: 2rem;
-    width: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;
   }
 }
 

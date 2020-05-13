@@ -84,18 +84,20 @@ a {
   font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
   font-weight: 600;
   font-size: 1rem;
+  letter-spacing: 0.1rem;
 }
 .username {
   position: relative;
   margin: 0;
-  padding-top: 4px;
+  margin-top: 0.5rem;
   color: #707070;
   font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
   font-weight: 400;
   font-size: 0.8rem;
+  letter-spacing: 0.05rem;
 }
 
-$spacing: 10px;
+$spacing: 0.8rem;
 .action-type {
   margin-top: $spacing;
   display: inline-block;
@@ -149,10 +151,10 @@ $breakpoint-tablet: 800px;
   }
 
   .store-name {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   .username {
-    font-size: 0.833rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -169,7 +171,7 @@ $breakpoint-sp: 450px;
   }
 
   .store-name {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   .username {
     font-size: 0.833rem;

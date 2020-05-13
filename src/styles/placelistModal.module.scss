@@ -108,7 +108,7 @@ $button-size: 30px;
 
 .arrow-box {
   width: 20%;
-  max-width: 150px;
+  max-width: 120px;
   height: 50px;
   display: flex;
   align-items: center;
@@ -118,11 +118,11 @@ $button-size: 30px;
 .arrow-box .bar {
   display: block;
   background-color: black;
-  height: 2px;
+  height: 1px;
   width: 100%;
 }
 
-$head-size: 10px;
+$head-size: 6px;
 .arrow-box .head {
   display: block;
   width: 0;
@@ -134,7 +134,8 @@ $head-size: 10px;
 
 .pageIndicator {
   font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
-  margin-bottom: 4vh;
+  font-size: 0.75rem;
+  margin-bottom: 3vh;
 }
 
 $breakpoint-tablet: 800px;
