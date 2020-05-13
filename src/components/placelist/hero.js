@@ -1,6 +1,5 @@
 import React from "react";
 import heroStyles from "../../styles/placelistHero.module.scss";
-import { Link } from "@reach/router";
 import { connect } from "react-redux";
 import { openModal } from "./redux/actions";
 import spinningRecord from "../../images/placelist.gif";
@@ -33,21 +32,15 @@ const Hero = ({ openModal }) => {
           前売り券や寄付の呼びかけなど、
           <br />
           様々な取り組みを始めておられます。
-          <br />
-          音楽を通して、自分が大事に思う場所を伝えることで、
-          <br />
-          より多くの人にそのお店を知ってもらえる
-          <br />
-          きっかけになれば幸いです。
         </p>
         <p>
-          プレイ(ス)リストは、店主様だけでなく、
+          自分の好きなお店を紹介する方法として、
           <br />
-          そのお店を大切に思う皆様にも是非、作成して頂きたく
-          <Link to="/placelist/0c2ab1b9-8d86-11ea-84a0-0e8729767258">*</Link>
-          思っております。
+          その場所の空気や雰囲気を伝えるプレイ(ス)リストを、
           <br />
-          そのお店での思い出や憧れを音楽にのせて伝えてみてください。
+          作ってみるのはいかがでしょうか。
+          <br />
+          お店での思い出や憧れを音楽にのせて届けてみよう。
         </p>
         <p>それでは、作成してみましょう。</p>
       </div>
