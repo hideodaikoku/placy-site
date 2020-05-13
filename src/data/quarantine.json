@@ -142,5 +142,41 @@
         "medium": "https://medium.com/post-quarantine-urbanism/croatia-success-in-saving-lives-will-there-be-a-success-in-saving-the-economy-5264404befd0",
         "date": "2020/05/10",
         "title": "Croatia: success in saving lives, will there be a success in saving the economy?"
+    },
+    {
+        "place": "Luxembourg",
+        "author": "Konstantina Vidou",
+        "img": "luxembourg",
+        "slug" : "luxembourg",
+        "medium": "https://medium.com/post-quarantine-urbanism/covid-19-the-case-of-the-grand-duchy-of-luxembourg-f4bfd2ff657c",
+        "date": "2020/05/12",
+        "title": "COVID — 19: The case of the Grand Duchy of Luxembourg"
+    },
+    {
+        "place": "Wales",
+        "author": "Catrin Stephens",
+        "img": "wales",
+        "slug" : "wales",
+        "medium": "https://medium.com/post-quarantine-urbanism/wales-help-change-urban-spaces-into-safe-areas-of-encounter-bba1c37e1846",
+        "date": "2020/05/12",
+        "title": "Wales: Help change urban spaces into safe areas of encounter"
+    },
+    {
+        "place": "Brazil - São Paulo",
+        "author": "Paula Palermo",
+        "img": "saopaolo",
+        "slug" : "sao-paolo",
+        "medium": "https://medium.com/post-quarantine-urbanism/post-covid-19-s%C3%A3o-paulo-92d8a72ba288",
+        "date": "2020/05/12",
+        "title": "Post Covid-19 São Paulo: Potential matches between Technology and Social Innovation for an alternative future."
+    },
+    {
+        "place": "Spain - Valencia",
+        "author": "Natasha Marjoram",
+        "img": "valencia",
+        "slug" : "valencia",
+        "medium": "https://medium.com/post-quarantine-urbanism/de-densifying-spanish-cities-d3e216ee976a",
+        "date": "2020/05/10",
+        "title": "De-densifying Spanish cities"
     }
 ]

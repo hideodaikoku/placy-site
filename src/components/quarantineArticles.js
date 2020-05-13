@@ -121,6 +121,34 @@ const QuarantineArticles = () => {
                     }
                 }
             }
+            luxembourg: file(relativePath: {eq: "lux.jpg"}){
+                childImageSharp{
+                    fluid(maxWidth: 600){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            wales: file(relativePath: {eq: "wales.png"}){
+                childImageSharp{
+                    fluid(maxWidth: 400){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            saopaolo: file(relativePath: {eq: "saop.jpeg"}){
+                childImageSharp{
+                    fluid(maxWidth: 600){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            valencia: file(relativePath: {eq: "valencia.jpeg"}){
+                childImageSharp{
+                    fluid(maxWidth: 600){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
             excerpt: allMarkdownRemark{
                 nodes{
                   frontmatter{
