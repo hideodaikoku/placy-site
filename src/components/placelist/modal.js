@@ -73,7 +73,7 @@ const Modal = ({
             Create <br /> Place List
           </h2>
           <ModalCard />
-          {page === 7 ? (
+          {page === 8 ? (
             <button
               className={style.submit}
               onClick={submitListing}
@@ -94,7 +94,7 @@ const Modal = ({
           )}
 
           <div className={style.pageIndicator}>
-            <span>{page}</span> / <span>7</span>
+            <span>{page}</span> / <span>8</span>
           </div>
         </div>
       </div>

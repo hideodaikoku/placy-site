@@ -12,6 +12,7 @@ import {
   OK_SEND_STORE_IMAGE,
   ERR_SEND_STORE_IMAGE,
   ADD_STORE_MAPS_URL,
+  ADD_DESCRIPTION_TEXT,
 } from "../actionTypes";
 
 const initialState = {
@@ -23,6 +24,7 @@ const initialState = {
   spotifyUrl: null,
   actionType: null,
   actionUrl: null,
+  descriptionText: null,
   storeImageUrl: null,
   sendingImage: false,
   errSendingImage: null,
@@ -84,6 +86,8 @@ export default (state = initialState, action) => {
         };
       }
       return { ...state, storeMapsUrl: action.payload.mapsUrl };
+    case ADD_DESCRIPTION_TEXT:
+      return { ...state, descriptionText: action.payload.descriptionText };
     case ADD_ACTION_TYPE:
       if (
         action.payload.actionType === "default" ||

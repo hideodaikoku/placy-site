@@ -31,6 +31,17 @@ $error-color: #e50012;
   padding-right: 1rem;
 }
 
+.text-area {
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
+  font-weight: 400;
+  font-size: 0.7rem;
+  width: 80%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  height: 20vh;
+}
+
 .invalid {
   font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
   font-weight: 400;
@@ -81,5 +92,8 @@ $breakpoint-sp: 450px;
 
   .section-description {
     font-size: 0.7rem;
+  }
+  .text-area {
+    width: 100%;
   }
 }

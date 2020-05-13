@@ -9,6 +9,7 @@ import {
   addSpotifyLink,
   addActionType,
   addActionLink,
+  addDescription,
   addStoreMapsUrl,
 } from "./redux/actions";
 
@@ -209,6 +210,40 @@ const AddActionLinkModal = React.forwardRef((props, ref) => (
   <AddActionLinkModalRedux forwardedref={ref} props={props} />
 ));
 
+const AddDescriptionModalRedux = connect(
+  (state) => ({
+    descriptionText: state.newListing.descriptionText,
+    err: state.newListing.err,
+  }),
+  { addDescription }
+)((props) => {
+  const { descriptionText, addDescription, forwardedref, err } = props;
+  return (
+    <div>
+      <p className={style.sectionTitle}>お店へのメッセージ</p>
+      <p className={style.sectionDescription}>
+        お店での思い出や憧れなど、メッセージを伝えてください。
+      </p>
+      <textarea
+        ref={forwardedref}
+        className={style.textArea}
+        value={descriptionText || ""}
+        rows={4}
+        cols={50}
+        placeholder={`バイブスあげみざわ`}
+        onChange={(e) => addDescription(e.target.value)}
+      />
+      <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
+        {err}
+      </p>
+    </div>
+  );
+});
+
+const AddDescriptionModal = React.forwardRef((props, ref) => (
+  <AddDescriptionModalRedux props={props} forwardedref={ref} />
+));
+
 //
 const AddStoreImageModalRedux = connect(
   (state) => ({
@@ -345,6 +380,12 @@ class ModalCard extends React.Component {
       case 7:
         body = <AddStoreMapsModal ref={this.inputElement}></AddStoreMapsModal>;
         break;
+      case 8:
+        body = (
+          <AddDescriptionModal ref={this.inputElement}></AddDescriptionModal>
+        );
+        break;
+
       default:
         body = <div></div>;
         break;
