@@ -48,11 +48,19 @@
     }
 }
 
+.disqus-container{
+    margin: 1rem auto;
+    max-width: 80%;
+}
+
 @media (min-width: 750px){
     .container{
         max-width: 50%;
         p{
             font-size: 1rem;
         }
+    }
+    .disqus-container{
+        width: 50%;
     }
 }

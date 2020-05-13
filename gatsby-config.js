@@ -35,6 +35,12 @@ module.exports = {
         trackingId: "UA-133311679-1",
       },
     },
-    "gatsby-transformer-remark"
+    "gatsby-transformer-remark",
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `placy-city`
+      }
+    },
   ],
 };

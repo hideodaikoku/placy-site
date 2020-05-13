@@ -2,6 +2,7 @@ import React from 'react';
 import SEO from "../components/seo"
 import Layout from '../components/layout';
 import { graphql } from "gatsby";
+import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
 import quarantineBlogStyle from "../styles/quarantineblog.module.scss"
 export const query = graphql`
     query($slug: String!){
@@ -10,12 +11,21 @@ export const query = graphql`
                 title
                 medium
                 ogp
+                slug
             }
             html
         }
     }
 `
 const BlogTemplate = (props) =>{
+    const slug = props.data.markdownRemark.frontmatter.slug;
+    const title = props.data.markdownRemark.frontmatter.title;
+    const disqusConfig = {
+        url: `http://placy.city/post-quarantine-urbanism/${slug}`,
+        identifier: slug,
+        title: title,
+    }
+
     return(
         <Layout color={"white"}>
             <SEO title={props.data.markdownRemark.frontmatter.title} quarantine={true} image={props.data.markdownRemark.frontmatter.ogp}/>
@@ -33,6 +43,9 @@ const BlogTemplate = (props) =>{
                         Read on Medium
                     </span>
                 </a>
+            </div>
+            <div className={quarantineBlogStyle.disqusContainer}>
+                <Disqus config={disqusConfig}/>
             </div>
         </Layout>
     )
