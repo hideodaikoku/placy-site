@@ -1,7 +1,7 @@
 import React from 'react';
 import SEO from "../components/seo"
 import Layout from '../components/layout';
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import { Disqus } from 'gatsby-plugin-disqus'
 import quarantineBlogStyle from "../styles/quarantineblog.module.scss"
 export const query = graphql`
@@ -30,6 +30,12 @@ const BlogTemplate = (props) =>{
         <Layout color={"white"}>
             <SEO title={props.data.markdownRemark.frontmatter.title} quarantine={true} image={props.data.markdownRemark.frontmatter.ogp}/>
             <div className={quarantineBlogStyle.container}>
+                <div className={quarantineBlogStyle.backButton}>
+                    <Link to="/post-quarantine-urbanism">
+                        <span className={quarantineBlogStyle.backArr}>&larr;</span>
+                        {" "}Post Quarantine Urbanism Top
+                    </Link>
+                </div>
                 <div id="textContainer" dangerouslySetInnerHTML={{ __html : props.data.markdownRemark.html }}></div>
                 <a className={quarantineBlogStyle.mediumButton} href={props.data.markdownRemark.frontmatter.medium} target="_blank" rel="noopener noreferrer">
                     <span>

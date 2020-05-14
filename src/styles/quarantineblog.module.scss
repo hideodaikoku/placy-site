@@ -1,7 +1,22 @@
 .container{
     margin: 5rem auto;
     max-width: 80%;
-    
+    .back-button{
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        a{
+            text-decoration: none;
+        }
+        a:hover,
+        a:focus{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .back-arr{
+            font-size: 1.2rem;
+            line-height: 1rem;
+        }
+    }
     div>img{
         width: 100%;
         margin: 0 auto;
