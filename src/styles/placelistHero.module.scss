@@ -25,10 +25,10 @@ $aspect: calc(100% * 540 / 720);
 }
 
 .explanation {
-  width: 80%;
+  width: 88%;
   font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
   font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1rem;
   letter-spacing: 0.1rem;
 }
 
@@ -72,7 +72,8 @@ $breakpoint-sp: 450px;
   }
 
   .explanation {
-    font-size: 0.72rem;
+    font-size: 0.5rem;
+    letter-spacing: 0.05rem;
   }
   .explanation p {
     line-height: 2;
