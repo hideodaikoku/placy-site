@@ -7,6 +7,10 @@
   border-bottom: solid 0px black;
 }
 
+.none {
+  display: none;
+}
+
 $card-width: 18vw;
 .card {
   width: $card-width;
@@ -15,13 +19,13 @@ $card-width: 18vw;
   margin: 0 5% 6rem 5%;
 }
 
-.storeImageButton {
+.store-image-button {
   @include storeImage($card-width);
   cursor: pointer;
 }
 
 $widget-height: 8vh;
-.storeImage {
+.store-image {
   object-fit: cover;
   height: 100%;
   width: 100%;
@@ -29,11 +33,12 @@ $widget-height: 8vh;
 
 .embed-container {
   position: relative;
-  min-height: 80px;
+  min-height: 85px;
   padding-bottom: 80px; // to avoid re-rendering on load due to resize
   overflow: hidden;
   max-width: 100%;
   border: solid 4px black;
+  background-color: black;
 }
 .embed-container iframe,
 .embed-container object,
@@ -43,6 +48,7 @@ $widget-height: 8vh;
   left: 0;
   width: 100%;
   height: 100%;
+  margin: 0;
 }
 
 a:visited,
@@ -52,24 +58,46 @@ a {
   color: inherit;
 }
 
-.storeName {
+.descriptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .description-right {
+    display: flex;
+    align-items: flex-end;
+  }
+}
+
+.check {
+  width: 0.8rem;
+  margin: 0;
+  margin-left: 0.5rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.store-name {
   margin: 0;
   padding-top: 1rem;
 
   font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
   font-weight: 600;
   font-size: 1rem;
+  letter-spacing: 0.1rem;
 }
 .username {
+  position: relative;
   margin: 0;
-  padding-top: 4px;
+  margin-top: 0.5rem;
   color: #707070;
   font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
   font-weight: 400;
   font-size: 0.8rem;
+  letter-spacing: 0.05rem;
 }
 
-$spacing: 10px;
+$spacing: 0.8rem;
 .action-type {
   margin-top: $spacing;
   display: inline-block;
@@ -104,8 +132,10 @@ $spacing: 10px;
   background-color: #e9ccff;
 }
 
-.none {
-  display: none;
+.artist-image {
+  width: 3rem;
+  border-radius: 50%;
+  margin: 0;
 }
 
 $breakpoint-tablet: 800px;
@@ -116,15 +146,15 @@ $breakpoint-tablet: 800px;
     margin: 0 0 50px 0;
   }
 
-  .storeImageButton {
+  .store-image-button {
     @include storeImage($card-width);
   }
 
-  .storeName {
-    font-size: 1.25rem;
+  .store-name {
+    font-size: 1rem;
   }
   .username {
-    font-size: 0.833rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -136,12 +166,12 @@ $breakpoint-sp: 450px;
     margin: 0 0 50px 0;
   }
 
-  .storeImageButton {
+  .store-image-button {
     @include storeImage($card-width);
   }
 
-  .storeName {
-    font-size: 1.25rem;
+  .store-name {
+    font-size: 1rem;
   }
   .username {
     font-size: 0.833rem;

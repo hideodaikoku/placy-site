@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "@reach/router";
 import style from "../../styles/placelistListing.module.scss";
+import checkSVG from "../../images/check.svg";
 
 const ListingCard = (props) => {
   const {
@@ -11,6 +12,8 @@ const ListingCard = (props) => {
     spotifyPlaylist,
     actionType,
     actionUrl,
+    isOfficial,
+    officialLogo,
   } = props.listing;
 
   let actionTypeString = "";
@@ -40,11 +43,11 @@ const ListingCard = (props) => {
       break;
   }
 
-  const storeUrl = `${uuid}`;
+  const placelistUrl = `${uuid}`;
 
   return (
     <div className={style.card}>
-      <Link className={style.storeImageButton} to={storeUrl}>
+      <Link className={style.storeImageButton} to={placelistUrl}>
         <img className={style.storeImage} alt={storeName} src={storeImageUrl} />
       </Link>
 
@@ -59,19 +62,36 @@ const ListingCard = (props) => {
       </div>
 
       <h3 className={style.storeName}>
-        <Link className={style.noDecorate} to={storeUrl}>
+        <Link className={style.noDecorate} to={placelistUrl}>
           {storeName}
         </Link>
       </h3>
-      <h4 className={style.username}>
-        <Link className={style.noDecorate} to={storeUrl}>
-          @{username}
-        </Link>
-      </h4>
-      <div className={`${style.actionType} ${actionTypeStyle}`}>
-        <a className={style.noDecorate} href={actionUrl}>
-          {actionTypeString}
-        </a>
+      <div className={style.descriptions}>
+        <div className={style.descriptionLeft}>
+          <h4 className={style.username}>
+            <Link className={style.noDecorate} to={placelistUrl}>
+              @{username}
+            </Link>
+
+            <img
+              className={isOfficial ? style.check : style.none}
+              src={checkSVG}
+              alt="Official Check"
+            />
+          </h4>
+          <div className={`${style.actionType} ${actionTypeStyle}`}>
+            <a className={style.noDecorate} href={actionUrl}>
+              {actionTypeString}
+            </a>
+          </div>
+        </div>
+        <div className={style.descriptionRight}>
+          <img
+            src={officialLogo}
+            alt="artist headshot"
+            className={isOfficial ? style.artistImage : style.none}
+          />
+        </div>
       </div>
     </div>
   );

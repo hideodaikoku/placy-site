@@ -12,7 +12,7 @@ import {
   OK_SEND_STORE_IMAGE,
   ERR_SEND_STORE_IMAGE,
   ADD_STORE_MAPS_URL,
-  SET_PAGE,
+  ADD_DESCRIPTION_TEXT,
 } from "../actionTypes";
 
 const initialState = {
@@ -24,6 +24,7 @@ const initialState = {
   spotifyUrl: null,
   actionType: null,
   actionUrl: null,
+  descriptionText: null,
   storeImageUrl: null,
   sendingImage: false,
   errSendingImage: null,
@@ -78,13 +79,20 @@ export default (state = initialState, action) => {
       };
     case ADD_STORE_MAPS_URL:
       if (!action.payload.mapsUrl) {
+        console.error(action.payload.mapsUrl);
         return {
           ...state,
           err: "空でないURLを入力してください",
           storeMapsUrl: "",
         };
       }
-      return { ...state, storeMapsUrl: action.payload.mapsUrl };
+      return { ...state, storeMapsUrl: action.payload.mapsUrl, err: null };
+    case ADD_DESCRIPTION_TEXT:
+      return {
+        ...state,
+        descriptionText: action.payload.descriptionText,
+        err: null,
+      };
     case ADD_ACTION_TYPE:
       if (
         action.payload.actionType === "default" ||

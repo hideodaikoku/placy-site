@@ -2,12 +2,13 @@ import React, { createRef } from "react";
 import { Link } from "@reach/router";
 import { connect } from "react-redux";
 import { getListing } from "./redux/actions";
+import SEO from "../seo";
 import style from "../../styles/placelistListingPage.module.scss";
 import cardStyle from "../../styles/placelistListing.module.scss";
 import twitter from "../../images/twitter.svg";
 import facebook from "../../images/facebook.svg";
 import shareLink from "../../images/shareLink.svg";
-import SEO from "../seo";
+import checkSVG from "../../images/check.svg";
 
 class ListingPage extends React.Component {
   componentWillMount() {
@@ -31,6 +32,11 @@ class ListingPage extends React.Component {
       actionType,
       actionUrl,
       spotifyPlaylist,
+      isOfficial,
+      officialPartner,
+      officialLogo,
+      officialDescription,
+      descriptionText,
     } = listing;
 
     const copyUrl = () => {
@@ -85,12 +91,21 @@ class ListingPage extends React.Component {
             {storeName} | @{username}
           </h1>
           <div className={`${style.actionType} ${actionTypeStyle}`}>
-            <a className={style.noDecorate} href={actionUrl} target="_blank">
+            <a
+              className={style.noDecorate}
+              href={actionUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {actionTypeString}
             </a>
           </div>
           <div className={style.mainContent}>
-            <img src={storeImageUrl} className={style.storeImage} />
+            <img
+              src={storeImageUrl}
+              className={style.storeImage}
+              alt={storeName}
+            />
             <div className={style.embedContainer}>
               <iframe
                 title={spotifyPlaylist}
@@ -101,6 +116,30 @@ class ListingPage extends React.Component {
               ></iframe>
             </div>
           </div>
+
+          <p className={style.description}>{descriptionText}</p>
+
+          <div className={isOfficial ? style.artist : style.none}>
+            <img
+              src={officialLogo}
+              alt="artist headshot"
+              className={style.artistImage}
+            />
+            <h3 className={style.artistName}>
+              {officialPartner}{" "}
+              <img
+                src={checkSVG}
+                alt="official check icon"
+                className={style.check}
+              />
+            </h3>
+          </div>
+
+          {isOfficial ? (
+            <p className={style.artistDescription}>{officialDescription}</p>
+          ) : (
+            ""
+          )}
 
           <p className={style.shareText}>Share</p>
           <div className={style.shareIcons}>
@@ -113,23 +152,25 @@ class ListingPage extends React.Component {
             url=https://placy.city/placelist/${listingId}
             `.replace(/\s/g, "")}
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img src={twitter} alt="share twitter" />
             </a>
             <a
               href={`https://www.facebook.com/sharer/sharer.php?u=https://placy.city/placelist/${listingId}`}
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img src={facebook} alt="share facebook" />
             </a>
-            <a onClick={copyUrl}>
+            <button onClick={copyUrl}>
               <input
                 className={style.invisible}
                 ref={copyText}
                 type="textarea"
               />
               <img src={shareLink} alt="copy link" />
-            </a>
+            </button>
           </div>
         </div>
       </div>
