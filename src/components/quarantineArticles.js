@@ -159,7 +159,6 @@ const QuarantineArticles = () => {
             }
         }
     `)
-    console.log()
     return(
         <div className={quarantineArticleStyles.container}>
             <div className={quarantineArticleStyles.articleContainer}>

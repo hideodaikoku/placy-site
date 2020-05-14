@@ -17,6 +17,8 @@
             line-height: 1rem;
         }
     }
+
+    
     div>img{
         width: 100%;
         margin: 0 auto;
@@ -61,6 +63,7 @@
         transform: scale(1.05);
         transition: transform ease-in .2s;
     }
+    
 }
 
 .disqus-container{
