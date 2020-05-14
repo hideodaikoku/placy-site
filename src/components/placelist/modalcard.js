@@ -230,7 +230,7 @@ const AddDescriptionModalRedux = connect(
         value={descriptionText || ""}
         rows={4}
         cols={50}
-        placeholder={`バイブスあげみざわ`}
+        placeholder={`初めてボストンに行ったときに深夜何も食べるものがなく迷い込んだハンバーガー屋さんの近くに引っ越し，結局住んでいたときに毎日のように通った素晴らしいお店です。メニューが黒板に周期表として書かれているのが特徴的でMITのオタクに愛されるために存在するような素晴らしい空間でした。またいつかハラペーニョ入のRonny Burgerを食べることを切望しています。`}
         onChange={(e) => addDescription(e.target.value)}
       />
       <p className={`${style.invalid} ${!!err ? "" : style.invisible}`}>
