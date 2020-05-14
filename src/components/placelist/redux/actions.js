@@ -21,6 +21,7 @@ import {
   BEGIN_GET_LISTING,
   OK_GET_LISTING,
   ERR_GET_LISTING,
+  ADD_DESCRIPTION_TEXT,
 } from "./actionTypes";
 import FormData from "form-data";
 
@@ -130,6 +131,13 @@ export const addActionLink = (actionUrl) => ({
   },
 });
 
+export const addDescription = (descriptionText) => ({
+  type: ADD_DESCRIPTION_TEXT,
+  payload: {
+    descriptionText,
+  },
+});
+
 export const setPage = (toPage) => {
   return (dispatch, getState) => {
     const state = getState();
@@ -168,8 +176,18 @@ export const setPage = (toPage) => {
           payload: { spotifyUrl: listing.spotifyUrl || "" },
         });
         return;
+      case 7:
+        if (!!listing.mapsUrl && listing.err === null) break;
+        dispatch({
+          type: ADD_STORE_MAPS_URL,
+          payload: { mapsUrl: listing.mapsUrl || "" },
+        });
+        return;
       default:
         break;
+    }
+    if (state.modal.page >= 8) {
+      return;
     }
 
     dispatch({
@@ -201,7 +219,7 @@ export const submitListing = () => {
       storeMapsUrl: state.storeMapsUrl,
       userName: state.username,
       storeImageUrl: state.storeImageUrl,
-      // descriptionText: "",
+      descriptionText: state.descriptionText,
     };
     // process request
     axios

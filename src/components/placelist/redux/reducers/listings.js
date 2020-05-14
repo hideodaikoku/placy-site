@@ -28,6 +28,15 @@ const reshapeApiListing = (listing) => {
     actionUrl: listing.actionUrl,
     spotifyPlaylist: listing.spotifyPlaylist,
     postDatetime: listing.postDatetime,
+    isOfficial: listing.isOfficial,
+    officialLogo: listing.officialLogo,
+    officialPartner: listing.officialPartner,
+    officialDescription: !!listing.officialDescription
+      ? he.unescape(listing.officialDescription)
+      : null,
+    descriptionText: !!listing.descriptionText
+      ? he.unescape(listing.descriptionText)
+      : null,
   };
 };
 

@@ -38,6 +38,7 @@ const Modal = ({
   }
 
   return (
+    // eslint-disable-next-line
     <div
       ref={modalContainer}
       className={containerClass}
@@ -55,8 +56,9 @@ const Modal = ({
     >
       <div className={style.modalWindow}>
         <button className={style.modalCloseButton} onClick={closeModal}>
-          <img src={closeButton} />
+          <img src={closeButton} alt="close button" />
         </button>
+        {/* eslint-disable-next-line */}
         <div
           className={style.contents}
           onKeyDown={(e) => {
@@ -65,12 +67,13 @@ const Modal = ({
               setPage(page + 1);
             }
           }}
+          role="dialog"
         >
           <h2 className={style.modalTitle}>
             Create <br /> Place List
           </h2>
           <ModalCard />
-          {page === 7 ? (
+          {page === 8 ? (
             <button
               className={style.submit}
               onClick={submitListing}
@@ -91,7 +94,7 @@ const Modal = ({
           )}
 
           <div className={style.pageIndicator}>
-            <span>{page}</span> / <span>7</span>
+            <span>{page}</span> / <span>8</span>
           </div>
         </div>
       </div>
