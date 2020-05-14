@@ -27,7 +27,7 @@ const Recommendations = (props) => {
         articles[i] = articles[j]
         articles[j] = temp
     }
-    articles.filter((article)=>article.frontmatter.slug!=props.slug)
+    articles.filter((article)=>article.frontmatter.slug!==props.slug)
     const top = articles.slice(0,6)
 
     return(
@@ -37,7 +37,7 @@ const Recommendations = (props) => {
                     <div className={recommendationStyles.article} key={idx}>
                         <div className={recommendationStyles.imageContainer}>
                             <Link to={`/post-quarantine-urbanism/${article.frontmatter.slug}`}>
-                                <img src={article.frontmatter.ogp}/>
+                                <img src={article.frontmatter.ogp} alt={article.slug}/>
                                 <div className={recommendationStyles.overlay}></div>
                             </Link>
                         </div>

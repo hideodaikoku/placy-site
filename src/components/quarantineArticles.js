@@ -163,7 +163,7 @@ const QuarantineArticles = () => {
         <div className={quarantineArticleStyles.container}>
             <div className={quarantineArticleStyles.articleContainer}>
             {quarantineData.slice(0).reverse().map( (quarantine,idx) =>{
-                    if(idx==0){
+                    if(idx===0){
                         return(
                             <div key={idx} className={quarantineArticleStyles.mainArticle}>
                                 <div className={quarantineArticleStyles.imageContainer}>
