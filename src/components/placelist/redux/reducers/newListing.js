@@ -79,15 +79,20 @@ export default (state = initialState, action) => {
       };
     case ADD_STORE_MAPS_URL:
       if (!action.payload.mapsUrl) {
+        console.error(action.payload.mapsUrl);
         return {
           ...state,
           err: "空でないURLを入力してください",
           storeMapsUrl: "",
         };
       }
-      return { ...state, storeMapsUrl: action.payload.mapsUrl };
+      return { ...state, storeMapsUrl: action.payload.mapsUrl, err: null };
     case ADD_DESCRIPTION_TEXT:
-      return { ...state, descriptionText: action.payload.descriptionText };
+      return {
+        ...state,
+        descriptionText: action.payload.descriptionText,
+        err: null,
+      };
     case ADD_ACTION_TYPE:
       if (
         action.payload.actionType === "default" ||
