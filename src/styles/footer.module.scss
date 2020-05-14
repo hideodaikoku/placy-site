@@ -35,7 +35,7 @@
 .footer-section{
     display: flex;
     
-    a{
+    a+small{
         text-decoration: none;
         color: black;
         margin-right: 1rem;
@@ -68,5 +68,11 @@ $breakpoint-sp: 400px;
     .container-right{
         clear: both;
     }
-    
+    .footer-container{
+        a{
+            .list{
+                margin-right: 1rem;
+            }
+        }
+    }
 }
