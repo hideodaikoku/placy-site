@@ -177,10 +177,12 @@ export const setPage = (toPage) => {
         });
         return;
       case 7:
-        if (!!listing.mapsUrl && listing.err === null) break;
+        if (!!listing.storeMapsUrl && listing.err === null) break;
+        console.error(listing.storeMapsUrl);
+        console.error(listing.err);
         dispatch({
           type: ADD_STORE_MAPS_URL,
-          payload: { mapsUrl: listing.mapsUrl || "" },
+          payload: { mapsUrl: listing.storeMapsUrl || "" },
         });
         return;
       default:
