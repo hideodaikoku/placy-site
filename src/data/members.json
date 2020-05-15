@@ -1,42 +1,47 @@
 {
-    "soma" : {
-        "name": "鈴木 綜真",
-        "position":"代表",
-        "text": "京都大学工学部物理工学科にて学部課程を卒業後、ロンドンのUCLBartlett Schoolにて都市空間解析学の研究を行い修士課程を取得。"
-    },
-    "kazu" : {
-        "name": "森下 和之",
-        "position":"Spatial Data Engineer",
-        "text": "メルボルン大学で数学科卒業。アクチュアリとして金融機関勤務。Placyでは空間データベースの構築及び解析業務を担う。"
-    },
-    "hideo" : {
-        "name": "大穀 英雄",
-        "position":"Spatial Data Engineer",
-        "text": "インド生まれ育ちのミックススムージーワイルドストリーベリーシェイク。慶應義塾大学環境情報学部4年。Placyではソフトウェア開発とデザインを担当。"
-    },
-    "marina" : {
-        "name": "marina",
-        "position":"App Engineer",
-        "text": "東京電機大学工学部在籍、主に通信工学を勉強している。Placyでは、iOSアプリ開発を担当している。"
-    },
-    "minerva" : {
-        "name": "Minerva",
-        "position":"App Engineer",
-        "text": "早稲田大学理工学部1年。数学・物理学・ラーメン・サッカー観戦等が好きです。"
-    },
-    "miki" : {
-        "name": "Miki",
-        "position":"App Engineer",
-        "text": "明治大学総合数理学部FMS在籍。Placyではモバイルアプリ開発を担当。コーヒーが好きで普段はバリスタとしても働いている。"
-    },
-    "stephen" : {
-        "name": "Stephen Law",
-        "position":"Spatial Data Engineer",
-        "text": "英国国立統計機関Alan Turing Institute リサーチフェロー. Placyではロンドン支部の立ち上げ及び都市モデリングの構築を担当。"
-    },
-    "todd" : {
-        "name": "Todd Perry",
-        "position":"Spatial Data Engineer",
-        "text": "ロンドンのデータ分析のベンチャー企業「Huq Industries」でエンジニアとして働いている。Placyでソフトウエア開発やインフラに関する仕事をしている。"
-    }
+  "soma": {
+    "name": "鈴木 綜真",
+    "position": "代表",
+    "text": "京都大学工学部物理工学科にて学部課程を卒業後、ロンドンのUCLBartlett Schoolにて都市空間解析学の研究を行い修士課程を取得。"
+  },
+  "kazu": {
+    "name": "森下 和之",
+    "position": "Spatial Data Engineer",
+    "text": "メルボルン大学で数学科卒業。アクチュアリとして金融機関勤務。Placyでは空間データベースの構築及び解析業務を担う。"
+  },
+  "hideo": {
+    "name": "大穀 英雄",
+    "position": "Spatial Data Engineer",
+    "text": "インド生まれ育ちのミックススムージーワイルドストリーベリーシェイク。慶應義塾大学環境情報学部4年。Placyではソフトウェア開発とデザインを担当。"
+  },
+  "marina": {
+    "name": "marina",
+    "position": "App Engineer",
+    "text": "東京電機大学工学部在籍、主に通信工学を勉強している。Placyでは、iOSアプリ開発を担当している。"
+  },
+  "minerva": {
+    "name": "Minerva",
+    "position": "App Engineer",
+    "text": "早稲田大学理工学部1年。数学・物理学・ラーメン・サッカー観戦等が好きです。"
+  },
+  "miki": {
+    "name": "Miki",
+    "position": "App Engineer",
+    "text": "明治大学総合数理学部FMS在籍。Placyではモバイルアプリ開発を担当。コーヒーが好きで普段はバリスタとしても働いている。"
+  },
+  "stephen": {
+    "name": "Stephen Law",
+    "position": "Spatial Data Engineer",
+    "text": "英国国立統計機関Alan Turing Institute リサーチフェロー. Placyではロンドン支部の立ち上げ及び都市モデリングの構築を担当。"
+  },
+  "todd": {
+    "name": "Todd Perry",
+    "position": "Spatial Data Engineer",
+    "text": "ロンドンのデータ分析のベンチャー企業「Huq Industries」でエンジニアとして働いている。Placyでソフトウエア開発やインフラに関する仕事をしている。"
+  },
+  "sp4ghet": {
+    "name": "sp4ghet",
+    "position": "Computer Wrangler",
+    "text": "ロンドンのUCLで理論物理学の学部課程在籍。進学以前はMITや千葉大学で植物工場のソフトウェアを研究・開発を行っていた。趣味でVJやクリエイティブコーディングをしている。"
+  }
 }
