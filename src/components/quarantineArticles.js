@@ -149,6 +149,27 @@ const QuarantineArticles = () => {
                     }
                 }
             }
+            madrid: file(relativePath: {eq: "madrid.jpeg"}){
+                childImageSharp{
+                    fluid(maxWidth: 600){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            stockholm: file(relativePath: {eq: "stockholm.jpeg"}){
+                childImageSharp{
+                    fluid(maxWidth: 600){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            cairo: file(relativePath: {eq: "cairo.jpeg"}){
+                childImageSharp{
+                    fluid(maxWidth: 600){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
             excerpt: allMarkdownRemark{
                 nodes{
                   frontmatter{

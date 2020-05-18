@@ -178,5 +178,35 @@
         "medium": "https://medium.com/post-quarantine-urbanism/de-densifying-spanish-cities-d3e216ee976a",
         "date": "2020/05/10",
         "title": "De-densifying Spanish cities"
+    },
+    {
+        "place": "Spain - Madrid",
+        "author": "Ana Muñoz-Antuña",
+        "img": "madrid",
+        "slug" : "madrid",
+        "medium": "https://medium.com/post-quarantine-urbanism/madrid-breaking-the-silence-by-reconquering-streets-and-parks-bf63e2e445d1",
+        "ogp": "https://miro.medium.com/max/1400/1*gtgLQl33mhDJSoMJzk2ctQ.jpeg",
+        "date": "2020/05/14",
+        "title": "Madrid: Breaking the silence by reconquering streets and parks."
+    },
+    {
+        "place": "Egypt - Cairo",
+        "author": "Soliman Saad",
+        "img": "cairo",
+        "slug" : "cairo",
+        "medium": "https://medium.com/post-quarantine-urbanism/urban-scenarios-after-the-pandemic-fa4a726a4c30",
+        "ogp": "https://miro.medium.com/max/1000/1*91nyZkxyDN7m3Flllry57Q.jpeg",
+        "date": "2020/05/16",
+        "title": "Urban Scenarios After The Pandemic-Cairo"
+    },
+    {
+        "place": "Sweden - Stockholm",
+        "author": "Stefan Attig",
+        "img": "stockholm",
+        "slug" : "stockholm",
+        "medium": "https://medium.com/post-quarantine-urbanism/take-it-lagom-sweden-s-controversial-covid-19-strategy-and-potentials-9ed38c43393d",
+        "ogp": "https://miro.medium.com/max/1400/1*7tpK3JCvcx75_qwL6flMCw.jpeg",
+        "date": "2020/05/18",
+        "title": "Take it ‘lagom’. Sweden’s controversial COVID-19 Strategy and potentials."
     }
 ]
