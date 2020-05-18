@@ -63,6 +63,13 @@ const MemberSection = () => {
                     }
                 }
             }
+            sp4ghet: file(relativePath: {eq: "sp4ghet.png"}){
+                childImageSharp{
+                    fluid(maxWidth: 1024, grayscale: true){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
         }
     `)
         
@@ -111,6 +118,10 @@ const MemberSection = () => {
                     <Member
                     image={data.todd.childImageSharp}
                     id={"todd"}
+                    />
+                    <Member
+                    image={data.sp4ghet.childImageSharp}
+                    id={"sp4ghet"}
                     />
                 </div>
             </div>
