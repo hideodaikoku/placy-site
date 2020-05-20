@@ -39,8 +39,17 @@ module.exports = {
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-        shortname: `placy-city`
-      }
+        shortname: `placy-city`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-intl`,
+      options: {
+        path: `${__dirname}/src/intl`,
+        languages: [`ja`, `en`],
+        defaultLanguage: `ja`,
+        redirect: true,
+      },
     },
   ],
 };
