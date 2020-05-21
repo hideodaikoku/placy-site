@@ -51,17 +51,17 @@ const PositionsSection = () => {
                             
                             <div className={positionStyle.para}>
                                 <span className={positionStyle.box}>
-                                    歓迎スキル
+                                    Job Description
                                 </span>
                                 <ul>
                                 {
-                                position.skills.map((skill,id)=>(
+                                position.jobDescription.map((desc,id)=>(
                                     <div key={id}>
-                                    <li>{skill.text}</li>
+                                    <li>{desc.text}</li>
                                     <>
                                         {
-                                            skill.sub?
-                                            <p>{skill.sub}</p>
+                                            desc.sub?
+                                            <p>{desc.sub}</p>
                                             :null
                                         }
                                     </>
@@ -74,28 +74,34 @@ const PositionsSection = () => {
 
                             <div className={positionStyle.para}>
                                 <span className={positionStyle.box}>
-                                    雇用形態
+                                    {position.skillTitle}
                                 </span>
-                                <p className={positionStyle.desc}>
-                                    {position.type}
-                                </p>   
+                                <ul>
+                                    {
+                                    position.skills.map((skill,id)=>(
+                                        <div key={id}>
+                                            <li>{skill.text}</li>
+                                        </div>
+                                        )
+                                    )
+                                    }
+                                </ul>
                             </div>
 
                             <div className={positionStyle.para}>
-                                <span className={positionStyle.box}>
-                                    選考フロー
+                            <span className={positionStyle.box}>
+                                    {position.otherSkillsTitle}
                                 </span>
-                                <div className={positionStyle.flowContainer}>
+                                <ul>
                                     {
-                                        position.flow.map((flowContent,id)=> (
-                                            <div key={id} className={positionStyle.flow}>
-                                                <p>{flowContent.title}</p>
-                                                <p>{flowContent.text}</p>
-                                            </div>
+                                    position.otherSkills.map((skill,id)=>(
+                                        <div key={id}>
+                                            <li>{skill.text}</li>
+                                        </div>
                                         )
-                                        )
+                                    )
                                     }
-                                </div>   
+                                </ul>
                             </div>
                             </div>
                             <div className={positionStyle.right}>

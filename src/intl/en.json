@@ -12,69 +12,36 @@
       "id": 1,
       "title": "Software Engineer (CTO candidates)",
       "description": "Mobile apps (IOS & Android) and the development of contract projects",
-      "description_sub": "We are looking for an engineer to direct project operations.",
-      "skills": [
+      "jobDescription": [
         {
-          "text": "Azure, AWS, including GCP, cloud infrastructure development experience"
+          "text": "Refactoring the front-end, back-end, and adding infrastructure to existing projects"
         },
         {
-          "text": "Swift, Flutter, Python, development experience with PostgreSQL"
+          "text": "Design and database organization for future app and company purposes"
+        },
+        {
+          "text": "Recruitment and management of a small team of engineers to achieve the above goals"
+        }
+      ],
+      "skillTitle": "skills",
+      "skills": [
+        {
+          "text": "Experience using cloud infrastructure such as Azure, AWS, GCP"
+        },
+        {
+          "text": "Development experience using Swift, Flutter, Python, PostgreSQL"
+        }
+      ],
+      "otherSkillsTitle": "Other Skills (preferred but not necessary)",
+      "otherSkills": [
+        {
+          "text": "English"
+        },
+        {
+          "text": "Knowledge of machine learning about music and recommendations"
         },
         {
           "text": "Experience in spatial data analysis (OSM and QGIS)"
-        },
-        {
-          "text": "ライティングスキル",
-          "sub": [
-            "日本語ネイティブレベル",
-            "英語、校正チェックができるレベルが望ましい"
-          ]
-        }
-      ],
-      "type": "Contractor  (2 to 4 days a week)",
-      "flow": [
-        {
-          "title": "[Primary interview]",
-          "text": "Let's talk casually for about an hour, about your experience, what you want to do next and your interests Of course, we also answer any questions you may have about Placy."
-        },
-        {
-          "title": "[Final Round] trial period:",
-          "text": "One day a week for one month, signing a temporary contract. We will develop your own service together. Our several engineers will undertake a peer review to evaluate your compatibility and development capabilities."
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Graphic Designer",
-      "description": "We are seeking a a designer capable of designing brochures for local government and Railway companies.",
-      "description_sub": "We are looking for an engineer to direct project operations.",
-      "skills": [
-        {
-          "text": "Experience in designing brochures (more than one year)"
-        },
-        {
-          "text": "Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe XD / Figma / Sketch"
-        },
-        {
-          "text": "Experience creating magazines and booklets."
-        },
-        {
-          "text": "Writing Skills",
-          "sub": [
-            "Japanese native level",
-            "English, proofreading level is desirable"
-          ]
-        }
-      ],
-      "type": "Contractor (One week internship at first)",
-      "flow": [
-        {
-          "title": "[Primary interview]",
-          "text": "Let's talk casually for about an hour, about your experience, what you want to do next and your interests. Of course, we also answer any questions you may have about Placy."
-        },
-        {
-          "title": "[Final Round] trial period:",
-          "text": "One day a week for one month, signing a temporary contract. We will give you work on a project basis."
         }
       ]
     }
