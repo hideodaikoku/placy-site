@@ -14,7 +14,16 @@ export const Page = () => {
         description="Placy プレイ(ス)リストへようこそ。こちらは、思い入れのある場所のプレイリストを作成して皆と共有するページです。"
         image="/images/placelist.jpg"
       />
-      <Prefetch rel="dns-prefetch" href="https://open.scdn.co/" />
+      <Prefetch
+        rel="preconnect"
+        href="https://open.scdn.co/"
+        probability={1.0}
+      />
+      <Prefetch
+        rel="preconnect"
+        href="https://www.googletagmanager.com"
+        probability={0.8}
+      />
       <Hero />
       <Modal></Modal>
       <hr className={style.spacingBar} />
