@@ -2,6 +2,8 @@ import React from "react";
 import appStyles from "../styles/app.module.scss";
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
+import { useIntl } from "gatsby-plugin-intl";
+
 const AppSection  = () => {
     
     const data = useStaticQuery(graphql`
@@ -29,6 +31,9 @@ const AppSection  = () => {
         }
     }
     `)
+
+    const intl = useIntl();
+
     return(
         <div className={appStyles.introContainer}>
             <div className={appStyles.textContent}>
@@ -37,9 +42,15 @@ const AppSection  = () => {
                     Follow your rhythm.
                 </h1>
                 <p className={appStyles.desc}>
-                    Placyは音楽の趣味に基づいて場所を探せる地図アプリです。<br/>
-                    レビューやランキングだけでは汲み取ることの難しい、<br/>
-                    あなたの「リズム」の流れる場所を見つけてみませんか？
+                    {intl
+                    .formatMessage({ id: "home_top" })
+                    .split("\n")
+                    .map((c) => (
+                        <>
+                        {c}
+                        <br />
+                        </>
+                    ))}
                 </p>
                 <div className={appStyles.buttonContainer}>
                     <div className={appStyles.button}>

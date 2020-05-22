@@ -2,6 +2,7 @@ import React from "react"
 import Img from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
 import careertTopStyles from "../styles/careertop.module.scss";
+import { useIntl } from "gatsby-plugin-intl";
 
 const CareerTopSection = () => {
     const data = useStaticQuery(graphql`
@@ -29,6 +30,8 @@ const CareerTopSection = () => {
         }
     }
     `)
+
+    const intl = useIntl()
     return(
         <div className={careertTopStyles.container}>
             <div className={careertTopStyles.section}>
@@ -53,12 +56,15 @@ const CareerTopSection = () => {
             <div className={careertTopStyles.section}>
                 <div className={careertTopStyles.leftContent}>
                     <p className={careertTopStyles.text}>
-                        Placyには、都市モデリング、空間データ解析、
-                        コンピュータサイエンスをバックグラウンドにもつ
-                        メンバーが所属しています。
-                        <br/>
-                        現在、私たちと一緒に働いてくれる方を募集しております。
-                        ご連絡お待ちしております！
+                    {intl
+                    .formatMessage({ id: "career_top" })
+                    .split("\n")
+                    .map((c) => (
+                        <>
+                        {c}
+                        <br />
+                        </>
+                    ))}
                     </p>
                 </div>
                 <div className={careertTopStyles.right}>
