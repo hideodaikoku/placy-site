@@ -15,14 +15,9 @@ export const Page = () => {
         image="/images/placelist.jpg"
       />
       <Prefetch
-        rel="preconnect"
+        rel="dns-prefetch"
         href="https://open.scdn.co/"
         probability={1.0}
-      />
-      <Prefetch
-        rel="preconnect"
-        href="https://www.googletagmanager.com"
-        probability={0.8}
       />
       <Hero />
       <Modal></Modal>
