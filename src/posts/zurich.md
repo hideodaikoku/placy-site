@@ -1,8 +1,8 @@
 ---
 place: "Switzerland - Zurich"
 author: "Melanie Imefeld"
-img : "zurich"
-slug : "zurich"
+img: "zurich"
+slug: "zurich"
 medium: "https://medium.com/post-quarantine-urbanism/zurichs-post-pandemic-balcony-and-what-we-can-learn-about-it-from-this-health-crisis-889e4081bfa3"
 ogp: "https://miro.medium.com/max/1400/1*nmTjEAfoSjjOvYo6cM6TyA.png"
 date: "2020/04/19"
@@ -10,8 +10,7 @@ title: "The impact of the health crisis on urban design: The post-pandemic balco
 excerpt: "In the light of COVID-19, Switzerland has not been in the focus of the international media as much as its European neighbors Italy and France. Yet, it has one of the highest numbers of reported cases per inhabitant globally. "
 ---
 
-**_Zurich’s post-pandemic balcony and what we can learn about it from this health crisis_**
-===========================================================================================
+# **_Zurich’s post-pandemic balcony and what we can learn about it from this health crisis_**
 
 **The current situation in Switzerland**
 
@@ -53,13 +52,11 @@ Furthermore, the COVID-19 crisis reveals the transformative power of the balcony
 
 No matter what the future will look like, the current pandemic is a reason to rethink our relationship to the balcony and ultimately how we want to organize urban density to preserve cities as liveable yet resilient places.
 
-* * *
+---
 
 > Melanie is an IT consultant and an urban designer from Zurich, Switzerland. She is particularly interested in cartography & data visualization and believes that data analysis can help us to understand complex urban networks. Sometimes, she builds her [own maps](https://www.melanieimfeld.com/). She hopes that she can leave her balcony soon.
 
-
-
-* * *
+---
 
 <div style="display: flex; margin-bottom: 2rem">
     <div style="margin: 0 auto; text-align: center">
@@ -69,4 +66,4 @@ No matter what the future will look like, the current pandemic is a reason to re
     </div>
 </div>
 
-* * *
+---

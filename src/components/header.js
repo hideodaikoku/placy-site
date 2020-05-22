@@ -89,7 +89,6 @@ const Header = (props) => {
               activeClassName={headerStyles.activeNavItem}
               to="/placelist"
             >
-              
               &#9834;
             </Link>
           </li>

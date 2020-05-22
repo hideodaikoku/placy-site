@@ -2,7 +2,7 @@
 place: "Egypt - Cairo"
 author: "Soliman Saad"
 img: "cairo"
-slug : "cairo"
+slug: "cairo"
 medium: "https://medium.com/post-quarantine-urbanism/urban-scenarios-after-the-pandemic-fa4a726a4c30"
 ogp: "https://miro.medium.com/max/1000/1*91nyZkxyDN7m3Flllry57Q.jpeg"
 date: "2020/05/16"
@@ -10,8 +10,7 @@ title: "Urban Scenarios After The Pandemic-Cairo"
 excerpt: "The obvious variances in Egypt from landscape and population density form a challenge in managing an urgent crisis facing all over the world such as COVID-19 crisis. That disease which get rid of a lot of people lives, harm other people peaceful life and big countries’ economies."
 ---
 
-Urban Scenarios After The Pandemic-Cairo
-========================================
+# Urban Scenarios After The Pandemic-Cairo
 
 <img class="s t u hg ai" src="https://miro.medium.com/max/1000/1*91nyZkxyDN7m3Flllry57Q.jpeg"/>
 
@@ -50,7 +49,6 @@ quality. Those spaces will provide places for physical activities, improve the p
 Exploiting the urban spaces and encouraging the practice of some activities “that are currently done inside the buildings” to be done inside open urban spaces, where the open spaces are more exposed to sun radiation and air renewal rates faster than those occur inside the buildings, using of urban spaces for indoor activates will also help to achieve the required safe distances between users and each other.
 
 These basic trends may affect the shape and pattern of post-Corona urban sector, especially in cities that currently are lack for large proportion of these principles. Those trends may take priorities with regard to preparing development plans and studies, in addition to giving them importance in various urban development projects and urban management in the era After the Corona.
-
 
 <div style="display:flex; justify-content: space-evenly">
     <div style="margin-right:1rem; width:18%">

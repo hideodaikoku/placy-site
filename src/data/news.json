@@ -1,57 +1,57 @@
 {
-    "campfire" : {
-        "url": "https://camp-fire.jp/projects/view/173125",
-        "title":"クラウドファンディングを実施します。",
-        "text": "2019/07/14"
-    },
-    "cityBlend" : {
-        "url": "https://prtimes.jp/main/html/rd/p/000000001.000047935.html?fbclid=tw-ETi898Jsj-dCFvw",
-        "title":"「CITY BLEND #BENCH001」を開催します。",
-        "text": "2019/09/11"
-    },
-    "forbes" : {
-        "url": "https://forbesjapan.com/articles/detail/29683?internal=top_firstview_02",
-        "title":"Forbes JapanにPlacyを取り上げていただきました。",
-        "text": "2019/09/17"
-    },
-    "metacity" : {
-        "url": "https://metacity.jp/",
-        "title":"METACITY@幕張メッセで代表の鈴木 綜真が登壇します。",
-        "text": "2018/12/18"
-    },
-    "microsoftPlacy" : {
-        "url": "https://prtimes.jp/main/html/rd/p/000000003.000047935.html",
-        "title":"株式会社 Placy が、Microsoft for Startups に採択されました。",
-        "text": "2019/12/2"
-    },
-    "mit" : {
-        "url": "https://www.mit-vf.jp/post/bpcc19-awards",
-        "title":"日本MITベンチャーフォーラムにて、Microsoft賞を受賞しました。",
-        "text": "2019/11/6"
-    },
-    "neut" : {
-        "url": "http://neutmagazine.com/interview-soma-suzuki",
-        "title":"Neut MagazineにPlacyを取り上げていただきました。",
-        "text": "2019/09/08"
-    },
-    "roofBlend" : {
-        "url": "https://twitter.com/11_soma_/status/1119877288571465728",
-        "title":"Roof Blend Placy を開催します。",
-        "text": "2019/04/20"
-    },
-    "sampo" : {
-        "url": "https://www.facebook.com/events/1100393507015062/",
-        "title":"感覚都市 ~ 音楽de散歩 @渋谷を開催します。",
-        "text": "2019/07/07"
-    },
-    "twitterExperiment" : {
-        "url": "https://twitter.com/placy_city/status/1128477916373766144",
-        "title":"仮説検証のため音楽に基づき渋谷駅周辺の喫茶店をレコメンドします。",
-        "text": "2019/05/15"
-    },
-    "wiredNext" : {
-        "url": "https://wired.jp/2018/11/12/nextgen18-sessions/",
-        "title":"WIRED NEXT GENERATION 2018で代表の鈴木 綜真が登壇します。",
-        "text": "2018/11/12"
-    }
+  "campfire": {
+    "url": "https://camp-fire.jp/projects/view/173125",
+    "title": "クラウドファンディングを実施します。",
+    "text": "2019/07/14"
+  },
+  "cityBlend": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000001.000047935.html?fbclid=tw-ETi898Jsj-dCFvw",
+    "title": "「CITY BLEND #BENCH001」を開催します。",
+    "text": "2019/09/11"
+  },
+  "forbes": {
+    "url": "https://forbesjapan.com/articles/detail/29683?internal=top_firstview_02",
+    "title": "Forbes JapanにPlacyを取り上げていただきました。",
+    "text": "2019/09/17"
+  },
+  "metacity": {
+    "url": "https://metacity.jp/",
+    "title": "METACITY@幕張メッセで代表の鈴木 綜真が登壇します。",
+    "text": "2018/12/18"
+  },
+  "microsoftPlacy": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000003.000047935.html",
+    "title": "株式会社 Placy が、Microsoft for Startups に採択されました。",
+    "text": "2019/12/2"
+  },
+  "mit": {
+    "url": "https://www.mit-vf.jp/post/bpcc19-awards",
+    "title": "日本MITベンチャーフォーラムにて、Microsoft賞を受賞しました。",
+    "text": "2019/11/6"
+  },
+  "neut": {
+    "url": "http://neutmagazine.com/interview-soma-suzuki",
+    "title": "Neut MagazineにPlacyを取り上げていただきました。",
+    "text": "2019/09/08"
+  },
+  "roofBlend": {
+    "url": "https://twitter.com/11_soma_/status/1119877288571465728",
+    "title": "Roof Blend Placy を開催します。",
+    "text": "2019/04/20"
+  },
+  "sampo": {
+    "url": "https://www.facebook.com/events/1100393507015062/",
+    "title": "感覚都市 ~ 音楽de散歩 @渋谷を開催します。",
+    "text": "2019/07/07"
+  },
+  "twitterExperiment": {
+    "url": "https://twitter.com/placy_city/status/1128477916373766144",
+    "title": "仮説検証のため音楽に基づき渋谷駅周辺の喫茶店をレコメンドします。",
+    "text": "2019/05/15"
+  },
+  "wiredNext": {
+    "url": "https://wired.jp/2018/11/12/nextgen18-sessions/",
+    "title": "WIRED NEXT GENERATION 2018で代表の鈴木 綜真が登壇します。",
+    "text": "2018/11/12"
+  }
 }

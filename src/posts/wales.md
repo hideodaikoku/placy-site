@@ -2,15 +2,15 @@
 place: "Wales"
 author: "Catrin Stephens"
 img: "wales"
-slug : "wales"
+slug: "wales"
 ogp: "https://miro.medium.com/max/758/1*USnu0cv7awFDkKoEzecqLA.png"
 medium: "https://medium.com/post-quarantine-urbanism/wales-help-change-urban-spaces-into-safe-areas-of-encounter-bba1c37e1846"
 excerpt: "Wales; the land of the Welsh language, luscious green hills and the Eisteddfod. Not, however immune, to Covid-19, the virus that has been the only successful living thing to have quite literally taken over the planet..."
 date: "2020/05/12"
 title: "Wales: Help change urban spaces into safe areas of encounter"
 ---
-**Wales: Help change urban spaces into safe areas of encounter**
-================================================================
+
+# **Wales: Help change urban spaces into safe areas of encounter**
 
 Wales; the land of the Welsh language, luscious green hills and the Eisteddfod. Not, however immune, to Covid-19, the virus that has been the only successful living thing to have quite literally taken over the planet. With a population of only 3.1 million people in the whole of Wales, Welsh cities may be small in size, but have been hit by the virus extensively with the most cases being in South Wales, mainly in the capital of Cardiff and surrounding areas. The Welsh Government have established their own policies to help overcome the pandemic, similar to those addressed in the UK wide system. However, rules regarding social distancing in the workplace and exercising differ from the overall system. The general guidance issued by the Welsh Government is as follows:
 
@@ -45,7 +45,7 @@ Cardiff council are researching ways in which they can widen pavements to create
 
 The Welsh Government is not doing enough to protect open spaces and change them so that they can be used by the public who may not have access to their own garden/outdoor space. They need to think of how they can better relationships between citizens in a healthy way and work together to create peaceful cities where the public is involved in making decisions as to what happens. Since Wales is famous for its picturesque open spaces, why are councils and private owners focusing on the ‘now’ and keeping their parks closed, instead of endorsing ideas to promote a sustainable and healthy future for the residents of Wales? Should Wales seek its own path out of the pandemic so that it can better itself and aid people in its urban areas to trust each other and work together or should it sit back and watch its neighbouring countries do all the work?
 
-* * *
+---
 
 <div style="display: flex; margin-bottom: 2rem">
     <div style="margin: 0 auto; text-align: center">
@@ -55,4 +55,4 @@ The Welsh Government is not doing enough to protect open spaces and change them 
     </div>
 </div>
 
-* * *
+---

@@ -9,22 +9,19 @@ title: "Post-Quarantine in a segregated metropolis: Mobility, key factor to unit
 excerpt: "The health crisis that is plaguing the world today and particularly the large metropolises, forces us to ask ourselves, what should be the next actions to be taken after the quarantine ends and the COVID 19 pandemic has been controlled?"
 ---
 
-Post-Quarantine in a segregated metropolis: Mobility, key factor to unite two Santiagos today and after the Covid-19 crisis
-===========================================================================================================================
+# Post-Quarantine in a segregated metropolis: Mobility, key factor to unite two Santiagos today and after the Covid-19 crisis
 
-* * *
-  
+---
 
 <img src="https://miro.medium.com/max/2912/1*AtJZfYO01weNUsa223jSiA.jpeg" alt="provide an image tag"/>
 
-
 The health crisis that is plaguing the world today and particularly the large metropolises, forces us to ask ourselves, what should be the next actions to be taken after the quarantine ends and the COVID 19 pandemic has been controlled? **Measures from an urban approach are crucial**, as the disease spread pattern in large cities has revealed — again — the great disadvantages of high density and coexistence with our peers in less km2.
 
-* * *
+---
 
 It is important to take into account that **each city is unrepeatable**, with unique economic, social, physical and urban dynamics and with its own contingencies. This offers **different scenarios where standardized strategies cannot be applied** to combat a crisis like the current one. An example of this is **Santiago de Chile**, a fragmented capital at an urban level, **of a country with deep social and economic inequalities**, which recently led to one of the largest social outbursts in its history.
 
-* * *
+---
 
 <img src="https://miro.medium.com/max/1400/1*I7eIoWOns0zmiXzCVWqOCQ.jpeg" alt="provide an image tag"/>
 
@@ -32,8 +29,7 @@ Social outburst in Chile. October, 2019. Photo taken from Google
 
 How is it that Santiago faces a pandemic under these conditions?
 
-**Facing the pandemic in Chile**
---------------------------------
+## **Facing the pandemic in Chile**
 
 There are two main strategies by which the affected countries decided to mitigate the spread of Covid-19 in their territories. **Strategy A** resorts to a total quarantine, admitting the impossibility of tracking the infected and giving an adequate follow-up to the contagion curve. **Strategy B** is based on carrying out a high number of daily tests, and on the definition of local and dynamic quarantines. (Gonzales, R., Kiwi, M. 2020)
 
@@ -45,8 +41,7 @@ Recently, **the government has launched the “Coronapp” application**, create
 
 To date, Chile’s health minister **ensures that the curve remains controlled**, however, academics assure that since the beginning of April, **the contagion curve has been lost sight of** (Gonzales, R., Kiwi, M. 2020). This makes us question whether these measures have been and will be enough to maintain the impact that the government needs to keep its strategy viable.
 
-**Adopting preventive measures in the “two Santiagos”**
--------------------------------------------------------
+## **Adopting preventive measures in the “two Santiagos”**
 
 With 34 districts, and a population of more than 6 million inhabitants that extends over 640 square kilometers, Santiago de Chile is characterized by **urban segregation and low mix of social classes within its territory**, leading the ranking of urban segregation among OECD member cities. (Tiznado-Aitkens, I. et al, 2019) With this background, it is being studied how people is operating in a city with wide social, economic, urban and even digital gaps.
 
@@ -68,8 +63,7 @@ Twitter capture: pictures showing government’s failed attempt to safeguard soc
 
 Yet the call is to stay at home if it is not necessary to leave, **not everyone can be quarantined**, either because they must go far to get basic supplies, or because they need to get to their workplaces without the sanitary measures assured from the beginning, **thus having greater possibilities of contagion**.
 
-**Post-quarantine urban solutions in a fragmented Santiago, is mobility the key?**
-----------------------------------------------------------------------------------
+## **Post-quarantine urban solutions in a fragmented Santiago, is mobility the key?**
 
 Although mobility is not restricted, **measures taken by the government regarding urban mobility systems, are not aimed at guaranteeing a safe service** for those who still need to continue moving, which in fact is not the minority.
 
@@ -101,7 +95,7 @@ The Government has just announced its plan to return to a “New normal”. This
 
 In these moments of crisis, it is perhaps the **mobility smart management**, that can not only **allow these two Santiagos to become a single and cohesive great metropolis, but can also position the city one step ahead of new mobility trends** that will surely emerge in a post Covid-19 world .
 
-* * *
+---
 
 <div style="display:flex; justify-content: space-evenly">
     <div style="margin-right:1rem; width:18%">
@@ -116,17 +110,16 @@ In these moments of crisis, it is perhaps the **mobility smart management**, tha
 </div>
 <br/>
 
-* * *
+---
 
-> 
 > **References:**
-> 
+>
 > [Gonzales, R., Kiwi, M. (April 16th, 2020)“Covid 19: Chile is not flattening the curve, we lost sight of it”. Ciper Chile](https://ciperchile.cl/2020/04/16/covid-19-chile-no-esta-aplanando-la-curva-la-perdimos-de-vista/)
-> 
+>
 > [Derechos Digitales (April, 2020)“Coronapp: The uselessness of the technological shortcut deployed by the Government and its risks”](https://www.derechosdigitales.org/14387/coronapp-la-inutilidad-del-atajo-tecnologico-desplegado-por-el-gobierno-y-sus-riesgos/)
-> 
+>
 > [Fuentes, L., Mac-Clure, O., Moya, C. & Olivos, C. (2017) “Santiago de Chile: ¿City of cities? “Social inequalities in local labor market areas”. Cepal Magazine N°121, pages 93–109](https://www.cepal.org/es/publicaciones/41146-santiago-chile-ciudad-ciudades-desigualdades-sociales-zonas-mercado-laboral)
-> 
+>
 > [Inostroza, V. (April 15th, 2020) “Urban vulnerability and accessibility in districts with partial quarantine” Ciper Chile](https://ciperchile.cl/2020/04/15/vulnerabilidad-urbana-y-accesibilidad-en-las-comunas-con-cuarentena-parcial/?fbclid=IwAR1gVY6xlmA-6jfTCRqZqtZV7pPCFb12OQbboiiAedqHwV_FmY2wB6DKbVI)
-> 
+>
 > [Tiznado- Aitkens, I., Muñoz, J., Iglesias, V., Giraldez, F. (2019) “The inequities of urban mobility”. Center for Sustainable Urban Development (CEDEUS), Chile](https://www.cedeus.cl/las-inequidades-de-la-movilidad-urbana/)

@@ -2,7 +2,7 @@
 place: "Spain - Madrid"
 author: "Ana Muñoz-Antuña"
 img: "madrid"
-slug : "madrid"
+slug: "madrid"
 medium: "https://medium.com/post-quarantine-urbanism/madrid-breaking-the-silence-by-reconquering-streets-and-parks-bf63e2e445d1"
 ogp: "https://miro.medium.com/max/1400/1*gtgLQl33mhDJSoMJzk2ctQ.jpeg"
 date: "2020/05/14"
@@ -10,10 +10,7 @@ title: "Madrid: Breaking the silence by reconquering streets and parks."
 excerpt: "Dashboard by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University. During the last few months, the Spanish capital city has been one of the main red spots in the world map along with Wuhan, Milan and New York, where Covid-19 was spreading."
 ---
 
-
-**Madrid: Breaking the silence by reconquering streets and parks.**
-===================================================================
-
+# **Madrid: Breaking the silence by reconquering streets and parks.**
 
 <img alt="Dashboard by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University." class="s t u gx ai" src="https://miro.medium.com/max/1400/1*gtgLQl33mhDJSoMJzk2ctQ.jpeg"/>
 
@@ -33,7 +30,7 @@ The whole converted into one of the roughest quarantine measures of all Europe, 
 
 In fact, Spain has reached the not honourable second [position](https://www.rtve.es/noticias/20200429/paises-muertos-coronavirus-poblacion/2012350.shtml) in deaths for every 100,000 inhabitants, only behind Belgium. Furthermore, external views as the Hong Kong consulting firm Deep Knowledge Group ranked the country as the least safe country in the Eurozone in a [classification](https://www.dkv.global/eurozone-ranking) that measures the effectiveness of quarantine restrictions, government management, health effectiveness, and the social and economic support provided to the citizens during the crisis.
 
-* * *
+---
 
 Days go by, spring comes and for a population used to an intense outdoor social life, the hours of confinement can become long, affect moods and generate sleep disorders. In this view, the house and the balcony have taken on a new meaning, being reconstructed not only as a space for seclusion, but also redefining the limits between public and private space. In fact, it is common to look out the window these days and observe neighbours talking from different buildings. However, in the globalized world we live in, with the pandemic being a vivid example of this, now more than ever the medium through which relationships are nurtured is entrusted to telematics means.
 
@@ -52,11 +49,11 @@ The reflection of this through the social networks response consisted of a call 
 By Monday May 4th, Spain had already overcome the peak of the epidemiological curve and the [program](https://elpais.com/sociedad/2020/04/28/actualidad/1588099170_587777.html) to end national confinement began. The overall plan consists of the following stages, reintroducing ‘normality’ with a schedule depending on the severity of each region and, in the best case scenario, it is expected to end in June.
 
 > \- Phase 0. Accompanied walks respecting the interpersonal distance (2m), individual sport activity and opening of small shops by appointment
-> 
+>
 > \- Phase 1. Meetings of up to 10 people, opening of small shops, cafe terraces, hotels and tourist accommodation up to 50% of the capacity and places of worship (30%). Group sport activities that do not involve physical contact or the need of changing rooms. Rehabilitation of working hours in the food industry sector.
-> 
+>
 > \- Phase 2. Travel to second residences depending on proximity, opening of shopping malls, restaurants and cultural venues (cinemas, theatres, museums…) with a third of their capacity. Wedding celebration for a limited number of attendees and permission to carry out hunting and fishing activities.
-> 
+>
 > \- Phase 3. Flexibility towards general mobility. Capacity will be increased in shops and night venues will be opened with safety conditions. Also beaches and national ‘priorities’ such as bullrings will be opened with personal distance limitation.
 
 <img class="s t u gx ai" src="https://miro.medium.com/max/1400/1*aZba-C9p8ESIvC7D_Cqdrw.jpeg"/>
@@ -93,13 +90,13 @@ Madrid has become a city in which you can go everywhere by car or using public t
 
 <small>Overcrowding of a street in the down town at the beginning of phase 0. (Source: Europa Press|vozpopuli)</small>
 
-* * *
+---
 
 If our goal is to make cities and human settlements inclusive, safe, resilient and sustainable, post-quarantine urban planning should learn from this virus the value of the positive insights emerged as a consequence: an encouragement in walking the streets, the need to build places where resting without environmental noise is possible and a commitment to prioritize the reproductive over the productive.
 
 If, as in my opinion, each crisis implies a period of decision, it is time to judge and evaluate the course of our future. Now that everything has stopped, we can imagine a new city model where it is possible to put life at the centre. The post-quarantine city should incentivize sustainable mobility as a firm and global commitment. Manifests such as Massimo Paolini’s one presented in [Barcelona](https://manifiesto.perspectivasanomalas.org/en/manifiesto-2/) have already appeared, claiming the urgency of change as “_an opportunity to promote permanent measures to return the city to people, reorganize mobility, (re)naturalize the city, decommodification of housing and promote urban degrowth_”. We are in time to demand the recovery of green spaces and reclaim the public space that the car has invaded, monopolizing more than 80% of the public space surface, in favour of pedestrian paths, bicycle lanes and public transport.
 
-* * *
+---
 
 <div style="display:flex; justify-content: space-evenly">
     <div style="margin-right:1rem; width:18%">

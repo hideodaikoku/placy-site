@@ -1,7 +1,7 @@
 ---
 place: "China - Wuhan"
 author: "Shu Wei"
-slug : "wuhan"
+slug: "wuhan"
 medium: "https://medium.com/post-quarantine-urbanism/post-quarantine-urbanism-of-china-its-all-about-human-conditions-2e1bb3acdf52"
 ogp: "https://miro.medium.com/max/1074/1*YL1mp99BPXB-8Bj3RJWhNw.gif"
 date: "2020/04/17"
@@ -9,9 +9,7 @@ title: "Post-Quarantine Urbanism of China: It’s All About Human Conditions"
 excerpt: "April 7 2020, one day before the official lockdown lift on Wuhan, China, people were counting down towards midnight as if there was another exclusive New Year’s Eve. The night was brightened up by a light show to pay tribute to the key workers with the headline ‘City of Heroes’..."
 ---
 
-Post-Quarantine Urbanism of China: It’s All About Human Conditions
-==================================================================
-
+# Post-Quarantine Urbanism of China: It’s All About Human Conditions
 
 April 7 2020, one day before the official lockdown lift on Wuhan, China, people were counting down towards midnight as if there was another exclusive New Year’s Eve. The night was brightened up by a light show to pay tribute to the key workers with the headline ‘City of Heroes’ projected through LED; At the same time, BBC News was live-streaming the update about the UK prime minister’s health condition — one day after Boris Johnson was taken to the intensive care. Millions of live comments from all over the world were stacked up to pray for Boris for a speedy recovery, followed by the second popular trend — ‘It’s the time to blame on China’.
 
@@ -71,9 +69,8 @@ A Chinese-Italian man protests coronavirus-related prejudice ([https://www.youtu
 
 However, the regional racism is not coming from nowhere. Interestingly, there is actually the subtle ‘internal regional racism’ between the post-quarantine Wuhan and the rest of China — a Weibo user described the sudden social distancing was received after her neighbor learned she had come back from hometown Wuhan, despite having self-isolated for 2 weeks already and confirmed to be healthy. Although the defence intensity is less aggressive because of the shared identity and empathy, the bare panic and uncertainty among the Chinese are rooted in a familiar way to the hostility towards China from the western world. The fear towards death and the concerns towards the beloved, it’s all about human conditions. Additionally, the lack of information or misinformation under the pandemic also escalates the negative stereotype. With different noises buzzing around such as the _5G-Virus Conspiracy_, no one is giving enough access or patience to digest the effort and struggles of epidemic prevention behind the media’s catchy headline. Misunderstanding becomes the common fate of the swamped modern readers.
 
+---
 
-* * *
-  
 <div style="display:flex; justify-content: space-evenly; margin-bottom: 2rem">
     <div style="margin-right:1rem; width:18%">
         <img  alt="Shu. W" src="https://miro.medium.com/fit/c/96/96/2*7i1bPy6AjQIPD8qfkshBRQ.png"/><br/>
@@ -86,4 +83,4 @@ However, the regional racism is not coming from nowhere. Interestingly, there is
     </div>
 </div>
 
-* * *
+---

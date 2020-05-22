@@ -2,15 +2,15 @@
 place: "Luxembourg"
 author: "Konstantina Vidou"
 img: "luxembourg"
-slug : "luxembourg"
+slug: "luxembourg"
 medium: "https://medium.com/post-quarantine-urbanism/covid-19-the-case-of-the-grand-duchy-of-luxembourg-f4bfd2ff657c"
 ogp: "https://miro.medium.com/max/1400/0*psUyshDldgYO-VPR"
 excerpt: "Luxembourg is a relatively small, multicultural and multilingual country situated in the heart of Europe. On 17 March 2020, the Luxembourgish Government declared a national state of crisis. Considering the evolution of COVID-19..."
 date: "2020/05/12"
 title: "COVID — 19: The case of the Grand Duchy of Luxembourg"
 ---
-COVID — 19: The case of the Grand Duchy of Luxembourg
-=====================================================
+
+# COVID — 19: The case of the Grand Duchy of Luxembourg
 
 ## Situation in the Grand Duchy of Luxembourg
 
@@ -27,7 +27,6 @@ Luxembourg is a relatively small, multicultural and multilingual country situate
 <div style="text-align: center">
     Figure 2: Total confirmed COVID-19 deaths. Source: (Our World in Data, 2020)
 </div>
-
 
 ## Projects and Initiatives
 
@@ -87,9 +86,8 @@ As a response to this pandemic, some exit strategies and schemes aim to reduce c
 
 We need to use the momentum of this pandemic as an opportunity to send the right messages. We all need to fight for a world where respecting nature is the norm, not the exception. Where the safety and freedom of children goes beyond schools and playgrounds. Where using bicycles instead of cars is a habit. Where clean canals, cleaner air and less air travel is just the way things are. A world where animals are able to roam more freely in the natural habitat we have so forcefully dominated. Where helping your elderly or disabled neighbor is something you always do. A world of hope.
 
+---
 
-* * *
-  
 <div style="display:flex; align-items: center; justify-content: space-evenly; margin-bottom: 2rem">
     <div style="margin-right:1rem; width:15%">
         <img  alt="konstantinavidou" src="https://miro.medium.com/fit/c/96/96/0*qUi31Ik6r0ZGQ3wz"/><br/>
@@ -102,4 +100,4 @@ We need to use the momentum of this pandemic as an opportunity to send the right
     </div>
 </div>
 
-* * *
+---

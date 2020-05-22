@@ -9,8 +9,7 @@ title: "Post Pandemic Urbanism Australia: The Merge Scenario"
 excerpt: "The year 2025. A young woman returns home, transiting indifferently through the city. The urban immune system, matching personal health data with real-time biometric sensors indicates a potential infection."
 ---
 
-Post Pandemic Urbanism Australia: The Merge Scenario
-====================================================
+# Post Pandemic Urbanism Australia: The Merge Scenario
 
 <img src="https://miro.medium.com/max/1400/1*yssEGFAPwgWEPFBSe-HlyA.jpeg" alt="provide an image tag"/>
 
@@ -60,7 +59,7 @@ Without succumbing to a state of naive techno-optimism, society at all levels mu
 
 We have reached an ultimatum; retreat into isolation or embrace our interconnectedness. The innovators of the world beckon us forward while the momentum of the system upon which our society is built weighs heavy; but this economic downturn may create the levelling effect required to construct the future that many so desperately strive toward.
 
-* * *
+---
 
 <div style="display: flex; margin-bottom: 2rem">
     <div style="margin: 0 auto; text-align: center">
@@ -69,4 +68,4 @@ We have reached an ultimatum; retreat into isolation or embrace our interconnect
     </div>
 </div>
 
-* * *
+---

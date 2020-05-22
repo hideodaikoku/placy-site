@@ -2,7 +2,7 @@
 place: "Germany - Berlin"
 author: "Srna Tulić"
 img: "berlin"
-slug : "berlin"
+slug: "berlin"
 medium: "https://medium.com/post-quarantine-urbanism/berlin-where-the-streets-belong-to-children-and-bikes-c2fc98c00523"
 ogp: "https://miro.medium.com/max/1400/1*zQSq6trKEW29SqitjgiiEA.jpeg"
 date: "2020/05/06"
@@ -10,9 +10,7 @@ title: "Berlin: Where the streets belong to children. And bikes."
 excerpt: "On the day I started writing this article, the city of Berlin has already loosened many of the measures that came into force on March 22nd due to the Covid-19 pandemics."
 ---
 
-
-Berlin: Where the streets belong to children. And bikes.
-========================================================
+# Berlin: Where the streets belong to children. And bikes.
 
 On the day I started writing this article, the city of Berlin has already loosened many of the measures that came into force on March 22nd due to the Covid-19 pandemics. The first restrictions involved closing pretty much everything not necessary for everyday life, including all those places that make Berlin well…Berlin.
 
@@ -76,7 +74,7 @@ In addition to the corona virus pandemic, Berlin was also experiencing a second 
 
 Although no one knows how long this “new normal” will last, the measures taken by some districts in Berlin prove that even without big investments we can quickly and in a smart way reinvent the public space and make it more safe and liveable for the final user — the citizen itself.
 
-* * *
+---
 
 <div style="display: flex; margin-bottom: 2rem">
     <div style="margin: 0 auto; text-align: center">
@@ -86,4 +84,4 @@ Although no one knows how long this “new normal” will last, the measures tak
     </div>
 </div>
 
-* * *
+---

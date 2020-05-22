@@ -39,8 +39,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-        shortname: `placy-city`
-      }
+        shortname: `placy-city`,
+      },
     },
   ],
 };

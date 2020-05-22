@@ -9,8 +9,7 @@ title: "Early speculations on how COVID19 can shape Hong Kong’s Urban Future"
 excerpt: "What does Hong Kong’s urban future hold in a Post COVID world? Historically, health issues have facilitated major changes in cities. For example, the Cholera outbreak in the 19th century had led to..."
 ---
 
-**Speculating Hong Kong’s urban futures in a Post-COVID World**
-===============================================================
+# **Speculating Hong Kong’s urban futures in a Post-COVID World**
 
 <img src="https://miro.medium.com/max/1400/1*wk60gOEfd5c9uvvRB-qrFw.jpeg" alt="provide an image tag"/>
 
@@ -24,7 +23,7 @@ _Fig 1. Geographical distribution of coronavirus cases in Hong Kong and its hosp
 
 Hong Kong, a special administrative region of 8 million inhabitants in the South China Sea, has achieved relative success for keeping infections and deaths to a low level after the initial outbreaks from Wuhan in Mainland China and subsequent ones locally. As of April.11th, there were a total of 1004 cases and 4 deaths with less than 10 daily cases in the past week. The lower number of cases and deaths can be attributed to a combination of Government policies on social distancing (ie. restaurant tables needing to be 1.5 metres apart), contact tracing, rapid testing (ie. mandatory testing in airports now), quarantining, closure of schools/bars/restaurants, cancellation of mass gatherings, working-from-home, early implementation of travel restriction while not implementing a full lock-down (Cowling et al 2020). One key factor in its effective control is the behavioural change where social distancing, wearing of masks, and frequent sanitising (lifts and lobbies) had become a norm very early. A norm that can be traced back to the SARS pandemic in 2003 (SCMP 2020a). It is still too early to assess, as Hong Kong being one of the densest city in the world, has a high risk of experiencing a renewed local community outbreak when the city relaxes social distancing.
 
-During the pandemic period, people’s behaviour changed. Many of such changes might well remain permanent and affect how the city is shaped. Specifically, city-level movements such as work-trips, social gatherings and leisure-shopping have reduced, while local movements have somewhat increased proportionally. This is replaced by working from home (where possible), necessity-driven physical shopping, limited physical exercises and online shopping (which is envisaged to continue in the near future). The economic consequences in the short term are fast becoming obvious where news of shops/businesses closing are becoming commonplace and unemployment rates rising. In response, the Hong Kong SAR government had unveiled on April. 8th, a $177 billion HKD relief package to help businesses and people to cushion the impact of the pandemic in preventing SME from folding (SCMP 2020b).
+During the pandemic period, people’s behaviour changed. Many of such changes might well remain permanent and affect how the city is shaped. Specifically, city-level movements such as work-trips, social gatherings and leisure-shopping have reduced, while local movements have somewhat increased proportionally. This is replaced by working from home (where possible), necessity-driven physical shopping, limited physical exercises and online shopping (which is envisaged to continue in the near future). The economic consequences in the short term are fast becoming obvious where news of shops/businesses closing are becoming commonplace and unemployment rates rising. In response, the Hong Kong SAR government had unveiled on April. 8th, a \$177 billion HKD relief package to help businesses and people to cushion the impact of the pandemic in preventing SME from folding (SCMP 2020b).
 
 At the end of the day, the stimulus package is a short-term solution, the socio-economic consequences from the health pandemic will last much longer. Socially, the mental wellbeing had taken a severe toll in the past year both from the trauma of the social unrest and the pandemic. While politically, the handling of the health pandemic seemed to have worsened the distrust with the government where social unrests can occur again. Economically, Hong Kong being a city region that relies heavily on the service economy, trade and tourism sector, will be negatively affected in the long term. There will undoubtedly be many business closures, job losses, and social distresses. The city region is thus not only managing a public health crisis but a deeper societal and economic one. Help will be needed to support people’s mental wellbeing and economically for businesses to adapt (eg. online economy, local/home production, outdoor activities, robotics and health technology are potential growth sectors).
 
@@ -38,9 +37,8 @@ More specifically for Hong Kong, a city where high-rise living is the norm, is t
 
 All of the aforementioned factors are interrelated and need to be thought of holistically in the future. In the 21st century, people have returned to cities due to agglomeration leading to greater interactions and innovations (Glaeser 2011). This pandemic exposes some of its risks but nevertheless it also represents an opportunity for dense cities such as Hong Kong to adapt in a Post COVID world.
 
+---
 
-* * *
-  
 <div style="display:flex; justify-content: space-evenly; margin-bottom: 2rem">
     <div style="margin-right:1rem; width:18%">
         <img  alt="stephenlawdesign" src="https://miro.medium.com/fit/c/96/96/2*wRuJKeNzXmQgYTuGOR-aNg.jpeg"/><br/>
@@ -54,14 +52,13 @@ All of the aforementioned factors are interrelated and need to be thought of hol
     </div>
 </div>
 
-* * *
-
+---
 
 **_References_**
 
 _Cowling, B.J., Ali, S.T., Ng, T.W.Y., Tsang, T.K. (2020). Impact assessment of non-pharmaceutical interventions against coronavirus disease 2019 and influenza in Hong Kong: an observational study. The Lancet Public Health._
 
-_CUHK (2005). Feasibility Study for Establishment of Air Ventilation Assessment System._ [_https://www.pland.gov.hk/pland\_en/p\_study/comp\_s/avas/papers&reports/final\_report.pdf_](https://www.pland.gov.hk/pland_en/p_study/comp_s/avas/papers&reports/final_report.pdf)
+_CUHK (2005). Feasibility Study for Establishment of Air Ventilation Assessment System._ [_https://www.pland.gov.hk/pland_en/p_study/comp_s/avas/papers&reports/final_report.pdf_](https://www.pland.gov.hk/pland_en/p_study/comp_s/avas/papers&reports/final_report.pdf)
 
 _Howard, E.. (1902). Garden Cities of Tomorrow. London: S. Sonnenschein & Co., Ltd. 1902._
 
@@ -73,6 +70,6 @@ _New York Times (2020a). Density Is Normally Good for Us. That Will Be True Afte
 
 _SCMP (2020a). coronavirus-post-poll-shows-hong-kong-residents-unhappy._ [_https://www.scmp.com/news/hong-kong/politics/article/3077761/coronavirus-post-poll-shows-hong-kong-residents-unhappy_](https://www.scmp.com/news/hong-kong/politics/article/3077761/coronavirus-post-poll-shows-hong-kong-residents-unhappy)
 
-_SCMP (2020b) Coronavirus: Carrie Lam unveils Hong Kong’s biggest Covid-19 relief package yet, worth HK$138 billion, to ensure 1.5 million workers still get paid._ [_https://www.scmp.com/news/hong-kong/politics/article/3078969/coronavirus-hong-kong-set-hk100-billion-covid-19-relief_](https://www.scmp.com/news/hong-kong/politics/article/3078969/coronavirus-hong-kong-set-hk100-billion-covid-19-relief)
+_SCMP (2020b) Coronavirus: Carrie Lam unveils Hong Kong’s biggest Covid-19 relief package yet, worth HK\$138 billion, to ensure 1.5 million workers still get paid._ [_https://www.scmp.com/news/hong-kong/politics/article/3078969/coronavirus-hong-kong-set-hk100-billion-covid-19-relief_](https://www.scmp.com/news/hong-kong/politics/article/3078969/coronavirus-hong-kong-set-hk100-billion-covid-19-relief)
 
 _SCMP (2020c) Average living space for Hong Kong’s poorest residents same as that of prisoners, survey reveals._ [_https://www.scmp.com/news/hong-kong/community/article/2117810/average-living-space-hong-kongs-poorest-residents-same_](https://www.scmp.com/news/hong-kong/community/article/2117810/average-living-space-hong-kongs-poorest-residents-same)

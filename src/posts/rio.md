@@ -2,7 +2,7 @@
 place: "Brazil - Rio"
 author: "Luis Claudio Arcos"
 img: "rio"
-slug : "rio-de-janeiro"
+slug: "rio-de-janeiro"
 medium: "https://medium.com/post-quarantine-urbanism/notes-from-rio-towards-a-more-collaborative-city-6c94d563c6d9"
 ogp: "https://miro.medium.com/max/1400/0*LY2Jqi0nKNz1EKtv.jpeg"
 date: "2020/05/04"
@@ -10,8 +10,7 @@ title: "Notes from Rio: towards a more collaborative city."
 excerpt: "This week, Brazil reached 7,025 deaths from covid-19 and 101,147 cases were confirmed, according to the Ministry of Health. São Paulo remains the state with the highest number of official cases. There are 31,772 cases, 2,627 deaths. Rio de Janeiro is next,"
 ---
 
-Notes from Rio: towards a more collaborative city.
-==================================================
+# Notes from Rio: towards a more collaborative city.
 
 This week, Brazil reached 7,025 deaths from covid-19 and 101,147 cases were confirmed, according to the Ministry of Health.
 
@@ -23,8 +22,7 @@ But official registers are underreported, the proportion of people tested is ver
 
 Despite the chaos, the federal government proves to be negligent and the fight against the pandemic has been taking place based on local governments, supportive and collaborative initiatives.
 
-In the midst of coronavirus pandemic, Brazil also lives economic and political crisis
-=====================================================================================
+# In the midst of coronavirus pandemic, Brazil also lives economic and political crisis
 
 To understand the current situation in Brazil, we need to consider the political events of the past few years.
 
@@ -38,10 +36,10 @@ In 2018, a far-right government, elected despite numerous reports of fraud and f
 
 The result in recent years has been:
 
-*   Record number of unemployed: 11.6% in February, reaching 12.3 million Brazilians.
-*   Increase of the homeless population.
-*   Foreign capital flight — only on the São Paulo Stock Exchange, the flight of foreign capital reached US $ 44.5 billion in 2019.
-*   Currency devaluation; 1 USD = 5.49 Brazilian Real.
+- Record number of unemployed: 11.6% in February, reaching 12.3 million Brazilians.
+- Increase of the homeless population.
+- Foreign capital flight — only on the São Paulo Stock Exchange, the flight of foreign capital reached US \$ 44.5 billion in 2019.
+- Currency devaluation; 1 USD = 5.49 Brazilian Real.
 
 All of this says a lot about the current situation during the pandemic.
 
@@ -49,8 +47,7 @@ All of this says a lot about the current situation during the pandemic.
 
 President Jair Bolsonaro Photo: ADRIANO MACHADO / REUTERS
 
-Pandemic in Rio de Janeiro
-==========================
+# Pandemic in Rio de Janeiro
 
 Since the end of March the shops in Rio de Janeiro are closed and only essential services such as pharmacies and the markets have authorization to operate. The use of face masks has become mandatory in the city and there are restrictions on the use of public transport. Trains are only accessible to essential service workers.
 
@@ -66,8 +63,7 @@ In addition, at a time when many were already unemployed and homeless, the polic
 
 In the last weeks we have had an exponential growth in the number of infected, and this week the public health system started to collapse.
 
-How might we deepen local connections, keeping social distancing?
-=================================================================
+# How might we deepen local connections, keeping social distancing?
 
 Social distancing has become the only effective solution to prevent the spread of the covid-19. It creates a basic question of survival: How to keep isolated without resources?
 
@@ -77,7 +73,7 @@ Lapa, Rio de Janeiro
 
 The government has been negligent and the main initiatives to support isolation have been collaborative:
 
-*   **Rio _Contra_ Corona ( Rio against Corona)**
+- **Rio _Contra_ Corona ( Rio against Corona)**
 
 In Rio de Janeiro one of the main initiatives is [_Rio Contra Corona_](http://www.riocontracorona.org/), an action managed by non-governmental organizations emerged from the articulations of the _União Rio_ movement, which has several fronts to minimize the impacts of virus.
 
@@ -85,20 +81,19 @@ Communities urgently need to receive basic items for prevention against coronavi
 
 To this end, [_Rio Contra Corona_](https://www.riocontracorona.org/) seeks to mobilize the government, companies and civil society to obtain donations that reach communities in Rio de Janeiro.
 
-*   **Public Notice for Artists**
+- **Public Notice for Artists**
 
 Cultural Foundations are promoting public notices for artists supporting the production of content such as lives, podcasts and online courses.
 
-*   **Emergency Basic Income**
+- **Emergency Basic Income**
 
-For the time being the only government aid initiative for the low-income population. The proposal provides for the guarantee of a basic income for the next 3 months to allow informal, self-employed workers who are prevented from carrying out their activities to remain isolated at home. A tiny help of R$ 600 per month, approximately 100 USD. The request for the benefit and receipt are made through an app, but a lot of people are having problems to finalize the process and so far many did not receive the emergency basic income.
+For the time being the only government aid initiative for the low-income population. The proposal provides for the guarantee of a basic income for the next 3 months to allow informal, self-employed workers who are prevented from carrying out their activities to remain isolated at home. A tiny help of R\$ 600 per month, approximately 100 USD. The request for the benefit and receipt are made through an app, but a lot of people are having problems to finalize the process and so far many did not receive the emergency basic income.
 
 <img class="s t u hs ai" src="https://miro.medium.com/max/1400/0*GpCClNs5ncEYVnXO.jpeg"/>
 
 Closed stores
 
-Towards a Human, Smart and Sustainable City
-===========================================
+# Towards a Human, Smart and Sustainable City
 
 The pandemic highlighted the ineffectiveness of neoliberal policies.
 
@@ -108,9 +103,9 @@ Social impact initiatives are empowered and aim to strengthen the public and col
 
 Important highlights are:
 
-*   Public Universities have developed affordable and open source projects for respirators, diagnostic kits and face masks.
-*   The public health system, despite the immense difficulties, guarantees free care to all citizens. The pandemic provoked the growing support of public opinion so that the public health system can be strengthened.
-*   Initiatives from non-governmental organizations are protagonists in guaranteeing basic resources such as food and basic hygiene items for vulnerable populations.
+- Public Universities have developed affordable and open source projects for respirators, diagnostic kits and face masks.
+- The public health system, despite the immense difficulties, guarantees free care to all citizens. The pandemic provoked the growing support of public opinion so that the public health system can be strengthened.
+- Initiatives from non-governmental organizations are protagonists in guaranteeing basic resources such as food and basic hygiene items for vulnerable populations.
 
 The moment accelerates some changes that were already underway. People have been reconsidering their needs. During the quarantine period, we noticed the exponential growth of online shopping, highlighting the delivery professionals and the consolidation of digital.
 
@@ -124,7 +119,7 @@ As Peter Drucker said, the best way to predict the future is to create it. So de
 
 The legacy of that moment can be a city that develops as a community that systematically promotes the complete well-being of all its residents and, proactively and sustainably, is able to transform itself into an increasingly better place for people to live, work, study and have fun.
 
-* * *
+---
 
 <div style="display: flex; margin-bottom: 2rem">
     <div style="margin: 0 auto; text-align: center">
@@ -134,4 +129,4 @@ The legacy of that moment can be a city that develops as a community that system
     </div>
 </div>
 
-* * *
+---

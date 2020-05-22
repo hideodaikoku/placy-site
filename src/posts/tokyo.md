@@ -8,8 +8,8 @@ date: "2020/05/02"
 title: "Where Matters."
 excerpt: "I wake, eat and fall asleep, all in the same place. I expect exhaustion after spending so long indoors, but a local takeout meal restores my energy. I am repeating these days. Freelance friends are considering life in rural areas when the functioning world returns. Maybe being situated in Tokyo is not essential to my life afterall. The increase in telework will surely accelerate, as the daily barrage of social media commentary so kindly reminds us."
 ---
-Where Matters.
-==============
+
+# Where Matters.
 
 <img src="https://miro.medium.com/max/1400/1*uVO4MgfbhBWh7YLca6DxSg.png" alt="provide an image tag"/>
 
@@ -21,8 +21,7 @@ Does creating a work from ‘anywhere’ culture automatically lead to a geograp
 
 <img src="https://miro.medium.com/max/1400/1*quliaAcVc7G-gnuUp1YS9g.jpeg" alt="provide an image tag"/>
 
-「Density」
-=========
+# 「Density」
 
 In day-to-day life, “future prediction” that is easy to catch up with is demanded, but even among representative researchers, discussions have not been organized.
 
@@ -42,8 +41,7 @@ This simple contrast does not account for more complex scenarios such as city/su
 
 <img src="https://miro.medium.com/max/1400/1*DTQHkYJrauqgyJ8eaJaNkg.png" alt="provide an image tag"/>
 
-Tokyo and suburbs-Through comparison with foreign countries
-===========================================================
+# Tokyo and suburbs-Through comparison with foreign countries
 
 A commonly expressed sentiment in recent times, is the widespread tendency for cities’ populations to disperse temporarily, before returning to higher density. As in the case of Pro-Density Urbanism introduced earlier, population density fluctuates based on the context of current events; and people return to the city centre once the situation settles.
 
@@ -61,17 +59,13 @@ It is clear from these examples that a diverse range of triggers cause fluctuati
 
 <img src="https://miro.medium.com/max/1400/1*k7RENYvq20N3oTjq8w0TSQ.jpeg" alt="provide an image tag"/>
 
-
-**Sense of Place**
-==================
+# **Sense of Place**
 
 The ‘ability’ to live anywhere does not equate to the ‘compulsion’ to do so; and this is an important distinction. Facilitating a culture of remote work does not necessarily entail a scattering of populations, but one certainty is that going forward, we will have more ‘options’ in where we live.
 
 It is important to note that as the range of possibilities in where to live increases, the differentiating ‘characteristics of places’ becomes increasingly important, as location declines in significance. Therefore, those places which were previously compelling due to distance may become overlooked, based on their lack of unique identities. While the current discussion of this pandemic’s long term effect focuses heavily on our liberation from predetermined space, what matters most is ‘why and where’ we choose to live at a given moment.
 
-
-
-* * *
+---
 
 <div style="display: flex; margin-bottom: 2rem">
     <div style="margin: 0 auto; text-align: center">
@@ -81,4 +75,4 @@ It is important to note that as the range of possibilities in where to live incr
     </div>
 </div>
 
-* * *
+---

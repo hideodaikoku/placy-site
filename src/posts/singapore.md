@@ -2,7 +2,7 @@
 place: "Singapore"
 author: "Bryan Tan"
 img: "singapore"
-slug : "singapore"
+slug: "singapore"
 medium: "https://medium.com/post-quarantine-urbanism/singapores-trusty-partner-the-void-deck-15fde8ce8ca1"
 date: "2020/05/10"
 ogp: "https://miro.medium.com/max/4320/1*oRogVzecHABg6YDKtuBRDA.jpeg"
@@ -10,11 +10,9 @@ title: "Singapore's Trusty Partner: The Void Deck"
 excerpt: "Eyes turned to Singapore, not because of another meeting between Trump and Kim, but because of something else that has been grabbing the attention of all around the world. On that day, a 66-year-old Chinese national tested positive,"
 ---
 
-SINGAPORE’S TRUSTY PARTNER: THE VOID DECK
-===================
+# SINGAPORE’S TRUSTY PARTNER: THE VOID DECK
 
-23rd January — The start
-------------------------
+## 23rd January — The start
 
 Eyes turned to Singapore, not because of another meeting between Trump and Kim, but because of something else that has been grabbing the attention of all around the world. On that day, a 66-year-old Chinese national tested positive, marking the first of many cases within the small island state of Singapore.
 
@@ -26,8 +24,7 @@ Social distancing rules being applied in a food court (REUTERS/Edgar Su)
 
 Initially, Singapore’s response was paying off, by enacting swift travel bans and social distancing rules, and by having extensive testing and contact tracing, the spread of the coronavirus was relatively well contained. At the beginning of April, the total number of cases was less than 600, with an average of 11 new cases a day. Things were looking up for Singapore, and a day where life will return to normal seemed near as people were starting to slowly ease back into their regular routines.
 
-7th April — The Problem
------------------------
+## 7th April — The Problem
 
 However, anything that can go wrong will go wrong, and wrong it went. Despite the extensive testing in place, Singapore had one major blind spot that led to its current high case count. This sudden spike in case count was about to bring a commonly seen yet largely ignored population into the limelight.
 
@@ -43,8 +40,7 @@ Expectedly, cases started to show up among the migrant worker population around 
 
 Chart depicting the number of cases within locals versus migrant workers (The New York Times)
 
-Void decks — In health
-----------------------
+## Void decks — In health
 
 <img class="s t u ho ai" src="https://miro.medium.com/max/4320/1*oRogVzecHABg6YDKtuBRDA.jpeg"/>
 
@@ -54,8 +50,7 @@ The void deck, a term familiar to most Singaporeans, refers to the ground floor 
 
 On a daily basis, one would commonly find children playing among themselves while their parents conversed, or the elderly population enjoying their silver years by meeting their friends while enjoying a game of chess. On a less frequent basis, events such as Chinese funerals, or Malay weddings may be observed taking place in void decks as well, showing its versatility as a public space.
 
-Void decks — In sickness
-------------------------
+## Void decks — In sickness
 
 As the number of cases grew in Singapore, stricter measures had to be in place. Shops deemed as non-essential services had to close their doors till the situation takes a turn for the better, public gatherings were disallowed and arrests were in place for those who breach the rules. Even for services deemed as essential, prolonged stay within those premises may also result in an apprehension. Despite being an important aspect of many Singaporeans’ life, the void deck was no exception, public gatherings were simply not something that should be taking place during a pandemic. While there were several incidents of locals being arrested for blatantly disregarding the lockdown by gathering in the void deck, there are also positive aspects to the existence of the void deck during the pandemic.
 
@@ -67,12 +62,11 @@ Even before void decks were being used as a temporary housing solution, they wer
 
 Masks being distributed from a void deck (Lim Yaohui/The Straits Times)
 
-Void decks — From this day forward
-----------------------------------
+## Void decks — From this day forward
 
 As of current, void decks have been an oasis in times of safety and have offered us support in times of crisis. Though many Singaporeans only see the void deck as nothing but a public space, the sheer number and styles of void decks in existence offers the nation a versatility that few or no other public space can rival. As new HDB blocks are constantly being developed, new void decks are being redesigned in an attempt to fit the needs of the future. Following the crisis, it would be wise for the architects and urban planners of Singapore to entertain the possibility of void decks being capable of providing better emergency shelter for longer periods of time, or even capable of providing more complex medical assistance. In essence, it would not be out of place to believe that void decks are here to stay for a long time to come, all while consistently playing an active role within Singapore.
 
-* * *
+---
 
 <div style="display: flex; margin-bottom: 2rem">
     <div style="margin: 0 auto; text-align: center">
@@ -82,4 +76,4 @@ As of current, void decks have been an oasis in times of safety and have offered
     </div>
 </div>
 
-* * *
+---

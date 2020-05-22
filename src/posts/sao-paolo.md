@@ -2,7 +2,7 @@
 place: "Brazil - São Paulo"
 author: "Paula Palermo"
 img: "saopaolo"
-slug : "sao-paolo"
+slug: "sao-paolo"
 medium: "https://medium.com/post-quarantine-urbanism/post-covid-19-s%C3%A3o-paulo-92d8a72ba288"
 ogp: "https://miro.medium.com/max/1360/1*1bZnKdHZ6nVucpJuMpEjig.jpeg"
 excerpt: "Personally, this is the hardest moment to write about Brazil. Trying to be positive in this complex situation is almost impossible but we have to focus on this exercise - otherwise there will be no progressive tomorrow."
@@ -12,13 +12,11 @@ title: "Post Covid-19 São Paulo: Potential matches between Technology and Socia
 
 <img alt="Favela de Paraisópolis. Source: Getty Images C\_Fernandes" class="s t u dz ai" src="https://miro.medium.com/max/1360/1*1bZnKdHZ6nVucpJuMpEjig.jpeg"/>
 
-Favela de Paraisópolis. Source: C\_Fernandes
+Favela de Paraisópolis. Source: C_Fernandes
 
-**Post Covid-19 São Paulo:**
-============================
+# **Post Covid-19 São Paulo:**
 
-Potential matches between Technology and Social Innovation for an alternative future.
--------------------------------------------------------------------------------------
+## Potential matches between Technology and Social Innovation for an alternative future.
 
 Personally, this is the hardest moment to write about Brazil. Trying to be positive in this complex situation is almost impossible but we have to focus on this exercise - otherwise there will be no progressive tomorrow.
 
@@ -62,8 +60,7 @@ At the same time, organized civil society and social entrepreneurship initiative
 
 The “Brazilian way” is historically marked by solidarity initiatives to help neighborhoods, communities, and promote the absent public space. Not as a tactical urbanism strategy, but as a possibility to survive. Without the capability to change the condition once for ever they are not just an efficient palliative care, but also an important instrument for change - showing effective answers for a more efficient and inclusive urban future.
 
-**Leading Initiatives Possible matches.**
-=========================================
+# **Leading Initiatives Possible matches.**
 
 <img class="s t u dz ai" src="https://miro.medium.com/max/4320/1*eiKUvAB3NSRlW58rHYv5pg.png"/>
 
@@ -79,8 +76,7 @@ We need to climb a future of social innovation linked to technology, however, th
 
 A positive scenario would be that this support network will remain after the pandemic representing for us joint solutions for a promising future for all.
 
-
-* * *
+---
 
 <div style="display: flex; margin-bottom: 2rem">
     <div style="margin: 0 auto; text-align: center">
@@ -90,4 +86,4 @@ A positive scenario would be that this support network will remain after the pan
     </div>
 </div>
 
-* * *
+---

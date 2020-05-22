@@ -2,7 +2,7 @@
 place: "Spain - Valencia"
 author: "Natasha Marjoram"
 img: "valencia"
-slug : "valencia"
+slug: "valencia"
 medium: "https://medium.com/post-quarantine-urbanism/de-densifying-spanish-cities-d3e216ee976a"
 date: "2020/05/10"
 ogp: "https://miro.medium.com/max/1400/1*VARiOkEJphC43AGkLojcSw.jpeg"
@@ -10,8 +10,7 @@ excerpt: "Spanish culture has suffered greatly at the hands of the COVID 19 quar
 title: "De-densifying Spanish cities"
 ---
 
-De-densifying Spanish cities
-============================
+# De-densifying Spanish cities
 
 **Social fragmentation and urban sprawl in light of the COVID 19 crisis.**
 
@@ -61,8 +60,7 @@ The balcony has been repurposed as a social realm. Moving forward, how can we in
 
 Cities and their residents have endured hardship during quarantine. As one of the first European countries to emerge from lockdown, Spain sets a precedent, that European’s should be prepared to adapt to a new normal. Intergenerational interaction will continue to be discouraged, and neighbours will proceed cautiously into their post quarantine world, with ample amounts of social distancing. The vision of the archetypal city, which celebrates density and vibrancy, may be completely turned on its head. All these factors will disrupt the lives and routines of Spanish city dwellers, who have embraced this physical and social proximity with open arms. However, we have also been offered an opportunity to transform our cities to be more responsive to future crises, whilst ensuring the reason that we love cities remains central to the way in which we plan them.
 
-
-* * *
+---
 
 <div style="display: flex; margin-bottom: 2rem">
     <div style="margin: 0 auto; text-align: center">
@@ -72,4 +70,4 @@ Cities and their residents have endured hardship during quarantine. As one of th
     </div>
 </div>
 
-* * *
+---

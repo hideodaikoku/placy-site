@@ -2,7 +2,7 @@
 place: "Italy - Venice"
 author: "Giacomo Martinis"
 img: "venice"
-slug : "venice"
+slug: "venice"
 medium: "https://medium.com/post-quarantine-urbanism/venice-vis-%C3%A0-vis-covid-19-cad2b8e71e0a"
 ogp: "https://miro.medium.com/max/1400/1*wf1zZX__ES1JbK6N8I0tTw.jpeg"
 date: "2020/05/09"
@@ -10,14 +10,13 @@ title: "Venice vis-à-vis Covid-19: a crucial opportunity to rethink tourism (?)
 excerpt: "As the first European country severely hit by the pandemic, with the first two cases being confirmed on the 30th of January, Italy also was the first to declare the state of emergency and to raise restriction measures in the attempt to face the sanitary crisis."
 ---
 
-Venice vis-à-vis Covid-19: a crucial opportunity to rethink tourism (?)
-===========================================================
+# Venice vis-à-vis Covid-19: a crucial opportunity to rethink tourism (?)
 
 <img class="s t u gp ai" src="https://miro.medium.com/max/1400/1*wf1zZX__ES1JbK6N8I0tTw.jpeg"/>
 
 Fig.1 Top view of the Venetian city centre (Credit: Mappery)
 
-* * *
+---
 
 **The pandemic in Italy**
 
@@ -41,7 +40,7 @@ Fig.3 Military forces patrolling the borders of the main contamination sites at 
 
 Another major novelty within the European Union history has been that many of the members suspended the free mobility guaranteed by the Schengen Agreement, a measure that Italy also embraced on the 26th of March, enforcing ‘limitations or prohibition of departure and access into municipal, provincial or regional territories, as well as with respect to the national territory’ (D.L. 25 March 2020, n.19). A state of national isolation thereby followed.
 
-* * *
+---
 
 **Venice faces Covid-19**
 
@@ -61,20 +60,20 @@ Once the island was isolated, besides witnessing the reappearance of the lagoon 
 
 Fig.6 A worker sanitises the Rialto bridge area. (Credit: Al Jazeera)
 
-* * *
+---
 
 **Management of the situation and consequences in the urban domain**
 
 A long-standing issue Venice historical centre has been facing is a radical depopulation trend that soared in parallel to the development of tourism infrastructure and services. The resident’s records from the late XX century give a sense of the situation:
 
-*   1951: 174.808
-*   1961: 137.150
-*   1971: 108.426
-*   1981: 93.598
-*   1991: 76.644
-*   2001: 65.695
-*   2011: 58.991
-*   2019: 52.143
+- 1951: 174.808
+- 1961: 137.150
+- 1971: 108.426
+- 1981: 93.598
+- 1991: 76.644
+- 2001: 65.695
+- 2011: 58.991
+- 2019: 52.143
 
 ([Venice Municipality — civil registry](https://www.comune.venezia.it/it/content/serie-storiche))
 
@@ -106,12 +105,12 @@ Fig.10 Map of the tourist flats in 2018: (Credit: Wordpress)
 
 More than other emergencies, Covid-19 vividly exposed how the critical emptiness of the residential housing conditions is coupled with the dependence from the monoculture of the mass tourism economy. Besides, not only the moment can stimulate the questioning of our cities resilience with regard to the capacity of facing up to a similar crisis in the future, but also if our responses are appropriate to a sustainable development prioritising the prosperity of local communities. The question, in fact, arises whether short-term housing schemes may by themselves be able to invert the depopulation trend that Venice is inexorably facing as from decades and more broadly if they can be thought without concern for the productive cycles that affect the urban living organism attractiveness for the prospective local long-term residents. Overall, one may wonder about the extent to which our responsiveness is ready to take this as an opportunity of change or it has long time ago embraced the concern to safeguard the status-quo as a priority.
 
-* * *
+---
 
 This is meant to be a brief recap of the situation as developed in Italy and particularly in the Veneto region targeting the introduction of some dynamics originated in the Venetian urban domain. The article is dated the 7th of May and it has been written in the three preceding days from my self-arranged workspace in an empty room of a university residence in the Castello district, Venice.
 
-* * *
-  
+---
+
 <div style="display: flex; justify-content: space-between">
     <div style="margin-right: 1rem">
         <img src="https://miro.medium.com/fit/c/96/96/2*XCJ1GorAhlvsD6Ih9LFhbQ.jpeg" alt="Giacomo Martinis">

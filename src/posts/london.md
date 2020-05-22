@@ -9,9 +9,7 @@ title: "London Parks, Space, and Pandemic"
 excerpt: "iew towards central London from Hampstead. Post-quarantine urbanism is still a dream in London. There is an ongoing lockdown. The official advice from the UK government "
 ---
 
-London Parks, Space, and Pandemic
-=================================
-
+# London Parks, Space, and Pandemic
 
 <img src="https://miro.medium.com/max/1400/1*uo7Ad4ujSHFf-WONhIcOpg.jpeg" alt="provide an image tag"/>
 
@@ -20,13 +18,13 @@ View towards central London from Hampstead.
 Post-quarantine urbanism is still a dream in London. There is an ongoing lockdown. The official advice from the UK government ([website here](https://www.gov.uk/coronavirus)) is:
 
 > Stay at home
-> 
+>
 > \- Only go outside for food, health reasons or work (but only if you cannot work from home)
-> 
+>
 > \- If you go out, stay 2 metres (6ft) away from other people at all times
-> 
+>
 > \- Wash your hands as soon as you get home
-> 
+>
 > \- Do not meet others, even friends or family. You can spread the virus even if you don’t have symptoms
 
 _Stay at home_ and _food, health and work reasons_ mean very different things to different people. The spatial inequality of an expensive major city like London is exacerbated, and at the same time the lived experiences of Londoners are even further segregated. Different lives are exposed to different aspects of the quarantine city.
@@ -63,8 +61,8 @@ A large part of the UK print media, and government advice represent those going 
 
 Can the explicit necessity of using these spaces in the quarantine city help populations and decision makers to appreciate the importance of these parks? Are the owners of political and economic capital isolating in their multi-bedroomed garden houses, or decamping to second homes in the countryside, and are they aware that these people out in the sun are exercising their rights as urban citizens in the face of significant systemic governmental failure?
 
-* * *
-  
+---
+
 <div style="display:flex; justify-content: space-evenly; margin-bottom: 2rem">
     <div style="margin-right:1rem; width:18%">
         <img  alt="Alfie Long" src="https://miro.medium.com/fit/c/96/96/2*jDsrQ0cy_rUt8-dYeBNqiQ.jpeg"/><br/>
@@ -77,4 +75,4 @@ Can the explicit necessity of using these spaces in the quarantine city help pop
     </div>
 </div>
 
-* * *
+---

@@ -2,7 +2,7 @@
 place: "Sweden - Stockholm"
 author: "Stefan Attig"
 img: "stockholm"
-slug : "stockholm"
+slug: "stockholm"
 medium: "https://medium.com/post-quarantine-urbanism/take-it-lagom-sweden-s-controversial-covid-19-strategy-and-potentials-9ed38c43393d"
 ogp: "https://miro.medium.com/max/1400/1*7tpK3JCvcx75_qwL6flMCw.jpeg"
 date: "2020/05/18"
@@ -10,13 +10,11 @@ title: "Take it ‘lagom’. Sweden’s controversial COVID-19 Strategy and pote
 excerpt: "A s the world grapples with the ongoing COVID-19 crisis, extreme measures have been taken by most (if not all) countries to curtail the spread of the virus. Sweden, on the other hand, has infamously become part of the media limelight due to its unconventional strategy and become the ‘black sheep’ on the global stage."
 ---
 
-Take it ‘lagom’. Sweden’s controversial COVID-19 Strategy and potentials.
-=========================================================================
+# Take it ‘lagom’. Sweden’s controversial COVID-19 Strategy and potentials.
 
 As the world grapples with the ongoing COVID-19 crisis, extreme measures have been taken by most (if not all) countries to curtail the spread of the virus. Sweden, on the other hand, has infamously become part of the media limelight due to its unconventional strategy and become the ‘black sheep’ on the global stage. In a way, the approach can be described as ‘lagom’, a Swedish saying which roughly translates to “not too much, not too little” — that is in terms of social and economic costs.
 
-Current Measures
-----------------
+## Current Measures
 
 Rather than declaring a total lockdown and confining people to their homes, the Public Health Agency of Sweden (_Folkhälsomyndigheten_) has recommended [social distancing guidelines](https://www.folkhalsomyndigheten.se/publicerat-material/publikationsarkiv/h/hslf-fs-202012/) as of April 1st and will run until December 31st to prevent the spread of infection.
 
@@ -30,8 +28,7 @@ Bars, restaurants, and nightclubs have been requested to provide **adequate spac
 
 Elementary schools and compulsory education (up to the age of 16) have remained open, whereas upper-secondary education, universities, vocational schools, and adult education have transitioned to **distance-based learning**. This decision was taken by health authorities, to ensure that parents working in essential fields (i.e. healthcare/social services) would not have to take time off and potentially put further strain on the welfare system.
 
-Stockholm: The Capital
-----------------------
+## Stockholm: The Capital
 
 <img class="s t u iv ai" src="https://miro.medium.com/max/1400/1*7tpK3JCvcx75_qwL6flMCw.jpeg"/>
 
@@ -45,8 +42,7 @@ Contrary to media claims that “life goes on as normal” … it is **far from 
 
 <small>Google COVID-19 Community Mobility Report for Stockholm County (2nd May 2020). Source: <a href="https://www.gstatic.com/covid19/mobility/2020-05-02_SE_Mobility_Report_en.pdf"> Google</a></small>
 
-Public Space: a solution for mental and physical wellbeing
-----------------------------------------------------------
+## Public Space: a solution for mental and physical wellbeing
 
 As we continue to deal with the ongoing pandemic, **mental health issues** may present itself as the next silent killer. Countries have started to relax regulations, for better or worse. However, until we have found a vaccine, social distancing measures will still need to be practiced to some extent.
 
@@ -62,10 +58,9 @@ In the case of Stockholm, a [study](https://www.mdpi.com/2071-1050/7/8/11306) ha
 
 Stockholmers (and the rest of Sweden) are fortunate to have space which extends beyond the urban jungle that they live in. For urban centers which may not have the same affordances, a rethink in current and upcoming planning is necessary to provide its local residents with much needed blue and green infrastructure or preservation of existing nature.
 
-Existing Solutions for the Current Situation
---------------------------------------------
+## Existing Solutions for the Current Situation
 
-Since 2015, the City of Stockholm has implemented its yearly summer program called [_Levande Stockholm_](https://start.stockholm/om-stockholms-stad/sa-arbetar-staden/trafik/offentliga-rum/levande-stockholm/)  (Living Stockholm). This yearly ritual sees the urban realm transformed or enhanced into temporary public spaces (pedestrian streets, pop-up parks, and squares) furnished with outdoor seating, greenery, and cultural activities. This year is no different, with the greenlighting of the program and [opening of the first pedestrian street](https://www.stockholmdirekt.se/nyheter/stockholms-sommargagator-coronanpassas/repteg!7yW9NS0NB1XWsrZ6B6Rsg/) on Rörstrandsgatan.
+Since 2015, the City of Stockholm has implemented its yearly summer program called [_Levande Stockholm_](https://start.stockholm/om-stockholms-stad/sa-arbetar-staden/trafik/offentliga-rum/levande-stockholm/) (Living Stockholm). This yearly ritual sees the urban realm transformed or enhanced into temporary public spaces (pedestrian streets, pop-up parks, and squares) furnished with outdoor seating, greenery, and cultural activities. This year is no different, with the greenlighting of the program and [opening of the first pedestrian street](https://www.stockholmdirekt.se/nyheter/stockholms-sommargagator-coronanpassas/repteg!7yW9NS0NB1XWsrZ6B6Rsg/) on Rörstrandsgatan.
 
 <img class="s t u iv ai" src="https://miro.medium.com/max/1400/1*8rwY2IboauS2YvZeiJdOLA.png"/>
 
@@ -73,8 +68,7 @@ Since 2015, the City of Stockholm has implemented its yearly summer program call
 
 It may seem unwise to implement this considering the ongoing crisis. However, we should also remember that under this ‘new normal’, more people will likely opt for a ‘staycation’. Furthermore, by creating these spaces, the chance of over-crowding at existing public spaces will be reduced as there will be more opportunities to disperse whilst enjoying some fresh air in accordance to social distancing guidelines.
 
-Mitigation… or adaptation!
---------------------------
+## Mitigation… or adaptation!
 
 Rather than close entirely, certain establishments have come up with ingenious solutions to keep life going whilst adhering to the guidelines. Trädgården, a popular nightlife venue has adapted to these changes by offering ‘social distancing picnics’ on what used to be its outdoor dancefloor — DJ included.
 

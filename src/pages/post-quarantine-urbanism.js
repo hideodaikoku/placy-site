@@ -4,14 +4,14 @@ import QuarantineTop from "../components/quarantineTop";
 import QuarantineArticles from "../components/quarantineArticles";
 import SEO from "../components/seo";
 
-const Quarantine = () =>  {
-    return(
-        <Layout color="white">
-            <SEO/>
-            <QuarantineTop/>
-            <QuarantineArticles/>
-        </Layout>
-    );
-}
+const Quarantine = () => {
+  return (
+    <Layout color="white">
+      <SEO />
+      <QuarantineTop />
+      <QuarantineArticles />
+    </Layout>
+  );
+};
 
 export default Quarantine;
