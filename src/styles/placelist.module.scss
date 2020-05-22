@@ -5,3 +5,12 @@
   width: 80%;
   height: 3px;
 }
+
+h1,
+p {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+  animation: none !important;
+}
