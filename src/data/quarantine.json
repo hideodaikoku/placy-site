@@ -208,5 +208,75 @@
     "ogp": "https://miro.medium.com/max/1400/1*7tpK3JCvcx75_qwL6flMCw.jpeg",
     "date": "2020/05/18",
     "title": "Take it ‘lagom’. Sweden’s controversial COVID-19 Strategy and potentials."
+  },
+  {
+    "place": "England - London",
+    "author": "Felix De Grey",
+    "img": "london_participatory_design",
+    "slug": "london-participatory-design",
+    "medium": "https://medium.com/post-quarantine-urbanism/participatory-design-and-more-social-infrastructure-london-should-start-its-post-pandemic-7d9e0cd5856b",
+    "ogp": "https://miro.medium.com/max/1400/1*iMkc5vHa8cXHeq-je73JdA.jpeg",
+    "date": "2020/05/20",
+    "title": "Participatory design and more social infrastructure: London should start its post-pandemic transformation by listening to its communities."
+  },
+  {
+    "place": "Germany - Berlin",
+    "author": "Angela Alcantara",
+    "img": "berlin_neighbourhood",
+    "slug": "berlin-neighbourhood",
+    "medium": "https://medium.com/post-quarantine-urbanism/threshold-observations-berlin-neighbourhood-shifts-thru-a-pandemic-20b230e375c0",
+    "ogp": "https://miro.medium.com/max/1150/1*AWEROFWUHQtxYrtf8ubZVA.jpeg",
+    "date": "2020/05/20",
+    "title": "Threshold observations: Berlin neighbourhood shifts through a pandemic"
+  },
+  {
+    "place": "India - Hyderabad",
+    "author": "Manisha Rayaprolu",
+    "img": "hyderabad",
+    "slug": "hyderabad",
+    "medium": "https://medium.com/post-quarantine-urbanism/on-walking-while-in-lockdown-e03ace64e863",
+    "ogp": "https://miro.medium.com/max/1400/1*K5-yAlpfXN5At7aRmFbtcg.jpeg",
+    "date": "2020/05/21",
+    "title": "On Walking While in Lockdown: Pedestrian experiences from Hyderabad, India."
+  },
+  {
+    "place": "Italy",
+    "author": "Massimo Iannetti",
+    "img": "italy",
+    "slug": "italy",
+    "medium": "https://medium.com/post-quarantine-urbanism/drive-in-to-the-post-quarantine-urbanism-the-future-of-italian-socially-distanced-cinema-f327c9df22c2",
+    "ogp": "https://miro.medium.com/max/1400/1*r_AZv9tV15b5bSmRKYCERw.jpeg",
+    "date": "2020/05/21",
+    "title": "Drive-in(to) the Post-Quarantine Urbanism: the Future of Italian Socially Distanced Cinema"
+  },
+  {
+    "place": "Italy - Venice",
+    "author": "Irma Delmonte",
+    "img": "venice_rising",
+    "slug": "venice-rising",
+    "medium": "https://medium.com/post-quarantine-urbanism/venice-in-quarantine-the-beauty-of-urban-environment-rises-again-how-can-we-preserve-it-82a21710cd46",
+    "ogp": "https://miro.medium.com/max/1400/1*59gAH6eViaXeDcDLBhckyQ.jpeg",
+    "date": "2020/05/22",
+    "title": "Venice in quarantine: the beauty of our urban environment rises again. How can we preserve it?"
+  },
+  {
+    "place": "Brazil - São Paulo",
+    "author": "Gabriela Garcia",
+    "img": "sao_paolo_civic",
+    "slug": "sao-paolo-civic-solidarity",
+    "medium": "https://medium.com/post-quarantine-urbanism/s%C3%A3o-paulo-the-harsh-concrete-jungle-in-a-movement-of-civic-solidarity-during-covid-19-times-ffc989effdba",
+    "ogp": "https://miro.medium.com/max/1400/1*Nny24mQlhdYLhIidrSSHZw.jpeg",
+    "date": "2020/05/22",
+    "title": "São Paulo, the harsh concrete jungle in a movement of civic solidarity during COVID-19 times"
+  },
+  {
+    "place": "Berlin - Germany",
+    "author": "Leah Hamilton",
+    "img": "berlin_night_time",
+    "slug": "berlin-night-time",
+    "medium": "https://medium.com/post-quarantine-urbanism/berlins-kontaktbeschr%C3%A4nkungen-and-the-night-time-culture-shift-a0945b5ef642",
+    "ogp": "https://miro.medium.com/max/4800/1*wG6wNlmcTgV2dAorezcSCQ.jpeg",
+    "date": "2020/05/22",
+    "title": "Berlin's Kontaktbeschränkungen and the Night Time Culture Shift"
   }
 ]

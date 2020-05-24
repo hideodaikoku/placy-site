@@ -170,6 +170,55 @@ const QuarantineArticles = () => {
           }
         }
       }
+      london_participatory_design: file(relativePath: { eq: "london-participatory-design.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      berlin_neighbourhood: file(relativePath: { eq: "berlin-neighborhood.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      hyderabad: file(relativePath: { eq: "hyderabad.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      italy: file(relativePath: { eq: "italy-movie.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      venice_rising: file(relativePath: { eq: "venice-rising.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      sao_paolo_civic: file(relativePath: { eq: "sao-paolo-2.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      berlin_night_time: file(relativePath: { eq: "berlin-night-time.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
       excerpt: allMarkdownRemark {
         nodes {
           frontmatter {
