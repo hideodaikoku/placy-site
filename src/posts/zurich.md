@@ -44,9 +44,9 @@ Everything will be fine: People connecting physically and digitally (Credit: M. 
 
 These anecdotal reports raise the question of how we can leverage our COVID-19 learnings for the design of a post-pandemic city. Today, institutional public infrastructure serves our needs for leisure and social interaction with others. In a future where we will spend more time in confinement, will balconies become a replacement for public infrastructure? How can design reflect the new responsibilities of the post-pandemic balcony? Are we moving towards eco-urbanism, just like the Italian architect Stefano Boeri’s vertical forest utopia in Milan?
 
-<img src="https://miro.medium.com/max/1400/1*yeT0ZLB5v2xjQyVV7CMr4Q.jpeg" alt="provide an image tag"/>
+<img src="https://miro.medium.com/max/1400/1*jCggMBoyDNqj1LEbLtpaxg.jpeg" alt="provide an image tag"/>
 
-Vertical Forests in Milano (Credit: Stefano Boeri)
+Vertical Forests in Milano (Credits: Chris Barbalis)
 
 Furthermore, the COVID-19 crisis reveals the transformative power of the balcony. It can be redefined and reconstituted depending on the inhabitant’s needs. Could we learn from Tel Aviv, dubbed “the city of balconies’’, where authorities are more permissive towards frequent bottom-up alterations of its purpose — instead of haggling about 30 centimeters? Lastly, we should ask what role technology will play in our future balcony city. Many examples of balcony usage during the pandemic overlay the physical space with a digital layer by incorporating social media or entirely new technologies, such as the usage of Drones. Dutch architect and founding partner of architecture firm MVRDV Winny Maas believes that technologies will make the city of the future more three-dimensional. His vision of the future includes flying vehicles and a city where mobility is at one’s balcony.
 
