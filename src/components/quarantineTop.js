@@ -13,6 +13,22 @@ const QuarantineTop = () => {
           }
         }
       }
+
+      atu: file(relativePath: { eq: "atu.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 1920) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
+      spread: file(relativePath: { eq: "spread.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1920) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `);
 
@@ -71,6 +87,17 @@ const QuarantineTop = () => {
             3rd Stage: Proposing an actionable plan to municipal governments
           </strong>
         </div>
+      <div className={quarantineTopStyles.mediaContainer}>
+        <h1>Media Partners</h1>
+        <div className={quarantineTopStyles.mediaImgContainer}>
+          <div className={quarantineTopStyles.mediaImg}>
+            <Img fluid={data.atu.childImageSharp.fluid}/>
+          </div>
+          <div className={quarantineTopStyles.mediaImg}>
+            <Img fluid={data.spread.childImageSharp.fluid}/>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
   );

@@ -66,6 +66,17 @@
         font-size: 1.5rem;
         color: rgb(68, 67, 67);
     }
+
+    .media-container{
+        margin: 5rem auto;
+        .media-img-container{
+            display:flex;
+            justify-content: space-between;
+            .media-img{
+                width: 30%;
+            }
+        }
+    }
 }
 
 @media (max-width: 600px){
@@ -73,6 +84,17 @@
         .img-container{
             .pqr{
                 height: 15rem;
+            }
+        }
+        .media-container{
+            h1{
+                text-align: center;
+            }
+            .media-img-container{
+                justify-content: center;
+                .media-img+.media-img{
+                    margin-left:1rem;
+                }
             }
         }
     }
