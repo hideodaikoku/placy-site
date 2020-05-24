@@ -1,8 +1,8 @@
 ---
 place: "Brazil - São Paulo"
 author: "Gabriela Garcia"
-img: "venice_rising"
-slug: "venice-rising"
+img: "sao-paolo-civic-solidarity"
+slug: "sao-paolo-civic-solidarity"
 medium: "https://medium.com/post-quarantine-urbanism/s%C3%A3o-paulo-the-harsh-concrete-jungle-in-a-movement-of-civic-solidarity-during-covid-19-times-ffc989effdba"
 ogp: "https://miro.medium.com/max/1400/1*Nny24mQlhdYLhIidrSSHZw.jpeg"
 date: "2020/05/22"
