@@ -1,0 +1,80 @@
+{
+  "home_top": "Placy's map shows places, based on your music preferences. Reviews and rankings are sometimes helpful, but honestly, music taste tells a lot about you.",
+  "home_microsoft": "As a map app app provider, Placy, was chosen for Microsoft's Startups Program.",
+  "home_wired": "Placy is creating a common language of emotion and logic, to find places and resist the homogenisation of the city. ",
+  "home_urban_rhythm": "In Tokyo, most of the people chose major stations such as Shibuya or Shinjuku for going out, thus minor but local stations seem to be forgotten.\n\nIn this collaborative project with JR-EAST, We re-represented the cultural value of each 30 station in Yamanote-Line through the lens of music.\n\nWe Provided three things; web app where people can find stations based on music, pamphlet for each stations that depict surrounding music characteristics, and playlist for each station.",
+  "about_mission": "We sometimes feel vaguely that our city is boring.\n\nThe scenery has become homogenised everywhere you go.\n\nAt the risk of sounding pretentious, we see the cause as being that the space and meaning layers are disconnected.\n\nNo matter how appealing the space, if it is disconnected from its meaning in its virtual presence, people will judge it by oversimplified list-based perspectives such as reviews and rankings.\n\nWith that in mind, we are developing a map to help you find places based on music.\n\nWe provide users the experience of finding places based on their instinct, not on faked or homogenised metrics.\n\nIn the near future, we will add movies books and other mediums. So you enter your preferences and we translate that accross to places that you may like.\n\nOur mission is to connect space to its meaning.",
+  "about_explanation": "Every city has its \"rhythm\" Rich culture and millions of stories over the ages have become ingrained in the fabric of the city, echoing out its “rhythm”.\n\nIt is what makes the city beautiful and lovable. Sometimes, when you exploring a city, you are drawn to a place, as magnets are drawn to each other; proof that your inner “rhythm” resonates with the city's rhythm.\n\nWhether it be a shiny and extravagant part of town, or a the gloomy yet human neighborhood, there is a place that matches your rhythm, out there waiting for you to find.\n\nForget the reviews. Follow your rhythm.",
+  "career_top": "Placy's competencies are in urban modeling, spatial data analysis and computer science, with our members having backgrounds in each. We are currently looking for new members to work with us. We look forward to hearing from you!",
+  "careers": "CAREERS",
+  "positions": 
+    {
+      "id": 1,
+      "title": "Software Engineer (CTO candidates)",
+      "description": "Mobile apps (IOS & Android) and the development of contract projects",
+      "jobDescription": {
+          "text1": "Refactoring the front-end, back-end, and adding infrastructure to existing projects",
+          "text2": "Design and database organization for future app and company purposes",
+          "text3": "Recruitment and management of a small team of engineers to achieve the above goals"
+      },
+      "skillTitle": "SKILLS",
+      "skills": {
+          "text1": "Experience using cloud infrastructure such as Azure, AWS, GCP",
+          "text2": "Development experience using Swift, Flutter, Python, PostgreSQL"
+      },
+      "otherSkillsTitle": "Other Skills (preferred but not necessary)",
+      "otherSkills": {
+          "text1": "English",
+          "text2": "Knowledge of machine learning about music and recommendations",
+          "text3": "Experience in spatial data analysis (OSM and QGIS)"
+      }
+    }
+  ,
+  "memberIntro": "MEMBERS",
+  "members": {
+    "soma": {
+      "name": "Soma Suzuki",
+      "position": "Founder and CEO",
+      "text": "After completing an undergraduate degree at Kyoto University in physics, he received a Master's degree in city spatial analysis from UCL Bartlett School in London."
+    },
+    "kazu": {
+      "name": "Morishita Kazuyuki",
+      "position": "Spatial Data Engineer",
+      "text": "Graduated form University of Melbourne's department of Mathematics. Works as an actuary in a financial institution. In Placy he is responsible for the construction and analysis of the spacial database."
+    },
+    "hideo": {
+      "name": "Hideo Daikoku",
+      "position": "Spatial Data Engineer",
+      "text": "Born and raised in New Delhi, India. Hideo is currently a 4th year student at Keio University's Faculty of Environment. He is in charge of software development and design at Placy."
+    },
+    "marina": {
+      "name": "marina",
+      "position": "App Engineer",
+      "text": "Currently studying communication engineering at Tokyo Denki University's Faculty of Engineering. In Placy, she is in charge of the iOS app development."
+    },
+    "miki": {
+      "name": "Miki",
+      "position": "App Engineer",
+      "text": "Currently studying at Meiji University's Faculty of Interdisciplinary Mathematical Science. Responsible for mobile app development in Placy. He likes coffee and working as a barista."
+    },
+    "stephen": {
+      "name": "Stephen Law",
+      "position": "Spatial Data Engineer",
+      "text": "Research Fellow at the Alan Turing National Institute of Data Science. Responsible for the establishment of the London branch and urban modeling."
+    },
+    "todd": {
+      "name": "Todd Perry",
+      "position": "Spatial Data Engineer",
+      "text": "Has worked as a data analysis engineer in London at Huq Industries. He is responsible for software development and infrastructure in Placy."
+    },
+    "sp4ghet": {
+      "name": "sp4ghet",
+      "position": "Computer Wrangler"
+    }
+  },
+  "projects_urban": "In Tokyo, most of the people chose major stations such as Shibuya or Shinjuku for going out, thus minor but local stations seem to be forgotten.\n\nIn this collaborative project with JR-EAST, We re-represented the cultural value of each 30 station in Yamanote-Line through the lens of music.\n\nWe Provided three things; web app where people can find stations based on music, pamphlet for each stations that depict surrounding music characteristics, and playlist for each station.",
+  "projects_shibuya_cast": "In the vicinity of Tokyu's Shibuya Cast building, we performed an analysis based on Placy's app data. We compared the characteristics of the music users listen to, between vititors to the area of Shibuya Cast, with the rest of Shibuya.",
+  "projects_shibuya_sound": "Shibuya is changing rapidly from month to month. This project is archiving Shibuya from the perspective of \"sound\". It will generate a \"Sound of Shibuya\" based on Placy's user data and create a vinyl record postacrd; which you can actually play on your record player. (It is currently in production, but won't be long!)",
+  "projects_post_quarantine": "Cities are the central nodes of our modern economy; hubs of creativity and innovation. Our globalised system relies on us living collectively, but pandemics are inherently anti-city, as they could force the breakdown of collective cooperation. How will our cities evolve, to adapt to this new reality?\n\nCities across the world are establishing unique initiatives and projects to combat the effects of this situation; and by exploring each city's approach, perhaps we can gain a glimpse of our post quarantine world.",
+  "projects_placelist": "Welcome to the Placy Place List.\nOn this page, you can create a playlist for your favorite places and share it with everyone.\nWhile the self isolation request continues, many shops and restaurants are\ntaking initiative, for example, by selling advance tickets and making calls for donations.\nWe believe that by sharing places with others through the lens of music, more people will care and support that place.\nLet's make it happen!"
+}
