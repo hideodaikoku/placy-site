@@ -1,7 +1,7 @@
 import React from "react"
 import memberPageStyle from "../styles/memberpage.module.scss";
 import Member from "./member";
-
+import {useIntl} from "gatsby-plugin-intl";
 import { useStaticQuery, graphql } from "gatsby"
 
 const MemberSection = () => {
@@ -72,7 +72,7 @@ const MemberSection = () => {
             }
         }
     `)
-        
+    const intl = useIntl()
     return(
         <div className={memberPageStyle.container}>
             <div className={memberPageStyle.row}>
@@ -80,7 +80,7 @@ const MemberSection = () => {
                 </div>
                 <div className={memberPageStyle.rightContent}>
                     <h1 className={memberPageStyle.title}>
-                        メンバー紹介
+                        {intl.formatMessage({id:"memberIntro"})}
                     </h1>
                 </div>
             </div>
@@ -102,10 +102,6 @@ const MemberSection = () => {
                     <Member
                     image={data.marina.childImageSharp}
                     id={"marina"}
-                    />
-                    <Member
-                    image={data.minerva.childImageSharp}
-                    id={"minerva"}
                     />
                     <Member
                     image={data.miki.childImageSharp}
