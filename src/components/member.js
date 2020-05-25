@@ -1,10 +1,10 @@
-import React from "react";
+import React from "react"
 import memberStyle from "../styles/member.module.scss";
 import Img from "gatsby-image";
-
-import JSONData from "../data/members.json";
+import {useIntl} from "gatsby-plugin-intl";
 
 const Member = (props) => {
+    const intl = useIntl();
 
     return(
         <div className={memberStyle.container}>
@@ -12,9 +12,9 @@ const Member = (props) => {
                 <Img fluid={props.image.fluid}/>
             </div>
             <div className={memberStyle.textContainer}>
-                <h3 className={memberStyle.title}>{JSONData[props.id].name}</h3>
-                <h4 className={memberStyle.designation}>{JSONData[props.id].position}</h4>
-                <p className={memberStyle.intro}>{JSONData[props.id].text}</p>
+                <h3 className={memberStyle.title}>{intl.formatMessage({id:`members.${props.id}.name`})}</h3>
+                <h4 className={memberStyle.designation}>{intl.formatMessage({id:`members.${props.id}.position`})}</h4>
+                <p className={memberStyle.intro}>{intl.formatMessage({id:`members.${props.id}.text`})}</p>
             </div>
         </div>
     )

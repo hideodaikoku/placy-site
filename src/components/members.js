@@ -1,59 +1,78 @@
-import React from "react";
+import React from "react"
 import memberPageStyle from "../styles/memberpage.module.scss";
 import Member from "./member";
-
-<<<<<<< HEAD
-import { useStaticQuery, graphql } from "gatsby";
-=======
+import {useIntl} from "gatsby-plugin-intl";
 import { useStaticQuery, graphql } from "gatsby"
->>>>>>> parent of 958964e... internationalization implementation complete
 
 const MemberSection = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      soma: file(relativePath: { eq: "soma.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1024, grayscale: true) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      kazu: file(relativePath: { eq: "kazu.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1024, grayscale: true) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      hideo: file(relativePath: { eq: "index.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1024, grayscale: true) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      marina: file(relativePath: { eq: "marina.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1024, grayscale: true) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      minerva: file(relativePath: { eq: "minerva.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1024, grayscale: true) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      miki: file(relativePath: { eq: "miki.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1024, grayscale: true) {
-            ...GatsbyImageSharpFluid
-          }
+    const data = useStaticQuery(graphql`
+        query{
+            soma: file(relativePath: {eq: "soma.png"}){
+                childImageSharp{
+                    fluid(maxWidth: 1024, grayscale: true){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            kazu: file(relativePath: {eq: "kazu.png"}){
+                childImageSharp{
+                    fluid(maxWidth: 1024, grayscale: true){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            hideo: file(relativePath: {eq: "index.png"}){
+                childImageSharp{
+                    fluid(maxWidth: 1024, grayscale: true){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            marina: file(relativePath: {eq: "marina.png"}){
+                childImageSharp{
+                    fluid(maxWidth: 1024, grayscale: true){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            minerva: file(relativePath: {eq: "minerva.png"}){
+                childImageSharp{
+                    fluid(maxWidth: 1024, grayscale: true){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            miki: file(relativePath: {eq: "miki.png"}){
+                childImageSharp{
+                    fluid(maxWidth: 1024, grayscale: true){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            todd: file(relativePath: {eq: "todd.png"}){
+                childImageSharp{
+                    fluid(maxWidth: 1024, grayscale: true){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            stephen: file(relativePath: {eq: "stephen.png"}){
+                childImageSharp{
+                    fluid(maxWidth: 1024, grayscale: true){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            sp4ghet: file(relativePath: {eq: "sp4ghet.png"}){
+                childImageSharp{
+                    fluid(maxWidth: 1024, grayscale: true){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
         }
     `)
-        
+    const intl = useIntl()
     return(
         <div className={memberPageStyle.container}>
             <div className={memberPageStyle.row}>
@@ -61,7 +80,7 @@ const MemberSection = () => {
                 </div>
                 <div className={memberPageStyle.rightContent}>
                     <h1 className={memberPageStyle.title}>
-                        メンバー紹介
+                        {intl.formatMessage({id:"memberIntro"})}
                     </h1>
                 </div>
             </div>
@@ -85,10 +104,6 @@ const MemberSection = () => {
                     id={"marina"}
                     />
                     <Member
-                    image={data.minerva.childImageSharp}
-                    id={"minerva"}
-                    />
-                    <Member
                     image={data.miki.childImageSharp}
                     id={"miki"}
                     />
@@ -110,10 +125,7 @@ const MemberSection = () => {
             </div>
             </div>
         </div>
-        <div className={memberPageStyle.right}></div>
-      </div>
-    </div>
-  );
-};
+    )
+}
 
 export default MemberSection;
