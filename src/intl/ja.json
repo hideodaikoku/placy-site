@@ -12,25 +12,40 @@
       "id": 1,
       "title": "ソフトウェアエンジニア(CTO候補)",
       "description": "モバイルアプリ(IOS&Android)及び、受託案件の開発",
-      "jobDescription": {
-          "text1": "既存のアプリのフロントエンド，バックエンド，インフラへの機能追加，リファクタリング",
-          "text2": "将来的なアプリや会社の目的を見据えた設計やデータベースの整理",
-          "text3": "上記の目標を達成するための人員採用や小規模なエンジニアチームのマネジメント"
-      },
+      "jobDescription": [
+        {
+          "text": "既存のアプリのフロントエンド，バックエンド，インフラへの機能追加，リファクタリング"
+        },
+        {
+          "text": "将来的なアプリや会社の目的を見据えた設計やデータベースの整理"
+        },
+        {
+          "text": "上記の目標を達成するための人員採用や小規模なエンジニアチームのマネジメント"
+        }
+      ],
       "skillTitle": "応募資格",
-      "skills": {
-          "text1": "Azure、AWS、GCP等、クラウドインフラ使用経験",
-          "text2": "Swift, Flutter, Python, PostgreSQLを用いた開発経験"
-      },
+      "skills": [
+        {
+          "text": "Azure、AWS、GCP等、クラウドインフラ使用経験"
+        },
+        {
+          "text": "Swift, Flutter, Python, PostgreSQLを用いた開発経験"
+        }
+      ],
       "otherSkillsTitle": "歓迎スキル",
-      "otherSkills": {
-          "text1": "英語",
-          "text2": "音楽・レコメンドに関する機械学習の知識 ",
-          "text3": "空間データ解析の経験 (OSMやQGIS)"
-      }
+      "otherSkills": [
+        {
+          "text": "英語"
+        },
+        {
+          "text": "音楽・レコメンドに関する機械学習の知識 "
+        },
+        {
+          "text": "空間データ解析の経験 (OSMやQGIS)"
+        }
+      ]
     }
   ,
-  "memberIntro": "メンバー紹介",
   "members": {
     "soma": {
       "name": "鈴木 綜真",

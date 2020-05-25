@@ -12,25 +12,40 @@
       "id": 1,
       "title": "Software Engineer (CTO candidates)",
       "description": "Mobile apps (IOS & Android) and the development of contract projects",
-      "jobDescription": {
-          "text1": "Refactoring the front-end, back-end, and adding infrastructure to existing projects",
-          "text2": "Design and database organization for future app and company purposes",
-          "text3": "Recruitment and management of a small team of engineers to achieve the above goals"
-      },
-      "skillTitle": "SKILLS",
-      "skills": {
-          "text1": "Experience using cloud infrastructure such as Azure, AWS, GCP",
-          "text2": "Development experience using Swift, Flutter, Python, PostgreSQL"
-      },
+      "jobDescription": [
+        {
+          "text": "Refactoring the front-end, back-end, and adding infrastructure to existing projects"
+        },
+        {
+          "text": "Design and database organization for future app and company purposes"
+        },
+        {
+          "text": "Recruitment and management of a small team of engineers to achieve the above goals"
+        }
+      ],
+      "skillTitle": "skills",
+      "skills": [
+        {
+          "text": "Experience using cloud infrastructure such as Azure, AWS, GCP"
+        },
+        {
+          "text": "Development experience using Swift, Flutter, Python, PostgreSQL"
+        }
+      ],
       "otherSkillsTitle": "Other Skills (preferred but not necessary)",
-      "otherSkills": {
-          "text1": "English",
-          "text2": "Knowledge of machine learning about music and recommendations",
-          "text3": "Experience in spatial data analysis (OSM and QGIS)"
-      }
+      "otherSkills": [
+        {
+          "text": "English"
+        },
+        {
+          "text": "Knowledge of machine learning about music and recommendations"
+        },
+        {
+          "text": "Experience in spatial data analysis (OSM and QGIS)"
+        }
+      ]
     }
   ,
-  "memberIntro": "MEMBERS",
   "members": {
     "soma": {
       "name": "Soma Suzuki",
@@ -72,9 +87,9 @@
       "position": "Computer Wrangler"
     }
   },
-  "projects_urban": "In Tokyo, most of the people chose major stations such as Shibuya or Shinjuku for going out, thus minor but local stations seem to be forgotten.\n\nIn this collaborative project with JR-EAST, We re-represented the cultural value of each 30 station in Yamanote-Line through the lens of music.\n\nWe Provided three things; web app where people can find stations based on music, pamphlet for each stations that depict surrounding music characteristics, and playlist for each station.",
+  "projects_urban": "In Tokyo, most of the people chose major stations such as Shibuya or Shinjuku for going out, thus minor but local stations seem to be forgotten.\nIn this collaborative project with JR-EAST, We re-represented the cultural value of each 30 station in Yamanote-Line through the lens of music.\nWe Provided three things; web app where people can find stations based on music, pamphlet for each stations that depict surrounding music characteristics, and playlist for each station.",
   "projects_shibuya_cast": "In the vicinity of Tokyu's Shibuya Cast building, we performed an analysis based on Placy's app data. We compared the characteristics of the music users listen to, between vititors to the area of Shibuya Cast, with the rest of Shibuya.",
   "projects_shibuya_sound": "Shibuya is changing rapidly from month to month. This project is archiving Shibuya from the perspective of \"sound\". It will generate a \"Sound of Shibuya\" based on Placy's user data and create a vinyl record postacrd; which you can actually play on your record player. (It is currently in production, but won't be long!)",
-  "projects_post_quarantine": "Cities are the central nodes of our modern economy; hubs of creativity and innovation. Our globalised system relies on us living collectively, but pandemics are inherently anti-city, as they could force the breakdown of collective cooperation. How will our cities evolve, to adapt to this new reality?\n\nCities across the world are establishing unique initiatives and projects to combat the effects of this situation; and by exploring each city's approach, perhaps we can gain a glimpse of our post quarantine world.",
+  "projects_post_quarantine": "Cities are the central nodes of our modern economy; hubs of creativity and innovation. Our globalised system relies on us living collectively, but pandemics are inherently anti-city, as they could force the breakdown of collective cooperation. How will our cities evolve, to adapt to this new reality?\nCities across the world are establishing unique initiatives and projects to combat the effects of this situation; and by exploring each city's approach, perhaps we can gain a glimpse of our post quarantine world.",
   "projects_placelist": "Welcome to the Placy Place List.\nOn this page, you can create a playlist for your favorite places and share it with everyone.\nWhile the self isolation request continues, many shops and restaurants are\ntaking initiative, for example, by selling advance tickets and making calls for donations.\nWe believe that by sharing places with others through the lens of music, more people will care and support that place.\nLet's make it happen!"
 }
