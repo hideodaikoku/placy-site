@@ -1,14 +1,23 @@
 const path = require(`path`);
+const config = require(`./gatsby-config.js`);
 
 exports.onCreatePage = async ({ page, actions }) => {
   const { createPage } = actions;
+
   const placeList = path.resolve(`src/pages/placelist.js`);
-  // Only update the `/app` page.
-  if (page.path.match(/^\/(en|ja)\/placelist\/*/)) {
-    const locale = page.path.match(/^\/(en|ja)\/*/);
+
+  let langs = config.plugins.find((p) => p.resolve === "gatsby-plugin-intl")
+    .options.languages;
+  if (!langs) {
+    console.error("WHERE IS GATSBY-PLUGIN-INTL");
+    return;
+  }
+  langs = langs.map((lang) => `/${lang}/placelist/`);
+
+  if (langs.findIndex((e) => e === page.path) !== -1) {
     // page.matchPath is a special key that's used for matching pages
     // with corresponding routes only on the client.
-    page.matchPath = `${locale[0]}placelist/*`;
+    page.matchPath = `${page.path}*`;
     page.component = placeList;
     // Update the page.
     createPage(page);
