@@ -69,7 +69,8 @@
     },
     "sp4ghet": {
       "name": "sp4ghet",
-      "position": "Computer Wrangler"
+      "position": "Computer Wrangler",
+      "text": "Undergraduate at UCL, studying Theoretical Physics. Prior to uni, he developed and researched software for plant factories. Hobbies include creative coding and VJ-ing."
     }
   },
   "projects_urban": "In Tokyo, most of the people chose major stations such as Shibuya or Shinjuku for going out, thus minor but local stations seem to be forgotten.\n\nIn this collaborative project with JR-EAST, We re-represented the cultural value of each 30 station in Yamanote-Line through the lens of music.\n\nWe Provided three things; web app where people can find stations based on music, pamphlet for each stations that depict surrounding music characteristics, and playlist for each station.",
