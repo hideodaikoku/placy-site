@@ -69,11 +69,16 @@
 
     .media-container{
         margin: 5rem auto;
+        max-width: 300px;
+        text-align: center;
         .media-img-container{
             display:flex;
-            justify-content: space-between;
+            justify-content: center;
             .media-img{
-                width: 30%;
+                width: 48%;
+            }
+            .media-img+.media-img{
+                margin-left: 1rem;
             }
         }
     }

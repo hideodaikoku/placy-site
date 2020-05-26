@@ -1,7 +1,7 @@
 import React from "react";
 import projectContentstyles from "../styles/projectContent.module.scss";
 import Img from "gatsby-image";
-import { useStaticQuery,graphql } from "gatsby";
+import { useStaticQuery,graphql,Link } from "gatsby";
 import {useIntl} from "gatsby-plugin-intl";
 
 const ProjectContents =()=>{
@@ -93,9 +93,9 @@ const ProjectContents =()=>{
                     </p>
                 </div>
                 <div className={projectContentstyles.right}>
-                    <a href="https://www.placy.city/post-quarantine-urbanism/" target="_blank" rel="noopener noreferrer">
+                    <Link to="/post-quarantine-urbanism/">
                         <Img fluid={data.pqr.childImageSharp.fluid} alt={"post quarantine urbanism"} className={projectContentstyles.pqr}/>
-                    </a>
+                    </Link>
                 </div>
             </div>
             <div className={projectContentstyles.row}>
