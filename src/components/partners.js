@@ -1,7 +1,7 @@
 import React from "react";
 import Img from "gatsby-image";
 import { useStaticQuery, graphql } from "gatsby";
-import {useIntl} from "gasby-plugin-intl";
+import {useIntl} from "gatsby-plugin-intl";
 import partnerStyle from "../styles/partners.module.scss";
 
 const PartnersSection = () => {
