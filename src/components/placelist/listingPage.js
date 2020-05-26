@@ -5,7 +5,6 @@ import { getListing } from "./redux/actions";
 import SEO from "../seo";
 import style from "../../styles/placelistListingPage.module.scss";
 import cardStyle from "../../styles/placelistListing.module.scss";
-import placelistStyle from "../../styles/placelist.module.scss";
 import twitter from "../../images/twitter.svg";
 import facebook from "../../images/facebook.svg";
 import shareLink from "../../images/shareLink.svg";
