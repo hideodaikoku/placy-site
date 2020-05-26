@@ -1,7 +1,7 @@
 import React from "react";
 import Img from "gatsby-image";
 import { useStaticQuery, graphql } from "gatsby";
-
+import {useIntl} from "gasby-plugin-intl";
 import partnerStyle from "../styles/partners.module.scss";
 
 const PartnersSection = () => {
@@ -30,13 +30,22 @@ const PartnersSection = () => {
       }
     }
   `);
+
+  const intl = useIntl();
   return (
     <div className={partnerStyle.container}>
       <div className={partnerStyle.microsoft}>
         <div className={partnerStyle.leftContent}>
           <h1 className={partnerStyle.title}>
-            "音楽で場所を探せる地図アプリ「Placy」を提供する <br />
-            株式会社Placy、Microsoft for Startupsに採択決定"
+          {intl
+              .formatMessage({ id: "home_microsoft" })
+              .split("\n")
+              .map((c) => (
+                <>
+                  {c}
+                  <br />
+                </>
+            ))}
           </h1>
           <a
             href="https://prtimes.jp/main/html/rd/p/000000003.000047935.html"
@@ -55,9 +64,15 @@ const PartnersSection = () => {
         <div className={partnerStyle.left}></div>
         <div className={partnerStyle.rightContent}>
           <h1 className={partnerStyle.title}>
-            "<span className={partnerStyle.specChar}>「</span>
-            情緒」と「論理」の共通言語をつくる："音楽"
-            から場所を探すアプリPlacyによる「都市の均質化」への抵抗"
+          {intl
+              .formatMessage({ id: "home_wired" })
+              .split("\n")
+              .map((c) => (
+                <>
+                  {c}
+                  <br />
+                </>
+            ))}
           </h1>
           <a
             href="https://wired.jp/2020/01/03/placy/"
@@ -79,17 +94,15 @@ const PartnersSection = () => {
             through music.
           </h1>
           <p className={partnerStyle.desc}>
-            Urban Rhythm
-            Guideは、「音楽」で都市の魅力に出会うことを目的としたプロジェクトです。
-            <br />
-            当プロジェクトでは、次の2点を作成いたしました。
-            <br />
-            ①
-            音楽で、あなたの感覚にあった山手線の駅を見つけることができるウェブサービス、
-            <br />
-            ② 各駅の音楽的な特徴を描写した30種類のパンフレット。
-            <br />
-            リズムに身を任せて、新しい都市の一面を発見してみませんか?
+          {intl
+              .formatMessage({ id: "home_urban_rhythm" })
+              .split("\n")
+              .map((c) => (
+                <>
+                  {c}
+                  <br />
+                </>
+            ))}
           </p>
           <a
             href="https://prtimes.jp/main/html/rd/p/000000005.000047935.html"
