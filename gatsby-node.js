@@ -4,10 +4,11 @@ exports.onCreatePage = async ({ page, actions }) => {
   const { createPage } = actions;
   const placeList = path.resolve(`src/pages/placelist.js`);
   // Only update the `/app` page.
-  if (page.path.match(/^\/placelist\/*/)) {
+  if (page.path.match(/^\/(en|ja)\/placelist\/*/)) {
+    const locale = page.path.match(/^\/(en|ja)\/*/);
     // page.matchPath is a special key that's used for matching pages
     // with corresponding routes only on the client.
-    page.matchPath = "/placelist/*";
+    page.matchPath = `${locale[0]}placelist/*`;
     page.component = placeList;
     // Update the page.
     createPage(page);
