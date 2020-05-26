@@ -3,6 +3,13 @@ import { Link } from "gatsby";
 import headerStyles from "../styles/header.module.scss";
 import Img from "gatsby-image";
 import { useStaticQuery, graphql } from "gatsby";
+import { IntlContextConsumer, changeLocale } from "gatsby-plugin-intl";
+
+const languageName = {
+  en: "EN",
+  ja: "JA",
+}
+
 
 const Header = (props) => {
   const data = useStaticQuery(graphql`
@@ -91,6 +98,38 @@ const Header = (props) => {
             >
               &#9834;
             </Link>
+          </li>
+          <span className={headerStyles.divider}>/</span>
+          <li className={headerStyles.listItem}>
+          <IntlContextConsumer>
+            {({ languages, language: currentLocale }) =>
+              languages.map(language => (
+              <>
+              {
+              language!==currentLocale?
+              <>
+                <span
+                  key={language}
+                  onClick={() => changeLocale(language)}
+                  onKeyDown={(e)=>{if(e.key==="Enter"){changeLocale(language)}}}
+                  className={headerStyles.link}
+                  role = "button"
+                  tabIndex={0}
+                  style={{
+                    color: currentLocale === language ? `gray` : `black`,
+                    marginLeft: `1rem`,
+                    cursor: `pointer`,
+                  }}
+                >
+                  {languageName[language]}
+                </span>
+              </>
+              :null
+              }
+              </>
+              ))
+            }
+          </IntlContextConsumer>
           </li>
         </ul>
       </nav>

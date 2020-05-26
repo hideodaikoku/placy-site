@@ -42,18 +42,18 @@
 }
 
 .list-item {
-  margin: 0 1rem;
+  margin: 0 .5rem;
 }
 
 .divider {
-  margin-left: 1rem;
+  margin-left: .5rem;
   font-style: oblique;
 }
 
 .nav {
   float: right;
   width: 42%;
-  padding: 3rem 3rem;
+  padding: 3rem 1.5rem;
   border-left: 1px solid black;
 }
 
@@ -104,6 +104,9 @@ $breakpoint-large: 1200px;
     border-left: none;
     float: none;
     width: 100vw;
+  }
+  .list-item{
+    margin: 0 .5rem;
   }
   .logo-area {
     padding: 1rem 2rem;
