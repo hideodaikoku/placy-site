@@ -1,3 +1,14 @@
+---
+place: "Korea - Seoul"
+author: "Min Sung Kim"
+img: "seoul"
+slug: "seoul"
+medium: "https://medium.com/post-quarantine-urbanism/south-korea-covid-19-and-diversity-7b110072e501"
+ogp: "https://miro.medium.com/max/2800/0*81oKtcytcjpcIk0_.jpg"
+date: "2020/05/25"
+title: "Seoul, South Korea: COVID-19 and Diversity"
+excerpt: "Everything seemed fine for the lunar new year. Graduated high schoolers planned their graduation trip to overseas with friends. Some families arranged their 3 day holidays in Bali with their loved ones."
+---
 Seoul, South Korea: COVID-19 and Diversity
 ==========================================
 

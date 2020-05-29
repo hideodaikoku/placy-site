@@ -1,3 +1,15 @@
+---
+place: "Ghana"
+author: "Mohammed Musah"
+img: "ghana"
+slug: "ghana"
+medium: "https://medium.com/post-quarantine-urbanism/not-ordinary-times-ghana-in-the-shadow-of-covid-19-3933f86aad2f"
+ogp: "https://miro.medium.com/max/1210/1*VqtIRTRdKEFmzcNdj5iZNQ.png"
+date: "2020/05/28"
+title: "Not Ordinary Times; Ghana in the Shadow of COVID-19"
+excerpt: "A visibly worried Health minister flanked by his counterpart for Information and officials from the Ghana Health Service announced the country’s first cases of Covid-19 in the late evening of March 12,"
+---
+
 **Not Ordinary Times; Ghana in the Shadow of COVID-19**
 =======================================================
 

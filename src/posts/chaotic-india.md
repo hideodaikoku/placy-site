@@ -1,3 +1,15 @@
+---
+place: "India"
+author: "Souvik Chowdhury"
+img: "chaotic_india"
+slug: "chaotic-india"
+medium: "https://medium.com/post-quarantine-urbanism/india-was-always-chaotic-will-it-find-a-way-out-now-54ad89288618"
+ogp: "https://miro.medium.com/max/1400/1*eW4dpyi59muXH3N1LWsHHw.jpeg"
+date: "2020/05/29"
+title: "India was Always Chaotic, Will it Find a Way Out Now?"
+excerpt: "Being a country with a population of 1.3 billion, the second largest in the world, India faced a hurdle like no other country when the COVID-19 pandemic touched upon it."
+---
+
 **India was Always Chaotic, Will it Find a Way Out Now?**
 =========================================================
 

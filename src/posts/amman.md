@@ -1,3 +1,15 @@
+---
+place: "Jordan - Amman"
+author: "Mazen Jubeihi"
+img: "amman"
+slug: "amman"
+medium: "https://medium.com/post-quarantine-urbanism/a-shift-in-momentum-amman-during-the-covid-19-pandemic-cf6b98f26b32"
+ogp: "https://miro.medium.com/max/1400/1*HZh-DAsiO0xaxa_AcUD8_g.jpeg"
+date: "2020/05/28"
+title: "A Shift in Momentum; Amman during the Covid-19 Pandemic"
+excerpt: "Although the history of Amman is heavily connected to the emergencies happening in neighboring countries, Amman is not a city that has had many itself. Home to nearly 4 million people, with the city hosting up to 32%"
+---
+
 A Shift in Momentum; Amman during the Covid-19 Pandemic
 =======================================================
 

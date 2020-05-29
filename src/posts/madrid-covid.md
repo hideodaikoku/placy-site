@@ -1,3 +1,14 @@
+---
+place: "Spain - Madrid"
+author: "Maria Perona"
+img: "madrid_covid"
+slug: "madrid-covid"
+medium: "https://medium.com/post-quarantine-urbanism/madrid-covid-main-scenario-47f27ce2a9f2"
+ogp: "https://miro.medium.com/max/4800/1*qXkzQGW8O1-ZVSmIKmjcNg.jpeg"
+dat": "2020/05/22"
+title: "MADRID. COVID MAIN SCENARIO"
+excerpt: "Spain is its bars. The sun, the beach, the tapas and the people. This is true, you just have to walk around Madrid, my city, at any time of the day to realize it."
+---
 <img class="s t u ds ai" src="https://miro.medium.com/max/4320/1*qXkzQGW8O1-ZVSmIKmjcNg.jpeg"/>
 
 <small>One of the main streets of Madrid, empty during the lockdown</small>

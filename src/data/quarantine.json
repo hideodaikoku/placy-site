@@ -270,7 +270,7 @@
     "title": "São Paulo, the harsh concrete jungle in a movement of civic solidarity during COVID-19 times"
   },
   {
-    "place": "Berlin - Germany",
+    "place": "Germany - Berlin",
     "author": "Leah Hamilton",
     "img": "berlin_night_time",
     "slug": "berlin-night-time",
@@ -278,5 +278,67 @@
     "ogp": "https://miro.medium.com/max/4800/1*wG6wNlmcTgV2dAorezcSCQ.jpeg",
     "date": "2020/05/22",
     "title": "Berlin's Kontaktbeschränkungen and the Night Time Culture Shift"
+  },
+  {
+    "place": "Korea - Seoul",
+    "author": "Min Sung Kim",
+    "img": "seoul",
+    "slug": "seoul",
+    "medium": "https://medium.com/post-quarantine-urbanism/south-korea-covid-19-and-diversity-7b110072e501",
+    "ogp": "https://miro.medium.com/max/2800/0*81oKtcytcjpcIk0_.jpg",
+    "date": "2020/05/25",
+    "title": "Seoul, South Korea: COVID-19 and Diversity"
+  },
+  {
+    "place": "Jordan - Amman",
+    "author": "Mazen Jubeihi",
+    "img": "amman",
+    "slug": "amman",
+    "medium": "https://medium.com/post-quarantine-urbanism/a-shift-in-momentum-amman-during-the-covid-19-pandemic-cf6b98f26b32",
+    "ogp": "https://miro.medium.com/max/1400/1*HZh-DAsiO0xaxa_AcUD8_g.jpeg",
+    "date": "2020/05/28",
+    "title": "A Shift in Momentum; Amman during the Covid-19 Pandemic"
+  },
+
+  {
+    "place": "Singapore",
+    "author": "Archana Kannan",
+    "img": "singapore_road_to_recovery",
+    "slug": "singapore-road-to-recovery",
+    "medium": "https://medium.com/post-quarantine-urbanism/small-steps-in-the-road-to-recovery-49d9519c20f",
+    "ogp": "https://miro.medium.com/max/1400/1*PU0OopuMsRmkLPoyh21AZw.jpeg",
+    "date": "2020/05/28",
+    "title": "Small Steps in the Road to Recovery: Singapore"
+  },
+  {
+    "place": "Ghana",
+    "author": "Mohammed Musah",
+    "img": "ghana",
+    "slug": "ghana",
+    "medium": "https://medium.com/post-quarantine-urbanism/not-ordinary-times-ghana-in-the-shadow-of-covid-19-3933f86aad2f",
+    "ogp": "https://miro.medium.com/max/1210/1*VqtIRTRdKEFmzcNdj5iZNQ.png",
+    "date": "2020/05/28",
+    "title": "Not Ordinary Times; Ghana in the Shadow of COVID-19"
+  },
+  {
+    "place": "India",
+    "author": "Souvik Chowdhury",
+    "img": "chaotic_india",
+    "slug": "chaotic-india",
+    "medium": "https://medium.com/post-quarantine-urbanism/india-was-always-chaotic-will-it-find-a-way-out-now-54ad89288618",
+    "ogp": "https://miro.medium.com/max/1400/1*eW4dpyi59muXH3N1LWsHHw.jpeg",
+    "date": "2020/05/29",
+    "title": "India was Always Chaotic, Will it Find a Way Out Now?"
+  },
+  {
+    "place": "Spain - Madrid",
+    "author": "Maria Perona",
+    "img": "madrid_covid",
+    "slug": "madrid-covid",
+    "medium": "https://medium.com/post-quarantine-urbanism/madrid-covid-main-scenario-47f27ce2a9f2",
+    "ogp": "https://miro.medium.com/max/4800/1*qXkzQGW8O1-ZVSmIKmjcNg.jpeg",
+    "date": "2020/05/22",
+    "title": "MADRID. COVID MAIN SCENARIO"
   }
+
 ]

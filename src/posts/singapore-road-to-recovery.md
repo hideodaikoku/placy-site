@@ -1,3 +1,14 @@
+---
+place: "Singapore"
+author: "Archana Kannan"
+img: "singapore_road_to_recovery"
+slug: "singapore-road-to-recovery"
+medium: "https://medium.com/post-quarantine-urbanism/small-steps-in-the-road-to-recovery-49d9519c20f"
+ogp: "https://miro.medium.com/max/1400/1*PU0OopuMsRmkLPoyh21AZw.jpeg"
+date: "2020/05/28"
+title: "Small Steps in the Road to Recovery: Singapore"
+excerpt: "Its mid May, bubble tea shops remain closed, people have settled into the work from home culture and there is no more panic buying (for now, at least). Case numbers continue to be high on a daily basis."
+---
 **Small Steps in the Road to Recovery: Singapore**
 ==================================================
 

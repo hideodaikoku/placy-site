@@ -219,6 +219,48 @@ const QuarantineArticles = () => {
           }
         }
       }
+      seoul: file(relativePath: { eq: "seoul.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      amman: file(relativePath: { eq: "amman.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      singapore_road_to_recovery: file(relativePath: { eq: "singapore_road.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      ghana: file(relativePath: { eq: "ghana.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      chaotic_india: file(relativePath: { eq: "chaotic_india.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      madrid_covid: file(relativePath: { eq: "madrid_covid.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
       excerpt: allMarkdownRemark {
         nodes {
           frontmatter {
