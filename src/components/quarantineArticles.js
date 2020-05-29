@@ -219,7 +219,7 @@ const QuarantineArticles = () => {
           }
         }
       }
-      seoul: file(relativePath: { eq: "seoul.jpeg" }) {
+      seoul: file(relativePath: { eq: "seoul.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
@@ -240,7 +240,7 @@ const QuarantineArticles = () => {
           }
         }
       }
-      ghana: file(relativePath: { eq: "ghana.jpeg" }) {
+      ghana: file(relativePath: { eq: "ghana.png" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
