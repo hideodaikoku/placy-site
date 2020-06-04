@@ -7,7 +7,7 @@ import { useStaticQuery, graphql } from "gatsby"
 const MemberSection = () => {
     const data = useStaticQuery(graphql`
         query{
-            soma: file(relativePath: {eq: "soma.png"}){
+            soma: file(relativePath: {eq: "soma.jpg"}){
                 childImageSharp{
                     fluid(maxWidth: 1024, grayscale: true){
                         ...GatsbyImageSharpFluid
@@ -70,6 +70,13 @@ const MemberSection = () => {
                     }
                 }
             }
+            mirei: file(relativePath: {eq: "mirei.jpg"}){
+                childImageSharp{
+                    fluid(maxWidth: 1024, grayscale: true){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
         }
     `)
     const intl = useIntl()
@@ -118,6 +125,10 @@ const MemberSection = () => {
                     <Member
                     image={data.sp4ghet.childImageSharp}
                     id={"sp4ghet"}
+                    />
+                    <Member
+                    image={data.sp4ghet.childImageSharp}
+                    id={"mirei"}
                     />
                 </div>
             </div>
