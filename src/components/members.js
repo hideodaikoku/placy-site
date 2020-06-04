@@ -127,7 +127,7 @@ const MemberSection = () => {
                     id={"sp4ghet"}
                     />
                     <Member
-                    image={data.sp4ghet.childImageSharp}
+                    image={data.mirei.childImageSharp}
                     id={"mirei"}
                     />
                 </div>
