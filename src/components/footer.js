@@ -76,6 +76,32 @@ const Footer = () => {
                 />
               </svg>
             </a>
+            <small style={{ width: "1rem", margin: "0" }}></small>
+            <a
+              href="https://www.linkedin.com/company/placycity/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5
+                      5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 
+                      19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 
+                      1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 
+                      0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+            </a>
+            <small style={{ width: "1rem", margin: "0" }}></small>
+            <a
+              href="https://www.facebook.com/placy.city/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 
+                5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-3 7h-1.924c-.615 0-1.076.252-1.076.889v1.111h3l-.238 
+                3h-2.762v8h-3v-8h-2v-3h2v-1.923c0-2.022 1.064-3.077 3.461-3.077h2.539v3z"/>
+              </svg>
+            </a>
           </div>
           <div className={footerStyles.footerText}>
             <div className={footerStyles.footerSection}>
@@ -101,10 +127,22 @@ const Footer = () => {
             </div>
             <div
               className={footerStyles.footerSection}
+              style={{flexWrap: "wrap" }}
+            >
+              <a
+                href="https://placy.typeform.com/to/itHyf0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <small className={footerStyles.list}>店舗掲載情報 登録/修正依頼フォーム </small>
+              </a>
+            </div>
+            <div
+              className={footerStyles.footerSection}
               style={{ textTransform: "uppercase", flexWrap: "wrap" }}
             >
               <a
-                href="./document/term_of_use.pdf"
+                href="https:/placy.city/document/term_of_use.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ marginRight: "1rem" }}
@@ -112,7 +150,7 @@ const Footer = () => {
                 <small className={footerStyles.list}>terms & conditions</small>
               </a>
               <a
-                href="./document/privacy_policy.pdf"
+                href="https:/placy.city/document/privacy_policy.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ marginRight: "1rem" }}
