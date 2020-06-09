@@ -9,6 +9,9 @@ import twitter from "../../images/twitter.svg";
 import facebook from "../../images/facebook.svg";
 import shareLink from "../../images/shareLink.svg";
 import checkSVG from "../../images/check.svg";
+import placeSVG from "../../images/icon_place.svg";
+import phoneSVG from "../../images/icon_tell.svg";
+import webSVG from "../../images/icon_web.svg";
 
 class ListingPage extends React.Component {
   componentWillMount() {
@@ -33,10 +36,14 @@ class ListingPage extends React.Component {
       actionUrl,
       spotifyPlaylist,
       isOfficial,
+      storeMapsUrl,
       officialPartner,
       officialLogo,
       officialDescription,
       descriptionText,
+      storeAddress,
+      storePhone,
+      storeWeb,
     } = listing;
 
     const copyUrl = () => {
@@ -88,7 +95,7 @@ class ListingPage extends React.Component {
         </Link>
         <div className={style.container}>
           <h1 className={style.title}>
-            {storeName} | @{username}
+            <a href={storeMapsUrl}>{storeName}</a> | @{username}
           </h1>
           <div className={`${style.actionType} ${actionTypeStyle}`}>
             <a
@@ -118,6 +125,26 @@ class ListingPage extends React.Component {
           </div>
 
           <p className={style.description}>{descriptionText}</p>
+
+          <div className={style.storeDetails}>
+            <div className={style.storeDetailsWrapper}>
+              <p className={style.storeAddress}>
+                <img src={placeSVG} alt="globe icon" />{" "}
+                <a href={storeMapsUrl}>
+                  {storeAddress.length > 30
+                    ? `${storeAddress.substring(0, 30)}...`
+                    : storeAddress}
+                </a>
+              </p>
+              <p className={style.storePhone}>
+                <img src={phoneSVG} alt="phone icon" /> {storePhone}
+              </p>
+              <p className={style.storeWeb}>
+                <img src={webSVG} alt="web icon" />{" "}
+                <a href={storeWeb}>{storeWeb}</a>
+              </p>
+            </div>
+          </div>
 
           <div className={isOfficial ? style.artist : style.none}>
             <img

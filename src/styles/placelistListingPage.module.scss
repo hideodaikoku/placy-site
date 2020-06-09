@@ -137,6 +137,29 @@ $vertical-space: 6vh;
   white-space: pre-wrap;
 }
 
+.store-details {
+  width: 58%;
+  text-align: left;
+  .store-details-wrapper {
+    background-color: white;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+  }
+  img {
+    margin: 0;
+    padding-right: 0.5rem;
+    width: 1rem;
+  }
+  p {
+    font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック",
+      "Yu Gothic", sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
 .artist-description {
   width: 58%;
   font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック",
@@ -213,6 +236,7 @@ $breakpoint-tablet: 800px;
   .embed-container {
     width: 70vw;
   }
+
   .back-button {
     margin-left: 2rem;
     margin-top: 2rem;
@@ -226,5 +250,18 @@ $breakpoint-tablet: 800px;
   .artist-description {
     width: 70vw;
     font-size: 0.8rem;
+  }
+
+  .store-details {
+    width: 70vw;
+    .store-details-wrapper {
+      padding: 0.5rem 0.5rem;
+    }
+    img {
+      padding-right: 0.5rem;
+    }
+    p {
+      font-size: 0.6rem;
+    }
   }
 }
