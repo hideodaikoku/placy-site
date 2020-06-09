@@ -168,6 +168,10 @@ $vertical-space: 6vh;
   font-weight: 500;
   white-space: pre-wrap;
   text-align: justify;
+  a {
+    text-decoration: underline;
+    color: #66d;
+  }
 }
 
 a:visited,

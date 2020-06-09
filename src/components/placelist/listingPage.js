@@ -1,4 +1,5 @@
 import React, { createRef } from "react";
+import Linkify from "linkifyjs/react";
 import { Link } from "@reach/router";
 import { connect } from "react-redux";
 import { getListing } from "./redux/actions";
@@ -163,7 +164,9 @@ class ListingPage extends React.Component {
           </div>
 
           {isOfficial ? (
-            <p className={style.artistDescription}>{officialDescription}</p>
+            <p className={style.artistDescription}>
+              <Linkify>{officialDescription}</Linkify>
+            </p>
           ) : (
             ""
           )}
