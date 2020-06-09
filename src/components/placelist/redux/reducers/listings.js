@@ -18,6 +18,7 @@ const initialState = {
 
 const reshapeApiListing = (listing) => {
   const decodeOpts = { isAttributeValue: true };
+  console.log(JSON.stringify(listing));
   return {
     uuid: listing.uuid,
     storeName: he.unescape(listing.storeName, decodeOpts),
@@ -37,6 +38,9 @@ const reshapeApiListing = (listing) => {
     descriptionText: !!listing.descriptionText
       ? he.unescape(listing.descriptionText)
       : null,
+    storeAddress: !!listing.storeAddress ? listing.storeAddress : null,
+    storePhone: !!listing.storePhone ? listing.storePhone : null,
+    storeWeb: !!listing.storeWeb ? listing.storeWeb : null,
   };
 };
 
