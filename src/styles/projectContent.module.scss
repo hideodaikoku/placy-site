@@ -198,7 +198,8 @@ $breakpoint-tablet: 900px;
             .left-content{
                 width:100%;
                 padding-left: 2rem;
-                
+                margin-top: 8rem;
+                margin-bottom: 5rem;
             }
             .right{
                 width: 100%;
@@ -207,8 +208,8 @@ $breakpoint-tablet: 900px;
             .pqr-content{
                 width:100%;
                 padding-left: 2rem;
-                margin-top: 5rem;
-                margin-bottom: 3rem;
+                margin-top: 8rem;
+                margin-bottom: 5rem;
                 .title{
                     margin-top: 0;
                 }
@@ -220,12 +221,14 @@ $breakpoint-tablet: 900px;
         flex-flow: column;
             .left-content{
                 width:100%;
-                margin: 0 auto;
+                margin: 5rem auto;
+                margin-top: 8rem;
                 padding-left:2rem;
             }
             .right{
                 width: 100%;
                 border-left: none;
+                height: 30rem;
             }
         }
     }

@@ -12,10 +12,13 @@
                 font-weight: 600;
                 margin-left: 5rem;
                 margin-right: 3rem;
+                margin-top: 3rem;
             }
             p{
                 max-width: 70%;
                 padding-left: 5rem;
+                margin-top: 2rem;
+                margin-bottom: 3rem;
             }
         }
         .right{
@@ -65,7 +68,7 @@ $breakpoint-tablet: 900px;
                     padding-left: 2rem;
                 }
                 .title{
-                    margin: 3rem 2rem;
+                    margin: 5rem 2rem;
                     padding: 0;
                 }
             }

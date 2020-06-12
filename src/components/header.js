@@ -105,10 +105,7 @@ const Header = (props) => {
           <IntlContextConsumer>
             {({ languages, language: currentLocale }) =>
               languages.map(language => (
-              <>
-              {
               language!==currentLocale?
-              <>
                 <span
                   key={language}
                   onClick={() => changeLocale(language)}
@@ -118,16 +115,12 @@ const Header = (props) => {
                   tabIndex={0}
                   style={{
                     color: currentLocale === language ? `gray` : `black`,
-                    marginLeft: `1rem`,
                     cursor: `pointer`,
                   }}
                 >
                   {languageName[language]}
                 </span>
-              </>
               :null
-              }
-              </>
               ))
             }
           </IntlContextConsumer>

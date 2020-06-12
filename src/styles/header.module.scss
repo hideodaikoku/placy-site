@@ -41,9 +41,6 @@
   font-size: 0.9rem;
 }
 
-.list-item {
-  margin: 0 .5rem;
-}
 
 .divider {
   margin-left: .5rem;
@@ -60,8 +57,10 @@
 .nav-list {
   list-style-type: none;
   display: flex;
+  justify-content: space-between;
   margin: 0;
-  width: 100%;
+  width: 80%;
+  max-width: 100%;
 }
 
 .active-nav-item {
@@ -104,9 +103,6 @@ $breakpoint-large: 1200px;
     border-left: none;
     float: none;
     width: 100vw;
-  }
-  .list-item{
-    margin: 0 .5rem;
   }
   .logo-area {
     padding: 0 2rem;

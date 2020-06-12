@@ -7,3 +7,16 @@
     }
 }
 
+
+$breakpoint-tablet: 900px;
+@media (max-width: $breakpoint-tablet) {
+    .container{
+        position: relative;
+        .text{
+            max-width: 80%;
+        }
+    }
+    img{
+        order: 2;
+    }
+}
