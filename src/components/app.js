@@ -46,10 +46,10 @@ const AppSection  = () => {
                     .formatMessage({ id: "home_top" })
                     .split("\n")
                     .map((c) => (
-                        <>
+                        <div key={c}>
                         {c}
                         <br />
-                        </>
+                        </div>
                     ))}
                 </p>
                 <div className={appStyles.buttonContainer}>

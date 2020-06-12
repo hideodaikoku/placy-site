@@ -41,10 +41,10 @@ const PartnersSection = () => {
               .formatMessage({ id: "home_microsoft" })
               .split("\n")
               .map((c) => (
-                <>
+                <div key={c}>
                   {c}
                   <br />
-                </>
+                </div >
             ))}
           </h1>
           <a
@@ -68,10 +68,10 @@ const PartnersSection = () => {
               .formatMessage({ id: "home_wired" })
               .split("\n")
               .map((c) => (
-                <>
+                <div key={c}>
                   {c}
                   <br />
-                </>
+                </div>
             ))}
           </h1>
           <a
@@ -98,10 +98,10 @@ const PartnersSection = () => {
               .formatMessage({ id: "home_urban_rhythm" })
               .split("\n")
               .map((c) => (
-                <>
+                <div key={c}>
                   {c}
                   <br />
-                </>
+                </div>
             ))}
           </p>
           <a
