@@ -99,7 +99,7 @@
 $breakpoint-large: 1200px;
 @media (max-width: $breakpoint-large) {
   .nav {
-    padding: 1rem 1rem;
+    padding: 1rem 1.5rem;
     margin: 0 auto;
     border-left: none;
     float: none;
@@ -109,7 +109,8 @@ $breakpoint-large: 1200px;
     margin: 0 .5rem;
   }
   .logo-area {
-    padding: 1rem 2rem;
+    padding: 0 2rem;
+    margin-top: 2rem;
     float: none;
     display: inline-block;
     width: 100vw;
@@ -138,8 +139,9 @@ $breakpoint-tablet: 600px;
     justify-content: space-between;
   }
   .logo-area {
-    padding: 1rem 2.5rem;
-    height: 4rem;
+    padding: 1rem 2rem;
+    margin-top: 0;
+    height: 3rem;
     float: none;
     display: inline-block;
     width: 100vw;

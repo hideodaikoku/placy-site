@@ -16,7 +16,7 @@
         
         .title-para{
             font-family: Helvetica Neue, Helvetica, Arial,sans-serif; 
-            font-weight: 700;
+            font-weight: 500;
             font-size: 1.5rem;
             line-height: 2rem;
         }
@@ -36,6 +36,9 @@ $breakpoint-tablet: 900px;
             padding-left: 2rem;
             padding-right: 2rem;
             width: 100%;
+            .title-para{
+                max-width: 80%;
+            }
         }
         .right{
             display: none;

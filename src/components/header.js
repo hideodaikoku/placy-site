@@ -4,6 +4,7 @@ import headerStyles from "../styles/header.module.scss";
 import Img from "gatsby-image";
 import { useStaticQuery, graphql } from "gatsby";
 import { IntlContextConsumer, changeLocale } from "gatsby-plugin-intl";
+import note from "../images/note.svg";
 
 const languageName = {
   en: "EN",
@@ -96,7 +97,7 @@ const Header = (props) => {
               activeClassName={headerStyles.activeNavItem}
               to="/placelist"
             >
-              &#9834;
+              <img alt="placelist" style={{height:"22px", minWidth:"22px"}} src={note}/>
             </Link>
           </li>
           <span className={headerStyles.divider}>/</span>

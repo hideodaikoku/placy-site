@@ -21,7 +21,7 @@ const PartnersSection = () => {
           }
         }
       }
-      yamanote: file(relativePath: { eq: "a_01788.jpg" }) {
+      yamanote: file(relativePath: { eq: "jr1.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1024) {
             ...GatsbyImageSharpFluid

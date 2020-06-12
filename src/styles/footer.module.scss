@@ -34,15 +34,15 @@
 }
 .footer-section{
     display: flex;
-    
+    justify-content: space-between;
+    max-width: 80%;
     a+small{
         text-decoration: none;
         color: black;
-        margin-right: 1rem;
-        margin-left: 1rem;
     }
     small{
         font-weight: 700;
+        font-size: .8rem;
     }
 }
 
@@ -51,20 +51,27 @@
 }
 
 .footer-text{
-    margin-left: 1rem;
+    margin-left: 5%;
 }
 
-$breakpoint-tablet: 600px;
+$breakpoint-tablet: 1000px;
 @media (max-width: $breakpoint-tablet) {
     .footer-container{
-        margin: 0 2rem;
+        margin: 0 5%;
     }
     .image{
         margin-right: 1.5rem;
         margin-bottom: 1rem;
     }
-    .wrapper-right{
-        flex-direction: column;
+    .container-right{
+        display: flex;
+        width: 100%;
+        .wrapper-right{
+            flex-direction: column;
+            .footer-section{
+                width: 100%;
+            }
+        }
     }
     .footer-text{
         margin-left: 0;
@@ -80,12 +87,5 @@ $breakpoint-sp: 400px;
     }
     .container-right{
         clear: both;
-    }
-    .footer-container{
-        a{
-            .list{
-                margin-right: 1rem;
-            }
-        }
     }
 }
