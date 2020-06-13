@@ -5,3 +5,18 @@
   width: 80%;
   height: 3px;
 }
+
+.container {
+  a:visited,
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+  }
+
+  button {
+    border-width: 0;
+    background: none;
+    padding: 0;
+  }
+}
