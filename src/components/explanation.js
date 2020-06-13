@@ -11,11 +11,11 @@ const Explanation = () => {
             {intl
               .formatMessage({ id: "about_explanation" })
               .split("\n")
-              .map((c) => (
-                <>
+              .map((c, idx) => (
+                <span key={idx}>
                   {c}
                   <br />
-                </>
+                </span>
             ))}
             </p>
         </div>

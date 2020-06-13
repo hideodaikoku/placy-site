@@ -97,11 +97,11 @@ const PartnersSection = () => {
           {intl
               .formatMessage({ id: "home_urban_rhythm" })
               .split("\n")
-              .map((c) => (
-                <div key={c}>
+              .map((c, idx) => (
+                <span key={idx}>
                   {c}
                   <br />
-                </div>
+                </span>
             ))}
           </p>
           <a

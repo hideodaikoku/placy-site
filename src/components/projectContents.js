@@ -84,10 +84,10 @@ const ProjectContents =()=>{
                         {intl
                         .formatMessage({id:"projects_post_quarantine"})
                         .split('\n')
-                        .map(c=>
-                            <>
+                        .map( (c,idx)=>
+                            <span key={idx}>
                                 {c}<br/>
-                            </>
+                            </span>
                          )    
                         }
                     </p>
@@ -104,7 +104,7 @@ const ProjectContents =()=>{
                         <div className={projectContentstyles.cross}>
                             <Img fluid={data.cross.childImageSharp.fluid}/>
                         </div>
-                        <div　class={projectContentstyles.logo}>
+                        <div　className={projectContentstyles.logo}>
                             <Img fluid={data.kandosen.childImageSharp.fluid}/>
                         </div>
                     </div>
@@ -116,10 +116,10 @@ const ProjectContents =()=>{
                         {intl
                             .formatMessage({id:"projects_urban"})
                             .split('\n')
-                            .map(c=>
-                                <>
+                            .map( (c, idx) =>
+                                <span key={idx}>
                                     {c}<br/>
-                                </>
+                                </span>
                             )    
                         }
                     </p>
@@ -137,7 +137,7 @@ const ProjectContents =()=>{
                             <div className={projectContentstyles.cross}>
                                 <Img fluid={data.cross.childImageSharp.fluid}/>
                             </div>
-                            <div　class={projectContentstyles.logo}>
+                            <div　className={projectContentstyles.logo}>
                                 <Img fluid={data.tokyu.childImageSharp.fluid}/>
                             </div>
                     </div>
@@ -149,10 +149,10 @@ const ProjectContents =()=>{
                         {intl
                             .formatMessage({id:"projects_shibuya_cast"})
                             .split('\n')
-                            .map(c=>
-                                <>
+                            .map( (c, idx) =>
+                                <span key={idx}>
                                     {c}<br/>
-                                </>
+                                </span>
                             )    
                         }
                     </p>
@@ -167,10 +167,10 @@ const ProjectContents =()=>{
                         <div className={projectContentstyles.cross}>
                             <Img fluid={data.cross.childImageSharp.fluid}/>
                         </div>
-                        <div　class={projectContentstyles.logo}>
+                        <div　className={projectContentstyles.logo}>
                             <Img fluid={data.kenta.childImageSharp.fluid}/>
                         </div>
-                        <div class={projectContentstyles.byLine}>
+                        <div className={projectContentstyles.byLine}>
                             <p id={projectContentstyles.tanakaTitle}>sound artist</p>
                             <h1 id={projectContentstyles.tanaka}>Kenta Tanaka</h1>
                         </div>
@@ -184,10 +184,10 @@ const ProjectContents =()=>{
                             intl
                                 .formatMessage({id:"projects_shibuya_sound"})
                                 .split('\n')
-                                .map(c=>
-                                    <>
+                                .map( (c,idx) =>
+                                    <span key={idx} >
                                         {c}<br/>
-                                    </>
+                                    </span >
                                 )    
                         }
                     </p>

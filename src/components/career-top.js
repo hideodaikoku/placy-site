@@ -59,11 +59,11 @@ const CareerTopSection = () => {
                     {intl
                     .formatMessage({ id: "career_top" })
                     .split("\n")
-                    .map((c) => (
-                        <>
+                    .map((c, idx) => (
+                        <span key={idx}>
                         {c}
                         <br />
-                        </>
+                        </span>
                     ))}
                     </p>
                 </div>

@@ -46,13 +46,13 @@ const AppSection  = () => {
                     .formatMessage({ id: "home_top" })
                     .split("\n")
                     .map((c) => (
-                        <div key={c}>
+                        <span key={c}>
                         {c}
                         <br />
-                        </div>
+                        </span>
                     ))}
                 </p>
-                <div className={appStyles.buttonContainer}>
+                <div className={appStyles.buttoncontainer}>
                     <div className={appStyles.button}>
                         <a 
                             href='https://apps.apple.com/jp/app/placy/id1474567327'

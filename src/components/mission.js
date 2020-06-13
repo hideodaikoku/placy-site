@@ -11,11 +11,11 @@ const MissionSection = () => {
             {intl
               .formatMessage({ id: "about_mission" })
               .split("\n")
-              .map((c) => (
-                <>
+              .map((c, idx) => (
+                <span key={idx}>
                   {c}
                   <br />
-                </>
+                </span>
             ))}
             </p>
         </div>
