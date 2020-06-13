@@ -25,14 +25,10 @@
             position: relative;
             height: 3rem;
             .button{
-                min-width: 7.6rem;
-                min-height: 2rem;
+                width: 7.6rem;
                 float: left;
                 margin-right: 1rem;
                 margin-bottom: 1rem;
-            }
-            .button>img{
-                height: 100%;
             }
         }
     }
