@@ -105,25 +105,27 @@ const Footer = () => {
           </div>
           <div className={footerStyles.footerText}>
             <div className={footerStyles.footerSection}>
-                <Link to="/about" className={footerStyles.link}>
-                  <small className={footerStyles.list}>About</small>
-                </Link>
-                <small className={footerStyles.divider}>/</small>
-                <Link to="/careers" className={footerStyles.link}>
-                  <small className={footerStyles.list}>Careers</small>
-                </Link>
-                <small className={footerStyles.divider}>/</small>
-                <Link to="/projects" className={footerStyles.link}>
-                  <small className={footerStyles.list}>Projects</small>
-                </Link>
-                <small className={footerStyles.divider}>/</small>
-                <a
-                  href="https://placy.typeform.com/to/lfzKCU"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <small className={footerStyles.list}>Contact</small>
-                </a>
+              <div className={footerStyles.bottomNav}>
+                  <Link to="/about" className={footerStyles.link}>
+                    <small className={footerStyles.list}>About</small>
+                  </Link>
+                  <small className={footerStyles.divider}>/</small>
+                  <Link to="/careers" className={footerStyles.link}>
+                    <small className={footerStyles.list}>Careers</small>
+                  </Link>
+                  <small className={footerStyles.divider}>/</small>
+                  <Link to="/projects" className={footerStyles.link}>
+                    <small className={footerStyles.list}>Projects</small>
+                  </Link>
+                  <small className={footerStyles.divider}>/</small>
+                  <a
+                    href="https://placy.typeform.com/to/lfzKCU"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <small className={footerStyles.list}>Contact</small>
+                  </a>
+                </div>
               </div>
             <div
               className={footerStyles.footerSection}

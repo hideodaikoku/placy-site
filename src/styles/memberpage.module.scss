@@ -60,6 +60,15 @@ $breakpoint-tablet: 900px;
             .right-content{
                 width: 100%;
                 border-left: none;
+                position: relative;
+                height: 20rem;
+                .title{
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    margin:0;
+                }
             }
             .left-content{
                 width: 100%;
