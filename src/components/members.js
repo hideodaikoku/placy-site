@@ -77,6 +77,20 @@ const MemberSection = () => {
                     }
                 }
             }
+            jono: file(relativePath: {eq: "jono.JPG"}){
+                childImageSharp{
+                    fluid(maxWidth: 1024, grayscale: true){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+            eisuke: file(relativePath: {eq: "eisuke.jpg"}){
+                childImageSharp{
+                    fluid(maxWidth: 1024, grayscale: true){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
         }
     `)
     const intl = useIntl()
@@ -129,6 +143,14 @@ const MemberSection = () => {
                     <Member
                     image={data.mirei.childImageSharp}
                     id={"mirei"}
+                    />
+                    <Member
+                    image={data.jono.childImageSharp}
+                    id={"jono"}
+                    />
+                    <Member
+                    image={data.eisuke.childImageSharp}
+                    id={"eisuke"}
                     />
                 </div>
             </div>

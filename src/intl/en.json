@@ -76,6 +76,16 @@
       "name": "Mirei Takada",
       "position": "Marketing / PR",
       "text": "A student majoring in Business and Economics at Sophia University. In charge of Marketing/PR at Placy. As I was born in 2000, and I like artists my age like Mega Shinnosuke."
+    },
+    "eisuke": {
+      "name": "Mizukuchi Eisuke",
+      "position": "Lawyer",
+      "text": "Representative at \"Law and Theory\", a collective of music lawyers which provides free legal consultation services to musicians. He has worked on many projects with clients such as artists, music labels, and music-related companies."
+    },
+    "jono" : {
+      "name" : "Jono Hibiki",
+      "position": "iOS Engineer",
+      "text": "Worked at \"Unit\", an electronic music club at the heart of the urban music scene, after graduating Kyoto University. He is currently a graduate student at the The Kyoto College of Graduate Studies for Informatics. Mobile developer at Placy."
     }
   },
   "projects_urban": "In Tokyo, most of the people chose major stations such as Shibuya or Shinjuku for going out, thus minor but local stations seem to be forgotten.\n\nIn this collaborative project with JR-EAST, We re-represented the cultural value of each 30 station in Yamanote-Line through the lens of music.\n\nWe Provided three things; web app where people can find stations based on music, pamphlet for each stations that depict surrounding music characteristics, and playlist for each station.",

@@ -8,9 +8,7 @@ const Member = (props) => {
 
     return(
         <div className={memberStyle.container}>
-            <div className={memberStyle.imageContainer}> 
-                <Img fluid={props.image.fluid}/>
-            </div>
+            <Img fluid={props.image.fluid} className={memberStyle.imageContainer}/>
             <div className={memberStyle.textContainer}>
                 <h3 className={memberStyle.title}>{intl.formatMessage({id:`members.${props.id}.name`})}</h3>
                 <h4 className={memberStyle.designation}>{intl.formatMessage({id:`members.${props.id}.position`})}</h4>
