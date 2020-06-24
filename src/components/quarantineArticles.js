@@ -261,6 +261,153 @@ const QuarantineArticles = () => {
           }
         }
       }
+      london_lockdown: file(relativePath: { eq: "london_lockdown.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      singapore_landscapes: file(relativePath: { eq: "singapore_landscapes.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      india_public_places: file(relativePath: { eq: "india_public_places.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      copenhagen: file(relativePath: { eq: "copenhagen.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      brexit: file(relativePath: { eq: "brexit.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      melbourne_fair_space: file(relativePath: { eq: "melbourne_fair_space.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      singapore_whats_next: file(relativePath: { eq: "singapore_whats_next.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      france: file(relativePath: { eq: "france.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      mexico: file(relativePath: { eq: "mexico.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      montreal: file(relativePath: { eq: "montreal.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      indonesia: file(relativePath: { eq: "indonesia.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      brussels: file(relativePath: { eq: "brussels.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      manilla: file(relativePath: { eq: "manilla.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      ankara: file(relativePath: { eq: "ankara.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      london_social_distancing: file(relativePath: { eq: "london_social_distancing.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      dubai: file(relativePath: { eq: "dubai.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      milan: file(relativePath: { eq: "milan.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      mexico_city: file(relativePath: { eq: "mexico_city.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      london_home: file(relativePath: { eq: "london_home.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      hanoi: file(relativePath: { eq: "hanoi.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      dubai_dreamers: file(relativePath: { eq: "dubai_dreamers.jpeg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
       excerpt: allMarkdownRemark {
         nodes {
           frontmatter {
@@ -271,6 +418,7 @@ const QuarantineArticles = () => {
       }
     }
   `);
+  
   return (
     <div className={quarantineArticleStyles.container}>
       <div className={quarantineArticleStyles.articleContainer}>
