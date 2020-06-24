@@ -67,8 +67,7 @@ const BlogTemplate = (props) => {
         style={{ display: "flex", justifyContent: "center" }}
       >
         <a
-          clasName={quarantineBlogStyle.twitter}
-          d
+          className={quarantineBlogStyle.twitter}
           href="https://twitter.com/placy_urbanism"
           target="_blank"
           rel="noopener noreferrer"

@@ -282,7 +282,7 @@ const QuarantineArticles = () => {
           }
         }
       }
-      copenhagen: file(relativePath: { eq: "copenhagen.jpeg" }) {
+      copenhagen: file(relativePath: { eq: "copenhagen.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
@@ -401,7 +401,7 @@ const QuarantineArticles = () => {
           }
         }
       }
-      dubai_dreamers: file(relativePath: { eq: "dubai_dreamers.jpeg" }) {
+      dubai_dreamers: file(relativePath: { eq: "dubai_dreamers.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
@@ -418,7 +418,7 @@ const QuarantineArticles = () => {
       }
     }
   `);
-  
+
   return (
     <div className={quarantineArticleStyles.container}>
       <div className={quarantineArticleStyles.articleContainer}>
