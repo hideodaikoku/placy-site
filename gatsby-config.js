@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Placy",
-    titleTemplate: "%s | Find Your Rhythm",
+    titleTemplate: "%s | Follow Your Rhythm",
     description:
       "We are Placy, a company creating alternative place search engine.",
     url: "https://placy.city", // No trailing slash allowed!
