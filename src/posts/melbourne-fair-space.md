@@ -2,7 +2,7 @@
 place: "Australia - Melbourne"
 author: "Natasha C Manawadu"
 img: "australia"
-slug: "melbourne"
+slug: "melbourne-fair-space"
 medium: "https://medium.com/post-quarantine-urbanism/post-pandemic-urbanism-australia-the-merge-scenario-9b783e564e65"
 date: "2020/04/24"
 title: "Post Pandemic Urbanism Australia: The Merge Scenario"

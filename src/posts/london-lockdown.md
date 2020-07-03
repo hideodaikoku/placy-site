@@ -1,6 +1,6 @@
 ---
 place: "United Kingdom - London"
-author: "Maria Perona"
+author: "Natalie Cefala"
 img: "london_lockdown"
 slug: "london-lockdown"
 medium: "https://medium.com/post-quarantine-urbanism/london-under-lockdown-active-travel-and-behaviour-change-d862a0f6663a"
