@@ -91,6 +91,13 @@ const MemberSection = () => {
                     }
                 }
             }
+            moriya: file(relativePath: {eq: "moriya.jpg"}){
+                childImageSharp{
+                    fluid(maxWidth: 1024, grayscale: true){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
         }
     `)
     const intl = useIntl()
@@ -151,6 +158,10 @@ const MemberSection = () => {
                     <Member
                     image={data.eisuke.childImageSharp}
                     id={"eisuke"}
+                    />
+                     <Member
+                    image={data.moriya.childImageSharp}
+                    id={"moriya"}
                     />
                 </div>
             </div>

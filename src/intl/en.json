@@ -86,6 +86,11 @@
       "name" : "Jono Hibiki",
       "position": "iOS Engineer",
       "text": "Worked at \"Unit\", an electronic music club at the heart of the urban music scene, after graduating Kyoto University. He is currently a graduate student at the The Kyoto College of Graduate Studies for Informatics. Mobile developer at Placy."
+    },
+    "moriya" : {
+      "name" : "Naoki Moriya",
+      "position": "Event / PR",
+      "text": "In October 2017, a month after retiring from his previous job, Moriya opened Omoteochō Nichōme's very own Gyōza No Sekai. In March 2019, he opened a second store: the Asian Civic Center in Omotechō's Sanchōme. In November of the same year he started a Design Neon production business."
     }
   },
   "projects_urban": "In Tokyo, most of the people chose major stations such as Shibuya or Shinjuku for going out, thus minor but local stations seem to be forgotten.\n\nIn this collaborative project with JR-EAST, We re-represented the cultural value of each 30 station in Yamanote-Line through the lens of music.\n\nWe Provided three things; web app where people can find stations based on music, pamphlet for each stations that depict surrounding music characteristics, and playlist for each station.",
