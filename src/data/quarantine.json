@@ -550,5 +550,15 @@
     "ogp": "https://miro.medium.com/max/1400/1*UMuFjIZA0PTc3gmQ6uWooA.jpeg",
     "date": "2020/06/16",
     "title": "U.A.E: How are the Dreamers keeping their visions alive?"
+  },
+  {
+    "place": "Czechia - Prague",
+    "author": "Anna-Marie Mašková",
+    "img": "prague",
+    "slug": "prague",
+    "medium": "https://medium.com/post-quarantine-urbanism/prague-3c6e077b3c0f",
+    "ogp": "https://miro.medium.com/max/1400/0*F_C0dJhOwMM3WIRh",
+    "date": "2020/07/01",
+    "title": "Prague and COVID-19"
   }
 ]

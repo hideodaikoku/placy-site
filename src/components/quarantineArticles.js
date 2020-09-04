@@ -408,6 +408,13 @@ const QuarantineArticles = () => {
           }
         }
       }
+      prague: file(relativePath: { eq: "prague.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
       excerpt: allMarkdownRemark {
         nodes {
           frontmatter {
