@@ -14,7 +14,7 @@ const ProjectContents =()=>{
                     }
                 }
             }
-            kandosen: file(relativePath: {eq: "kandosen_logo.png"}){
+            jr_logo: file(relativePath: {eq: "jr.png"}){
                 childImageSharp{
                     fluid(maxWidth: 1024){
                         ...GatsbyImageSharpFluid
@@ -70,11 +70,49 @@ const ProjectContents =()=>{
                     }
                 }
             }
+            follow: file(relativePath: {eq: "follow.png"}){
+                childImageSharp{
+                    fluid(maxWidth: 1600){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
         }
     `)
     const intl = useIntl();
     return(
         <div className={projectContentstyles.container}>
+            <div className={projectContentstyles.row}>
+                <div className={projectContentstyles.pqrContent}>
+                    <h1 className={projectContentstyles.title}>
+                        {intl
+                            .formatMessage({id:"exhibition_title"})
+                            .split('\n')
+                            .map( (c,idx)=>
+                                <span key={idx}>
+                                    {c}<br/>
+                                </span>
+                            )    
+                        }
+                    </h1>
+                    <p className={projectContentstyles.descTop}>
+                        {intl
+                        .formatMessage({id:"exhibition"})
+                        .split('\n')
+                        .map( (c,idx)=>
+                            <span key={idx}>
+                                {c}<br/>
+                            </span>
+                         )    
+                        }
+                    </p>
+                </div>
+                <div className={projectContentstyles.right}>
+                    <Link to="/post-quarantine-urbanism/">
+                        <Img fluid={data.follow.childImageSharp.fluid} alt={"Mori Building Exhibition"} className={projectContentstyles.pqr}/>
+                    </Link>
+                </div>
+            </div>
             <div className={projectContentstyles.row}>
                 <div className={projectContentstyles.pqrContent}>
                     <h1 className={projectContentstyles.title}>
@@ -104,8 +142,8 @@ const ProjectContents =()=>{
                         <div className={projectContentstyles.cross}>
                             <Img fluid={data.cross.childImageSharp.fluid}/>
                         </div>
-                        <div　className={projectContentstyles.logo}>
-                            <Img fluid={data.kandosen.childImageSharp.fluid}/>
+                        <div　className={projectContentstyles.jrLogo}>
+                            <Img fluid={data.jr_logo.childImageSharp.fluid}/>
                         </div>
                     </div>
                     <h1 className={projectContentstyles.title}>
