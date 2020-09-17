@@ -28,6 +28,13 @@ const PartnersSection = () => {
           }
         }
       }
+      jr : file(relativePath:{ eq: "jr.png"}){
+        childImageSharp{
+          fluid(maxWidth: 1024){
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `);
 
@@ -112,8 +119,9 @@ const PartnersSection = () => {
             Read More
           </a>
           <div className={partnerStyle.yamanoteBottom}>
-            <div className={partnerStyle.computer}>
-              <Img fluid={data.yamanote.childImageSharp.fluid} />
+            <div className={partnerStyle.imageContainer}>
+              <Img className={partnerStyle.jrImage} fluid={data.yamanote.childImageSharp.fluid} />
+              <Img className={partnerStyle.jrImage} fluid={data.jr.childImageSharp.fluid}/>
             </div>
           </div>
         </div>
