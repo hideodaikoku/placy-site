@@ -1,0 +1,15 @@
+.container{
+    display: inline;
+    border-bottom: 1px solid black;
+    .image-container{
+        background-color: white;
+        margin:0;
+        padding:0;
+        height: auto;
+    }
+    .image{
+        margin: 5rem auto;
+        max-width: 70%;
+        background-color: white;
+    }
+}
