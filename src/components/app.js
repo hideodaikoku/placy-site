@@ -3,7 +3,7 @@ import appStyles from "../styles/app.module.scss";
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 import { useIntl } from "gatsby-plugin-intl";
-
+import videoSrc from "../videos/app.mp4";
 const AppSection  = () => {
     
     const data = useStaticQuery(graphql`
@@ -76,8 +76,8 @@ const AppSection  = () => {
                 </div>
             </div>
             <div className={appStyles.right}>
-                <div className={appStyles.imgContainer}>
-                    <Img fluid={data.app.childImageSharp.fluid}/>
+                <div className={appStyles.videoContainer}>
+                    <video id={appStyles.video} src={videoSrc} loop autoPlay muted/>
                 </div>
             </div>
         </div>

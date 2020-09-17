@@ -35,16 +35,15 @@
     .right{
         width: 42%;
         margin-left: auto;
-        background-color: #bf96bf;
+        background-color: #C69EC1;
         border-left: 1px solid black;
-        position: relative;
-        .img-container{
-            position: absolute;
-            top: 50%;
-            left: 50%;
+        display: flex;
+        .video-container{
+            margin: 0 auto;
+            padding-top: 1rem;
+            padding-bottom: 2rem;
             width: 15rem;
-            transform: translate(-50%,-50%);
-            box-shadow: 1rem 1.5rem 2rem rgba(41, 41, 41, 0.858);
+            min-height: 40rem;
         }
     }
 }
@@ -81,12 +80,14 @@ $breakpoint-tablet: 900px;
         }
         .right{
             border-left: none;
-            height: 38rem;
-            margin: 0;
+            height: 32rem;
             width: 100%;
             border-top: 1px solid black;   
-            .img-container{
-                width: 15rem;
+            .video-container{
+                height: 100%;
+                #video{
+                    height: 75%;
+                }
             }
         }
     }
