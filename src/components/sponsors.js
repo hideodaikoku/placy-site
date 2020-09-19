@@ -19,6 +19,8 @@ const Sponsors = () => {
   return (
     <div className={sponsorStyle.container}>
         <div className={sponsorStyle.imageContainer}>
+
+        <h3 className={sponsorStyle.title}>Partners and Media Coverage</h3>
         <Img className={sponsorStyle.image} fluid={data.sponsor.childImageSharp.fluid}/>
         </div>
     </div>

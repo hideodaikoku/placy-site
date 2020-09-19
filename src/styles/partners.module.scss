@@ -113,9 +113,16 @@
             flex-direction: row;
             margin-top: 3rem;
             flex-wrap: wrap;
+            align-items: baseline;
             .jr-image{
                 margin-right: 1rem;
                 min-width: 20rem;
+            }
+            .jr-logo{
+                margin-left: 2rem;
+                width: 10rem;
+                height: 8rem;
+                object-fit: cover;
             }
         }
     }

@@ -20,7 +20,7 @@
                 text-align: left;
                 margin-bottom: .5rem;
                 a{
-                    font-weight: 500;
+                    font-weight: 600;
                     font-size: .9rem;
                 }
                 a:hover{
@@ -33,7 +33,7 @@
             }
         }
         .navigation{
-            margin: 0 auto;
+            margin: 1rem auto 2rem auto;
             display: flex;
             flex-direction: row;
             justify-content: space-between;

@@ -68,7 +68,7 @@ class News extends React.Component {
                     }
                 <ul className={newsStyle.navigation}>
                     <li onClick={this.previous}><button>&#9668; <span>Previous</span></button></li>
-                <li style={{margin:"0 1rem", fontWeight:"400"}}>{number}/{Math.ceil(newsLinks.length/this.page_size)}</li>
+                    <li style={{margin:"0 1rem", fontWeight:"400"}}>{number}/{Math.ceil(newsLinks.length/this.page_size)}</li>
                     <li onClick={this.next_page}><button><span>Next </span>&#9658;</button></li>
                 </ul>
                 </div>

@@ -121,7 +121,7 @@ const PartnersSection = () => {
           <div className={partnerStyle.yamanoteBottom}>
             <div className={partnerStyle.imageContainer}>
               <Img className={partnerStyle.jrImage} fluid={data.yamanote.childImageSharp.fluid} />
-              <Img className={partnerStyle.jrImage} fluid={data.jr.childImageSharp.fluid}/>
+              <Img className={partnerStyle.jrLogo} fluid={data.jr.childImageSharp.fluid}/>
             </div>
           </div>
         </div>

@@ -14,6 +14,13 @@ const ProjectContents =()=>{
                     }
                 }
             }
+            mori: file(relativePath: {eq: "mori.png"}){
+                childImageSharp{
+                    fluid(maxWidth: 1600){
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
             jr_logo: file(relativePath: {eq: "jr.png"}){
                 childImageSharp{
                     fluid(maxWidth: 1024){
@@ -84,6 +91,14 @@ const ProjectContents =()=>{
         <div className={projectContentstyles.container}>
             <div className={projectContentstyles.row}>
                 <div className={projectContentstyles.pqrContent}>
+                    <div className={projectContentstyles.projectTop}>
+                        <div className={projectContentstyles.cross}>
+                            <Img fluid={data.cross.childImageSharp.fluid}/>
+                        </div>
+                        <div　className={projectContentstyles.moriLogo}>
+                            <Img fluid={data.mori.childImageSharp.fluid}/>
+                        </div>
+                    </div>
                     <h1 className={projectContentstyles.title}>
                         {intl
                             .formatMessage({id:"exhibition_title"})
@@ -108,9 +123,9 @@ const ProjectContents =()=>{
                     </p>
                 </div>
                 <div className={projectContentstyles.right}>
-                    <Link to="/post-quarantine-urbanism/">
-                        <Img fluid={data.follow.childImageSharp.fluid} alt={"Mori Building Exhibition"} className={projectContentstyles.pqr}/>
-                    </Link>
+                    <a href="https://tcv.roppongihills.com/jp/exhibitions/placy/index.html" target="_blank" rel="noopener noreferrer">
+                        <Img fluid={data.follow.childImageSharp.fluid} alt={"Mori Building Exhibition"} className={projectContentstyles.mori}/>
+                    </a>
                 </div>
             </div>
             <div className={projectContentstyles.row}>

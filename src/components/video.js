@@ -3,7 +3,7 @@ import appStyles from "../styles/app.module.scss";
 
 const Video  = () => {
     
-    const videoSrcURL = "https://www.youtube.com/embed/0ILP0i2y05U?autoplay=1&loop=1&playlist=0ILP0i2y05U";
+    const videoSrcURL = "https://www.youtube.com/embed/0ILP0i2y05U?autoplay=1&loop=1&mute=1&playlist=0ILP0i2y05U";
     const videoTitle = "Placy. Find your rhythm";
     return(
         <div className={appStyles.introContainer} id={appStyles.videoContainer}>
