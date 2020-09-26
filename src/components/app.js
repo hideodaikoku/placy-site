@@ -22,7 +22,7 @@ const AppSection  = () => {
                 }
             }
         }
-        app: file(relativePath: {eq: "iphone.png"}){
+        app: file(relativePath: {eq: "app.gif"}){
             childImageSharp{
                 fluid(maxWidth: 1024){
                     ...GatsbyImageSharpFluid
