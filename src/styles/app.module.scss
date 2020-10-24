@@ -2,7 +2,7 @@
     display: flex;
     border-bottom: 1px solid black;
     .text-content{
-        margin: 8rem 0;
+        margin: 6rem 0;
         position: relative;
         width: 58%;
         padding-left: 5rem;
@@ -34,16 +34,15 @@
     }
     .right{
         width: 42%;
+        height: 100%;
         margin-left: auto;
         background-color: #C69EC1;
         border-left: 1px solid black;
         display: flex;
         .video-container{
             margin: 0 auto;
-            padding-top: 1rem;
-            padding-bottom: 2rem;
-            width: 15rem;
-            min-height: 40rem;
+            width: 20rem;
+            min-height: 100%;
         }
     }
 }
