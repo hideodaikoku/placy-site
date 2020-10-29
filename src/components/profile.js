@@ -34,7 +34,7 @@ const ProfileSection = () => {
             <tr>
               <td className={contentStyle.left}>所在地</td>
               <td className={contentStyle.right}>
-                〒154-0002 東京都世田谷区下馬5丁目27-16
+              〒153-0041 東京都目黒区駒場１丁目２８−５ Accumn 407
               </td>
             </tr>
             <tr>
