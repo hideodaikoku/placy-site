@@ -144,7 +144,7 @@ const Footer = () => {
               style={{ textTransform: "uppercase", flexWrap: "wrap" }}
             >
               <a
-                href="https:/placy.city/document/term_of_use.pdf"
+                href="https://www.placy.city/document/term_of_use.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ marginRight: "1rem" }}
@@ -152,7 +152,7 @@ const Footer = () => {
                 <small className={footerStyles.list}>terms & conditions</small>
               </a>
               <a
-                href="https:/placy.city/document/privacy_policy.pdf"
+                href="https://www.placy.city/document/privacy_policy.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ marginRight: "1rem" }}
