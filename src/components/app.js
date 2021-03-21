@@ -63,7 +63,7 @@ const AppSection  = () => {
                         <Img fluid={data.apple.childImageSharp.fluid} />
                         </a>
                     </div>
-                    <div className={appStyles.button} id={appStyles.android}>
+                    {/* <div className={appStyles.button} id={appStyles.android}>
                         <a 
                             href='https://play.google.com/store/apps/details?id=com.placy.placyapp'
                             target="_blank"
@@ -72,7 +72,7 @@ const AppSection  = () => {
                         >
                         <Img fluid={data.android.childImageSharp.fluid}/>
                         </a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className={appStyles.right}>
