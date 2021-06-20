@@ -22,7 +22,7 @@ const AppSection  = () => {
                 }
             }
         }
-        app: file(relativePath: {eq: "app.gif"}){
+        app: file(relativePath: {eq: "app.png"}){
             childImageSharp{
                 fluid(maxWidth: 1024){
                     ...GatsbyImageSharpFluid
@@ -77,7 +77,7 @@ const AppSection  = () => {
             </div>
             <div className={appStyles.right}>
                 <div className={appStyles.videoContainer}>
-                    <video id={appStyles.video} src={videoSrc} loop autoPlay muted/>
+                    <Img fluid={data.app.childImageSharp.fluid} />
                 </div>
             </div>
         </div>

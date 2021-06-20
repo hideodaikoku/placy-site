@@ -175,6 +175,15 @@ const Footer = () => {
               >
                 <small className={footerStyles.list}>privacy policy</small>
               </a>
+              {/*  */}
+              <a
+                href="https://www.canva.com/design/DAEhnVV2grg/sBffyO7FTzg_-GhDwbK-hw/view?utm_content=DAEhnVV2grg&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ marginRight: "1rem" }}
+              >
+                <small className={footerStyles.list}>店舗様説明資料の追加</small>
+              </a>
               <small
                 className={footerStyles.list}
                 style={{ marginLeft: "0rem" }}
