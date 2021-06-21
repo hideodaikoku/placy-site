@@ -182,7 +182,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 style={{ marginRight: "1rem" }}
               >
-                <small className={footerStyles.list}>店舗様説明資料の追加</small>
+                <small className={footerStyles.list}>店舗様説明資料</small>
               </a>
               <small
                 className={footerStyles.list}
