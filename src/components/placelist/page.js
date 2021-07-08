@@ -7,7 +7,7 @@ import SEO from "../seo";
 
 export const Page = () => {
   return (
-    <div>
+    <div className={style.container}>
       <SEO
         title="Placelist"
         description="Placy プレイ(ス)リストへようこそ。こちらは、思い入れのある場所のプレイリストを作成して皆と共有するページです。"

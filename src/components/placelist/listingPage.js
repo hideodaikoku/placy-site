@@ -4,6 +4,7 @@ import { Link } from "@reach/router";
 import { connect } from "react-redux";
 import { getListing } from "./redux/actions";
 import SEO from "../seo";
+import placelistStyle from "../../styles/placelist.module.scss";
 import style from "../../styles/placelistListingPage.module.scss";
 import cardStyle from "../../styles/placelistListing.module.scss";
 import twitter from "../../images/twitter.svg";
@@ -83,7 +84,7 @@ class ListingPage extends React.Component {
     }
 
     return (
-      <div>
+      <div className={placelistStyle.container}>
         {" "}
         <SEO
           title={`${storeName}のプレイ(ス)リスト`}
